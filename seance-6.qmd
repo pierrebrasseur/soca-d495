@@ -1,0 +1,200 @@
+---
+title: "Séance 6 — Genre et intersectionnalité dans le travail social"
+---
+
+::: {.objectifs}
+**À l'issue de cette séance, vous devez être capables de :**
+
+- Situer la féminisation du travail social dans une perspective matérialiste : ce n'est pas un hasard sociologique, c'est le résultat de rapports sociaux de sexe
+- Exposer la thèse de Delphy sur le mode de production domestique et en déduire trois conséquences directes pour le travail social belge
+- Définir l'intersectionnalité selon Crenshaw (1989, 1991) et Collins & Bilge (2016) et distinguer ce que cet outil apporte par rapport à une approche par catégories séparées
+- Analyser le cas belge des femmes migrantes victimes de violences conjugales à travers une lecture intersectionnelle
+- Identifier les mécanismes du non-recours aux droits sociaux et montrer pourquoi ils touchent de façon disproportionnée les personnes à oppressions croisées
+:::
+
+## Une profession féminine : les chiffres belges
+
+Le travail social est une profession structurellement féminine. Ce constat statistique n'est pas une curiosité : c'est le point de départ d'une analyse des rapports sociaux de sexe qui traversent la profession.
+
+::: {.data-grid}
+::: {.data-card}
+::: {.number}25,7 %:::
+::: {.label}des femmes actives en Belgique travaillent dans la santé et l'action sociale vs 5,6 % des hommes (IEFH, 2023):::
+:::
+::: {.data-card}
+::: {.number}~40 000:::
+::: {.label}assistants sociaux en équivalent temps plein en Belgique, dont plus de 8 000 dans les seuls CPAS (Alter Échos, 2017):::
+:::
+::: {.data-card}
+::: {.number}38 %:::
+::: {.label}des salariées wallonnes travaillent à temps partiel vs 12 % des salariés (IWEPS/EFT 2024):::
+:::
+::: {.data-card}
+::: {.number}11,3 %:::
+::: {.label}sont à temps partiel parce que l'emploi ne leur était offert qu'à ces conditions (IWEPS/EFT 2024):::
+:::
+:::
+
+Ces chiffres ne se comprennent pas en eux-mêmes. Ils exigent une théorie.
+
+## Delphy et le féminisme matérialiste : le travail domestique comme exploitation
+
+### La thèse fondatrice
+
+Christine Delphy publie en 1970 un article qui fonde le féminisme matérialiste francophone : "L'ennemi principal" (*Partisans*, n° 54–55, repris dans *L'ennemi principal*, t. 1, Syllepse, 1998).
+
+**La thèse centrale :** Le travail domestique est un travail productif non rémunéré. Ce n'est pas une vocation naturelle, ce n'est pas une affaire de sentiment ou de dévouement. C'est une relation d'exploitation structurelle.
+
+Delphy construit ce raisonnement par analogie avec Marx. Pour Marx, le capitalisme repose sur l'exploitation du prolétariat dans le mode de production capitaliste. Delphy propose de reconnaître l'existence d'un second mode de production : le **mode de production domestique**, fondé sur l'appropriation du travail des femmes par les hommes. Le patriarcat n'est pas une idéologie superstructurelle : c'est une structure économique à part entière.
+
+### Trois conséquences directes pour le travail social belge
+
+**1. La dévalorisation salariale**
+
+Le soin professionnel prolonge le travail domestique historiquement assigné aux femmes. La dévalorisation salariale du secteur social n'est pas le résultat d'un "manque de compétences" ou d'une moindre productivité. C'est la dévalorisation idéologique du travail féminin reproduite à l'échelle du marché du travail. Les salaires bas et les statuts précaires dans le non-marchand ont une cause structurelle, pas conjoncturelle.
+
+**2. Le temps partiel imposé**
+
+Les données wallonnes illustrent que le temps partiel dans le secteur social n'est pas majoritairement choisi. 11,3 % des salariées wallonnes sont à temps partiel parce que l'emploi ne leur était offert qu'à ces conditions (IWEPS/EFT 2024). C'est une structure d'emploi qui reproduit la dépendance économique des femmes : ce que Delphy identifie comme un mécanisme d'exploitation.
+
+**3. La naturalisation des compétences**
+
+L'empathie, l'écoute, la disponibilité sont présentées dans les discours ordinaires comme des qualités "féminines innées". Cette naturalisation a une fonction idéologique précise : elle justifie de payer peu et de peu reconnaître l'expertise professionnelle des travailleuses sociales. L'approche matérialiste retourne cette logique : ces dispositions sont socialisées et construites, pas biologiques, et leur dévaluation est un choix politique.
+
+## Crenshaw et Bilge : l'intersectionnalité
+
+### Le contexte d'émergence
+
+Kimberlé Crenshaw développe le concept d'intersectionnalité dans deux textes fondateurs :
+
+- Crenshaw, K. W. (1989). Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics. *U. of Chicago Legal Forum*, 14.
+- Crenshaw, K. W. (1991). Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color. *Stanford Law Review*, 43(6).
+
+Le contexte est celui du droit antidiscriminatoire américain des années 1980. Les femmes noires précaires se trouvent dans une position paradoxale : elles ne sont représentées ni par le féminisme blanc de classe moyenne (qui ne prend pas en compte la race), ni par le mouvement antiraciste masculin (qui ne prend pas en compte le genre).
+
+### La définition
+
+L'intersectionnalité désigne un cadre analytique qui examine comment les systèmes d'oppression (genre, race, classe, sexualité, handicap, statut migratoire) interagissent et se renforcent mutuellement pour produire des formes spécifiques de discrimination et de vulnérabilité. Ces systèmes ne s'additionnent pas : ils se multiplient et se transforment en s'articulant.
+
+Collins & Bilge (2016) ajoutent une dimension épistémologique : l'intersectionnalité est aussi un outil de production de connaissances, qui part des expériences des personnes les plus marginalisées pour comprendre les structures de pouvoir.
+
+## Applications belges : violences conjugales, séjour et CPAS
+
+### Le piège du séjour conditionnel
+
+Le cas des femmes migrantes victimes de violences conjugales est une illustration exemplaire de ce que l'intersectionnalité rend visible que les catégories séparées ne peuvent pas saisir.
+
+| Dimension | Situation de la personne | Ce que ça implique |
+|---|---|---|
+| Genre | Victime de violences | Droit à la protection |
+| Statut migratoire | Séjour conditionnel (lié au conjoint) | Risque de perdre le séjour |
+| Situation économique | Pas de ressources propres | Dépendance au CPAS |
+| Combinaison | — | Impossibilité simultanée de porter plainte, de partir, de demander le RIS, d'accéder à un hébergement |
+
+Le mécanisme de superposition est précis. Demander le RIS peut entraîner la perte de la carte de séjour si l'Office des étrangers estime que la personne est devenue une charge pour l'État. Les refuges pour femmes victimes de violences ne peuvent pas toujours accueillir les femmes sans ressources ou sans statut régularisé.
+
+::: {.callout-note}
+**Données belges — ADDE**
+
+241 dossiers traités par l'ADDE (Association pour le Droit Des Étrangers) entre 2018 et 2024 impliquant des femmes victimes de violences conjugales et en situation précaire de séjour. Seulement 27 % ont abouti à une régularisation du séjour. Source : [ADDE](https://www.adde.be), rapport 2024.
+:::
+
+Pour la travailleuse sociale : comprendre cette superposition est une condition d'une intervention pertinente. Traiter la situation uniquement comme "un problème de violence conjugale" ou uniquement comme "un problème de séjour" conduit à des solutions partielles qui peuvent aggraver la situation.
+
+## Non-recours aux droits et inégalités internes à la profession
+
+### Le non-recours : un paradoxe structurel
+
+En Belgique, le non-recours aux droits sociaux s'élèverait à plus de 50 % des personnes éligibles (SPP IS, 2021). Ce phénomène touche principalement les ménages les plus vulnérables.
+
+Le [SPP IS (2021)](https://www.mi-is.be) identifie trois niveaux de non-recours :
+
+- **Non-connaissance :** ne pas savoir que le droit existe.
+- **Non-demande :** savoir mais ne pas demander — par honte, par peur des conséquences sur le titre de séjour, par complexité administrative.
+- **Non-obtention :** faire la demande mais se voir refuser.
+
+::: {.callout-important}
+**Le piège belge spécifique**
+
+Pour certaines catégories d'étrangers, demander une aide au CPAS peut entraîner la perte de la carte de séjour dès la première demande, si l'Office des étrangers estime que la personne est devenue une charge pour l'État. C'est une situation où le recours à ses droits sociaux compromet son droit au séjour.
+:::
+
+### Les inégalités de genre à l'intérieur de la profession
+
+L'intersectionnalité ne concerne pas seulement les publics du travail social : elle s'applique à l'intérieur de la profession elle-même.
+
+Les données belges montrent :
+- Les postes les moins qualifiés et les plus précaires (aide à domicile, accompagnement de nuit) sont occupés de façon disproportionnée par des femmes racisées ou d'origine immigrée.
+- Seul 1 manager sur 3 est une femme dans l'action sociale (IEFH/Statbel).
+- Le plafond de verre se maintient même dans une profession structurellement féminine.
+
+Le lien avec la séance 7 : le NPM aggrave ces inégalités. Il bureaucratise davantage les postes déjà les plus précaires et ceux occupés par les femmes les plus fragilisées.
+
+## Synthèse : ce que les deux outils apportent ensemble
+
+Delphy et Crenshaw/Bilge ne disent pas la même chose : mais ils se complètent.
+
+**Delphy** fournit un outil pour analyser les conditions d'emploi comme des rapports sociaux de sexe. Le travail social est dévalorisé parce qu'il prolonge le travail domestique assigné aux femmes. C'est une exploitation structurelle, pas un hasard du marché.
+
+**Crenshaw et Bilge** fournissent un outil pour analyser les situations des personnes accompagnées (et des professionnel·les). Les personnes ne vivent pas leur précarité de façon uniforme. Genre, origine, classe et statut de séjour s'articulent pour produire des vulnérabilités spécifiques.
+
+Pour la pratique : ne pas traiter une situation comme "un problème de femme" ou "un problème de migrant". Voir la superposition : c'est ce qui produit la vulnérabilité spécifique et donc ce qui doit orienter l'intervention.
+
+---
+
+## Questions d'examen — Séance 6
+
+::: {.question-examen}
+**Question 6.A**
+
+Exposez la thèse de Delphy sur le mode de production domestique. Quelles sont ses trois conséquences pour le travail social belge ? En quoi cette analyse transforme-t-elle la compréhension de la dévalorisation salariale du secteur ?
+
+*Références à mobiliser :* Delphy (1970/1998) ; IWEPS (2025) ; IEFH (2023).
+:::
+
+::: {.question-examen}
+**Question 6.B**
+
+Définissez l'intersectionnalité selon Crenshaw (1989, 1991) et Collins & Bilge (2016). En quoi cet outil se distingue-t-il d'une simple addition de catégories de discrimination ? Illustrez à partir du cas belge des femmes migrantes victimes de violences conjugales.
+
+*Références à mobiliser :* Crenshaw (1989, 1991) ; Collins & Bilge (2016) ; Nys (2018) ; HRW (2012).
+:::
+
+::: {.question-examen}
+**Question 6.C**
+
+Expliquez le mécanisme du "piège du séjour conditionnel" en Belgique. Montrez comment une lecture intersectionnelle rend visible ce qu'une approche par catégories séparées ne peut pas saisir.
+
+*Références à mobiliser :* Nys (2018) ; HRW (2012) ; loi du 15 décembre 1980 ; ADDE (2018–2024).
+:::
+
+::: {.question-examen}
+**Question 6.D**
+
+Qu'est-ce que le non-recours aux droits sociaux ? Identifiez les trois niveaux du non-recours selon le SPP IS (2021). Pourquoi ce phénomène touche-t-il de façon disproportionnée les personnes à oppressions croisées en Belgique ?
+
+*Références à mobiliser :* SPP IS (2021) ; Crenshaw (1991).
+:::
+
+::: {.question-examen}
+**Question 6.E**
+
+Montrez que l'intersectionnalité s'applique à l'intérieur même de la profession de travailleur social, pas seulement aux publics accompagnés. Quelles données belges illustrent ce point ? Quel lien avec la managérialisation (séance 7) ?
+
+*Références à mobiliser :* IEFH (2023) ; Statbel ; Bessin (2005) ; Hood (1991).
+:::
+
+---
+
+## Références
+
+- Collins, P. H. & Bilge, S. (2016). *Intersectionality*. Polity Press. [Trad. fr. : *Intersectionnalité. Une introduction*. Éd. Amsterdam, 2023.]
+- Crenshaw, K. W. (1989). Demarginalizing the Intersection of Race and Sex. *U. of Chicago Legal Forum*, 14.
+- Crenshaw, K. W. (1991). Mapping the Margins. *Stanford Law Review*, 43(6).
+- Davis, K. (2008). Intersectionality as buzzword. *Feminist Theory*, 9(1), 67–85.
+- Delphy, C. (1970). L'ennemi principal. *Partisans*, 54–55. [Repris dans *L'ennemi principal*, t. 1, Syllepse, 1998.]
+- HRW. (2012). *"La loi était contre moi". Femmes migrantes et violences intrafamiliales en Belgique*. New York.
+- IEFH. (2023). *Aperçu de statistiques ventilées par genre*. Bruxelles. [igvm-iefh.belgium.be](https://igvm-iefh.belgium.be)
+- IWEPS. (2025). Taux de travail à temps partiel en Wallonie. Enquête sur les Forces de Travail 2024. [iweps.be](https://www.iweps.be)
+- Nys, M. (2018). Les politiques de lutte contre les violences de genre en Belgique et les femmes migrantes. *Droit et Société*, 99(2).
+- SPP IS. (2021). *Estimation et pratiques inspirantes de lutte contre le non-recours*. Bruxelles. [mi-is.be](https://www.mi-is.be)

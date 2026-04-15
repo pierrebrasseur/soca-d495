@@ -1,0 +1,32 @@
+---
+title: "Évaluation"
+---
+
+## Format de l'examen
+
+Examen écrit en session (3 heures). Questions à développement, au choix parmi cinq propositions par séance. Chaque séance du cours donne lieu à cinq questions d'examen, intégrées à la fin de chaque topo de cours.
+
+## Ce que l'examen évalue
+
+Les questions ne portent pas sur la mémorisation des auteurs, mais sur la compréhension des outils analytiques et leur articulation. Un "bon" examen mobilise deux ou trois références clés et les applique à un problème concret, plutôt que de réciter une liste d'auteurs sans les articuler.
+
+## Ce qu'on attend d'une réponse développée
+
+Une réponse solide à une question d'examen articule généralement :
+
+1. **Une définition précise** du ou des concepts en jeu (citée et sourcée)
+2. **Une illustration concrète** — belge de préférence, tirée du cours ou de votre expérience de stage
+3. **Une mise en tension** : le concept éclaire-t-il tout ? Quelles en sont les limites ?
+4. **Un ancrage bibliographique** minimal (2–3 références suffisent si elles sont bien utilisées)
+
+## Calendrier de la session
+
+Les dates d'examen seront communiquées via le portail ULB. Consultez régulièrement [MonULB](https://monulb.ulb.be) et [UV](https://uv.ulb.ac.be).
+
+## Contact
+
+Pour toute question relative à l'évaluation :
+
+[pierre.brasseur@ulb.be](mailto:pierre.brasseur@ulb.be)
+
+Permanence sur rendez-vous — contacter par email.

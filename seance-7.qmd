@@ -1,0 +1,220 @@
+---
+title: "Séance 7 — Managérialisation et New Public Management"
+---
+
+::: {.objectifs}
+**À l'issue de cette séance, vous devez être capables de :**
+
+- Définir la managérialisation et en situer l'origine historique (NPM, Thatcher/Reagan, réformes belges)
+- Présenter les sept composantes doctrinales du NPM selon Hood (1991) et en identifier les deux plus pertinentes pour le travail social
+- Expliquer le concept de "chalandisation" (Chauvière) et ses trois effets sur la relation entre professionnel·les et personnes accompagnées
+- Analyser les tensions éthiques produites par la double injonction aide/contrôle dans le contexte du PIIS
+- Positionner trois réponses possibles à la managérialisation (défense, critique, adaptation) et évaluer leurs limites respectives
+:::
+
+## Qu'est-ce que la managérialisation ?
+
+La managérialisation désigne l'importation dans les services publics et le secteur social de méthodes de gestion empruntées au secteur privé. Ce mouvement s'accélère à partir des années 1980 dans les pays anglo-saxons, puis se diffuse en Europe continentale dans les années 1990–2000.
+
+Ce n'est pas une simple réforme administrative. C'est un changement de logique : le service public cesse d'être pensé comme une mission et devient une "prestation" soumise à des critères d'efficience et de mesure des résultats.
+
+Sociologiquement, ce processus affecte trois dimensions imbriquées :
+
+- Les **organisations** : leur structure, leurs procédures, leur rapport au financement.
+- Les **professionnel·les** : leur travail quotidien, leur autonomie, leur identité professionnelle.
+- Les **personnes accompagnées** : leur statut, leur rapport au service, les conditions dans lesquelles elles obtiennent de l'aide.
+
+## Le New Public Management : doctrine et contexte historique
+
+### Origine et contexte
+
+Le NPM émerge dans les années Thatcher-Reagan comme réponse à la "crise de l'État providence". L'idée centrale : les bureaucraties publiques sont inefficaces parce qu'elles ne subissent pas la pression de la concurrence. La solution : introduire les mécanismes du marché dans la gestion publique.
+
+**En France**, les premières applications sectorielles apparaissent avec les ordonnances Juppé (1996), la LOLF (2001), la RGPP de Sarkozy (2007), la MAP de Hollande, puis le projet "Action publique 2022" de Macron.
+
+**En Belgique**, les réformes Copernic (2000–2001) réorganisent l'administration fédérale sur des principes NPM, et les CPAS deviennent des terrains d'application emblématiques avec la loi sur le droit à l'intégration sociale de 2002.
+
+### Hood (1991) : les sept composantes du NPM
+
+Christopher Hood formalise le NPM dans "A Public Management for All Seasons?" (*Public Administration*, 1991, 69(1), 3–19). Il identifie sept composantes doctrinales.
+
+| Composante | Description | Pertinence pour le travail social |
+|---|---|---|
+| 1. Gestion professionnelle | Managers formés et responsables | ++ Directeurs de CPAS formés au management |
+| 2. Indicateurs de performance explicites | Standards et mesures de résultats | +++ Taux de sortie positive du PIIS |
+| 3. Accent sur les résultats | Financement lié aux outputs | ++ Appels à projets, subsidiation sur résultats |
+| 4. Désagrégation des unités | Fragmentation des grands services | + Externalisations, sous-traitances |
+| 5. Concurrence | Marchés et quasi-marchés | + Appels d'offres pour services sociaux |
+| 6. Méthodes du secteur privé | Styles de management privé | ++ Lean management, tableaux de bord |
+| 7. Discipline et parcimonie | Réduction des coûts | +++ Austérité, critères de rentabilité |
+
+::: {.callout-note}
+**La loi de Goodhart**
+
+"Lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure." (Charles Goodhart, économiste britannique)
+
+En travail social : si le "taux de sortie positive" du PIIS devient l'indicateur central, les travailleurs sociaux seront incités à n'accompagner que les personnes les plus "employables" — au détriment de celles qui ont le plus besoin d'aide. L'indicateur pervertit l'objectif.
+:::
+
+### Un exemple pour ancrer : la police de sécurité quotidienne
+
+Un exemple souvent cité pour illustrer les effets pervers des indicateurs de performance est la politique de sécurité française depuis 2002. Les services concentrent leurs efforts sur la production des données statistiques attendues au détriment de l'action concrète. Les policiers apprennent à "faire du chiffre" : multiplier les contrôles et gardes à vue sur des faits mineurs, au détriment du travail de fond. La logique NPM produit ainsi son propre périmètre de réalité.
+
+## La logique de performance : Hood et la gestion par indicateurs
+
+Les deux composantes les plus pertinentes pour le travail social sont :
+
+**Les indicateurs de performance explicites.** Dans les CPAS belges, cela se traduit par : taux de signatures de PIIS, taux de mise à l'emploi dans les 12 mois, taux de sortie des dispositifs. Ces indicateurs capturent des dimensions facilement mesurables mais occultent les processus qui importent le plus : la qualité de la relation, la durée de l'accompagnement, les rechutes et leurs causes.
+
+**L'accent sur la discipline et la parcimonie.** La réduction des coûts est présentée comme une exigence de responsabilité. Elle produit en réalité une intensification du travail : plus de dossiers par travailleur social, moins de temps par situation.
+
+## La transformation de l'usager en client : Chauvière (2007)
+
+### La "chalandisation"
+
+Michel Chauvière (*Trop de gestion tue le social*, La Découverte, 2007) nomme **"chalandisation"** la transformation de l'usager en client. Le terme vient du vocabulaire commercial : le chaland est le client potentiel qu'il faut attirer.
+
+**Trois effets sur la relation d'aide :**
+
+1. *La relation d'aide devient une transaction.* Le "client" exprime une demande, le prestataire fournit une prestation. La relation de confiance, le temps nécessaire pour construire un accompagnement, la dimension incertaine et non linéaire du changement — tout cela est mis entre parenthèses.
+
+2. *La demande doit être formulée dans les termes de l'offre de service.* Le client est censé "choisir" parmi des prestations standardisées. Mais les personnes en grande difficulté ne peuvent souvent pas formuler leur besoin dans les termes que l'institution attend. Le résultat : les personnes les plus vulnérables sont systématiquement moins bien servies.
+
+3. *Le professionnel devient un prestataire évalué sur sa "performance".* L'autonomie du jugement professionnel est réduite. La dimension discrétionnaire — le fait que le travailleur social puisse, sur la base de son expertise, s'écarter du protocole — est suspecte.
+
+### L'enquête de Belorgey à l'hôpital
+
+Nicolas Belorgey (*L'hôpital sous pression*, La Découverte, 2010) montre comment les réformes NPM à l'hôpital ont transformé le rapport au temps. La durée moyenne de séjour est devenue un indicateur central. Résultat : les médecins sont poussés à raccourcir les hospitalisations, parfois au détriment de la qualité des soins. La "performance" mesurée est la vitesse de passage, pas la qualité de l'accompagnement.
+
+Le parallèle avec le travail social est direct : la "durée d'accompagnement" dans le PIIS devient suspecte si elle dépasse le "standard" établi.
+
+## Les effets terrain : PIIS, bureaucratisation, tensions éthiques
+
+### Le PIIS en Belgique
+
+::: {.data-grid}
+::: {.data-card}
+::: {.number}1,35 %:::
+::: {.label}de la population belge couverte par un PIIS en 2023 (MI-IS 2024):::
+:::
+::: {.data-card}
+::: {.number}8 sur 10:::
+::: {.label}jeunes bénéficiaires du RIS couverts par un PIIS (MI-IS 2024):::
+:::
+::: {.data-card}
+::: {.number}31,3 %:::
+::: {.label}des travailleur·ses sociaux·ales à risque élevé d'épuisement émotionnel (Sommerfeld et al., 2021, n=3 507):::
+:::
+::: {.data-card}
+::: {.number}55,6 %:::
+::: {.label}en Suisse romande — même étude FHNW / AvenirSocial (2021):::
+:::
+:::
+
+### La néo-bureaucratie : paradoxe du NPM
+
+Le NPM promettait de réduire la bureaucratie par la performance. Il en crée une nouvelle. Ce phénomène est désigné sous le terme de **"néo-bureaucratie"** dans la littérature (Farrell & Morris, 2003, *Organization*, 10(1), 129–156).
+
+Il se traduit concrètement par :
+
+- saisie systématique dans des logiciels de gestion de cas
+- rédaction de rapports d'évaluation périodiques
+- justification des décisions de dossiers
+- réponse aux audits de qualité
+
+Le travail social devient de plus en plus un travail de documentation du travail social.
+
+### La double injonction aide/contrôle
+
+Les travailleurs sociaux sont placés dans une double injonction : accompagner avec bienveillance **et** contrôler les conditions d'octroi des aides. Ils sont à la fois auxiliaires du lien social et agents de l'État de contrôle.
+
+Cette tension prend des formes très concrètes. Dans un CPAS, l'assistant social doit vérifier la composition du ménage, s'assurer que la personne "fait des efforts" de recherche d'emploi, évaluer si les objectifs du PIIS sont atteints. Ces enquêtes sont intrusives par nature.
+
+::: {.callout-warning}
+**La gestion des impressions (Goffman)**
+
+Les personnes accompagnées, quant à elles, apprennent à présenter une version stratégique de leur situation. C'est ce que Goffman appelait la "gestion des impressions" : on dit ce que l'institution veut entendre pour préserver ses droits. Ce n'est pas de la mauvaise foi : c'est une adaptation rationnelle à des rapports de pouvoir asymétriques. Le PIIS rend cette stratégie quasi indispensable à la survie institutionnelle des plus vulnérables.
+:::
+
+### Les données sur le burn-out dans le secteur social
+
+Une étude conduite en Suisse (Sommerfeld, Hess & Bühler, 2021, FHNW, mandat AvenirSocial, n=3 507, terrain fin 2020 – début 2021) montre que **31,3 %** des travailleur·ses sociaux·ales font face à un risque élevé d'épuisement émotionnel. En Suisse romande, la proportion atteint **55,6 %**.
+
+Le sociologue Fathi Ben Mrad note que ce ne sont pas tant les relations avec les usagers qui épuisent les travailleurs sociaux, mais l'organisation de travail et la perte de sens. La logique gestionnaire, la culture de la performance et l'effet des politiques sociales fragilisent les professionnels.
+
+## Synthèse critique et discussion
+
+### Trois positions dans la littérature
+
+**Les défenseurs du NPM** soutiennent que les indicateurs de performance permettent de rendre les services publics plus transparents et de lutter contre les corporatismes. L'évaluation protège aussi les usagers contre l'arbitraire des professionnels. Sans mesure des résultats, comment savoir si une politique fonctionne ?
+
+**Les critiques radicaux** (Chauvière, Belorgey, Wacquant) estiment que le NPM est fondamentalement incompatible avec la logique de l'action sociale. Ces réformes constituent une attaque d'au moins trois composantes du phénomène professionnel : diminution de l'autonomie, mise en cause de la dimension discrétionnaire du jugement, critique du métier, de son efficacité et de ses coûts (Bezes & Demazière, 2011).
+
+**Une position intermédiaire** (Lipsky, Bezes & Demazière, 2011) reconnaît que les "street-level bureaucrats" ne sont pas passifs. Les travailleurs sociaux développent des formes d'engagement au travail habitées par des valeurs militantes et des conceptions du métier qu'ils défendent, adoptant des stratégies usant d'une certaine marge discrétionnaire. La question est de savoir jusqu'où cette marge de manœuvre résiste à l'intensification des contraintes gestionnaires.
+
+### Discussion : exercice pratique
+
+**Exercice de reconnaissance :** lister les indicateurs utilisés dans vos stages ou vos lieux de travail. Quelles dimensions du travail ces indicateurs capturent-ils ? Lesquelles passent à travers les mailles ?
+
+**Débat :** un CPAS décide d'évaluer chaque travailleur social sur son taux de sortie positive des bénéficiaires du PIIS dans les 12 mois. Quels comportements cela va-t-il produire ? Qui en bénéficie ? Qui en pâtit ?
+
+---
+
+## Questions d'examen — Séance 7
+
+::: {.question-examen}
+**Question 7.A**
+
+Présentez les sept composantes doctrinales du NPM selon Hood (1991) et identifiez les deux qui affectent le plus directement le travail social. Illustrez avec un exemple belge.
+
+*Références à mobiliser :* Hood (1991) ; Lipsky (1980) ; Bezes & Demazière (2011).
+:::
+
+::: {.question-examen}
+**Question 7.B**
+
+Qu'est-ce que la "chalandisation" selon Chauvière ? Quels sont ses trois effets sur la relation entre professionnel·les et personnes accompagnées ? En quoi ce processus transforme-t-il la nature du travail social ?
+
+*Références à mobiliser :* Chauvière (2007) ; Dubois (2012) ; Vrancken & Macquet (2006).
+:::
+
+::: {.question-examen}
+**Question 7.C**
+
+Analysez la double injonction qui pèse sur les travailleurs sociaux dans les CPAS belges. Comment le PIIS illustre-t-il cette tension ? Quels en sont les effets sur les professionnel·les et sur les personnes accompagnées ?
+
+*Références à mobiliser :* Vrancken & Macquet (2006) ; Dubois (2012) ; Castel (2003) ; Wacquant (2009).
+:::
+
+::: {.question-examen}
+**Question 7.D**
+
+Expliquez le "paradoxe du NPM" (néo-bureaucratie). Pourquoi une doctrine censée réduire la bureaucratie en produit-elle une nouvelle ? Illustrez à partir du travail de documentation dans les services sociaux.
+
+*Références à mobiliser :* Hood (1991) ; Farrell & Morris (2003) ; Belorgey (2010) ; Bezes & Demazière (2011).
+:::
+
+::: {.question-examen}
+**Question 7.E**
+
+Présentez les trois positions dans la littérature face à la managérialisation du travail social (défense, critique radicale, adaptation). Quelle position vous semble la plus pertinente pour le travail social belge aujourd'hui ? Justifiez.
+
+*Références à mobiliser :* Hood (1991) ; Chauvière (2007) ; Lipsky (1980) ; Bezes & Demazière (2011).
+:::
+
+---
+
+## Références
+
+- Algava, E., Davie, E., Loquet, J. & Vinck, L. (2014). Conditions de travail : reprise de l'intensification du travail chez les salariés. *Dares Analyses*, n°049. Ministère du Travail.
+- Belorgey, N. (2010). *L'hôpital sous pression : enquête sur le "nouveau management public"*. Paris : La Découverte.
+- Bezes, P. & Demazière, D. (dir.) (2011). Dossier "New Public Management et professions dans l'État". *Sociologie du travail*, 53(3).
+- Chauvière, M. (2007). *Trop de gestion tue le social*. Paris : La Découverte.
+- Dubois, V. (2012). *The Welfare State and the Poor*. Londres : Pluto Press.
+- Farrell, C. & Morris, J. (2003). The 'neo-bureaucratic' state. *Organization*, 10(1), 129–156.
+- Hood, C. (1991). A Public Management for All Seasons? *Public Administration*, 69(1), 3–19. [doi.org/10.1111/j.1467-9299.1991.tb00779.x](https://doi.org/10.1111/j.1467-9299.1991.tb00779.x)
+- Lipsky, M. (1980). *Street-Level Bureaucracy*. New York : Russell Sage Foundation.
+- MI-IS (2024). Statistiques sur le revenu d'intégration. Bruxelles. [mi-is.be](https://www.mi-is.be)
+- Sommerfeld, P., Hess, N. & Bühler, S. (2021). Soziale Arbeit in der Covid-19 Pandemie. FHNW, mandat AvenirSocial. [Résumé fr. : REISO, mai 2021]
+- Vrancken, D. & Macquet, C. (2006). *Le travail sur soi*. Paris : Belin.
+- Wacquant, L. (2009). *Punishing the Poor*. Durham : Duke University Press.

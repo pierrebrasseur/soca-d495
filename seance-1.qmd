@@ -1,0 +1,263 @@
+---
+title: "Séance 1 — Introduction et paradigmes contemporains du travail social"
+---
+
+::: {.objectifs}
+**À l'issue de cette séance, vous devez être capables de :**
+
+- Identifier le paradoxe constitutif du travail social et comprendre pourquoi il est irréductible
+- Distinguer les quatre grandes approches théoriques (systémique, critique, empowerment/DPA, féministe-intersectionnelle) et leur position respective face à ce paradoxe
+- Situer les réformes institutionnelles récentes en Belgique et en France dans cette tension structurelle
+- Identifier les défis contemporains de la pratique et les perspectives ouvertes par le travail social vert
+:::
+
+## Le paradoxe constitutif du travail social
+
+Le travail social est une profession étrange. Elle n'a pas d'objet fixe, pas de technique exclusive, pas de corps de savoirs stabilisé comme la médecine ou le droit. Ce qui la définit, c'est d'abord une tension fondamentale — permanente, structurelle, irréductible. D'un côté : transformer les structures sociales injustes et, dans le même mouvement, aider des personnes concrètes à vivre dans ces structures.
+
+::: {.callout-note}
+**Définition de référence — IFSW (2014, réaffirmée en 2024)**
+
+Le travail social vise "la promotion du changement social" et la "cohésion sociale", le "pouvoir d'agir" des individus et leur "libération". Ce mandat repose sur un socle éthique commun : justice sociale, droits humains, responsabilité collective, respect des diversités. Il ne résout pas la tension, il la formule. [→ ifsw.org](https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/)
+:::
+
+Dans la pratique, cette tension se manifeste entre deux pôles :
+
+**Le pôle critique** impose de nommer les rapports de pouvoir, de questionner les institutions, de ne pas naturaliser la pauvreté ou l'exclusion. Il rappelle que les "problèmes individuels" ont presque toujours une dimension structurelle.
+
+**Le pôle adaptatif** impose de répondre à l'urgence, d'accompagner les personnes dans les dispositifs existants, de ne pas subordonner l'aide immédiate à une transformation sociale hypothétique.
+
+Ce paradoxe n'est pas un défaut à corriger. C'est une caractéristique structurelle irréductible : toute théorie prétendant le "résoudre" mérite d'être regardée avec méfiance.
+
+::: {.callout-tip}
+**Exemple belge concret**
+
+Accompagner un bénéficiaire du [Revenu d'Intégration Sociale (RIS)](https://www.mi-is.be/fr/revenu-integration) impose simultanément de critiquer les inégalités économiques qui produisent la pauvreté *et* de garantir l'accès effectif aux droits immédiats (GRAPA, allocations d'insertion, logement). Le travailleur social ne peut pas choisir l'un contre l'autre.
+:::
+
+Le champ est intrinsèquement interdisciplinaire : sociologie (rapports sociaux, institutions), psychologie (attachement, trauma), droit (cadres légaux), économie (redistribution), anthropologie (diversité culturelle). Cette hybridation n'est pas une faiblesse : c'est ce qui permet d'articuler l'action sociale (logique institutionnelle-politique) et l'assistance professionnelle (logique relationnelle).
+
+## Sédimentation historique de la profession
+
+L'identité du travailleur social s'est construite par vagues successives. Chaque vague dépose une couche sans effacer les précédentes.
+
+| Période | Moment clé | Ce qui change |
+|---|---|---|
+| 1917 | Mary Ellen Richmond, *Social Diagnosis* | Fondation du casework systématisé. Passage de la charité morale à une méthode clinique. |
+| 1932/1946 | France | Brevet de capacité professionnelle (1932), puis protection du titre (1946). Secret professionnel et autonomie technique. |
+| Années 1970 | Tournant critique | Foucault (travail social comme dispositif de normalisation) et Bourdieu (reproduction des inégalités). Ouverture aux mouvements féministes. |
+
+Ce que cette sédimentation produit : il n'existe pas *une* théorie du travail social, mais des strates superposées, en tension, que chaque professionnel mobilise différemment selon sa formation et son institution. Identifier ses propres références théoriques est un acte politique autant qu'un préalable à toute pratique réflexive.
+
+## Quatre approches théoriques majeures
+
+Ces quatre approches ne sont pas des "chapelles" hermétiques. Elles se chevauchent, s'alimentent, et chacune prend une position différente dans le paradoxe constitutif.
+
+### L'approche systémique
+
+**Filiation intellectuelle :** Urie Bronfenbrenner (écologie du développement humain), l'École de Palo Alto (Bateson, Watzlawick). En travail social : Amiguet, Lebbe-Berrier, Barudy.
+
+**Postulat central :** L'individu n'est pas une entité isolée mais un élément au sein de sous-systèmes en interaction constante. Les comportements ne s'expliquent pas par des causes linéaires ("ce parent est défaillant") mais par des dynamiques circulaires.
+
+**Concepts fondamentaux à maîtriser :**
+
+- *Causalité circulaire* : un événement est à la fois cause et effet. Un enfant qui s'agite en classe provoque des réactions des enseignants qui renforcent son agitation : il n'y a pas de "coupable" initial.
+- *Frontières* : ce qui délimite le système de son environnement. La question pratique est de définir qui appartient au "système pertinent" pour l'intervention.
+- *Rétroaction négative* : mécanisme de régulation maintenant l'homéostasie. Un comportement "déviant" peut avoir une fonction stabilisatrice.
+- *Rétroaction positive* : mécanisme d'amplification — une dynamique s'emballe.
+
+::: {.callout-warning}
+**Le défi actuel (Amiguet)**
+
+La systémique est devenue un modèle "quasi inévitable" dans les formations initiales, au point de risquer de devenir "banale, normale, fade". Amiguet identifie plusieurs enjeux de revitalisation : résister à l'obsession des indicateurs quantifiables, reconnaître l'usager comme expert de son propre vécu.
+:::
+
+### La théorie critique et la praxis
+
+**Filiation intellectuelle :** École de Francfort (Horkheimer, Adorno, Habermas). En travail social : Iain Ferguson, Lena Dominelli, Michael Lavalette. En France : Robert Castel sur les mutations du salariat.
+
+**Postulat central :** Les problèmes sociaux dits "individuels" sont en réalité les symptômes de structures oppressives — capitalisme, racisme, patriarcat. La pauvreté n'est pas un accident biographique : elle est produite et reproduite systématiquement.
+
+**Le concept de praxis :** L'intervention se veut une praxis au sens de Marx — une unité indissociable de la théorie et de l'action pratique. Il s'agit de conscientiser les usagers sur les déterminants politiques de leur précarité, non pour les accabler, mais pour leur redonner une intelligibilité de leur situation.
+
+**Limite structurelle :** deux risques symétriques. Le moralisme : le travailleur social se positionne comme détenteur d'une vérité politique, reproduisant une relation de surplomb. La paralysie : si toute intervention individuelle est suspecte, comment agir concrètement ?
+
+### L'empowerment — développement du pouvoir d'agir (DPA)
+
+**Filiation intellectuelle :** Paulo Freire (*Pédagogie des opprimés*, 1968) pour la dimension de conscientisation collective. Amartya Sen (théorie des capabilités) pour la dimension individuelle. En travail social francophone : Yann Le Bossé a systématisé la notion de DPA.
+
+**Postulat central :** Les individus et les collectifs disposent de ressources et d'une expertise de leur propre vie — mais ces capacités sont souvent entravées par des contraintes structurelles ou des dispositifs d'aide qui maintiennent dans la dépendance.
+
+::: {.callout-important}
+**La bifurcation politique décisive**
+
+Le terme est piégé par une polysémie politiquement chargée.
+
+*L'empowerment radical* vise une transformation des rapports sociaux. Le "pouvoir d'agir" se construit collectivement, par l'organisation et la lutte.
+
+*L'empowerment libéral* tend à individualiser les solutions. Il fait porter à l'individu la seule responsabilité de sa réussite ou de son échec. Dans sa version la plus appauvrie, il se réduit à "responsabiliser" l'usager pour réduire sa dépendance aux dispositifs.
+
+Les discours politiques actuels en Belgique avec la réforme du RIS mobilisent massivement le registre de l'"activation" et de la "responsabilisation", qui relève clairement de la seconde version.
+:::
+
+### L'approche féministe et intersectionnelle
+
+**Filiation intellectuelle :** Féminismes de la seconde vague (Hanisch : "le personnel est politique", 1969). Carol Gilligan (*In a Different Voice*, 1982) et Joan Tronto (*Moral Boundaries*, 1993) pour la théorie du care. Kimberlé Crenshaw (1989, 1991) pour le concept d'intersectionnalité.
+
+**Ce que l'approche apporte :** Elle politise le domaine privé. La violence conjugale, la charge mentale, la pauvreté des femmes ne sont pas des accidents individuels : ce sont les effets d'un système patriarcal. Elle met en visibilité le travail de soin — le care — majoritairement assuré par des femmes, fondamental à la reproduction sociale et systématiquement dévalorisé.
+
+**L'intersectionnalité comme outil analytique :** Les oppressions ne s'additionnent pas — elles s'imbriquent pour produire des positions singulières qui ne sont réductibles à aucune des catégories prises isolément. Une femme noire en situation de handicap vivant en Belgique sans papiers occupe une position spécifique qui ne peut être analysée qu'en tenant compte de leur interaction.
+
+## Cadre institutionnel belge — réformes 2024–2026
+
+### Réforme "Retour au travail" — Loi du 19/12/2025, AR du 17/12/2025
+
+Depuis le 1er janvier 2026 : une cotisation de solidarité est imposée aux employeurs dépassant un seuil d'incapacité primaire ; une évaluation obligatoire du potentiel de travail est requise après 8 semaines d'absence ; la procédure de force majeure médicale est réduite à 6 mois.
+
+Pour le travail social : ces dispositions renforcent la pression sur les personnes en incapacité et créent une tension accrue entre logique médicale et logique d'activation. Les travailleurs sociaux des CPAS et des mutualités se trouvent en première ligne.
+
+### Réforme de la définition du "cohabitant" pour le RIS — AR du 18/01/2026
+
+À partir du 1er mars 2026, les CPAS doivent prendre en compte le revenu combiné de chaque adulte enregistré à la même adresse. Effets : pénalisation des colocations solidaires, et pour les personnes migrantes, risque de perte du titre de séjour si le RIS est retiré.
+
+Lue à travers l'empowerment libéral : "responsabiliser" les cohabitants. Lue à travers la théorie critique : renforcer les mécanismes de contrôle et de sélection de l'accès aux droits.
+
+### Réforme des diplômes du travail social en France — Octobre 2025
+
+Cinq arrêtés publiés le 14 octobre 2025 (entrée en vigueur rentrée 2026) concernant ASS, ES, ETS, EJE, CESF. Tronc commun de compétences structuré en 4 blocs. Volume horaire total fixé à 3 442 heures (1 517h de théorie, 1 925h de pratique).
+
+Les tensions : les organisations professionnelles dénoncent une "dilution" des compétences métiers au profit d'un socle généraliste. Les organisations employeurs soutiennent la réforme pour ses effets sur l'attractivité et les passerelles.
+
+## Les défis contemporains de la pratique
+
+### Bureaucratisation et perte de sens
+
+Jean-Sébastien Alix identifie trois postures professionnelles face aux mutations :
+
+- Les **convertis** (≈ 25 %) : adhèrent aux outils de gestion et les trouvent légitimes.
+- Les **résistants** (≈ 25 %) : refusent frontalement les nouvelles normes, au risque d'un épuisement militant.
+- Les **non-dupes** (≈ 50 %) : ne croient pas à la légitimité des outils mais s'y conforment pour maintenir leur poste, en cherchant à préserver des espaces de pratique relationnelle — un "art de l'entre-deux" qui est aussi une forme de souffrance silencieuse.
+
+Roland Janvier parle de la nécessité de "revenir au cœur du travail social" : l'enjeu n'est pas seulement de mieux gérer le stress professionnel, mais de reconstruire une légitimité de l'engagement éthique contre la "dictature de l'urgence" et des indicateurs.
+
+### La transition numérique et l'intelligence artificielle
+
+La dématérialisation des services publics produit de nouvelles exclusions. En France, un tiers des habitants se sent abandonné face aux outils numériques — et cette proportion est plus élevée parmi les personnes âgées, peu qualifiées, ou en situation de grande précarité : précisément les publics du travail social.
+
+L'arrivée de l'intelligence artificielle dans la gestion des dossiers pose des questions éthiques majeures : quelle place pour le secret professionnel quand les données d'accompagnement alimentent des algorithmes ? Comment éviter l'automatisation de décisions sociales qui devraient relever d'un jugement professionnel situé ?
+
+## Le travail social vert et l'écoféminisme
+
+### Green Social Work — Lena Dominelli (2012)
+
+Le travail social vert n'est pas une simple addition d'une préoccupation écologique à la pratique existante. C'est une critique radicale du modèle de développement capitaliste. Postulat central : les injustices environnementales frappent prioritairement les populations déjà marginalisées. Les inondations, les canicules, la pollution de l'air ne sont pas également répartis.
+
+Cette approche s'articule avec l'écosocialisme : répondre aux besoins collectifs (santé, logement, éducation, alimentation) plutôt qu'à la consommation effrénée ; valoriser les savoirs locaux des communautés expertes de leur propre survie.
+
+### Écoféminisme
+
+Le terme est introduit par Françoise d'Eaubonne en 1974 (*Le Féminisme ou la Mort*). Il établit un lien analytique entre deux formes d'oppression : la domination des femmes et la destruction de la nature, l'une et l'autre produites par le même système.
+
+Ariel Salleh (écoféminisme matérialiste) : les femmes assurent le travail de "reproduction de la vie". Ce travail est à la fois indispensable à la survie sociale et systématiquement invisibilisé par le capitalisme. La même logique s'applique à la nature.
+
+## Prospective 2050 — Rapport du HCTS (décembre 2025)
+
+Le [Haut Conseil du Travail Social](https://www.hcts.fr) a publié en décembre 2025 un rapport identifiant quatre grandes transformations d'ici 2050 :
+
+| Crise | Ce qu'elle produit | Ce qu'elle exige |
+|---|---|---|
+| Efficacité | Gérer plus de situations avec moins de moyens | Refuser la réduction à la gestion de flux ; défendre le temps de la relation |
+| Sens | Maintenir un engagement éthique face à des procédures qui "étouffent l'essence" du métier | Reconstruire des espaces de délibération collective sur les valeurs professionnelles |
+| Attractivité | Des secteurs sinistrés qui peinent à recruter et à retenir | Revalorisation salariale et transformation des conditions de travail |
+| Climatique | Les inégalités écologiques frappent d'abord les populations déjà marginalisées | Intégrer la justice écologique comme condition de la cohésion sociale |
+
+---
+
+## Questions d'examen — Séance 1
+
+::: {.question-examen}
+**Question 1.A**
+
+Expliquez comment et pourquoi la pauvreté change de nature entre le XVIIIe et le XIXe siècle. En quoi cette transformation crée-t-elle le besoin d'un travail social professionnel ?
+
+*Références à mobiliser :* Durkheim (1893) ; Simmel (1908) ; Vrancken (2002) ; Richmond (1917).
+:::
+
+::: {.question-examen}
+**Question 1.B**
+
+Le travail social est-il une profession ? Présentez les réponses contrastées de Parsons, Hughes, Abbott et Dubar. Quel cadre vous semble le plus convaincant pour comprendre le travail social belge aujourd'hui ?
+
+*Références à mobiliser :* Parsons (1951) ; Hughes (1958) ; Becker (1963) ; Abbott (1988) ; Dubar & Tripier (1998) ; Vrancken (2010).
+:::
+
+::: {.question-examen}
+**Question 1.C**
+
+Analysez les quatre tensions structurantes du travail social. Montrez comment elles produisent du malaise professionnel et proposez deux pistes concrètes pour y répondre.
+
+| Tension | Pôle 1 | Pôle 2 | Malaise produit |
+|---|---|---|---|
+| Vocation vs métier | Appel moral | Bureaucratisation | Cynisme, épuisement |
+| Autonomie vs contrôle | Jugement professionnel | New Public Management | Impuissance, frustration |
+| Savoirs experts vs pratique | Théorie scolaire | Réalité du terrain | Isolement, improvisation |
+| Universalisme vs particularisme | Même règle pour tous | Chaque cas est unique | Sentiment d'injustice |
+
+*Références à mobiliser :* Dubar & Tripier (1998) ; Vrancken (2010) ; Hochschild (1983) ; Blanchard-Laville & Fablet (2003).
+:::
+
+::: {.question-examen}
+**Question 1.D**
+
+Identifiez les trois modèles institutionnels historiques du travail social et montrez comment la Belgique oscille entre eux. Quelles en sont les conséquences pratiques pour les professionnel·les aujourd'hui ?
+
+*Références à mobiliser :* Salomon (1926) ; Esping-Andersen (1990) ; Vrancken (2010) ; Foucart (2022).
+:::
+
+::: {.question-examen}
+**Question 1.E**
+
+Expliquez les concepts de "dirty work" (Hughes) et de travail émotionnel (Hochschild). Comment s'appliquent-ils au travail social ? Quels en sont les coûts psychologiques ?
+
+*Références à mobiliser :* Hughes (1958) ; Hochschild (1983) ; Maslach & Jackson (1986).
+:::
+
+---
+
+## Références
+
+**Approche systémique**
+
+- Amiguet, O. & Julier, C. (2004). *L'intervention systémique dans le travail social*. EESP / IES.
+- Bronfenbrenner, U. (1979). *The Ecology of Human Development*. Harvard University Press.
+- Watzlawick, P., Helmick Beavin, J. & Jackson, D. D. (1972). *Une logique de la communication*. Seuil.
+
+**Théorie critique**
+
+- Castel, R. (1995). *Les Métamorphoses de la question sociale*. Fayard.
+- Dominelli, L. (2002). *Anti-Oppressive Social Work Theory and Practice*. Palgrave Macmillan.
+- Ferguson, I. & Lavalette, M. (2013). *Critical and Radical Social Work*. Policy Press.
+
+**Empowerment**
+
+- Freire, P. (1974). *Pédagogie des opprimés*. Maspero.
+- Le Bossé, Y. (2012). Soutenir sans prescrire. *Développement humain, handicap et changement social*, 20(1), 119–131.
+- Sen, A. (2010). *L'idée de justice*. Flammarion.
+
+**Approche féministe et intersectionnelle**
+
+- Crenshaw, K. (1991). Mapping the margins. *Stanford Law Review*, 43(6), 1241–1299.
+- Gilligan, C. (1982). *In a Different Voice*. Harvard University Press.
+- Tronto, J. (1993). *Moral Boundaries*. Routledge.
+
+**Travail social vert et écoféminisme**
+
+- D'Eaubonne, F. (1974). *Le Féminisme ou la Mort*. Pierre Horay.
+- Dominelli, L. (2012). *Green Social Work*. Polity Press.
+- Salleh, A. (1997). *Ecofeminism as Politics*. Zed Books.
+
+**Cadre institutionnel et prospective**
+
+- IFSW (2014, réaffirmé 2024). Définition globale du travail social. [ifsw.org](https://www.ifsw.org)
+- HCTS (2025, décembre). *Le travail social à horizon 2050*. Ministère des Solidarités.
+- Janvier, R. (2025). Revenir au cœur du travail social. Communication INTEGRAS, Morat, 14 novembre 2025.

@@ -1,0 +1,203 @@
+---
+title: "Séance 5 — Désaffiliation et disqualification sociale (1980–2010)"
+---
+
+::: {.objectifs}
+**À l'issue de cette séance, vous devez être capables de :**
+
+- Maîtriser les zones de l'existence sociale (Castel) et les phases de la disqualification (Paugam)
+- Situer la désindustrialisation wallonne dans ces cadres théoriques
+- Analyser le passage du Minimex au RIS (2002) comme rupture de paradigme
+- Interpréter les données belges sur la pauvreté et la fragilisation sociale
+:::
+
+## Introduction
+
+La période s'étendant de 1980 à 2010 constitue une phase de mutation structurelle profonde pour la Belgique comme pour la majorité des nations industrialisées d'Europe occidentale (Castel, *Les Métamorphoses de la question sociale*, 1995). Ce processus ne désigne pas uniquement une résurgence de la pauvreté monétaire, mais une transformation radicale des modes de cohésion sociale, de la nature du travail et des fondements de la protection publique.
+
+L'effritement de la société salariale laisse place à une "société de l'incertitude" où les trajectoires individuelles sont marquées par la précarité et la fragilisation des supports collectifs. En Belgique, cette mutation s'incarne à travers deux axes majeurs : le déclin industriel massif des bassins wallons de Liège et de Charleroi, et le glissement législatif du Minimex vers le Revenu d'Intégration Sociale (RIS) en 2002, marquant l'avènement de l'État social actif.
+
+## Le cadre théorique de la désaffiliation : l'apport de Robert Castel
+
+### La propriété sociale comme fondement de la citoyenneté
+
+L'analyse de Robert Castel repose sur une lecture socio-historique du salariat, perçu non pas comme un simple rapport de force économique, mais comme le pivot de l'intégration sociale moderne.
+
+Historiquement, l'individu moderne s'est construit par la propriété privée, condition nécessaire de l'indépendance. Cependant, pour la masse des non-propriétaires — le prolétariat — cette autonomie est restée inaccessible jusqu'à l'invention de la **propriété sociale** : un ensemble de droits et de protections attachés au travail (sécurité sociale, retraite, protection contre les accidents) qui permettent à ceux qui ne possèdent rien d'accéder à la sécurité et de devenir des "propriétaires de soi".
+
+Le déclin de ce modèle, amorcé dès le milieu des années 1970, correspond à un effritement de cette propriété sociale. Lorsque le travail devient précaire, ce ne sont pas seulement les revenus qui diminuent, mais c'est tout l'édifice des protections collectives qui s'écroule, renvoyant l'individu à un **individualisme négatif** : l'individu "libre" par défaut de supports, dépourvu de réserves et de protections, vulnérable au moindre accident de la vie.
+
+### La cartographie des zones de l'existence sociale
+
+Castel récuse le terme d'exclusion, qu'il juge trop statique, au profit du concept de **désaffiliation**, qui décrit un processus de décrochage. Ce processus se décline en zones définies par le croisement de deux axes : l'intégration au travail et l'insertion relationnelle.
+
+| Zone d'existence | Relation au travail | Insertion relationnelle | État social de l'individu |
+|---|---|---|---|
+| Intégration | Travail stable (CDI) | Réseaux solides (famille, amis) | Individu protégé, capable de projets |
+| Vulnérabilité | Travail précaire (CDD, intérim) | Liens fragilisés (isolement, divorce) | Zone de turbulence, risque de chute |
+| Assistance | Hors travail | Liens institutionnalisés (travail social) | Dépendance aux services publics, stigmatisation |
+| Désaffiliation | Absence de travail | Rupture totale des liens | État de surnuméraire, "inutile au monde" |
+
+L'analyse de Castel souligne que la zone de vulnérabilité s'est considérablement étendue en Belgique durant la période 1980–2010. Le chômage de masse et la flexibilité accrue du marché de l'emploi ont transformé des populations autrefois intégrées en populations instables.
+
+## Le processus de disqualification sociale selon Serge Paugam
+
+### Définition et étapes de la carrière de disqualifié
+
+Parallèlement aux travaux de Castel, Serge Paugam propose une analyse centrée sur l'identité sociale et le rapport aux institutions d'assistance. La **disqualification sociale** est le processus par lequel une personne subit un affaiblissement de ses liens avec la société, non seulement par la perte de revenus, mais surtout par le changement de regard porté sur elle par la collectivité.
+
+Paugam identifie trois phases distinctes, bien que non linéaires :
+
+- **La fragilité :** cette étape correspond à l'entrée dans l'insécurité professionnelle. L'individu ressent une forte angoisse et un sentiment de dégradation sociale. Il tente de dissimuler sa situation et refuse souvent l'aide sociale par peur du stigmate.
+- **La dépendance :** lorsque les ressources personnelles et familiales sont épuisées, l'individu se résigne à solliciter l'aide publique (le CPAS en Belgique). Il entre alors dans une relation d'assistance qui modifie son identité : il est désormais perçu, et se perçoit lui-même, comme un "assisté".
+- **La rupture :** c'est le stade de l'exclusion relative ou de la désertion des services sociaux. L'individu, accablé par le cumul des échecs et la stigmatisation, se retire de la vie sociale active.
+
+### La fonction de l'assistance et le stigmate du pauvre
+
+S'appuyant sur les travaux de Georg Simmel, Paugam avance que le pauvre est une création de la société : il est celui à qui l'on accorde l'assistance. En Belgique, le recours au RIS marque une rupture identitaire profonde. L'assistance a une double fonction : elle assure la survie matérielle, mais elle fixe également l'individu dans une position dévalorisée.
+
+Cette situation est exacerbée par les discours politiques des années 1990 et 2000 qui tendent à opposer les "travailleurs méritants" aux "assistés profiteurs", renforçant ainsi le processus d'étiquetage et d'auto-exclusion.
+
+## Les réalités belges : désindustrialisation et déclin des bastions ouvriers
+
+### L'effondrement de la sidérurgie et des charbonnages
+
+L'effritement de la société salariale décrit par Castel trouve un écho particulièrement violent dans l'histoire économique de la Wallonie entre 1980 et 2010. Les bassins de Liège et de Charleroi, piliers de l'économie belge depuis le XIXe siècle, ont subi une désindustrialisation massive qui a pulvérisé les structures d'intégration traditionnelles.
+
+| Secteur / Région | Période de déclin | Données clés | Impact social |
+|---|---|---|---|
+| Charbon (Wallonie) | 1950–1985 | Passage de 100 000 à 0 mineurs | Disparition d'une culture ouvrière forte |
+| Sidérurgie (Liège) | 1980–2010 | Fermetures successives des hauts-fourneaux | Désouvriérisation et chômage structurel |
+| Verre (Charleroi) | 1970–1995 | Fusion et mécanisation des sites | Perte d'un savoir-faire historique |
+| Automobile (Bruxelles) | 1990–2006 | Fermeture Citroën Forest, VW (Audi) | Fin des grands sites d'assemblage urbains |
+
+À Liège, le passage de l'exploitation charbonnière à une économie de services a laissé sur le carreau des milliers d'ouvriers dont le statut social était fondé sur la force de travail et la solidarité de classe.
+
+### Des grèves offensives aux plans sociaux défensifs
+
+L'évolution des conflits sociaux en Wallonie témoigne de ce basculement. Jusqu'aux années 1970, les grèves étaient offensives et visaient l'amélioration des conditions de travail. À partir des années 1980, les luttes deviennent défensives : l'enjeu principal n'est plus le progrès social, mais la négociation de plans de licenciements.
+
+## Du Minimex au RIS (2002) : une rupture de paradigme
+
+### L'esprit du Minimex (1974)
+
+La loi du 7 août 1974 instituant le "Minimum de Moyens d'Existence" (Minimex) s'inscrit dans l'esprit de l'État-providence : toute personne résidant légalement en Belgique a droit à un revenu minimum, sans condition d'activation. C'est un droit subjectif.
+
+### La loi du 26 mai 2002 : l'activation comme condition
+
+La loi sur le droit à l'intégration sociale (DIS) de 2002 opère une rupture sémantique et philosophique profonde. Elle remplace le "droit à un revenu" par le "droit à l'intégration sociale" — une formulation qui déplace l'enjeu de la protection vers l'insertion.
+
+L'outil central : le **Projet Individualisé d'Intégration Sociale (PIIS)**. Le bénéficiaire doit désormais signer un contrat d'insertion avec son CPAS, définissant des objectifs, un calendrier et des engagements réciproques. Le non-respect de ces engagements peut entraîner une suspension des droits.
+
+Comme l'analyse Aurélien Franssen : "L'esprit de 1974 est renversé. La loi ne dit plus : l'État vous doit un revenu. Elle dit : l'État vous doit une chance d'insertion, si vous vous montrez coopératif."
+
+## Les indicateurs de la fragilisation sociale en Belgique
+
+::: {.data-grid}
+::: {.data-card}
+::: {.number}74 098:::
+::: {.label}bénéficiaires du RI en 2003 (indicators.be / BFP):::
+:::
+::: {.data-card}
+::: {.number}158 697:::
+::: {.label}bénéficiaires du RI en 2023 — doublement en 20 ans:::
+:::
+::: {.data-card}
+::: {.number}13–15 %:::
+::: {.label}taux de risque de pauvreté sur la période (EU-SILC / Statbel):::
+:::
+::: {.data-card}
+::: {.number}~25 %:::
+::: {.label}des jeunes (18–24 ans) en aide sociale en Wallonie en 2010:::
+:::
+:::
+
+::: {.callout-note}
+**Inégalités de santé**
+
+Le taux de prématurité est fortement corrélé avec les facteurs sociaux. En classant les communes en cinq catégories selon des indicateurs de pauvreté, le taux de prématurité passe de **7,35 %** dans les communes les plus riches à **8,75 %** dans les plus pauvres (Billiet et al., cité par le [Service de lutte contre la pauvreté](https://www.luttepauvrete.be)).
+:::
+
+## La transformation du métier d'assistant social dans les CPAS
+
+| Dimension | Avant 2002 (Minimex) | Après 2002 (RIS/PIIS) |
+|---|---|---|
+| Objectif principal | Octroi du droit et soutien psychosocial | Insertion socioprofessionnelle et activation |
+| Outil de travail | L'enquête sociale et l'écoute | Le contrat PIIS et le monitoring |
+| Posture professionnelle | Accompagnateur / Militant du droit | Agent d'insertion / Gestionnaire de flux |
+| Rapport à l'usager | Relation de confiance et de confidentialité | Relation contractuelle et de contrôle |
+
+Cette transformation génère une tension éthique forte. Les travailleurs sociaux expriment souvent un malaise face à la domination de la logique comptable et à l'obligation de contrôle qui les éloigne de la dimension humaine de leur mission.
+
+## Conclusion : l'héritage d'une société de l'incertitude
+
+La période 1980–2010 marque la fin d'une certaine conception du progrès social en Belgique. Le pacte social de 1944, fondé sur la croissance et le plein emploi industriel, a laissé place à un système de gestion de la précarité.
+
+Le défi pour les décennies à venir reste la reconstruction de nouveaux supports de citoyenneté capables de protéger l'individu contre l'individualisme négatif et de briser les chaînes de la disqualification sociale.
+
+---
+
+## Questions d'examen — Séance 5
+
+::: {.question-examen}
+**Question 5.A**
+
+Expliquez le concept de désaffiliation chez Robert Castel. Comment la désindustrialisation wallonne des années 1980–2000 illustre-t-elle ce processus ?
+
+*Points-clés :* le salariat comme pivot de l'intégration sociale ; la "propriété sociale" ; les zones ; désaffiliation vs exclusion ; l'exemple des bassins wallons.
+
+*Références à mobiliser :* Castel (1995, 2003) ; CESE Wallonie.
+:::
+
+::: {.question-examen}
+**Question 5.B**
+
+Expliquez le processus de disqualification sociale selon Paugam. Comment le recours au RIS en Belgique peut-il produire un effet de stigmatisation identitaire ?
+
+*Points-clés :* les trois étapes (fragilité, dépendance, rupture) ; la double fonction de l'assistance ; Simmel sur le pauvre comme création sociale ; les discours politiques des années 1990–2000.
+
+*Références à mobiliser :* Paugam (1991) ; Simmel (1908) ; Castel (1995) ; Vrancken (2010).
+:::
+
+::: {.question-examen}
+**Question 5.C**
+
+Analysez le passage du Minimex au Revenu d'Intégration Sociale (loi du 26 mai 2002). Qu'est-ce que cela révèle sur la transformation de la philosophie de l'État social en Belgique ?
+
+*Points-clés :* l'esprit du Minimex (droit subjectif, aide inconditionnelle) ; la loi de 2002 (PIIS, logique contractuelle, sanctions) ; la critique de Franssen ; le lien avec la thèse de Castel.
+
+*Références à mobiliser :* Castel (2003) ; Vrancken (2010) ; Franssen (2003).
+:::
+
+::: {.question-examen}
+**Question 5.D**
+
+Comment la transformation du métier d'assistant·e social·e dans les CPAS entre 1990 et 2010 illustre-t-elle les tensions théoriques du travail social identifiées en séance 1 ?
+
+*Références à mobiliser :* Castel (2003) ; Vrancken (2010) ; Hughes (1958) ; Dubar & Tripier (1998).
+:::
+
+::: {.question-examen}
+**Question 5.E**
+
+Quels sont les principaux indicateurs de la fragilisation sociale en Belgique entre 1990 et 2010 ? En quoi confirment-ils la thèse de Castel sur l'extension de la zone de vulnérabilité ?
+
+*Références à mobiliser :* Castel (1995, 2003) ; Statbel ; Service de lutte contre la pauvreté ; IWEPS.
+:::
+
+---
+
+## Références
+
+- Castel, R. (1995). *Les Métamorphoses de la question sociale*. Paris : Fayard.
+- Castel, R. (2003). *L'Insécurité sociale. Qu'est-ce qu'être protégé ?* Paris : Seuil.
+- Castel, R. & Haroche, C. (2001). *Propriété privée, propriété sociale, propriété de soi*. Paris : Fayard.
+- Franssen, A. (2003). Le sujet au cœur de la nouvelle question sociale. *French Politics, Culture & Society*, 21(3).
+- IWEPS. Part des majeurs bénéficiant de l'aide sociale. [iweps.be](https://www.iweps.be)
+- Paugam, S. (1991). *La Disqualification sociale*. Paris : PUF.
+- Paugam, S. (2005). *Les Formes élémentaires de la pauvreté*. Paris : PUF.
+- Service de lutte contre la pauvreté. *Des faits et des chiffres*. [luttepauvrete.be](https://www.luttepauvrete.be)
+- Simmel, G. (1908/1998). Le pauvre. Dans *Sociologie*. Paris : PUF, pp. 400–430.
+- Statbel. Risque de pauvreté ou d'exclusion sociale. [statbel.fgov.be](https://statbel.fgov.be)
+- Vrancken, D. (2002). *L'État social face à la question sociale*. Bruxelles : PUB.
+- Vrancken, D. (2010). *Le Nouvel Ordre Protectionnel*. Lyon : Parangon.

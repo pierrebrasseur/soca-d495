@@ -1,0 +1,211 @@
+---
+title: "Séance 2 — Émergence historique et fondements sociologiques"
+---
+
+::: {.objectifs}
+**À l'issue de cette séance, vous devez être capables de :**
+
+- Situer la genèse de la "question sociale" dans le contexte de la révolution industrielle
+- Identifier les figures pionnières du travail social et leurs méthodes fondatrices
+- Comprendre les processus d'institutionnalisation du travail social en Europe, et en Belgique en particulier
+- Relier les spécificités du modèle belge (pilarisation, maternalisme) à la structuration contemporaine du champ
+:::
+
+## La genèse de la question sociale (XIXe–XXe siècles)
+
+### La transformation de la pauvreté par l'industrialisation
+
+Au XVIIIe siècle, la pauvreté était encore un phénomène rural et inscrit dans les liens de parenté. Avec la révolution industrielle et l'urbanisation massive, cette réalité bascule radicalement. La pauvreté change de nature : le pauvre rural devient un ouvrier urbain, puis un "vagabond" anomique, enfin une "menace" pour l'ordre bourgeois naissant. Plus fondamentalement, le lien entre paupérisation et cessation de travail devient central : le pauvre est désormais celui qui cesse de travailler alors qu'il ne dispose que de son travail pour vivre.
+
+En Belgique comme en Europe occidentale, cette transformation coïncide avec une profonde déstabilisation sociale. Les solidarités traditionnelles — familiales, paroissiales, communautaires — se désagrègent sous le poids de l'industrialisation.
+
+### L'intervention de l'État : la "question sociale"
+
+La fin du XIXe siècle voit émerger la "question sociale", synonyme d'une époque de la "question ouvrière". C'est un débat radical : comment la société peut-elle rester gouvernable face aux mobilisations ouvrières, aux grèves, aux soulèvements urbains (notamment en Belgique lors des [troubles de 1886](https://fr.wikipedia.org/wiki/R%C3%A9volte_de_1886_en_Belgique)) ?
+
+::: {.callout-note}
+**Durkheim (1893)**
+
+Le passage de la solidarité mécanique (fondée sur la ressemblance) à la solidarité organique (fondée sur la complémentarité et la division du travail) crée un vide moral que l'État doit combler. Source : *De la division du travail social*. Paris : Félix Alcan.
+:::
+
+::: {.callout-note}
+**Simmel (1908)**
+
+L'assistance aux pauvres n'est pas une simple redistribution, mais une forme de socialisation : un processus par lequel la pauvreté est gérée socialement, transformée en catégorie administrative et morale. Source : *Soziologie*. Édition française : *Les Pauvres*. PUF, 2005.
+:::
+
+Le point crucial : l'État social ne naît pas d'une bienveillance progressive, mais d'un compromis politique forcé. Comme l'analyse Didier Vrancken (2002), le social est né pour "rendre la société gouvernable" et pour fournir à l'État un critère compatible avec sa définition démocratique égalitaire. C'est un équilibre instable entre capital et travail.
+
+### De la charité à l'assistance scientifique
+
+Avant 1920, il n'existe en Belgique ni professionnels du travail social ni formation structurée. La réponse à la pauvreté relève encore de la charité — un devoir chrétien où le bourgeois aide les pauvres. Cette charité possède deux facettes : une dimension religieuse (salut de l'âme) et une dimension sociale (maintien de l'ordre).
+
+À partir des années 1880–1890, cette logique cède place à une nouvelle rationalité : l'assistance scientifique. L'idée centrale est que la pauvreté doit être étudiée, enquêtée, diagnostiquée avant d'être traitée.
+
+## Figures pionnières et méthodes fondatrices (1890–1920)
+
+### Mary Richmond et la méthode du casework
+
+Mary Richmond (1861–1928) incarne cette rupture fondatrice. Avec son ouvrage majeur *Social Diagnosis* (1917), elle pose les bases scientifiques du travail social professionnel. Sa méthode du casework introduit une pratique systématique : observation, enquête sociale, diagnostic, intervention. Elle emprunte volontairement le vocabulaire médical pour légitimer l'action sociale.
+
+Richmond propose un changement épistémologique : remplacer la charité émotionnelle par une investigation rationnelle, des méthodes d'enquête observables, reproducibles, traçables. Cela ne signifie pas déshumaniser l'intervention, mais la rendre intelligible, transmissible, professionnalisable.
+
+### Jane Addams, les settlements, et le pragmatisme social
+
+À Chicago, Jane Addams (1860–1935) et le mouvement des settlements incarnent une approche complémentaire. [Hull House](https://www.hullhousemuseum.org) n'est pas une agence de service social centralisée, mais une maison d'habitation implantée au cœur d'un quartier ouvrier immigrant. Les residents partagent la vie des habitants, apprennent de leurs expériences, participent à leurs luttes civiques.
+
+Cette approche s'inscrit dans le pragmatisme américain : la connaissance naît de l'expérience partagée, de l'enquête collective, de l'action sociale ancrée dans des situations concrètes. Contrairement au modèle casework de Richmond, Addams pense le changement social à l'échelle du quartier, en articulant intervention individuelle et mobilisation collective.
+
+Jane Addams reçoit le prix Nobel de la paix en 1931.
+
+### Octavia Hill et le logement social
+
+En Angleterre, Octavia Hill (1838–1912) développe une autre stratégie : le logement social comme terrain d'intervention à la fois technique et morale. Elle acquiert des logements insalubres, les rénove, loue à des loyers modiques, et combine gestion locative stricte avec visites sociales régulières. Son approche suppose une réforme morale victorienne : éduquer les pauvres à l'hygiène, l'épargne, la respectabilité. Le modèle d'Octavia Hill sera influent en Belgique, notamment dans les initiatives catholiques de logement social.
+
+### L'École de Chicago et l'articulation sciences sociales / travail social
+
+L'École de Chicago développe des méthodes empiriques (observation participante, étude des cas de vie, monographies sociales) que le travail social adapte à ses propres fins. L'apport décisif : montrer que l'intervention sociale peut reposer sur une investigation scientifique.
+
+| Figure | Richmond | Addams | Hill |
+|---|---|---|---|
+| Unité d'intervention | Individu/famille | Quartier/communauté | Logement |
+| Légitimité | Sciences médicales | Pragmatisme | Gestion locative |
+| Rapport à l'usager | Expert | Pair | Réformateur moral |
+
+## Institutionnalisation européenne du travail social (1900–1945)
+
+### Premières écoles de formation en Europe
+
+Le mouvement de professionnalisation s'internationalise rapidement : Londres (1903), Paris (1911), Belgique (1920–1922). Ces écoles partagent un projet commun : transformer la charité en profession, l'intuition en méthode, le bénévolat féminin en activité rémunérée et encadrée.
+
+### La Belgique : naissance institutionnelle (1920–1922)
+
+L'après-Première Guerre mondiale marque un tournant. Entre 1920 et 1922, par arrêté royal du 15 octobre 1920 instituant le diplôme d'"auxiliaire social", cinq écoles de service social sont créées dans le pays (Zelis, 2004 ; Zelis, 2019). La Belgique, meurtrie par la guerre, doit reconstruire son ordre social et répondre à des besoins sociaux sans précédent (orphelins de guerre, veuves, invalides, sans-abri).
+
+**Les trois piliers belges structurent cette naissance :**
+
+- *Le pilier catholique (dominant)* : environ 52 % des 1 200 auxiliaires sociaux diplômés entre 1920 et 1939. L'inspiration catholique insiste sur l'accompagnement moral, la solidarité chrétienne, le rôle civilisateur de la femme instruite.
+- *Le pilier socialiste/ouvrier* : moins de ressources institutionnelles, mais présent. L'idée que l'aide sociale est un droit et non une charité.
+- *Le pilier libéral/officiel* : l'École centrale (rue de la Poste à Bruxelles) incarne l'approche officielle de l'État. Formation généraliste, rationnelle, laïque.
+
+### Contenu et méthodes pédagogiques
+
+Ces écoles belges s'appuient sur les sciences sociales naissantes : enquêtes et monographies sociales comme méthodes pratiques. Le curriculum articule trois axes : sciences générales (droit, économie politique, histoire, philosophie) ; méthodologie du travail social (casework, enquête sociale, rédaction) ; pratiques de terrain (visites, stages, observations).
+
+### Le rôle du féminisme et de l'émancipation féminine
+
+En Belgique comme ailleurs, le travail social a été un vecteur d'entrée des femmes dans la sphère publique. Les femmes instruites ont investi le travail social comme un champ où elles pouvaient exercer responsabilité, autorité, expertise — à défaut de pouvoir politique direct. Cela crée une tension fondamentale : le travail social est féminisé, ce qui renforce son statut, mais peut aussi le confiner à un rôle subordonné (expertise morale, pas politique).
+
+## Spécificités du modèle belge
+
+### La pilarisation : un système fondamentalement corporatiste
+
+La Belgique est née en 1830 d'un compromis entre trois courants idéologiques : catholique, socialiste, libéral. Cette structure de "piliers" signifie que chaque courant possède ses propres institutions : écoles, hôpitaux, caisses d'assurance maladie, organisations syndicales.
+
+Pour le travail social, cela produit un paysage fragmenté mais riche : plusieurs formations coexistent, chacune portant des valeurs, des méthodes, des réseaux institutionnels différents.
+
+### Lois structurantes du système belge
+
+| Date | Texte | Ce qui change |
+|---|---|---|
+| AR 15 octobre 1920 | Création des écoles de service social | Diplôme d'auxiliaire social |
+| Loi 12 juin 1945 | Titre d'assistant social protégé | Reconnaissance légale |
+| Loi 7 août 1974 | Aide sociale comme droit | Passage à la logique de droit |
+| Loi organique 8 juillet 1976 | Création des [CPAS](https://www.mi-is.be/fr/cpas) | Consécration du droit subjectif à la dignité |
+
+### Différences France/Belgique francophone
+
+| Dimension | France | Belgique |
+|---|---|---|
+| Financement majeur | Public (État) | Fragmenté par région |
+| Acteurs | État, associations | Mixte, très décentralisé |
+| Diplôme | D'État national | Fragmenté par Communauté |
+| Philosophie | Universalisme républicain | Variable selon le pilier |
+| Statut travailleur social | Fonctionnaire ou CDI stable | Variable, souvent précaire |
+
+## Comparaisons européennes
+
+### Quatre modèles
+
+**France :** État-providence centralisé, fonction publique. Travail social entièrement intégré au secteur public ou semi-public. Diplôme d'État national (bac + 3). Conception universaliste : "les citoyens" plutôt que "les pauvres". Tension majeure : universalisme républicain vs réalités de discrimination.
+
+**Allemagne :** État-providence bismarckien, corporatisme. Système dual : assurances sociales contributives + aide sociale résiduelle. Tradition de "Caritas" (organisations confessionnelles) très importante. Tension majeure : intégration par l'emploi vs assistance disqualifiante.
+
+**Pays-Bas :** Depuis les années 1980, décentralisation massive et privatisation. Accent sur l'autonomie de l'usager. Gestion managériale, indicateurs, efficacité. Tension majeure : efficacité administrative vs création d'usagers "invisibles".
+
+**Belgique :** État-providence fragmenté, fédéralisme. Mélange de tous les modèles selon la région. Tension majeure : cohésion vs fragmentation institutionnelle.
+
+## Conclusion : pourquoi cet historique ?
+
+### Démythifier les origines
+
+Le travail social moderne émerge d'un compromis politique, d'une stratégie de gouvernement, d'un besoin de "rendre la société gouvernable". Mary Richmond n'invente pas le casework par pure bonté : elle le théorise pour légitimer l'intervention sociale. Les écoles belges ne se créent pas en 1920 par humanisme soudain, mais parce que la Belgique reconstruit son ordre social.
+
+### Préparer à la fragmentation actuelle
+
+Depuis les années 1970–1980, le travail social vit une crise de sens. Trois ruptures majeures : de l'État-providence à l'État actif (1999 en Belgique) ; de la question sociale à la question de l'exclusion (1970s–1980s) ; de la professionnalité généraliste à la fragmentation des métiers.
+
+---
+
+## Questions d'examen — Séance 2
+
+::: {.question-examen}
+**Question 2.A**
+
+Quel verdict Abraham Flexner prononce-t-il en 1915 sur le travail social, et comment Mary Richmond y répond-elle ? Quelles tensions cette controverse révèle-t-elle sur la nature du travail social comme profession ?
+
+*Références à mobiliser :* Flexner (1915) ; Richmond (1917) ; Hughes (1958) ; Dubar & Tripier (1998).
+:::
+
+::: {.question-examen}
+**Question 2.B**
+
+Analysez la création des écoles de service social en Belgique (1920–1922). Comment la pilarisation structure-t-elle le travail social naissant, et quels effets cette fondation a-t-elle encore aujourd'hui ?
+
+*Références à mobiliser :* Zelis (2004, 2019) ; Foucart (2022) ; Hamzaoui & Debruyn (2014).
+:::
+
+::: {.question-examen}
+**Question 2.C**
+
+Comparez l'approche de Mary Richmond (casework individuel) et celle de Jane Addams (mobilisation communautaire). Ces deux modèles sont-ils réconciliables ? Quelles tensions demeurent pertinentes aujourd'hui ?
+
+*Références à mobiliser :* Richmond (1917) ; Addams (1910) ; Dominelli (2002).
+:::
+
+::: {.question-examen}
+**Question 2.D**
+
+Qu'est-ce que le "maternalisme" dans l'histoire du travail social belge (Zelis) ? En quoi révèle-t-il une tension fondatrice autour du genre et de la professionnalisation ?
+
+*Références à mobiliser :* Zelis (2019) ; Hochschild (1983) ; Federici (2012) ; Tronto (1993).
+:::
+
+::: {.question-examen}
+**Question 2.E**
+
+Analysez le rôle du Pacte social de 1944 dans la reconnaissance institutionnelle du travail social en Belgique. Quelles transformations produit-il dans le statut et les missions des assistant·es sociaux·ales ?
+
+*Références à mobiliser :* Zelis (2004) ; Foucart (2022) ; Vrancken (2002).
+:::
+
+---
+
+## Références
+
+- Addams, J. (1910). *Twenty Years at Hull House*. New York : Macmillan.
+- Donzelot, J. (1984). *L'Invention du social*. Paris : Seuil, pp. 67–105.
+- Durkheim, É. (1893). *De la division du travail social*. Paris : Félix Alcan.
+- Esping-Andersen, G. (1990). *The Three Worlds of Welfare Capitalism*. Princeton University Press.
+- Federici, S. (2012). *Caliban et la sorcière*. Paris : Entremonde.
+- Foucart, J. (2022). Chapitre 4. Le travail social en Belgique francophone. Dans *Le travail social en Europe*. Rennes : Presses de l'EHESP, pp. 83–99.
+- Hamzaoui, M. & Debruyn, K. (2014). La recomposition de la formation en Belgique francophone. *Empan*, 3(95), 28–38.
+- Richmond, M. E. (1917). *Social Diagnosis*. New York : Russell Sage Foundation.
+- Simmel, G. (1908/1998). Le pauvre. Dans *Sociologie*. Paris : PUF, pp. 400–430.
+- Tronto, J. (1993). *Moral Boundaries*. Routledge.
+- Vrancken, D. (2002). *L'État social face à la question sociale*. Bruxelles : PUB.
+- Vrancken, D. (2010). *Le Nouvel Ordre Protectionnel*. Lyon : Parangon.
+- Vrancken, D. (2014/2022). *Le Crépuscule du social*. Liège : PUL.
+- Zelis, G. (2004). Travail social en mutation : repères historiques. Dans *Les formations en travail social*. Bruxelles : AWIS.
+- Zelis, G. (2019). La formation au travail social en Belgique (1920–1940). *Les Politiques Sociales*, 3–4(2), 11–21.

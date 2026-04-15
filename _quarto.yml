@@ -1,0 +1,64 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Théorie du travail social"
+  subtitle: "SOCA-D495 — Master en sciences du travail"
+  author: "Pierre Brasseur"
+  date: "2025-2026"
+  date-format: "YYYY"
+  favicon: "images/favicon.png"
+  site-url: "https://brasseurph.github.io/soca-d495"
+  repo-url: "https://github.com/brasseurph/soca-d495"
+  repo-actions: []
+  search: true
+  
+  navbar:
+    background: "#1a1a2e"
+    foreground: "#f0f0f0"
+  
+  sidebar:
+    style: "docked"
+    background: "#f8f7f4"
+    
+  chapters:
+    - index.qmd
+    - part: "Bloc 1 — Le paradoxe constitutif"
+      chapters:
+        - seance-1.qmd
+        - seance-2.qmd
+    - part: "Bloc 2 — Mutations et contrôle social"
+      chapters:
+        - seance-3.qmd
+        - seance-4.qmd
+        - seance-5.qmd
+    - part: "Bloc 3 — Enjeux contemporains"
+      chapters:
+        - seance-6.qmd
+        - seance-7.qmd
+    - evaluation.qmd
+    - references.qmd
+
+bibliography: references.bib
+csl: apa-fr.csl
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+    toc: true
+    toc-depth: 3
+    toc-title: "Sur cette page"
+    number-sections: true
+    number-depth: 2
+    lang: fr
+    code-fold: false
+    fig-cap-location: bottom
+    callout-appearance: minimal
+    link-external-icon: false
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 260px
+      body-width: 740px
+      margin-width: 200px
