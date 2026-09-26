@@ -31,6 +31,8 @@ website:
     right:
       - text: "Fiche ULB"
         href: "https://www.ulb.be/fr/programme/soca-d495-1"
+      - text: "Pierre Brasseur"
+        href: "https://pierrebrasseur.github.io/cours-soca-d495.html"
 
   sidebar:
     style: floating
@@ -74,7 +76,8 @@ website:
             text: "Bibliographie générale"
 
   page-footer:
-    left: "Pierre Brasseur · METICES / STRIGES · Université libre de Bruxelles"
+    left: "[Pierre Brasseur](https://pierrebrasseur.github.io/) · METICES / STRIGES · Université libre de Bruxelles"
+    center: "[Tous les enseignements](https://pierrebrasseur.github.io/enseignement.html)"
     right: "SOCA-D495 · 2025–2026"
 
 format:
