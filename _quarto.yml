@@ -5,6 +5,9 @@ project:
     - .nojekyll
 
 lang: fr
+csl: apa.csl
+link-citations: true
+citations-hover: true
 
 website:
   title: "Théories du travail social"
