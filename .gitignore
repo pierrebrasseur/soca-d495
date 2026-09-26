@@ -1,0 +1,3 @@
+.quarto/
+*.bak
+.DS_Store

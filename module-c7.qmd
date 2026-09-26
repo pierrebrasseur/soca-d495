@@ -1,0 +1,87 @@
+---
+title: "Module C7 — Féminisme d'État et égalité professionnelle"
+---
+
+::: {.objectifs}
+**À l'issue de ce module, vous devez être capables de :**
+
+- Définir le féminisme d'État et la figure des *femocrats*
+- Analyser l'institutionnalisation de l'égalité comme un processus ambivalent
+- Situer le conseil en égalité professionnelle entre cause militante et marché
+- Relier ce module à la séance 6 (dévalorisation du travail féminin)
+:::
+
+## Quand la cause entre dans l'entreprise
+
+Une consultante en égalité professionnelle entre dans une grande entreprise. Elle vient avec un diagnostic d'écart salarial, un plan d'action, peut-être un label à décrocher. Pour être écoutée dans cette salle de réunion, elle ne dira pas « patriarcat ». Elle dira « performance », « attractivité », « image de marque ». Elle porte une cause féministe en parlant la langue du management. Tout le module tient dans cette tension.
+
+Il prolonge la séance 6 en déplaçant la focale. Non plus le genre des publics ou de la profession, mais le genre comme objet de politique publique. Comment l'égalité entre femmes et hommes devient-elle une cause portée par l'État lui-même, et par des expertes qui en vivent ? Avec quels effets, et quelles limites ?
+
+## Le féminisme d'État
+
+Le féminisme d'État désigne l'ensemble des structures publiques chargées de promouvoir l'égalité des sexes, et l'action de celles et ceux qui portent la cause depuis l'intérieur de l'appareil d'État. Dorothy Stetson et Amy Mazur (1995) ont forgé le concept dans une sociologie comparée des politiques de genre.
+
+La figure centrale est celle des *femocrats* : des féministes devenues fonctionnaires ou expertes, qui traduisent les revendications du mouvement en dispositifs administratifs, quotas, plans d'égalité, labels, organismes de contrôle. En Belgique, l'Institut pour l'égalité des femmes et des hommes, créé en 2002, incarne cette traduction. Il produit les statistiques sexuées, traite les discriminations, appuie le *gender mainstreaming*. C'est lui qui publie, chaque année, le chiffre de l'écart salarial belge, autour de 20 % en brut, rencontré à la séance 6.
+
+## Institutionnaliser : transformer ou neutraliser ?
+
+L'entrée de la cause des femmes dans l'État est ambivalente, et les travaux de Laure Bereni (2015) et d'Anne Revillard (2016) en montrent les deux faces. D'un côté, l'institutionnalisation donne des moyens, une légitimité, une continuité ; elle inscrit l'égalité dans le droit et les organisations. De l'autre, elle peut domestiquer la radicalité du mouvement, transformer une critique du patriarcat en gestion technique d'indicateurs, et déplacer l'enjeu de la justice vers la performance, la diversité présentée comme un avantage compétitif.
+
+On reconnaît ici une tension déjà vue. C'est celle de l'empowerment radical contre l'empowerment libéral de la séance 1. C'est aussi celle de la managérialisation de la séance 7 : l'égalité, comme le reste, peut se faire avaler par la logique du chiffre et du label.
+
+## Le conseil en égalité : une profession féministe ?
+
+Soline Blanchard a enquêté sur ce groupe professionnel et sur le marché qu'il constitue. Son analyse repère ce qu'elle appelle les deux marchés du conseil en égalité, et pose une question qui donne son titre à l'un de ses textes : le conseil en égalité est-il une profession féministe ? Plusieurs tensions traversent l'activité.
+
+La première oppose la cause et le marché. On porte une revendication militante tout en vendant une prestation à des entreprises, avec le risque que l'argument commercial, le fameux « ça rapporte », prenne le pas sur l'argument de justice.
+
+La deuxième oppose l'expertise et le militantisme. Pour être audibles, les conseillères neutralisent le vocabulaire féministe au profit d'un registre gestionnaire. Elles traduisent, et toute traduction perd quelque chose.
+
+La troisième oppose les effets réels et l'affichage. La multiplication des labels et des plans peut produire un féminisme de façade qui laisse intactes les structures vues à la séance 6 : la ségrégation des emplois, le temps partiel imposé, le plafond de verre.
+
+## Pour la pratique
+
+Ce module vous concerne à double titre. D'abord parce que les services sociaux sont eux-mêmes des organisations très féminisées et inégalitaires, donc directement visées par ces dispositifs. Ensuite parce que la position de la conseillère en égalité éclaire la vôtre. Porter une cause à l'intérieur d'une institution qui ne la partage pas vraiment, traduire ses convictions dans une langue acceptable, accepter des compromis sans renoncer : c'est exactement la situation du travailleur social. Le conseil en égalité est un miroir de votre métier.
+
+---
+
+## Questions d'examen — Module C7
+
+::: {.question-examen}
+**Question C7.A**
+
+Définissez le féminisme d'État et la figure des *femocrats*. En quoi l'institutionnalisation de la cause des femmes est-elle ambivalente ?
+
+*Références à mobiliser :* Stetson & Mazur (1995) ; Bereni (2015) ; Revillard (2016).
+:::
+
+::: {.question-examen}
+**Question C7.B**
+
+Analysez les tensions du conseil en égalité professionnelle (cause/marché, militantisme/expertise). En quoi le registre managérial peut-il neutraliser la portée féministe de l'égalité ?
+
+*Références à mobiliser :* Blanchard (2021) ; Bereni (2015) ; Hood (1991).
+:::
+
+::: {.question-examen}
+**Question C7.C**
+
+En quoi les dispositifs d'égalité professionnelle risquent-ils de produire un « féminisme de façade » qui laisse intactes les structures de la séance 6 ?
+
+*Références à mobiliser :* Delphy (1970) ; Kergoat (2012) ; Bereni (2015).
+:::
+
+---
+
+## Références
+
+- Bereni, L. (2015). *La bataille de la parité*. Paris : Economica.
+- Blanchard, S. & Pochic, S. (dir.) (2021). *Quantifier l'égalité au travail. Outils politiques et enjeux scientifiques*. Rennes : Presses universitaires de Rennes.
+- Delphy, C. (1970). L'ennemi principal. *Partisans*, 54–55.
+- Kergoat, D. (2012). *Se battre, disent-elles…*. Paris : La Dispute.
+- Revillard, A. (2016). *La cause des femmes dans l'État. Une comparaison France-Québec*. Grenoble : PUG.
+- Stetson, D. M. & Mazur, A. (dir.) (1995). *Comparative State Feminism*. Thousand Oaks : Sage.
+
+**Repère**
+
+- Institut pour l'égalité des femmes et des hommes (IEFH), Belgique. [igvm-iefh.belgium.be](https://igvm-iefh.belgium.be)

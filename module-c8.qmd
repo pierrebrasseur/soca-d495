@@ -1,0 +1,85 @@
+---
+title: "Module C8 — Le travail féministe et le « problème musulman » au Planning familial"
+---
+
+::: {.objectifs}
+**À l'issue de ce module, vous devez être capables de :**
+
+- Analyser la racialisation du féminisme et la construction du « problème musulman »
+- Distinguer une critique féministe des rapports de genre d'un usage du féminisme contre les minorités racisées
+- Repérer ces tensions dans les pratiques de terrain du planning familial
+- Articuler ce module avec la séance 6 (intersectionnalité) et le module C2 (culturalisation)
+:::
+
+## Deux engagements qui se heurtent
+
+Vous arrivez au planning familial avec deux convictions, et toutes deux sont justes. La première : défendre l'égalité entre les femmes et les hommes, et prendre au sérieux les violences faites aux femmes. La seconde : refuser le racisme, et ne pas traiter les personnes selon leur origine ou leur religion. La plupart du temps, ces deux convictions vont ensemble. Parfois, sur ce terrain précis, elles entrent en collision. Quand un comportement d'un usager musulman est lu d'emblée à travers la grille du « problème musulman », la défense des femmes sert à stigmatiser une population. Ce module donne les moyens de tenir les deux bouts : critiquer le sexisme sans essentialiser une culture, et sans cibler personne.
+
+## La fabrique du « problème musulman »
+
+Le « problème musulman » est un cadrage public qui érige l'islam, et surtout le rapport des hommes musulmans aux femmes, en problème spécifique et homogène. Le mécanisme est celui que le module C2 a décrit : la culturalisation. Le sexisme des minorités est expliqué par « leur culture » ou « leur religion », tandis que le même sexisme, chez le groupe majoritaire, est expliqué par des circonstances individuelles ou simplement minimisé.
+
+Le double standard est précis. Un mariage précoce, un contrôle de la sexualité, une violence : le même fait devient « culturel » quand il concerne une famille racisée, et « individuel » quand il concerne une famille blanche. De ce tri naît une opposition commode entre un « nous » moderne et égalitaire et un « eux » archaïque et sexiste. L'opération a un bénéfice caché pour le groupe dominant : en regardant le sexisme des autres, il évite de regarder le sien. Les chiffres de la séance 6, vingt et un à vingt-six féminicides par an en Belgique, rappellent pourtant que la violence faite aux femmes n'a pas de religion.
+
+## Le fémonationalisme
+
+La critique centrale du module porte un nom, forgé par la sociologue Sara Farris en 2017 : le fémonationalisme. Le féminisme peut être retourné contre les femmes qu'il prétend défendre, quand des arguments d'égalité de genre servent à justifier des politiques de contrôle de l'immigration ou la stigmatisation des musulmans. Lila Abu-Lughod (2013) a montré comment le motif du « sauvetage » des femmes musulmanes nourrit des projets de domination. Christine Delphy (2008) a analysé l'usage du féminisme pour désigner « les autres » comme arriérés. Joan Scott (2007) a relu l'affaire française du voile comme un révélateur des contradictions de la laïcité. Nacira Guénif-Souilamas et Éric Macé (2004) ont déconstruit la figure du « garçon arabe » sexiste opposée à un Occident émancipé.
+
+L'enjeu n'est pas de nier les rapports de domination de genre dans les familles, quelles qu'elles soient. Ce serait un relativisme culturel tout aussi problématique, qui abandonnerait les femmes concernées au nom du respect des traditions. L'enjeu est de ne pas faire de la culture ou de la religion la cause des violences, ni de cibler une population entière, en gardant l'analyse intersectionnelle de la séance 6.
+
+## Sur le terrain du planning familial
+
+Le planning familial est un lieu sensible. On y parle sexualité, corps, contraception, consentement, violences. Les professionnelles, souvent porteuses d'un engagement féministe et laïque fort, s'y trouvent tiraillées.
+
+Elles le sont entre une mission d'émancipation, informer, ouvrir des droits, protéger, et le risque d'imposer une norme dominante de la « bonne » sexualité ou de la « bonne » émancipation. Elles le sont entre la prise au sérieux des violences réelles et le refus du soupçon culturaliste qui ciblerait d'avance les usagères et usagers musulmans. Elles le sont, enfin, entre une laïcité conçue comme neutralité protectrice et une laïcité vécue comme injonction à se conformer, sur le voile ou sur les pratiques.
+
+::: {.callout-warning}
+**Le piège pour l'intervenante**
+
+Traiter une situation comme « un problème de culture musulmane » conduit à des réponses inadaptées et stigmatisantes : une sensibilisation « interculturelle » à sens unique, là où il faudrait une réponse de droit commun, protection et accès aux droits, attentive aux rapports de pouvoir réels. Parmi ces rapports figure aussi le racisme institutionnel que subissent les personnes accompagnées, et qu'un regard culturaliste rend invisible.
+:::
+
+## Pour la pratique
+
+Le module demande une réflexivité double, et c'est sa difficulté. Être critique des rapports de genre, et vigilant à ne pas reconduire un racisme habillé en féminisme. Concrètement : individualiser les situations plutôt que de les rabattre sur une appartenance, refuser les explications par « la culture », nommer le double standard quand il apparaît, et articuler genre, classe, statut migratoire et religion au lieu de les hiérarchiser. C'est exigeant. C'est aussi ce qui sépare une intervention qui protège d'une intervention qui stigmatise en croyant bien faire.
+
+---
+
+## Questions d'examen — Module C8
+
+::: {.question-examen}
+**Question C8.A**
+
+Qu'est-ce que le « problème musulman » comme cadrage public ? Montrez comment il repose sur le mécanisme de culturalisation du module C2.
+
+*Références à mobiliser :* Guénif-Souilamas & Macé (2004) ; Volpp (2006) ; Delphy (2008).
+:::
+
+::: {.question-examen}
+**Question C8.B**
+
+Définissez le fémonationalisme. En quoi le féminisme peut-il être instrumentalisé contre les minorités racisées ? Comment éviter à la fois le culturalisme et le relativisme ?
+
+*Références à mobiliser :* Farris (2017) ; Abu-Lughod (2013) ; Scott (2007) ; Crenshaw (1991).
+:::
+
+::: {.question-examen}
+**Question C8.C**
+
+Analysez les tensions d'une professionnelle du planning familial face à un public musulman. Comment une lecture intersectionnelle (séance 6) permet-elle de tenir ensemble critique du sexisme et refus du racisme ?
+
+*Références à mobiliser :* Crenshaw (1991) ; Collins & Bilge (2016) ; Abu-Lughod (2013).
+:::
+
+---
+
+## Références
+
+- Abu-Lughod, L. (2013). *Do Muslim Women Need Saving?*. Cambridge (MA) : Harvard University Press.
+- Collins, P. H. & Bilge, S. (2016). *Intersectionality*. Cambridge : Polity Press.
+- Crenshaw, K. W. (1991). Mapping the Margins. *Stanford Law Review*, 43(6).
+- Delphy, C. (2008). *Classer, dominer. Qui sont les « autres » ?*. Paris : La Fabrique.
+- Farris, S. R. (2017). *In the Name of Women's Rights: The Rise of Femonationalism*. Durham : Duke University Press.
+- Guénif-Souilamas, N. & Macé, É. (2004). *Les féministes et le garçon arabe*. La Tour-d'Aigues : Éd. de l'Aube.
+- Scott, J. W. (2007). *The Politics of the Veil*. Princeton : Princeton University Press.
+- Volpp, L. (2006). Quand on rend la culture responsable de la mauvaise conduite. *Nouvelles Questions Féministes*, 25(3).

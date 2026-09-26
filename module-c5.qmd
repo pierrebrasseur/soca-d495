@@ -1,0 +1,84 @@
+---
+title: "Module C5 — Pauvreté et inconditionnalité de l'accueil"
+---
+
+::: {.objectifs}
+**À l'issue de ce module, vous devez être capables de :**
+
+- Définir l'inconditionnalité de l'accueil et la contradiction qu'elle entretient avec la pénurie de places
+- Analyser le travail d'attribution comme un tri qui catégorise et hiérarchise
+- Repérer la survie de la distinction « bons » / « mauvais » pauvres dans les pratiques actuelles
+- Situer le sans-abrisme belge et le modèle Housing First dans les cadres de la séance 5
+:::
+
+## Une nuit de novembre
+
+Un mercredi soir de novembre 2024, plus de trois cents travailleurs et bénévoles se déploient dans les rues de Bruxelles. Ils comptent. C'est le septième dénombrement des personnes sans chez-soi, organisé par Bruss'help. Le résultat tombe : 9 777 personnes sans abri ou mal logées dans la Région bruxelloise, soit une hausse de près de 25 % en deux ans. Près d'un millier dorment dehors. Le nombre de femmes sans logement est passé de 1 283 à 1 991 en deux ans, celui des mineurs de 977 à 1 678. Les causes pointées sont concrètes : la pauvreté qui monte, des hausses de loyer abusives qui jettent les gens dehors, l'arrêt de l'accès aux structures d'accueil pour les hommes seuls.
+
+Ce module prolonge la séance 5 en la portant sur ce terrain précis. Il pose un problème que vous rencontrerez de plein fouet : on affirme un droit inconditionnel à l'hébergement, et on manque de places. Quelqu'un doit donc trier. Ce sera vous.
+
+## Le principe d'inconditionnalité
+
+L'inconditionnalité de l'accueil pose que toute personne en détresse a droit à un hébergement, sans condition préalable. Pas de statut à prouver, pas de papiers à montrer, pas de « projet » à présenter, pas de sobriété à garantir. L'idée vise explicitement à abolir le tri moral, celui qui sépare le pauvre méritant du pauvre suspect. Elle prolonge la logique du droit subjectif rencontrée à la séance 5, celle du minimex de 1974 et de la dignité humaine inscrite dans la loi des CPAS de 1976.
+
+## La pénurie, et le tri qu'elle impose
+
+Dans les faits, les places manquent durablement. La contradiction retombe alors sur les épaules des travailleurs sociaux, qui doivent sélectionner tout en tenant un discours d'accueil pour tous. C'est intenable, et pourtant c'est le quotidien.
+
+Le tri porte un nom technique, le travail d'attribution. Il consiste à transformer des situations singulières en demandes classables. En commission, on reconstitue à partir d'informations partielles la « vraie » urgence de chacun. On mobilise des critères, souvent informels, qui priorisent certains profils, les familles avec enfants, les raisons médicales, et écartent d'autres jugés trop lourds, les troubles psychiatriques, les addictions, les comportements ingérables. Et l'on se dispute, entre services centralisateurs et structures d'accueil, sur qui décide d'admettre qui.
+
+## Le retour des « bons » et « mauvais » pauvres
+
+La séance 5 l'a montré avec Simmel et Paugam : l'aide ne se contente pas de secourir, elle assigne une place. Le travail d'attribution réactive cette logique sous un habit gestionnaire. Sous couvert de critères « objectifs » d'urgence ou de faisabilité, il reconduit un jugement moral. Le « bon » pauvre est celui qui coopère, formule une demande lisible, a un projet. Le « mauvais » pauvre est celui dont les ruptures et les troubles rendent l'accompagnement coûteux pour le service. On retrouve la gouvernementalité néolibérale de la séance 4 : l'accès au droit se conditionne, en pratique, à la capacité de jouer le bon rôle. Le poids croissant des critères médicaux dans la priorisation ajoute une médicalisation de la misère.
+
+## Housing First, ou inverser l'escalier
+
+Une réponse existe, et elle vaut la peine d'être connue parce qu'elle prend le contre-pied du tri. Le modèle classique fonctionne comme un escalier : on mérite un logement par étapes, en prouvant d'abord qu'on se soigne, qu'on se stabilise, qu'on est prêt. Housing First renverse l'ordre. On donne d'abord un logement stable, sans condition de traitement préalable, et l'accompagnement vient ensuite, à partir de cette base. La Belgique l'expérimente à Bruxelles et en Wallonie depuis les années 2010. Le pari est que la stabilité du logement est la condition du reste, pas sa récompense. C'est l'inconditionnalité prise au sérieux, contre la logique de l'escalier et du tri.
+
+## Pour la pratique
+
+Ce module rend visible une violence discrète : trier en disant accueillir. Le travail réflexif consiste à nommer cette contradiction plutôt qu'à la porter comme une faute personnelle. Quand vous refuserez une place faute de lit disponible, rappelez-vous que le tri n'est pas un défaut de l'accueil. C'est un effet de la pénurie, et la pénurie est une décision politique sur l'allocation des moyens, pas une fatalité. Nommer cela ne vous donnera pas de lit supplémentaire. Cela vous évitera de confondre une décision budgétaire avec votre propre échec.
+
+---
+
+## Questions d'examen — Module C5
+
+::: {.question-examen}
+**Question C5.A**
+
+Définissez l'inconditionnalité de l'accueil. En quoi entre-t-elle en contradiction avec la pénurie de places ? Comment les professionnels gèrent-ils cette contradiction ?
+
+*Références à mobiliser :* Damon (2002) ; Marpsat & Firdion (2000) ; Castel (1995).
+:::
+
+::: {.question-examen}
+**Question C5.B**
+
+Qu'est-ce que le « travail d'attribution » ? Montrez comment il reconduit la distinction entre « bons » et « mauvais » pauvres sous une forme gestionnaire.
+
+*Références à mobiliser :* Paugam (1991) ; Simmel (1908) ; Bresson (2007).
+:::
+
+::: {.question-examen}
+**Question C5.C**
+
+En quoi le modèle Housing First prend-il le contre-pied de la logique du tri ? Quels obstacles rencontre-t-il en Belgique ?
+
+*Références à mobiliser :* Castel (2003) ; Damon (2002) ; Marpsat & Firdion (2000).
+:::
+
+---
+
+## Références
+
+- Bresson, M. (2007). *Sociologie de la précarité*. Paris : Armand Colin.
+- Castel, R. (1995). *Les Métamorphoses de la question sociale*. Paris : Fayard.
+- Castel, R. (2003). *L'Insécurité sociale*. Paris : Seuil.
+- Damon, J. (2002). *La question SDF*. Paris : PUF.
+- Marpsat, M. & Firdion, J.-M. (dir.) (2000). *La rue et le foyer*. Paris : INED/PUF.
+- Paugam, S. (1991). *La Disqualification sociale*. Paris : PUF.
+- Simmel, G. (1908/1998). Le pauvre. Dans *Sociologie*. Paris : PUF.
+
+**Source des données**
+
+- Bruss'help, *7ᵉ dénombrement des personnes sans chez-soi en Région de Bruxelles-Capitale* (2024). [brusshelp.org](https://brusshelp.org/index.php/fr/missions/analyse/les-chiffres)

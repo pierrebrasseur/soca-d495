@@ -37,11 +37,16 @@ book:
       chapters:
         - seance-6.qmd
         - seance-7.qmd
+    - part: "Modules thématiques (annexes)"
+      chapters:
+        - module-c5.qmd
+        - module-c7.qmd
+        - module-c8.qmd
     - evaluation.qmd
     - references.qmd
 
 bibliography: references.bib
-csl: apa-fr.csl
+csl: apa.csl
 
 format:
   html:

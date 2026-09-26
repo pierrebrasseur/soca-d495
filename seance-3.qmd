@@ -5,151 +5,75 @@ title: "Séance 3 — Professionnalisation et légitimation (1920–1960)"
 ::: {.objectifs}
 **À l'issue de cette séance, vous devez être capables de :**
 
-- Situer la critique de Flexner (1915) dans l'histoire de la légitimation professionnelle et comprendre pourquoi elle a fonctionné comme un moteur
-- Distinguer les trois méthodes classiques (casework, group work, organisation communautaire), leurs présupposés théoriques respectifs, et leurs limites
-- Relier la professionnalisation belge à ses contextes propres : pilarisation, maternalisme, construction de l'État-providence
-- Identifier les tensions fondatrices qui traversent encore la profession aujourd'hui : entre ajustement individuel et transformation structurelle, entre autonomie professionnelle et logique de contrôle
+- Situer la critique de Flexner (1915) et expliquer pourquoi un constat d'échec a pu servir de moteur
+- Mobiliser les outils de la sociologie des professions (attributs, semi-profession, fermeture du marché, juridictions) sur le cas du travail social
+- Distinguer les méthodes classiques (casework, travail de groupe, organisation communautaire) et leurs présupposés
+- Repérer la dérive psychologisante du casework et savoir pourquoi elle pose un problème politique
 :::
 
-## Pourquoi étudier cette période ?
+## « Est-ce un vrai métier ? »
 
-L'histoire de la profession n'est pas rétrospective. Les débats que vous vivez en stage — sur la place du contrôle dans la relation d'aide, sur la tension entre accompagnement et activation, sur la légitimité à intervenir dans la vie privée des gens — ont été posés pour la première fois entre 1900 et 1960. Les réponses apportées alors ont façonné les institutions dans lesquelles vous travaillez, les catégories avec lesquelles vous pensez vos interventions, et les tensions que vous ressentez.
+La question vous suivra toute votre carrière. On vous la posera dans les dîners de famille, dans les couloirs de l'hôpital où le médecin passe avant vous, parfois dans votre propre tête un soir de doute. Le travail social a-t-il un savoir à lui, ou n'est-il qu'un mélange de bon sens, de dévouement et de débrouille ?
 
-Cette période est aussi celle d'un paradoxe : le travail social se construit en réaction à un constat d'échec (Flexner, 1915), et c'est précisément cet échec qui le force à se doter d'une identité propre.
+Cette inquiétude n'est pas nouvelle. Elle est même fondatrice. Le travail social s'est construit en réponse à une humiliation publique, et c'est précisément cette blessure qui l'a forcé à se doter d'une identité propre.
 
-## Le choc Flexner (1915) : un échec fondateur
+## Le choc Flexner
 
-### Le contexte
+En 1915, la Conférence nationale des œuvres de charité et de correction se tient à Baltimore. On y invite Abraham Flexner comme conférencier d'honneur. Flexner n'est pas travailleur social : c'est un réformateur de l'enseignement médical, l'homme dont le rapport de 1910 a refondé les facultés de médecine américaines. Devant une salle pleine de praticiens du social, il pose une question brutale en guise de titre : *Is Social Work a Profession?*
 
-En 1915, la Conférence nationale des Charités et des Corrections se tient à Baltimore. Abraham Flexner y est invité comme conférencier d'honneur. Il n'est pas travailleur social : c'est un réformateur de l'enseignement médical, auteur en 1910 d'un rapport qui a radicalement restructuré les facultés de médecine américaines. Sa conférence, intitulée *Is Social Work a Profession?*, s'appuie sur ce cadre de référence médical.
+Sa réponse tient à une grille. Pour Flexner, une vraie profession réunit six conditions : des opérations intellectuelles engageant la responsabilité du praticien, un savoir tiré de la science, un objectif pratique délimité, une technique transmissible, une organisation interne avec un contrôle d'accès, une visée altruiste. Le travail social coche plusieurs cases, mais rate la décisive. Il n'a pas de technique propre ni de champ délimité. Le travailleur social, dit Flexner, est un médiateur : sa fonction est d'orienter les gens vers d'autres experts. Il n'a pas d'« agence originale ».
 
-### Les six critères et le verdict
+Pourquoi ce verdict a-t-il fait si mal ? D'abord parce qu'il venait du bon endroit : la médecine était le modèle de toutes les professions en quête de respectabilité, et Flexner venait de la réformer. Ensuite parce qu'il touchait une corde sensible. Les « visiteuses amicales » des Charity Organization Societies savaient bien que leur travail reposait davantage sur la vertu morale que sur un savoir formalisé. Flexner a dit tout haut une fragilité ressentie tout bas.
 
-Pour Flexner, une profession au sens plein du terme doit réunir six conditions :
-
-1. Des opérations intellectuelles engageant la responsabilité individuelle du praticien
-2. Un savoir dérivé de la science et de l'apprentissage, pas seulement de l'expérience empirique
-3. Un objectif pratique bien défini et délimité
-4. Une technique transmissible et enseignable
-5. Une organisation interne : associations, codes de déontologie, contrôle d'accès à la profession
-6. Une motivation altruiste, c'est-à-dire une orientation vers le bien commun
-
-**Verdict :** Le travail social ne remplit pas le critère décisif. Il lui manque une technique propre et un champ d'application délimité. Le travailleur social n'est pas un expert : c'est un médiateur dont la fonction principale est d'orienter les individus en difficulté vers d'autres experts. Il n'a pas d'"agence originale".
-
-### Pourquoi ce verdict a eu tant d'effet
-
-D'abord, la médecine était à cette époque le modèle de référence de toutes les professions en voie de constitution. Flexner venait précisément de réformer la médecine américaine : son autorité était immense.
-
-Ensuite, le diagnostic touchait une insécurité réelle. Les "visiteuses amicales" et les agents des Charity Organization Societies savaient elles-mêmes que leur travail reposait davantage sur la vertu morale que sur un savoir formalisé. Flexner mettait des mots sur une fragilité déjà ressentie.
-
-Enfin, ce constat d'échec a fonctionné comme un programme. Il a rendu urgente la construction d'un savoir propre, d'écoles, de manuels, de méthodes.
-
-### Limites et critiques du cadre de Flexner
-
-Le modèle de Flexner est lui-même contestable. Il reproduit une hiérarchie entre les savoirs : le savoir scientifique formel serait supérieur au savoir pratique et expérientiel. Il ignore la dimension politique de la reconnaissance professionnelle : une profession ne se constitue pas seulement par la qualité de ses savoirs, mais par sa capacité à convaincre l'État et le public de lui déléguer un monopole d'intervention. Et il ignore la question du genre : en 1915, les praticiens du travail social sont très majoritairement des femmes, dans un contexte où le statut académique et professionnel des femmes est structurellement minoré.
+Et puis le constat d'échec s'est retourné en programme. Si le travail social manque d'un savoir propre, qu'à cela ne tienne : on va le construire. Des écoles, des manuels, des méthodes, des revues. La blessure de 1915 a déclenché trente ans de fabrication d'une profession.
 
 ::: {.callout-important}
-**Un coût non négligeable**
+**Le prix payé**
 
-La quête de scientificité post-Flexner a eu un coût : en voulant ressembler à la médecine, le travail social a parfois abandonné ses ambitions de réforme sociale pour se concentrer sur l'ajustement individuel. C'est une tension qui ne s'est jamais résolue.
+En voulant ressembler à la médecine, le travail social a parfois troqué son ambition de réforme sociale contre l'ajustement des individus. La quête de scientificité a un coût politique : à force de soigner des cas, on oublie d'interroger ce qui les produit. Cette tension ne s'est jamais refermée, et vous la retrouverez à chaque séance.
 :::
 
-## Mary Richmond et le casework : inventer le diagnostic social
+## La sociologie des professions
 
-### Le parcours de Richmond
+La question de Flexner, la sociologie l'a reprise tout au long du XXe siècle. Quatre réponses successives éclairent la position singulière du travail social, et chacune vous donne un outil utilisable en stage.
 
-Mary Richmond n'est pas une universitaire : elle vient du terrain. Entrée comme simple comptable à la Baltimore Charity Organization Society en 1889, elle en devient directrice générale, puis rejoint la Russell Sage Foundation à New York. Son itinéraire illustre la trajectoire de la professionnalisation : une praticienne qui, confrontée aux insuffisances de la pratique intuitive, décide de la formaliser.
+La première est le **modèle des attributs**. Dans les années 1950, on dresse la liste des traits d'une vraie profession : savoir abstrait, formation longue, déontologie, autonomie, association. Harold Wilensky (1964) en montre la limite avec un titre ironique, *The Professionalization of Everyone?* Si tout le monde réclame ces attributs, du plombier au cadre, le critère ne distingue plus rien. Le travail social y figure comme un cas inachevé, ni tout à fait profession, ni tout à fait métier.
 
-### La définition du casework et son enjeu théorique
+La deuxième réponse nomme cette position. Amitai Etzioni (1969) parle de **semi-profession** pour le travail social, l'enseignement et le soin infirmier : formation plus courte, savoir moins ésotérique, autonomie bridée par l'organisation qui emploie. Un détail change tout : ce sont des activités historiquement féminines, donc socialement minorées. La séance 6 reviendra sur ce nœud entre genre et reconnaissance.
 
-Richmond définit le service social des cas individuels comme "l'ensemble des processus qui développent la personnalité par des ajustements consciemment effectués, individu par individu, entre les personnes et leur environnement social".
+La troisième réponse renverse la question. Magali Larson (1977) cesse de chercher ce qu'une profession *possède* et regarde ce qu'elle *fait* : un projet collectif pour fermer un marché du travail, transformer une expertise en monopole, et en tirer des avantages. Le titre protégé d'assistant social, voté en Belgique en 1945, en est l'exemple net. Ce n'est pas une reconnaissance tombée du ciel : c'est une conquête.
 
-Cette définition opère deux ruptures simultanées. La première est épistémologique : on abandonne la lecture morale de la pauvreté pour une lecture relationnelle (la personne est en difficulté parce que le rapport entre elle et son environnement est désajusté). La deuxième est méthodologique : on substitue l'enquête systématique à l'intuition charitable.
+La quatrième réponse pense le mouvement. Andrew Abbott (1988) décrit les professions comme un système en concurrence permanente pour le contrôle de « juridictions », c'est-à-dire de domaines de problèmes. Le travail social est disputé en continu par ses voisins : psychologues, juristes, éducateurs, soignants se partagent et se reprennent des territoires. D'où son périmètre toujours mouvant. Eliot Freidson (2001) ajoute une idée que la séance 7 mettra à l'épreuve : le professionnalisme est une « troisième logique », distincte du marché et de la bureaucratie. C'est cette logique-là que la gestion managériale viendra écraser.
 
-### Le "cercle de Richmond" : six sources d'information
+En francophonie, Claude Dubar et Pierre Tripier (1998) rassemblent ces apports autour des identités professionnelles. La leçon, pour le cas belge, est libératrice : la « fragilité » du travail social n'est pas un défaut honteux à corriger. Elle découle d'un savoir partagé avec d'autres, d'une autonomie encadrée et de juridictions disputées. C'est la condition normale du métier, pas sa maladie.
 
-Richmond structure la collecte d'information autour de six sources, avec l'obligation de les croiser pour construire une image fidèle de la situation :
+## Le casework, ou la professionnalisation par la méthode
 
-| Source | Ce qu'elle apporte | Risques si ignorée |
-|---|---|---|
-| La personne elle-même | Récit subjectif, état physique et mental | Intervention paternaliste, déni de la parole |
-| Le ménage / la famille | Dynamiques internes, ressources partagées | Individualisation excessive |
-| Le voisinage et le réseau informel | Capital social, solidarités, isolement éventuel | Méconnaissance des ressources hors institution |
-| Les agences civiles | Écoles, employeurs, syndicats, associations | Vision partielle du rôle social de la personne |
-| Les agences privées | Associations, mutuelles, ASBL caritatives | Ignorance du tissu d'aide existant |
-| Les organismes publics | Tribunaux, hôpitaux, administrations | Déconnexion du cadre légal et des droits effectifs |
+Le parcours de Mary Richmond et le contexte d'émergence du casework relèvent de la séance 2. Ici, on regarde la méthode pour ce qu'elle est : un acte de professionnalisation.
 
-Ce qui est moderne dans cette approche : l'insistance sur les forces autant que sur les manques. Richmond ne demande pas seulement "de quoi cette personne a-t-elle besoin ?" mais "quelles ressources sont disponibles dans chacun de ces cercles ?" C'est ce qu'on appelle aujourd'hui une approche orientée vers les forces (*strengths-based approach*).
+Richmond définit le service social des cas comme un travail d'ajustement entre une personne et son milieu, mené individu par individu. Elle propose de croiser six sources d'information : la personne elle-même, son ménage, son voisinage, les institutions civiles, les associations privées, les organismes publics. L'idée moderne est là : ne pas regarder seulement les manques, mais aussi les ressources. On parlerait aujourd'hui d'approche par les forces.
 
-### La limite majeure : psychologisation et individualisation
+Le casework a pourtant connu une dérive lourde. Sous l'influence de la psychanalyse, dans les années 1930-1950, le diagnostic social a glissé vers le diagnostic psychologique. Les difficultés des personnes ont été lues comme des défauts intérieurs plutôt que comme des effets de structures. Barbara Wootton, dès 1959, a tiré la sonnette d'alarme : à force de psychologiser la pauvreté, on dédouane les institutions et on culpabilise les pauvres. Gardez ce point en tête, parce qu'il est encore d'actualité chaque fois qu'on explique un échec scolaire par la seule « personnalité » de l'enfant.
 
-Le casework a connu une dérive importante après Richmond, sous l'influence de la psychanalyse dans les années 1930–1950. Le "diagnostic social" a glissé vers un "diagnostic psychologique" : les difficultés des personnes ont été lues comme des déficits intrapsychiques plutôt que comme des effets de structures sociales. Cette psychologisation a eu pour conséquence politique de déresponsabiliser les institutions et de renforcer la culpabilisation des personnes aidées.
+## Trois méthodes, trois théories du changement
 
-Cette critique — formulée dès les années 1960 par Barbara Wootton (*Social Science and Social Pathology*, 1959) — reste un point de vigilance central.
+Le travail social s'est doté de trois grandes méthodes. Le casework agit sur l'individu et sa famille. Le travail de groupe agit par le collectif. L'organisation communautaire agit sur le territoire. Derrière chacune se cache une théorie du changement.
 
-## L'École de Chicago : la ville comme laboratoire social
+Grace Coyle théorise le travail de groupe dans les années 1930 en s'appuyant sur John Dewey. Pour elle, le groupe n'est pas un décor : c'est le lieu où se forme la personnalité démocratique. L'animateur ne dirige pas, il crée les conditions pour que le groupe trouve ses propres ressources.
 
-### L'écologie urbaine de Park et Burgess
+En Belgique, le travail de groupe prend une forme bien plus combative avec Joseph Cardijn. Né à Schaerbeek en 1882, vicaire à Laeken, Cardijn voit de près la dureté de la vie ouvrière. Dès 1912, il met au point une méthode qu'il rendra célèbre en fondant la Jeunesse ouvrière chrétienne en 1925 : Voir, Juger, Agir. *Voir*, c'est une enquête menée par les jeunes travailleurs eux-mêmes sur leurs conditions réelles, contre les statistiques abstraites. *Juger*, c'est analyser ces faits à la lumière de valeurs, et passer de la résignation à l'indignation. *Agir*, c'est transformer concrètement, collectivement. La méthode a une force qui se mesure : en 1939, à la veille de la guerre, la JOC est présente dans cinquante pays. Et elle irrigue plus tard la pédagogie de Paulo Freire, qui en laïcise et en radicalise la démarche.
 
-Dans les années 1920, le département de sociologie de l'Université de Chicago développe une approche originale. Son point de départ est emprunté à la biologie : comme les organismes vivants, les êtres humains entrent en compétition pour occuper un espace, et cette compétition structure la ville en zones différenciées.
+L'organisation communautaire, enfin, prolonge le mouvement des settlements. Saul Alinsky (*Rules for Radicals*, 1971) la pousse à son terme conflictuel : il ne s'agit pas d'harmonie sociale mais de redistribution du pouvoir, en confrontant directement ceux qui le détiennent. Notez au passage que cette version-là, frontale, est presque absente des formations européennes en travail social. Ce silence n'est pas neutre : on enseigne volontiers à accompagner, plus rarement à organiser un rapport de force.
 
-Cette "écologie urbaine" rompt avec les explications raciales ou morales de la criminalité et de la pauvreté. Ce n'est pas parce que les immigrants seraient intrinsèquement délinquants qu'ils concentrent les problèmes sociaux dans certains quartiers : c'est parce que ces quartiers, en raison de leur position dans la dynamique urbaine, attirent et fragilisent les populations les plus vulnérables.
+## La science comme caution
 
-### Le modèle des zones concentriques (Burgess, 1925)
+Tout ce mouvement de professionnalisation s'est appuyé sur les sciences sociales naissantes. L'École de Chicago, dont la séance 2 détaille l'écologie urbaine, a fourni au travail social ses méthodes empiriques et, surtout, une légitimité : la preuve qu'on pouvait intervenir sur du solide, des enquêtes et des monographies, plutôt que sur de la bonne volonté. C'est exactement ce que Flexner réclamait. Le travail social lui a répondu en allant chercher la science là où elle se faisait.
 
-| Zone | Nom | Caractéristiques sociales | Implications pour le travail social |
-|---|---|---|---|
-| I | Centre (the Loop) | Affaires, finance, pouvoir politique | Peu d'intervention sociale directe |
-| II | Zone de transition | Dégradation du bâti, immigrants récents, forte mobilité | Zone d'intervention prioritaire des settlement houses |
-| III | Zone ouvrière | Travailleurs établis, logements modestes | Travail de groupe, associations de quartier |
-| IV | Zone résidentielle | Classe moyenne, stabilité | Peu de besoins d'intervention |
-| V | Banlieue | Classes aisées, espaces verts | Absence quasi-totale d'intervention |
+## Pourquoi cela vous concerne
 
-### Transposition et limites en contexte belge
+On pourrait croire ces débats datés. Ils sont vivants. Quand on vous demandera de prouver l'« efficacité » de votre accompagnement par des indicateurs, vous rejouerez Flexner. Quand vous hésiterez entre soutenir une famille et la juger, vous rejouerez la dérive psychologisante dénoncée par Wootton. Quand vous choisirez d'accompagner un usager plutôt que d'organiser un collectif, vous trancherez sans le savoir le débat Coyle contre Alinsky.
 
-Trois limites méritent d'être signalées. La morphologie urbaine : les villes belges, plus anciennes et plus denses que Chicago, ne suivent pas la logique de zones concentriques. La logique de la pilarisation : en Belgique, l'appartenance idéologique structure l'espace social autant, sinon plus, que la position géographique. La question de la race : le modèle de Chicago a été développé dans un contexte américain marqué par l'immigration massive et la ségrégation raciale, ce que la transposition en Europe tend à ignorer.
-
-## Le travail de groupe : démocratie, émancipation et engagement
-
-### Grace Coyle et le group work américain
-
-Grace Coyle théorise le travail social de groupe dans les années 1930 en s'appuyant sur le pragmatisme de John Dewey, pour qui la démocratie n'est pas d'abord un régime politique mais une forme de vie sociale apprise et pratiquée.
-
-Pour Coyle, le groupe n'est pas un prétexte ou un cadre neutre : c'est le lieu où se forme la personnalité démocratique. Le travailleur social y joue un rôle de facilitateur (*group builder*) : il ne dirige pas, il crée les conditions pour que le groupe trouve lui-même ses ressources.
-
-### Joseph Cardijn et la JOC : une version belge radicalement différente
-
-En Belgique, le travail de groupe prend une forme unique avec la [Jeunesse Ouvrière Chrétienne (JOC)](https://joc.be), fondée par Joseph Cardijn au début des années 1920. La JOC naît d'un constat : la classe ouvrière est en train de perdre dignité et appartenance. Cardijn refuse les réponses descendantes (catéchisme, charité, morale) pour inventer une méthode inductive qui part de l'expérience concrète des jeunes travailleurs.
-
-**La méthode Voir–Juger–Agir fonctionne en trois temps :**
-
-- *Voir* : une enquête menée par les jeunes eux-mêmes sur leurs conditions réelles de vie et de travail. L'enquête refuse les statistiques abstraites pour se confronter au réel vécu. Elle produit une prise de conscience par le fait, pas par le discours.
-- *Juger* : le groupe analyse ces faits à la lumière de valeurs. C'est le moment de la conscientisation : les jeunes passent de la résignation ("c'est comme ça") à l'indignation ("ce n'est pas acceptable").
-- *Agir* : la réflexion doit déboucher sur une transformation concrète. L'action est collective et vise à redonner aux travailleurs le pouvoir sur leur propre milieu.
-
-::: {.callout-note}
-**Portée internationale de la méthode Cardijn**
-
-Cette méthode a essaimé dans des dizaines de pays via la JOCI (Jeunesse Ouvrière Chrétienne Internationale). Elle est à la racine de la pédagogie de Paulo Freire (*Pédagogie des opprimés*, 1968), qui en a laïcisé et radicalisé la démarche.
-:::
-
-### Comparaison des deux approches
-
-| Dimension | JOC (Cardijn) | Group work (Coyle) |
-|---|---|---|
-| Ancrage idéologique | Catholicisme social, émancipation ouvrière | Laïcité, pragmatisme démocratique (Dewey) |
-| Public cible | Jeunes travailleurs de la classe ouvrière | Groupes urbains divers, immigrants, jeunes |
-| Objectif principal | Transformation sociale et dignité humaine | Développement de la personnalité et citoyenneté |
-| Théorie du changement | Conscientisation → action collective | Apprentissage par le groupe → intégration démocratique |
-| Rôle de l'animateur | Militant engagé, proche du groupe | Facilitateur professionnel formé, position distanciée |
-
-## L'organisation communautaire : mobiliser les territoires
-
-### Du settlement movement à l'organisation communautaire
-
-L'organisation communautaire (*community organization*) se développe dans le sillage du mouvement des settlements et de l'École de Chicago. Son principe : résoudre les problèmes sociaux non pas individu par individu, mais en mobilisant les ressources collectives d'un territoire — associations, institutions, habitants, élus locaux.
-
-Saul Alinsky (*Rules for Radicals*, 1971) radicalise cette approche. Pour lui, les organisations communautaires doivent confronter directement les structures de pouvoir. L'objectif n'est pas l'harmonie sociale, mais la redistribution du pouvoir. Cette version conflictuelle de l'organisation communautaire est largement ignorée dans les formations initiales en travail social européen — ce qui n'est pas sans signification politique.
+Connaître cette histoire ne vous donnera pas de réponse toute faite. Elle vous donnera quelque chose de mieux : la conscience que vos dilemmes quotidiens ne sont pas des ratés personnels, mais des tensions installées dans le métier depuis un siècle.
 
 ---
 
@@ -158,7 +82,7 @@ Saul Alinsky (*Rules for Radicals*, 1971) radicalise cette approche. Pour lui, l
 ::: {.question-examen}
 **Question 3.A**
 
-Présentez les six critères de Flexner (1915) et son verdict sur le travail social. En quoi ce constat d'échec a-t-il fonctionné comme un moteur de professionnalisation ? Quelles limites du cadre de Flexner sont-elles importantes pour comprendre le travail social belge ?
+Présentez les six critères de Flexner (1915) et son verdict sur le travail social. En quoi ce constat d'échec a-t-il fonctionné comme un moteur de professionnalisation ?
 
 *Références à mobiliser :* Flexner (1915) ; Richmond (1917) ; Hughes (1958) ; Dubar & Tripier (1998).
 :::
@@ -166,7 +90,7 @@ Présentez les six critères de Flexner (1915) et son verdict sur le travail soc
 ::: {.question-examen}
 **Question 3.B**
 
-Présentez le "cercle de Richmond" et ses six sources d'information. Pourquoi cette approche représente-t-elle une rupture avec la charité ? Quelle est la limite majeure du casework soulevée par la critique de Barbara Wootton ?
+Présentez le « cercle de Richmond » et ses six sources d'information. En quoi rompt-il avec la charité ? Quelle limite majeure du casework la critique de Wootton met-elle au jour ?
 
 *Références à mobiliser :* Richmond (1917) ; Wootton (1959) ; Coyle (1947).
 :::
@@ -174,7 +98,7 @@ Présentez le "cercle de Richmond" et ses six sources d'information. Pourquoi ce
 ::: {.question-examen}
 **Question 3.C**
 
-Comparez la méthode Voir–Juger–Agir (Cardijn/JOC) et le group work américain (Coyle). Quelles sont leurs différences fondamentales ? En quoi la JOC anticipe-t-elle les thèses de Paulo Freire ?
+Comparez la méthode Voir-Juger-Agir (Cardijn) et le travail de groupe américain (Coyle). Quelles sont leurs différences ? En quoi la JOC anticipe-t-elle Paulo Freire ?
 
 *Références à mobiliser :* Coyle (1947) ; Freire (1968/1974) ; Dubar & Tripier (1998).
 :::
@@ -182,15 +106,15 @@ Comparez la méthode Voir–Juger–Agir (Cardijn/JOC) et le group work américa
 ::: {.question-examen}
 **Question 3.D**
 
-Expliquez l'écologie urbaine de Park et Burgess (École de Chicago). Quels problèmes pose sa transposition en contexte belge ?
+Le travail social est-il une « semi-profession » (Etzioni) ? Mobilisez le modèle des attributs (Wilensky), la fermeture du marché (Larson) et les luttes de juridiction (Abbott) pour en discuter dans le cas belge.
 
-*Références à mobiliser :* Park & Burgess (1925) ; Dubar & Tripier (1998).
+*Références à mobiliser :* Wilensky (1964) ; Etzioni (1969) ; Larson (1977) ; Abbott (1988) ; Dubar & Tripier (1998).
 :::
 
 ::: {.question-examen}
 **Question 3.E**
 
-Pourquoi la professionnalisation du travail social a-t-elle impliqué une "psychologisation" des problèmes sociaux dans les années 1930–1950 ? Quels effets politiques cela a-t-il eus ? Comment y remédier aujourd'hui ?
+Pourquoi la professionnalisation du travail social a-t-elle entraîné une psychologisation des problèmes sociaux dans les années 1930-1950 ? Quels effets politiques cela a-t-il eus ? Comment y résister aujourd'hui ?
 
 *Références à mobiliser :* Richmond (1917) ; Wootton (1959) ; Castel (1995) ; Dominelli (2002).
 :::
@@ -199,11 +123,22 @@ Pourquoi la professionnalisation du travail social a-t-elle impliqué une "psych
 
 ## Références
 
+- Abbott, A. (1988). *The System of Professions*. Chicago : University of Chicago Press.
 - Alinsky, S. (1971). *Rules for Radicals*. New York : Random House.
 - Coyle, G. (1947). *Group Experience and Democratic Values*. New York : Woman's Press.
-- Dubar, C. & Tripier, P. (1998). *Sociologies des professions*. Paris : Armand Colin.
+- Dubar, C. & Tripier, P. (1998). *Sociologie des professions*. Paris : Armand Colin.
+- Etzioni, A. (dir.) (1969). *The Semi-Professions and Their Organization*. New York : Free Press.
 - Flexner, A. (1915). Is Social Work a Profession? *Studies in Social Work*, 4, 1–26.
-- Freire, P. (1968/1974). *Pédagogie des opprimés*. Maspero.
-- Park, R. & Burgess, E. (1925). *The City*. Chicago : University of Chicago Press.
+- Freire, P. (1968/1974). *Pédagogie des opprimés*. Paris : Maspero.
+- Freidson, E. (2001). *Professionalism: The Third Logic*. Cambridge : Polity Press.
+- Larson, M. S. (1977). *The Rise of Professionalism*. Berkeley : University of California Press.
 - Richmond, M. E. (1917). *Social Diagnosis*. New York : Russell Sage Foundation.
+- Wilensky, H. L. (1964). The Professionalization of Everyone? *American Journal of Sociology*, 70(2), 137–158.
 - Wootton, B. (1959). *Social Science and Social Pathology*. Londres : Allen & Unwin.
+
+**Lectures complémentaires**
+
+- Champy, F. (2009). *La sociologie des professions*. Paris : PUF.
+- Demazière, D. & Gadéa, C. (dir.) (2009). *Sociologie des groupes professionnels*. Paris : La Découverte.
+- Hughes, E. C. (1958). *Men and Their Work*. Glencoe : Free Press.
+- Vézinat, N. (2016). *Sociologie des groupes professionnels*. Paris : Armand Colin.

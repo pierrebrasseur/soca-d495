@@ -5,163 +5,87 @@ title: "Séance 4 — La mutation du contrôle social en Belgique (1970–2000)"
 ::: {.objectifs}
 **À l'issue de cette séance, vous devez être capables de :**
 
-- Maîtriser les trois concepts clés : technologie de pouvoir, gouvernementalité, sédimentation des pouvoirs
-- Analyser l'architecture panoptique belge (Ducpétiaux, prisons de Saint-Gilles et Forest)
-- Articuler Foucault, Donzelot et la criminologie critique belge (van Outrive, Cartuyvels)
-- Comprendre le passage de la société disciplinaire aux sociétés de contrôle (Deleuze)
-- Situer l'État social actif belge (1999–2002) dans cette trajectoire
+- Maîtriser trois concepts : technologie de pouvoir, gouvernementalité, sédimentation
+- Lire l'architecture carcérale belge (Ducpétiaux, Saint-Gilles, Forest) comme un fait social présent
+- Articuler Foucault, Donzelot et la criminologie critique belge
+- Comprendre le passage de la société disciplinaire à la société de contrôle, et ce qu'il fait au travail social
 :::
 
-## Introduction : pourquoi cette période, pourquoi la Belgique
+## Deux scènes
 
-La Belgique n'est pas un pays comme les autres pour étudier ces questions. C'est un laboratoire précoce du modèle disciplinaire (Ducpétiaux et le système cellulaire dès 1830), un terrain d'application intense du dispositif tutélaire (loi de 1965 sur la protection de la jeunesse), un lieu d'émergence d'une criminologie critique originale (van Outrive, Cartuyvels), et l'un des premiers pays européens à développer la justice restauratrice (Walgrave, médiation pénale 1994).
+Lisez-les lentement, sans commenter d'abord.
 
-**La thèse centrale du cours :** Le contrôle social en Belgique entre 1970 et 2000 ne suit pas une trajectoire linéaire de progrès. C'est une sédimentation : des technologies de pouvoir successives s'accumulent, se combinent, se redéploient, sans jamais complètement disparaître.
+1975. Un homme est condamné pour vol avec violence. Prison de Saint-Gilles, trois ans. Cellule individuelle, régime strict, travail imposé, pas de visite les premiers mois. La logique est simple : l'isolement corrige, la prison redresse.
 
-## Les outils conceptuels : trois notions à maîtriser
+2000. Un jeune de dix-huit ans, même infraction. Médiation pénale. Il rencontre sa victime, signe un accord de réparation, s'engage dans un projet d'insertion. Un travailleur social suit sa trajectoire pendant un an. La logique a changé : la réparation restaure, l'individu se prend en charge.
 
-### Technologie de pouvoir (Foucault)
+On serait tenté d'y voir un progrès, le passage d'une justice brutale à une justice humaine. C'est une erreur. Ce ne sont pas deux moments d'une même histoire. Ce sont deux manières de gouverner les conduites, deux idées de ce qu'est un individu déviant et de ce que l'État doit en faire. Et surtout, la seconde n'a pas remplacé la première. Aujourd'hui, les deux coexistent, et elles visent souvent les mêmes personnes.
 
-Une technologie de pouvoir, ce n'est pas simplement une loi ou une institution. C'est un ensemble cohérent de procédures, de savoirs, d'architectures et de pratiques qui produisent des effets sur les corps et les conduites.
+## La thèse : une sédimentation, pas une ligne droite
 
-La prison est une technologie. Mais l'entretien d'évaluation au CPAS aussi. Le dossier scolaire aussi. Le bracelet électronique aussi. Ce qui les unit : ce sont des dispositifs pensés pour observer, classer, normaliser des individus.
+Voici l'idée que tient toute la séance. Le contrôle social en Belgique entre 1970 et 2000 ne suit pas une trajectoire de progrès. Les technologies de pouvoir ne se remplacent pas proprement les unes les autres. Elles s'accumulent, se combinent, se redéploient, et aucune ne disparaît vraiment.
 
-### Gouvernementalité (Foucault)
+La preuve est sous nos yeux, et elle est béton armé. La prison de Saint-Gilles, inaugurée en 1884, fonctionne encore. Celle de Forest, ouverte en 1910, aussi. En décembre 2025, les prisons belges comptaient 13 397 détenus pour 10 795 places, soit un taux d'occupation de 124 %. En avril 2026, 763 personnes dormaient à même le sol. La population carcérale a bondi de 21 % entre 2023 et 2025. La couche disciplinaire du XIXe siècle n'est pas un souvenir : c'est un bâtiment où l'on dort par terre en 2026.
 
-Foucault introduit ce terme dans ses cours au Collège de France (1977–1979) pour désigner la manière dont l'État "conduit les conduites" des individus. Pas seulement par la contrainte directe, mais en structurant le champ des possibles.
+## Trois concepts à poser d'abord
 
-**La gouvernementalité néolibérale en particulier** opère en faisant de l'individu le gestionnaire de lui-même. L'État ne dit plus "fais ceci". Il dit "tu es libre : mais responsable de tout ce qui t'arrive".
+**Une technologie de pouvoir**, au sens de Foucault, n'est pas seulement une loi ou une institution. C'est un ensemble cohérent de procédures, de savoirs, d'architectures et de pratiques qui produisent des effets sur les corps et les conduites. La cellule panoptique en est une. Mais l'entretien d'évaluation au CPAS aussi. Et le dossier scolaire. Et le bracelet électronique. Quatre objets très différents, une même logique : observer, classer, normaliser.
 
-### Sédimentation des pouvoirs
+**La gouvernementalité** désigne la manière dont l'État conduit les conduites, pas seulement par la contrainte directe, mais en structurant le champ des possibles. La gouvernementalité néolibérale a sa signature : elle fait de l'individu le gestionnaire de lui-même. L'État ne dit plus « fais ceci ». Il dit « tu es libre, et responsable de tout ce qui t'arrive ».
 
-Les technologies de pouvoir ne se remplacent pas proprement les unes les autres. Elles s'accumulent. En 2000, la Belgique a encore des prisons du XIXe siècle, un travail social modelé par les années 1960, et un État social actif d'inspiration néolibérale. Ces trois couches coexistent et ciblent souvent les mêmes personnes.
+**La sédimentation** est la thèse du cours. En 2000, la Belgique a encore des prisons du XIXe siècle, un travail social façonné par les années 1960 et un État social actif d'inspiration néolibérale. Ces trois couches se superposent, et elles tombent souvent sur les mêmes têtes : le même jeune homme pauvre et issu de l'immigration peut être suivi par un assistant de justice, inscrit dans un parcours d'insertion au CPAS, et menacé d'internement si on le juge dangereux.
 
 ## Le socle disciplinaire
 
-### Foucault, *Surveiller et punir* (1975) : lire la prison autrement
+En 1975, Michel Foucault publie *Surveiller et punir*. Le livre démonte un récit confortable. On croyait que la prison moderne était un progrès humaniste sur les supplices de l'Ancien Régime. Foucault répond que c'est une mystification. La prison n'est pas moins violente que le supplice : elle l'est autrement. Le supplice s'adressait au corps, en public, pour affirmer la puissance du roi. La prison vise l'âme, en silence, et elle produit un savoir sur l'individu, des dossiers, des expertises, des fiches, qui alimente une normalisation bien plus fine que le bûcher.
 
-En 1975, Michel Foucault publie [*Surveiller et punir. Naissance de la prison*](https://fr.wikipedia.org/wiki/Surveiller_et_punir). Ce livre opère une rupture dans la manière de penser la pénalité.
+Foucault appelle panoptique cette architecture où une tour centrale surveille des cellules sans que le détenu sache jamais s'il est observé. À force de pouvoir l'être, il se surveille lui-même. C'est l'efficacité ultime du pouvoir disciplinaire : il n'a plus besoin de s'exercer pour fonctionner.
 
-**La thèse courante avant Foucault :** la prison moderne représente un progrès humaniste sur les supplices de l'Ancien Régime.
-
-**La thèse de Foucault :** Ce récit est une mystification. La prison n'est pas moins violente que le supplice : elle est différemment violente. Elle vise l'âme, les habitudes, les conduites. Et elle produit un savoir sur l'individu (dossiers, expertises, fiches cliniques) qui alimente des mécanismes de normalisation bien plus fins.
-
-::: {.callout-note}
-**Deux concepts indissociables**
-
-*Pouvoir disciplinaire :* un pouvoir qui s'exerce sur les corps individuels, les observe, les classe, les entraîne, les normalise. Son espace de référence : le temps réglé (emploi du temps, horaires), l'espace découpé (la cellule, l'atelier, la classe scolaire), l'examen continu.
-
-*Pouvoir-savoir :* la discipline produit des connaissances sur les individus, et ces connaissances légitiment et affinent en retour les mécanismes de contrôle. La criminologie, la psychiatrie légale, la psychologie clinique sont des "disciplines" au double sens du terme.
-:::
-
-### Le panopticon et l'architecture belge
-
-Le modèle architectural de Foucault est le [panopticon de Bentham](https://fr.wikipedia.org/wiki/Panoptique) : une tour centrale d'observation entourée de cellules. Chaque détenu sait qu'il peut être observé à tout moment, mais ne sait jamais quand il l'est. C'est l'efficacité du pouvoir disciplinaire : il n'a pas besoin d'être exercé en permanence pour être intériorisé.
-
-En Belgique, Édouard Ducpétiaux (1804–1868), philanthrope et réformateur pénitentiaire, importe et adapte ce modèle. Les prisons de [Saint-Gilles (1884)](https://fr.wikipedia.org/wiki/Prison_de_Saint-Gilles) et de [Forest (1910)](https://fr.wikipedia.org/wiki/Prison_de_Forest_(Bruxelles)) sont construites selon ce principe radial.
+La Belgique a été un laboratoire de ce modèle. Édouard Ducpétiaux, inspecteur général des prisons de 1830 à 1861, importe le système cellulaire et le pousse à son terme. Saint-Gilles, Forest, Louvain, Gand : ces prisons en étoile comptent parmi les réalisations panoptiques les plus complètes d'Europe. Qu'elles fonctionnent toujours, en surpopulation chronique, dit tout de la sédimentation. Le pari du XIXe siècle sur l'isolement correcteur a échoué statistiquement depuis longtemps. Le bâtiment, lui, tient.
 
 ## Le dispositif tutélaire
 
-### Donzelot : *La Police des familles* (1977)
+Jacques Donzelot, dans *La Police des familles* (1977), déplace le regard de la prison vers la famille. « Police » n'a rien de répressif ici : c'est le vieux sens, l'organisation du bon ordre. Sa thèse dérange et vous concerne directement : un ensemble d'institutions, médecine, école, justice, travail social, s'est mis à surveiller et à normaliser la famille populaire sous couvert de l'aider. Le travailleur social n'est pas extérieur à ce dispositif. Il en est un agent de terrain.
 
-Jacques Donzelot montre comment, à partir du XIXe siècle, un ensemble d'institutions — médecine, école, travail social, justice — s'est mis à surveiller et à normaliser la famille populaire. Ce n'est pas une police au sens répressif du terme : c'est une police au sens de gouvernement et de régulation.
-
-**La thèse centrale :** le travail social n'est pas seulement un dispositif d'aide, c'est aussi un dispositif de surveillance des classes populaires.
-
-### La loi belge de 1965 sur la protection de la jeunesse
-
-[La loi du 8 avril 1965](https://www.ejustice.just.fgov.be) incarne le "complexe tutélaire" à la belge. Elle instaure un juge de la jeunesse à compétence élargie et place le travailleur social dans une relation ambiguë : aide et contrôle s'y confondent. Cette loi a été réformée en profondeur par le décret du 18 janvier 2018 en Communauté française (LPPE - Loi relative à la protection de la jeunesse).
+La Belgique en offre un exemple net avec la loi du 8 avril 1965 sur la protection de la jeunesse. Elle remplace la logique de la faute par celle du danger : on n'attend plus qu'un acte soit commis, on intervient de façon préventive dans les familles jugées inadaptées. Le juge de la jeunesse y dispose d'un pouvoir d'appréciation très large. Les recherches sur les dossiers montrent que les familles concernées sont massivement monoparentales, pauvres, peu diplômées, et de plus en plus issues de l'immigration. Le critère du « milieu inadapté » fonctionne comme un filtre de classe, même si aucun texte ne l'écrit. Cette loi a été refondue par le décret du 18 janvier 2018 en Communauté française (le Code de la prévention, de l'aide à la jeunesse et de la protection de la jeunesse), mais la tension entre aide et contrôle, elle, n'a pas bougé.
 
 ## La criminologie critique belge
 
-### Un déplacement d'objet fondamental
+À partir des années 1970, des chercheurs cessent de demander « pourquoi cet individu devient-il délinquant ? » pour poser une autre question : « pourquoi cet acte est-il criminalisé, et pourquoi cet individu plutôt qu'un autre ? » L'objet d'étude n'est plus le délinquant, c'est le processus qui fabrique la déviance, par le droit, la police, les médias.
 
-La criminologie classique cherche les causes du crime dans les caractéristiques des individus. La criminologie critique opère un déplacement d'objet fondamental : elle ne demande pas "pourquoi cet individu commet-il des actes criminels ?" mais "pourquoi cet acte est-il criminalisé, et pourquoi cet individu plutôt qu'un autre ?"
-
-L'objet d'étude n'est plus le délinquant : c'est le processus de criminalisation — la construction sociale de la déviance par le droit pénal, la police, la justice, les médias.
-
-### L'école belge : figures et institutions
-
-**Lode van Outrive** (KUL) produit des recherches empiriques sur le système pénitentiaire belge. Ses travaux démontrent que la prison concentre massivement les pauvres, les peu diplômés, les étrangers.
-
-**Yves Cartuyvels** (Facultés Saint-Louis, Bruxelles) apporte une perspective théorique large sur les transformations de la pénalité et les liens entre État social et État pénal.
-
-La revue *Déviance et Société*, fondée en 1977, est l'organe de cette démarche.
+L'école belge est solide. Lode van Outrive, à Louvain, documente la population carcérale et montre qu'elle concentre les pauvres, les peu diplômés, les étrangers. Yves Cartuyvels, à Saint-Louis, analyse les liens entre État social et État pénal. La revue *Déviance et Société*, fondée en 1977, leur sert d'organe commun avec les chercheurs français.
 
 ::: {.callout-warning}
-**À retenir : le piège du welfarisme pénal**
+**Le piège du welfarisme pénal**
 
-Le "welfarisme pénal" désigne l'idéologie selon laquelle la justice pénale est là pour soigner, réinsérer, réhabiliter les délinquants. La critique est double : il a considérablement étendu le champ d'intervention de l'État sous couvert d'aide. Et il a dépolitisé la question criminelle en la médicalisant, effaçant les causes sociales et économiques de la déviance.
-
-Il ne faut pas simplement "ajouter du social" à la prison. Si ce "social" sert à étendre la surveillance et à dépolitiser les inégalités, il aggrave le problème.
+Le welfarisme pénal est l'idée que la justice est là pour soigner et réhabiliter. La critique est double. D'abord, sous couvert d'aide, il a étendu le champ d'intervention de l'État : davantage de personnes sous contrôle, pas moins. Ensuite, il a dépolitisé la question en la médicalisant, effaçant les causes sociales de la déviance. La leçon pour vous est inconfortable : ajouter du « social » à la prison ne suffit pas. Si ce social sert à surveiller plus et à expliquer moins, il aggrave le problème.
 :::
 
 ## La mutation néolibérale
 
-### Deleuze : des sociétés disciplinaires aux sociétés de contrôle (1990)
+En 1990, Gilles Deleuze prolonge Foucault d'un texte de quatre pages, le « Post-scriptum sur les sociétés de contrôle ». La société disciplinaire enfermait l'individu dans des espaces successifs : la famille, l'école, la caserne, l'usine, parfois la prison. On en sortait pour entrer dans le suivant. La société de contrôle ne fonctionne plus par enfermement mais par modulation continue, en milieu ouvert. On ne « finit » plus rien : la formation est permanente, l'évaluation aussi. La discipline coulait les individus dans des moules ; le contrôle les fait passer par des tamis.
 
-En 1990, Gilles Deleuze publie "Post-scriptum sur les sociétés de contrôle" (*L'Autre journal*, 1). Il prolonge Foucault tout en le dépassant.
+Le bracelet électronique illustre ce basculement. La Belgique l'autorise en 1998. On ne prive plus l'individu de sa liberté physique : on trace ses déplacements en temps réel, on lui assigne des plages de présence à domicile, et la moindre anomalie déclenche une alerte. Ce n'est pas plus doux que la prison. C'est un contrôle qui entre dans le foyer et y reste. En Fédération Wallonie-Bruxelles, on comptait 4 398 activations de surveillance électronique pour la seule année 2023.
 
-**La société disciplinaire** fonctionne par enclavement : l'individu passe successivement dans des espaces fermés — la famille, l'école, la caserne, l'usine, éventuellement la prison.
+Et voici l'illustration qui relie cette séance à la suivante. Les personnes placées sous surveillance électronique n'ont, dans bien des cas, pas droit au revenu d'intégration sociale, au motif qu'elles ne sont pas « disponibles sur le marché de l'emploi ». On les surveille comme des condamnées et on les prive comme des assistées. Le contrôle pénal et le retrait des droits sociaux se rejoignent sur les mêmes personnes. Vous croiserez ces dossiers.
 
-**La société de contrôle** fonctionne différemment. Les espaces ne sont plus clos. Le contrôle est continu, modulable, exercé en milieu ouvert. La métaphore de Deleuze : la discipline utilise des "moules" (solides), le contrôle utilise des "tamis" (modulants).
+Derrière ce basculement, il y a une rationalité que Foucault analyse dans ses cours de 1978-1979 sur la biopolitique : la gouvernementalité néolibérale. L'État n'ordonne plus, il incite. Il pousse chacun à se comporter en entrepreneur de lui-même, à gérer son « capital humain », à maximiser son employabilité. En Belgique, cette mutation porte un nom et une date : l'État social actif, lancé en 1999 sous les gouvernements Verhofstadt, dont Frank Vandenbroucke est l'architecte. La loi du 26 mai 2002 remplace le minimex par le revenu d'intégration, assorti d'un projet individualisé que le bénéficiaire doit signer et tenir. L'agent du CPAS ne distribue plus un droit : il évalue une volonté d'activation.
 
-Le bracelet électronique se développe en Belgique à la fin des années 1990. On ne prive plus l'individu de liberté physique : on trace ses déplacements en temps réel. Prolongement contemporain : les algorithmes de scoring des dossiers au CPAS, les applications de suivi des demandeurs d'emploi.
+## Punir les pauvres
 
-### La gouvernementalité néolibérale : l'entrepreneur de soi
+Loïc Wacquant, dans *Les Prisons de la misère* (1999), tire le fil. Le néolibéralisme n'est pas un retrait de l'État, c'est son redéploiement. L'État se retire de la régulation économique et de la protection sociale, et simultanément il muscle son volet pénal. Il devient aveugle aux inégalités que le marché produit et hypervigilant aux désordres que ces inégalités génèrent. Wacquant nomme ce couple le workfare et le prisonfare : on conditionne l'aide à l'acceptation de n'importe quel emploi, et on stocke en prison ceux que cette mise au travail recrache. La surpopulation carcérale belge, qui place le pays aux côtés de la France et de la Turquie, n'est pas un accident de gestion. C'est une politique.
 
-Foucault, dans ses cours de 1978–1979 (*Naissance de la biopolitique*), analyse la "gouvernementalité néolibérale". Ce n'est pas simplement un programme économique. C'est une rationalité de gouvernement qui reconfigure entièrement le rapport entre État et individu : l'État incite les individus à se comporter en entrepreneurs d'eux-mêmes, à gérer leur "capital humain", à maximiser leur employabilité.
+## Réparer ou élargir le filet ?
 
-### L'État social actif en Belgique
+La Belgique introduit la médiation pénale en 1994, parmi les premières en Europe. L'idée séduit : le crime n'est pas qu'une offense à la loi abstraite, c'est un tort fait à une victime réelle, qu'on peut réparer. Mais Yves Cartuyvels et Philippe Mary (*L'État face à l'insécurité*, 2002) repèrent l'ambiguïté. La justice restauratrice se présente comme une alternative à la prison, et elle s'inscrit en même temps dans la gouvernementalité néolibérale : elle responsabilise individuellement, elle valorise la flexibilité. Surtout, elle élargit le filet. Des personnes qu'on n'aurait pas poursuivies dans l'ancien système se retrouvent prises dans une procédure de médiation. Christophe Mincke (2005) y voit une technique de la proximité : on demande à l'auteur d'exprimer ses remords, de reconnaître le préjudice. On retrouve l'aveu que Foucault analysait, le contrôle qui passe désormais par la subjectivité.
 
-En Belgique, cette mutation est portée par les gouvernements Verhofstadt à partir de 1999, avec le ministre Frank Vandenbroucke comme principal architecte de ce qu'il appelle lui-même l'"État social actif". La référence théorique explicite est Anthony Giddens et la "troisième voie" blairiste.
+Une dernière couche, souvent oubliée : l'internement. La loi de défense sociale enferme sur le critère de la dangerosité, non de la faute, pour une durée indéterminée. L'établissement de Paifve, en théorie thérapeutique, reste pointé pour son régime avant tout carcéral. Soigner ou punir : la frontière y est floue à dessein. C'est l'exemple belge le plus net de la thèse de Foucault, le soin comme forme de contrôle.
 
-| | État-providence (avant 1980) | État social actif (après 1999) |
-|---|---|---|
-| Philosophie | Couverture des risques | Investissement dans le capital humain |
-| Bénéficiaire | Travailleur protégé | Entrepreneur de soi |
-| Conditionnalité | Droit social universel | Aide liée à un projet d'insertion |
-| Objectif | Équité et protection | Employabilité et flexibilité |
+## Synthèse : trois sujets, inégalement répartis
 
-## Punir les pauvres — Wacquant (1999)
+Au bout du parcours, le contrôle social belge ne ressemble pas à une succession de modèles qui s'annulent. Il empile trois couches qui produisent trois figures de sujet. La couche disciplinaire fabrique le corps docile, entraîné et classé. Le dispositif tutélaire fabrique le sujet à risque, suivi pour son propre bien. La gouvernementalité néolibérale fabrique l'entrepreneur de soi, libre en apparence et responsable de ses échecs.
 
-### La thèse : redéploiement, pas retrait
-
-Loïc Wacquant publie *Les Prisons de la misère* en 1999. Sa thèse est en rupture avec les discours néolibéraux standard : le néolibéralisme n'est pas un retrait de l'État. C'est un redéploiement de l'État.
-
-L'État se retire de la régulation économique et de la protection sociale. Mais simultanément, il étend et renforce son volet pénal. L'État devient "aveugle et sourd" face aux inégalités économiques produites par le marché, et "voyant et agile" face aux désordres publics que ces inégalités génèrent.
-
-### Le couple workfare / prisonfare
-
-**Le workfare :** les politiques de mise au travail forcée. On conditionne l'aide sociale à l'acceptation de n'importe quel emploi. L'objectif n'est pas réellement l'insertion professionnelle dans de bonnes conditions : c'est la discipline des corps et la pression à la baisse sur les salaires.
-
-**Le prisonfare :** l'expansion de la population carcérale comme mode de gestion des exclus. La prison ne ressocialise pas : elle "stocke" les individus qui ont échoué dans le workfare.
-
-En Belgique, la surpopulation carcérale est un problème structurel dès les années 1990.
-
-## Justice restauratrice : alternative ou extension du filet ?
-
-### Le mouvement pour la justice restauratrice
-
-La thèse fondatrice : le crime n'est pas principalement une offense à la loi abstraite de l'État. C'est un préjudice concret causé à des victimes réelles. La médiation pénale est introduite officiellement en Belgique en 1994 (article 216ter du Code d'instruction criminelle). Elle permet une rencontre entre auteur et victime, encadrée par un médiateur neutre, aboutissant à un accord de réparation.
-
-### Les ambiguïtés de la "troisième voie"
-
-Cartuyvels et Philippe Mary (*L'État face à l'insécurité*, 2002) analysent les tensions de ces dispositifs. La justice restauratrice se présente comme une alternative humaniste à la prison. Mais elle s'inscrit aussi dans la gouvernementalité néolibérale : elle privatise la gestion des conflits, valorise la flexibilité, responsabilise individuellement.
-
-Le risque de "net-widening" (élargissement du filet pénal) est documenté empiriquement : des individus qui n'auraient pas été poursuivis pénalement dans l'ancien système peuvent se retrouver engagés dans une procédure de médiation.
-
-Christophe Mincke (2005) apporte une lecture foucaldienne : dans la justice restauratrice, le contrôle passe par la subjectivité — on demande à l'auteur d'exprimer ses remords, de "reconnaître" le préjudice causé. On retrouve ici la technique de l'aveu analysée par Foucault dans *La Volonté de savoir* (1976).
-
-## Synthèse : la sédimentation des pouvoirs
-
-Au terme de ce parcours, le contrôle social en Belgique entre 1970 et 2000 n'apparaît pas comme une succession de modèles qui s'annulent. C'est une sédimentation complexe qui produit trois types de sujets, inégalement distribués socialement :
-
-- **La couche disciplinaire** produit le "corps docile" : entraîné, classé, normalisé.
-- **Le dispositif tutélaire** produit le "sujet à risque" : identifié, suivi, encadré pour son propre bien.
-- **La gouvernementalité néolibérale** produit l'"entrepreneur de soi" : autonome en apparence, mais responsable de sa propre employabilité et de ses risques.
-
-Ces figures sont distribuées socialement : l'entrepreneur de soi est valorisé dans les classes moyennes et supérieures. Le sujet à risque et le corps dangereux sont assignés aux classes populaires, aux immigrés, aux précaires. Le contrôle social n'est pas universel : il cible des populations spécifiques.
+Ces figures ne se distribuent pas au hasard. L'entrepreneur de soi est une valeur pour les classes moyennes et supérieures. Le sujet à risque et le corps dangereux sont assignés aux pauvres, aux précaires, aux immigrés. Le contrôle social n'est pas universel : il a des adresses. Et vous travaillerez précisément à ces adresses-là.
 
 ---
 
@@ -170,39 +94,39 @@ Ces figures sont distribuées socialement : l'entrepreneur de soi est valorisé 
 ::: {.question-examen}
 **Question 4.A**
 
-Expliquez la thèse de Foucault dans *Surveiller et punir* (1975). En quoi remet-elle en cause le récit progressiste de l'histoire pénale ? Illustrez avec l'architecture carcérale belge (Ducpétiaux).
+Expliquez la thèse de Foucault dans *Surveiller et punir*. En quoi remet-elle en cause le récit progressiste de l'histoire pénale ? Illustrez avec l'architecture carcérale belge et la surpopulation actuelle.
 
-*Références à mobiliser :* Foucault (1975) ; Bentham (Panopticon) ; Ducpétiaux ; Prins (1910).
+*Références à mobiliser :* Foucault (1975) ; Ducpétiaux ; Prins (1910).
 :::
 
 ::: {.question-examen}
 **Question 4.B**
 
-Qu'est-ce que le "complexe tutélaire" chez Donzelot ? Comment la loi belge de 1965 sur la protection de la jeunesse en est-elle une illustration concrète ?
+Qu'est-ce que le « complexe tutélaire » chez Donzelot ? Comment la loi belge de 1965 sur la protection de la jeunesse en est-elle une illustration ?
 
-*Références à mobiliser :* Donzelot (1977) ; Meyer (1977) ; Foucault (1975) ; loi belge 08/04/1965.
+*Références à mobiliser :* Donzelot (1977) ; Foucault (1975) ; loi du 08/04/1965.
 :::
 
 ::: {.question-examen}
 **Question 4.C**
 
-Expliquez la distinction entre sociétés disciplinaires et sociétés de contrôle (Deleuze, 1990). Comment les technologies de surveillance contemporaines (bracelet électronique, algorithmes CPAS) illustrent-elles ce passage ?
+Distinguez sociétés disciplinaires et sociétés de contrôle (Deleuze). Comment le bracelet électronique et les algorithmes des CPAS illustrent-ils ce passage ?
 
-*Références à mobiliser :* Deleuze (1990) ; Foucault (1975, 1977–1979) ; Castel (2003) ; Mincke (2005).
+*Références à mobiliser :* Deleuze (1990) ; Foucault (1975, 2004) ; Castel (2003) ; Mincke (2005).
 :::
 
 ::: {.question-examen}
 **Question 4.D**
 
-Expliquez la thèse de Wacquant sur le couplage workfare/prisonfare. Comment se manifeste-t-elle en Belgique dans les années 1990 ? Quel lien avec l'État social actif ?
+Expliquez la thèse de Wacquant sur le couple workfare/prisonfare. Comment se manifeste-t-elle en Belgique ? Quel lien avec l'État social actif ?
 
-*Références à mobiliser :* Wacquant (1999, 2009) ; Castel (2003) ; Vrancken (2010) ; Cartuyvels & Mary (2002).
+*Références à mobiliser :* Wacquant (1999) ; Castel (2003) ; Vrancken (2010) ; Cartuyvels & Mary (2002).
 :::
 
 ::: {.question-examen}
 **Question 4.E**
 
-Analysez les ambiguïtés de la justice restauratrice belge à travers les concepts de Foucault (la technique de l'aveu) et de Cartuyvels (risque de "net-widening"). Est-ce une alternative à la prison ou une extension du contrôle ?
+Analysez les ambiguïtés de la justice restauratrice belge avec les concepts de Foucault (l'aveu) et de Cartuyvels (l'élargissement du filet). Alternative à la prison ou extension du contrôle ?
 
 *Références à mobiliser :* Foucault (1976) ; Mincke (2005) ; Cartuyvels & Mary (2002) ; Deleuze (1990).
 :::
@@ -211,28 +135,27 @@ Analysez les ambiguïtés de la justice restauratrice belge à travers les conce
 
 ## Références
 
-**Textes fondamentaux — à lire en priorité**
-
-- Foucault, M. (1975). *Surveiller et punir. Naissance de la prison*. Paris : Gallimard. Lire au minimum : la Partie III ("Discipline"), chapitres 1 et 3.
-- Deleuze, G. (1990). Post-scriptum sur les sociétés de contrôle. *L'Autre journal*, 1. [Texte court (4 pages). Disponible en ligne.]
+- Foucault, M. (1975). *Surveiller et punir. Naissance de la prison*. Paris : Gallimard.
+- Deleuze, G. (1990). Post-scriptum sur les sociétés de contrôle. *L'Autre journal*, 1.
 - Donzelot, J. (1977). *La Police des familles*. Paris : Minuit.
 - Wacquant, L. (1999). *Les Prisons de la misère*. Paris : Raisons d'agir.
-
-**Textes complémentaires importants**
-
-- Foucault, M. (2004). *Naissance de la biopolitique. Cours au Collège de France 1978–1979*. Paris : Gallimard/Seuil.
-- Castel, R. (2003). *L'Insécurité sociale. Qu'est-ce qu'être protégé ?* Paris : Seuil.
-- Wacquant, L. (2009). *Punishing the Poor*. Durham : Duke University Press.
-
-**Références belges spécifiques**
-
+- Foucault, M. (2004). *Naissance de la biopolitique. Cours au Collège de France 1978-1979*. Paris : Gallimard/Seuil.
+- Castel, R. (2003). *L'Insécurité sociale*. Paris : Seuil.
 - Cartuyvels, Y. & Mary, P. (dir.) (2002). *L'État face à l'insécurité*. Bruxelles : Labor.
 - Mincke, C. (2005). La médiation pénale : une technologie de la proximité. *Déviance et Société*, 29(1), 3–28.
 - Prins, A. (1910). *La Défense sociale et les transformations du droit pénal*. Bruxelles : Misch et Thron.
-- van Outrive, L. & Cartuyvels, Y. (dir.) (1997). *Histoire de la police en Belgique*. Bruxelles : EVO.
 
-**Pour approfondir**
+**Lectures complémentaires**
 
-- Becker, H. S. (1985). *Outsiders. Études de sociologie de la déviance*. Paris : Métailié.
-- Garland, D. (2001). *The Culture of Control*. Oxford University Press.
-- Foucault, M. (1976). *La Volonté de savoir*. Paris : Gallimard.
+- van Outrive, L., Cartuyvels, Y. & Ponsaers, P. (1991). *Les polices en Belgique*. Bruxelles : Vie Ouvrière.
+- Mary, P. (1998). *Délinquant, délinquance et insécurité (1944-1997)*. Bruxelles : Bruylant.
+- Mary, P. (2003). *Insécurité et pénalisation du social*. Bruxelles : Labor.
+- Kaminski, D. (2009). *Pénalité, management, innovation*. Namur : Presses universitaires de Namur.
+- Chantraine, G. (2004). *Par-delà les murs*. Paris : PUF.
+- Garland, D. (2001). *The Culture of Control*. Oxford : Oxford University Press.
+
+**Sources des données carcérales (2025-2026)**
+
+- SPF Justice, statistiques des établissements pénitentiaires. [justice.belgium.be](https://justice.belgium.be/fr/statistiques/dg_etablissements_penitentiaires)
+- Prison Insider, *Belgique : les prisons en 2025*. [prison-insider.com](https://www.prison-insider.com/fichepays/belgique-2025)
+- Observatoire international des prisons, *Entre soin et peine : la défense sociale belge*. [oip.org](https://oip.org/analyse/entre-soin-et-peine-la-defense-sociale-belge/)
