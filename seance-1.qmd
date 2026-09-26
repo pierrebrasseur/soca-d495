@@ -5,12 +5,14 @@ numero: "Séance 1"
 bloc: "Bloc 1 · Le paradoxe constitutif"
 periode: "Fil conducteur"
 description: "Le paradoxe aide/contrôle, quatre manières de l'habiter, et une réforme belge qui le met à nu : le statut de cohabitant (2026)."
+bibliography: bib/seance-1.bib
 ---
 
 ::: {.objectifs}
 **À l'issue de cette séance, vous devez être capables de :**
 
 - Expliquer le paradoxe constitutif du travail social et dire pourquoi il ne se résout pas
+- Dire ce que la sociologie des professions (Parsons, Hughes, Abbott, Dubar) apprend sur un métier sans territoire propre
 - Distinguer quatre manières d'habiter ce paradoxe (systémique, critique, empowerment, féministe-intersectionnelle) et situer chacune
 - Lire une réforme belge récente (le RIS, le statut de cohabitant) comme une mise en jeu de ce paradoxe
 - Reconnaître ce que la bureaucratisation et le numérique font au métier au quotidien
@@ -20,37 +22,57 @@ description: "Le paradoxe aide/contrôle, quatre manières de l'habiter, et une 
 
 Commençons par une scène. Elle n'a rien d'exceptionnel : c'est le quotidien de milliers de travailleuses sociales en Belgique, et ce sera bientôt le vôtre.
 
-Une femme se présente à l'accueil d'un CPAS, à Charleroi. Elle a perdu son emploi il y a huit mois, ses allocations de chômage viennent de tomber, elle vit chez sa sœur le temps de se retourner. Elle demande le revenu d'intégration sociale. L'assistante sociale qui la reçoit doit faire deux choses en même temps, et ces deux choses tirent dans des directions opposées.
+Un mardi de septembre 2026, une femme se présente à l'accueil d'un CPAS, à Charleroi. Elle a enchaîné pendant des années des contrats courts et des périodes de chômage. Elle a perdu ses allocations le 1er avril, dans l'une des vagues d'exclusion prévues par la loi-programme du 18 juillet 2025, qui limite désormais le chômage dans le temps [@belgique2025a]. Elle n'est pas un cas isolé. Selon la Fédération des CPAS, 40 à 50 % des personnes exclues se tournent vers un CPAS, alors que les budgets avaient été calculés sur un tiers [@wilquin2026]. Depuis le printemps, elle vit chez sa mère, retraitée. Elle demande le revenu d'intégration sociale. L'assistante sociale qui la reçoit doit faire deux choses en même temps, et ces deux choses tirent dans des directions opposées.
 
-D'un côté, elle doit ouvrir un droit. La loi le dit : toute personne en séjour légal qui n'a pas de moyens suffisants a droit à un revenu qui lui permet de vivre dignement. C'est un droit, pas une faveur.
+D'un côté, elle doit ouvrir un droit. La loi du 26 mai 2002 l'écrit dès son article 2 : toute personne a droit à l'intégration sociale, sous la forme d'un emploi ou d'un revenu d'intégration [@belgique2002]. Derrière cette loi, il y a l'article 23 de la Constitution, qui garantit à chacun le droit de mener une vie conforme à la dignité humaine. C'est un droit, pas une faveur.
 
-De l'autre, elle doit enquêter. Vérifier la composition du ménage. Calculer les ressources des autres personnes qui vivent sous le même toit. Évaluer si la demandeuse « fait des efforts » de recherche d'emploi. Lui faire signer un projet individualisé d'intégration sociale, et contrôler qu'elle le respecte. Si le contrat n'est pas tenu, l'aide peut être suspendue.
+De l'autre, elle doit enquêter. Vérifier la composition du ménage, souvent lors d'une visite à domicile [@noel2017]. Calculer les ressources de la mère. Évaluer si la demandeuse est « disposée à travailler », l'une des conditions de l'article 3 de la loi. Lui proposer un projet individualisé d'intégration sociale, le PIIS, et contrôler qu'elle le respecte. Si le contrat n'est pas tenu, l'aide peut être suspendue.
 
 Aider et contrôler. Ouvrir un droit et surveiller son usage. La même personne, dans le même entretien, fait les deux. Voilà le métier. Et voilà pourquoi il est si difficile à tenir.
+
+Ce contrôle n'a rien de mécanique. Une enquête menée auprès de 584 assistants sociaux de 89 CPAS belges, à partir de cas fictifs, montre que la décision de sanctionner un refus d'emploi varie peu d'une commune à l'autre, mais beaucoup d'un travailleur social à l'autre, selon son âge et ses opinions sur l'État social [@dewilde2019]. Le PIIS lui-même est ambivalent. Les travailleurs sociaux voudraient en faire un outil d'accompagnement ; les usagers y voient de la clarté, mais aussi un rapport de force déséquilibré [@franssen2015].
 
 ## Le paradoxe constitutif
 
 Le travail social est une drôle de profession. Elle n'a pas d'objet qui n'appartienne qu'à elle, comme le corps pour la médecine ou la norme juridique pour le droit. Elle n'a pas non plus de geste technique exclusif. Ce qui la définit, c'est une tension. Elle doit transformer des situations sociales injustes et, dans le même mouvement, aider des personnes à survivre dans ces situations telles qu'elles sont.
 
-Cette tension a deux pôles. Le premier exige de nommer les rapports de force : la pauvreté n'est pas un accident biographique, elle est produite et reproduite par des mécanismes économiques. Le second exige de répondre à l'urgence : la dame de Charleroi a besoin de 893,65 euros ce mois-ci pour manger et payer sa part de loyer, pas d'une analyse de la désindustrialisation wallonne.
+Cette tension a deux pôles. Le premier exige de nommer les rapports de force : la pauvreté n'est pas un accident biographique, elle est produite et reproduite par des mécanismes économiques. Le second exige de répondre à l'urgence : la dame de Charleroi a besoin de son revenu ce mois-ci pour manger et payer sa part de loyer, pas d'une analyse de la désindustrialisation wallonne.
 
 On aimerait pouvoir choisir un pôle contre l'autre. C'est impossible. Une intervenante qui ne ferait que dénoncer les structures laisserait les gens sans rien. Une intervenante qui ne ferait que distribuer des aides sans jamais questionner le système deviendrait un rouage de la gestion de la misère. Le métier se tient dans l'entre-deux, et il y reste.
+
+Ce diagnostic n'est pas neuf. Dès 1980, Max Siporin décrivait le travail social comme un instrument à la fois de stabilité et de changement [@siporin1980]. Michel Autès a fait de ces paradoxes le titre d'un livre [@autes2013], et Claude Julier, qui s'appuie sur lui, voit le travailleur social « au service du pauvre et représentant d'un système producteur de pauvreté » [@amiguet2004]. Guy Hardy, assistant social liégeois formé à la systémique, qualifie l'aide imposée par un juge ou une administration de « véritable oxymore » [@hardy2012]. À partir des services d'aide sociale suisses, Véréna Keller le dit sans détour : le travail social « est une puissante instance de contrôle social » [@keller2005, p. 60]. Même Talcott Parsons, qui a fait du médecin le modèle du professionnel, analysait son rôle comme un mécanisme de contrôle social [@parsons1951, p. 477]. Et quand l'aide heurte le mandat de surveillance, par exemple lors d'un signalement d'enfant en danger, les assistantes sociales finissent souvent par se convertir aux exigences du poste [@serre2010]. Silvia Staub-Bernasconi propose une issue partielle, qui consiste à ajouter au double mandat de l'usager et de l'employeur un troisième mandat, celui de la profession, de ses savoirs et de son code éthique [@staubbernasconi2016].
 
 Méfiez-vous donc de toute théorie qui prétend dissoudre ce paradoxe. Quand un modèle vous promet de réconcilier définitivement l'aide et le contrôle, l'accompagnement et l'évaluation, c'est en général qu'il a discrètement sacrifié l'un des deux.
 
 ::: {.callout-note}
-**La définition de référence (IFSW, 2014, réaffirmée en 2024)**
+**La définition de référence (IFSW et IASSW, 2014)**
 
-La Fédération internationale des travailleurs sociaux définit le travail social par cinq notions : le changement social, le développement social, la cohésion sociale, le pouvoir d'agir des personnes et leur libération. La définition s'appuie sur un socle commun : justice sociale, droits humains, responsabilité collective, respect des diversités. Elle ne résout pas le paradoxe. Elle le met par écrit. [Texte officiel](https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/)
+La Fédération internationale des travailleurs sociaux et l'Association internationale des écoles de travail social ont adopté ensemble, en juillet 2014, une définition mondiale du travail social [@ifsw2014]. Il y est à la fois une profession fondée sur la pratique et une discipline universitaire. Ses mandats : le changement et le développement social, la cohésion sociale, le pouvoir d'agir des personnes et leur libération. Ses principes : justice sociale, droits humains, responsabilité collective, respect des diversités. Le mot « contrôle » n'y figure pas, et la définition passe ainsi sous silence l'un des deux pôles du paradoxe. [Texte officiel](https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/)
 :::
 
 ## Une profession sans territoire à elle
 
-Cette absence d'objet propre passe souvent pour une faiblesse. C'est une force, à condition d'en faire quelque chose.
+Cette absence d'objet propre passe souvent pour une faiblesse. On l'a reprochée au métier dès sa naissance. En 1915, devant la Conférence nationale des œuvres de charité et de correction, le médecin Abraham Flexner concluait que le travail social n'était pas une profession, parce que le travailleur social fait appel au médecin, au juriste ou à l'enseignant plutôt qu'il n'agit lui-même, et son domaine est trop vaste pour une technique propre [@flexner2001]. C'est pourtant une force, à condition d'en faire quelque chose.
 
 Le travail social emprunte à la sociologie ses outils d'analyse des institutions et des rapports sociaux. Il prend à la psychologie ce qu'on sait de l'attachement, du traumatisme, des mécanismes de défense. Il a besoin du droit pour connaître les cadres qui ouvrent ou ferment l'accès aux ressources. Il convoque l'économie pour comprendre la redistribution, et l'anthropologie pour ne pas plaquer une norme culturelle unique sur des trajectoires plurielles. Une bonne assistante sociale est un peu tout cela à la fois, sans être experte en rien.
 
-Cette hybridation a un nom dans la profession : elle articule l'action sociale, qui relève d'une logique institutionnelle et politique, et l'assistance professionnelle, qui relève d'une logique de relation. Tenir les deux ensemble est exactement ce que personne d'autre ne sait faire. C'est le territoire du travail social, et il est mouvant par construction.
+Cette hybridation a reçu plusieurs noms. Michel Autès parle d'une « incertitude constitutive » et d'une double logique, un social de gestion et un social d'intervention [@autes1996]. Andrew Abbott fait du travail social une profession de l'interstitialité, installée entre les territoires des autres [@abbott1995]. Jean-Noël Chopart préfère parler d'un champ de l'intervention sociale, dont les contours posent un dilemme. Une définition étroite consolide l'identité mais limite le champ ; une définition large l'étend mais ouvre la concurrence [@chopart2000]. L'appellation même de « travailleurs sociaux » rassemble des salariés aux titres et aux statuts très variés [@ion1985; @ravon2012]. Tenir ensemble ces logiques est exactement ce que personne d'autre ne sait faire. C'est le territoire du travail social, et il est mouvant par construction.
+
+### Est-ce une profession ?
+
+La sociologie des professions a donné à cette question des réponses contrastées. Pour Talcott Parsons, le professionnel type, le médecin, se définit par une compétence technique acquise au terme d'une longue formation, une orientation vers la collectivité plutôt que vers son intérêt propre, une éthique dont le secret est l'un des principes, et une indépendance revendiquée face au contrôle des profanes [@parsons1951, p. 434-470]. Mesuré à cette aune, le travail social n'est au mieux qu'une profession incomplète.
+
+Everett Hughes déplace la question. Il demande comment un groupe obtient une licence, le droit de faire ce que d'autres ne font pas, et un mandat, le droit de dire ce qui est bon pour autrui dans son domaine [@hughes1958, p. 78-80]. Le travail social a une licence ; son mandat reste contesté. Hughes remarque aussi que, dans les services rendus à autrui, la frontière entre aider et corriger est mince [-@hughes1958, p. 70].
+
+Andrew Abbott regarde le système entier. Les professions s'y disputent des juridictions, c'est-à-dire des domaines de travail sur lesquels elles revendiquent une autorité, arbitrée par l'État, le public et les collègues [@abbott1988; @abbott2003]. Le travail social doit défendre la sienne face à des voisins qui empiètent sur son terrain.
+
+Claude Dubar, enfin, s'intéresse aux identités. Il distingue l'identité pour autrui, attribuée par les institutions et les partenaires, et l'identité pour soi, intériorisée au fil de la trajectoire ; quand elles divergent, les individus développent des stratégies identitaires [@dubar1991]. Avec Pierre Tripier, il a donné le premier manuel français de sociologie des professions [@dubar1998]. Didier Vrancken reprend ce débat pour la Belgique et conclut que le travail social est une activité « prudentielle », faite de délibération sur des cas singuliers et incertains, exercée dans un État social devenu un État d'intervention sur les personnes [@vrancken2012]. Marc-Henry Soulet décrit de son côté les « tenailles » du métier, dont celle qui oblige à traiter l'usager à la fois comme victime et comme responsable [@soulet2016].
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Pour une porte d'entrée francophone sur Abbott, voir @abbott2003. Deux manuels complètent le tableau, l'un classique [@ravon2012], l'autre critique et suisse [@keller2016]. Sur la définition mondiale de 2014 et ses critiques, voir @ornellas2018 et @staubbernasconi2017.
+:::
 
 ## Quatre manières d'habiter le paradoxe
 
@@ -58,43 +80,79 @@ Il n'existe pas une théorie du travail social, mais des familles de pensée. Au
 
 ### L'approche systémique
 
-Elle vient de l'écologie du développement d'Urie Bronfenbrenner et de l'École de Palo Alto. En travail social francophone, on pense à Olivier Amiguet et Claude Julier.
+Elle a deux sources, qui ne se confondent pas. La première est l'École de Palo Alto, qui étudie dans les années 1950 à 1970 la communication au sein des familles [@watzlawick1975]. C'est d'elle que vient, en travail social francophone, le modèle d'Olivier Amiguet et Claude Julier, fondé sur la théorie générale des systèmes, la théorie de la communication et le constructivisme [@amiguet1996]. La seconde est l'écologie du développement d'Urie Bronfenbrenner, qui observe l'enfant dans des milieux emboîtés, de la famille aux institutions et aux valeurs d'une société [@bronfenbrenner1979]. Elle entre en travail social avec le *Life Model* de Carel Germain et Alex Gitterman [@germain1980]. Le livre de Bronfenbrenner n'a jamais été traduit en français ; une synthèse liégeoise en donne l'essentiel [@absil2012].
 
-Son idée tient en une phrase : un individu ne s'explique pas tout seul. Il fait partie de systèmes (la famille, l'école, le quartier, l'institution) qui interagissent en permanence. Plutôt que de chercher un coupable, on regarde des boucles. Un enfant qui s'agite en classe fait réagir l'enseignant, dont la réaction renforce l'agitation, qui appelle une nouvelle réaction. Il n'y a pas de premier responsable : il y a une dynamique qui s'entretient.
+L'idée commune tient en une phrase : un individu ne s'explique pas tout seul. Il fait partie de systèmes (la famille, l'école, le quartier, l'institution) qui interagissent en permanence. Plutôt que de chercher un coupable, on regarde des boucles. Un enfant qui s'agite en classe fait réagir l'enseignant, dont la réaction renforce l'agitation, qui appelle une nouvelle réaction. Il n'y a pas de premier responsable : il y a une dynamique qui s'entretient. Les auteurs de Palo Alto en ont tiré une formule restée célèbre, selon laquelle le problème, c'est souvent la solution qu'on lui applique [@watzlawick1975].
 
-L'intérêt pour la pratique est immédiat. Une assistante sociale qui débarque dans une famille « défaillante » et qui veut corriger la mère se trompe de niveau. La question utile n'est pas « qui est en faute ? » mais « quel est le système pertinent à mobiliser, et où peut-on agir pour que la boucle change ? ».
+L'intérêt pour la pratique est immédiat. Une assistante sociale qui débarque dans une famille « défaillante » et qui veut corriger la mère se trompe de niveau. La question utile n'est pas « qui est en faute ? » mais « quel est le système pertinent à mobiliser, et où peut-on agir pour que la boucle change ? ». Au guichet, une distinction de Robert Neuburger rend service, car celui qui souffre n'est pas toujours celui qui demande [@neuburger1984]. Au CPAS, la demande est souvent portée par l'institution elle-même. Et l'intervenante fait partie du système qu'elle analyse, puisque les attentes du juge, de l'administration ou de la hiérarchie pèsent sur elle comme autant de « pressions », selon le mot de Pierrette Lebbe-Berrier [-@lebbeberrier1988, p. 55].
 
-Le risque guette pourtant. Amiguet le dit lui-même : la systémique est devenue si centrale dans les formations qu'elle menace de tourner à la recette. On coche les cases, on parle de « cadre » et de « boucles » sans plus voir les personnes. Et surtout, à force de regarder les interactions, on peut perdre de vue ce qui les surplombe : un loyer impayable et un marché du travail fermé ne sont pas une affaire de communication familiale.
+Le droit belge parle ce langage. En Fédération Wallonie-Bruxelles, le décret du 21 novembre 2013 crée dans les écoles une cellule de concertation locale, qui réunit direction, centre PMS et aide à la jeunesse autour de l'élève et de sa famille, et lui demande d'identifier les problèmes « de manière dynamique et systémique » [@cfwb2013]. Le décret du 16 mai 2024 prolonge ce dispositif par un suivi individuel en trois axes. Mais il fixe aussi des seuils. À 9 demi-jours d'absence injustifiée, l'administration écrit aux parents ; à 12, la direction les convoque, et se rend au domicile s'ils ne viennent pas [@cfwb2024]. Accompagner et contrôler, encore. Dans la protection de l'enfance, Jorge Barudy a développé à l'équipe SOS Enfants-Familles des Cliniques universitaires Saint-Luc une approche écosystémique de la maltraitance, où l'intervention judiciaire arrête l'abus et où le travail en réseau cherche à en changer les conditions [@barudy1997].
+
+Le risque guette pourtant. Amiguet le constate lui-même : la systémique est devenue si centrale dans les formations romandes qu'elle est victime de son succès, banalisée, rangée dans la « caisse à outils » des intervenants [@amiguet2010]. Guy Ausloos mettait déjà en garde contre une intervention réduite à des techniques apprises en quelques week-ends [@ausloos1994]. D'autres objections viennent de l'extérieur. Pour Jerome Wakefield, un cadre qui englobe tout n'oriente aucune action précise [@wakefield1996]. Et l'approche structurelle rappelle qu'à force de regarder les interactions, on perd de vue ce qui les surplombe [@moreau1987; @siporin1980] : un loyer impayable et un marché du travail fermé ne sont pas une affaire de communication familiale.
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Le manuel de référence reste @amiguet1996 ; pour son bilan critique, lire @amiguet2010. Sur la compétence des familles, @ausloos1995. Sur l'aide contrainte vue par un praticien belge, @hardy2012. Sur les enjeux contradictoires pensés par les systémiciens eux-mêmes, @amiguet2004. Pour le calendrier de la réforme de 2024 (primaire en 2026-2027, secondaire reporté à 2027-2028), @glatigny2026.
+:::
 
 ### La théorie critique et la praxis
 
-Sa filiation va de l'École de Francfort à des auteurs contemporains comme Iain Ferguson ou Lena Dominelli. En France, on lui rattache souvent les travaux de Robert Castel sur l'effritement du salariat.
+Sous ce nom se rangent plusieurs familles qui se disputent entre elles [@lima2010]. Le travail social radical britannique naît en 1975 d'un ouvrage collectif qui critique le *casework* individualisant et demande aux travailleurs sociaux de se situer politiquement [@bailey1975]. Iain Ferguson en est aujourd'hui l'héritier, d'inspiration marxiste [@ferguson2008; @ferguson2009]. L'approche structurelle, élaborée à Montréal, place l'oppression au centre de l'analyse [@moreau1987; @mullaly2007]. Le travail social critique d'inspiration poststructuraliste insiste sur le discours, le pouvoir et la réflexivité [@fook2002; @healy2000]. L'École de Francfort n'y entre que tard, par la théorie de la reconnaissance d'Axel Honneth [@honneth2004; @houston2016]. On mobilise souvent, dans la même perspective, les travaux de Robert Castel sur l'effritement de la société salariale, même si sa démarche historique doit plus à Durkheim, à Marx et à Foucault qu'à Francfort [@castel1995].
 
-Son postulat retourne le regard ordinaire : ce qu'on appelle « problèmes individuels » sont les symptômes de structures. Le chômage de longue durée d'un ouvrier de Liège après la fermeture des hauts-fourneaux n'est pas un défaut de motivation. C'est l'effet d'une désindustrialisation que personne ne lui a demandé son avis avant de décider.
+Le postulat commun retourne le regard ordinaire : ce qu'on appelle « problèmes individuels » sont les symptômes de structures. Le chômage de longue durée d'un ouvrier de Liège après la fermeture des hauts-fourneaux n'est pas un défaut de motivation. C'est l'effet d'une désindustrialisation que personne ne lui a demandé son avis avant de décider.
 
-De là vient le concept de praxis, hérité de Marx : l'intervention ne sépare pas la pensée de l'action. Il s'agit de rendre aux personnes l'intelligence de leur propre situation, non pour les accabler avec un discours savant, mais pour qu'elles cessent de se vivre comme seules responsables de ce qui les dépasse.
+De là vient le concept de praxis. Le mot est hérité de Marx ; en travail social, il circule surtout par Paulo Freire [@freire1974] et par la réflexivité critique de Jan Fook [@fook2002]. L'intervention ne sépare pas la pensée de l'action. Il s'agit de rendre aux personnes l'intelligence de leur propre situation, non pour les accabler avec un discours savant, mais pour qu'elles cessent de se vivre comme seules responsables de ce qui les dépasse. Le mépris produit souvent de la honte, qui bloque l'action au lieu de la déclencher, et Stephen Houston montre que ce travail sur la honte passe par la relation [@houston2016].
 
-Cette approche a deux maladies professionnelles. La première est le surplomb : l'intervenant se prend pour le détenteur d'une vérité politique et regarde les usagers de haut, ce qui reproduit exactement la domination qu'il prétend combattre. La seconde est la paralysie : si toute aide concrète est suspecte de « pansement sur une jambe de bois », on finit par ne plus rien faire. Or la dame de Charleroi a besoin de ses 893,65 euros maintenant.
+Cette approche a deux maladies professionnelles, et ses propres auteurs les ont nommées. La première est le surplomb : l'intervenant se prend pour le détenteur d'une vérité politique et regarde les usagers de haut, ce qui reproduit exactement la domination qu'il prétend combattre. Karen Healy rappelle que les travailleurs sociaux critiques exercent eux aussi un pouvoir, et qu'ils doivent dire comment l'exercer justement au lieu de prétendre l'abolir [@healy2001]. Elle note aussi que ces modèles, pensés pour de petites structures militantes, se transposent mal dans les grandes organisations publiques. C'est exactement le cas du CPAS.
+
+La seconde est la paralysie : si toute aide concrète est suspecte de « pansement sur une jambe de bois », on finit par ne plus rien faire. Dès 1975, dans le livre fondateur du courant radical, Stanley Cohen prenait au sérieux ce reproche des praticiens [@cohen1975]. La tradition structurelle l'avait d'ailleurs refusé d'emblée, puisque Maurice Moreau demandait d'accorder la priorité à l'aide matérielle, avant tout travail sur les émotions ou les comportements [-@moreau1987, p. 235-236]. La dame de Charleroi a besoin de son revenu maintenant, et une intervenante formée à l'approche structurelle commencerait par faire valoir ce droit.
+
+Entre ces deux écueils, beaucoup de praticiens pratiquent une résistance discrète, faite de petits contournements et de ruses ordinaires qui font passer l'aide concrète avant la théorie [@carey2011]. Dans les CPAS bruxellois, une enquête décrit le travailleur social comme un traducteur de finalités collectives en traitements individuels, pour qui une part de déviance fait partie du métier [@maes2019].
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+La meilleure porte d'entrée en français sur le débat britannique est @lima2010. Pour une critique des théories de la reconnaissance, qui oublieraient le rôle de l'État, voir @garrett2010. Sur le mépris que l'accompagnement peut lui-même produire, voir l'enquête de @tcholakova2014 auprès de réfugiés accompagnés vers l'emploi. Pour la pratique radicale au quotidien, @ferguson2009.
+:::
 
 ### L'empowerment, ou le développement du pouvoir d'agir
 
-Deux sources : Paulo Freire et sa pédagogie de la conscientisation collective ; Amartya Sen et sa théorie des capabilités. En francophonie, Yann Le Bossé a systématisé l'idée sous le nom de développement du pouvoir d'agir.
+Ses sources sont plus nombreuses qu'on ne le dit. Le mot naît dans des mouvements radicaux, de la pédagogie de la conscientisation de Paulo Freire au Black Power et aux féminismes du Sud [@calves2009]. Freire, qui alphabétisait les paysans du Nordeste brésilien, oppose à l'éducation « bancaire » un dialogue qui part de la situation vécue [@freire1974]. Amartya Sen apporte une autre idée. Ce qui compte, pour lui, c'est la liberté réelle de faire ou d'être, qu'il appelle capabilité, et qu'un droit formel ne suffit pas à garantir [@sen2000]. En francophonie, Yann Le Bossé a proposé de traduire *empowerment* par « pouvoir d'agir » [@lebosse2003] et a systématisé une approche centrée sur le développement du pouvoir d'agir des personnes et des collectivités [@lebosse2012; @lebosse2016].
 
-Le pari est que les personnes possèdent déjà une expertise de leur propre vie. Ce qui leur manque, ce n'est pas la volonté ou la compétence : ce sont des appuis, et souvent les dispositifs d'aide eux-mêmes les enferment dans la dépendance qu'ils prétendent combattre.
+Le pari est que les personnes possèdent déjà une expertise de leur propre vie. Ce qui leur manque, ce n'est pas la volonté ou la compétence : ce sont des appuis, et souvent les dispositifs d'aide eux-mêmes les enferment dans la dépendance qu'ils prétendent combattre. Le Bossé part d'un constat paradoxal. Des sociétés riches financent des professionnels spécialisés, et pourtant praticiens et personnes accompagnées restent pris dans un sentiment d'impuissance [@lebosse2012].
 
-Tout le problème est que le mot a été capturé. Il existe deux empowerments, et ils n'ont presque rien en commun.
+La Belgique a essayé. De 2009 à 2012, le Centre de formation des CPAS wallons a mené à Mozet une recherche-action avec l'équipe de Le Bossé, qui a débouché sur la formation de travailleurs sociaux « personnes-ressources ». Le bilan relève une tension durable entre des mandats centrés sur l'insertion socioprofessionnelle et une démarche qui part de ce qui importe à la personne [@dekeukeleire2018]. Le paradoxe aide/contrôle traverse aussi le pouvoir d'agir.
+
+Tout le problème est que le mot a été capturé. Coopté par les organisations internationales, il est devenu un terme consensuel, qui réduit le pouvoir à des choix individuels [@calves2009]. Marie-Hélène Bacqué et Carole Biewener distinguent trois modèles : radical, social-libéral et néolibéral [@bacque2013]. Pour simplifier, on peut opposer deux pôles, qui n'ont presque rien en commun.
 
 L'empowerment radical vise une transformation des rapports de force. Le pouvoir se construit collectivement, par l'organisation et la lutte. C'est l'empowerment des locataires qui se regroupent pour obliger un bailleur à faire des travaux.
 
-L'empowerment libéral, lui, individualise tout. Il fait de l'usager le seul responsable de sa réussite comme de son échec. Sous sa forme appauvrie, il se réduit à « responsabiliser » les gens pour les coûter moins cher. Quand le discours public belge parle d'« activation » et de « responsabilisation » des bénéficiaires du RIS, c'est de ce second empowerment qu'il s'agit, même s'il emprunte le vocabulaire généreux du premier.
+L'empowerment libéral, lui, individualise tout. Il fait de l'usager le seul responsable de sa réussite comme de son échec. Sous sa forme appauvrie, il se réduit à « responsabiliser » les gens pour qu'ils coûtent moins cher. Quand le discours public belge parle d'« activation » et de « responsabilisation » des bénéficiaires du RIS, c'est de ce second pôle qu'il s'agit, même s'il emprunte le vocabulaire généreux du premier. L'État social actif, projet porté en 1999 par le ministre Frank Vandenbroucke [@vandenbroucke1999], relève d'ailleurs de la troisième voie sociale-libérale plus que d'un néolibéralisme pur [@vielle2005]. Abraham Franssen montre que la réforme du minimex en revenu d'intégration, en 2002, fait glisser le revenu minimum du besoin vers le mérite, et que le discours humaniste des travailleurs sociaux devient « la condition de son efficacité instrumentale » [@franssen2008, § 66]. Le contrat en est l'instrument, et il ne gomme ni l'asymétrie de pouvoir ni la fonction de contrôle [@hamzaoui2017].
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Sur les trois niveaux du pouvoir d'agir (individuel, communautaire, organisationnel), @ninacs2008. Pour une version pratique, avec des expériences de terrain françaises, @jouffray2024. Sur les capabilités, en complément de Sen, @nussbaum2012. Sur la conscientisation freirienne dans la formation des travailleurs sociaux, @motoi2016.
+:::
 
 ### L'approche féministe et intersectionnelle
 
-Elle hérite des féminismes de la deuxième vague et de leur mot d'ordre, « le privé est politique ». Carol Gilligan et Joan Tronto en tirent une éthique du care ; Kimberlé Crenshaw, en 1989 puis 1991, en tire l'intersectionnalité.
+Elle hérite des féminismes de la deuxième vague et de leur mot d'ordre, « le privé est politique ». Carol Gilligan en tire une éthique. Contre la théorie du développement moral de Kohlberg, elle fait entendre une voix attentive au contexte et aux relations, associée aux femmes parce que l'organisation patriarcale la réduit au silence [@gilligan1982]. Joan Tronto en fait une politique. Le *care* désigne l'ensemble des activités par lesquelles nous maintenons et réparons notre monde ; il est dévalorisé parce qu'il est assigné aux femmes, aux personnes racisées et aux classes populaires, et Tronto refuse d'en faire une disposition féminine [@tronto1993].
 
-Ce que cette approche déplace, c'est la frontière entre privé et public. La violence conjugale, la charge mentale, la pauvreté qui frappe d'abord les femmes ne sont pas des accidents domestiques. Elles ont une structure. Et le travail du soin, ce care assuré très majoritairement par des femmes et tenu pour aller de soi, est à la fois indispensable à la société et systématiquement sous-payé. Vous le vérifierez vous-mêmes : le secteur où vous allez travailler est l'un des plus féminisés et des moins bien rémunérés du pays.
+Ce que cette approche déplace, c'est la frontière entre privé et public. La violence conjugale, la charge mentale, la pauvreté qui frappe d'abord les femmes ne sont pas des accidents domestiques. Elles ont une structure. Et le travail du soin, assuré très majoritairement par des femmes et tenu pour aller de soi, est à la fois indispensable et sous-payé [@molinier2013]. Vous le vérifierez vous-mêmes, avec une nuance. En Belgique, l'action sociale sans hébergement emploie 70,9 % de femmes ; leur salaire horaire moyen y est de 19,85 euros, sous la moyenne nationale des femmes (22,28 euros), et 60,9 % d'entre elles travaillent à temps partiel. Le secteur médico-social avec hébergement, plus féminisé encore, paie en revanche près de la moyenne [@iefh2025].
 
-L'intersectionnalité ajoute une précision décisive. Les dominations ne s'additionnent pas, elles se combinent et se transforment. Une femme sans papiers, victime de violences, dont le titre de séjour dépend de son conjoint, n'est pas « une femme » plus « une migrante » plus « une pauvre ». Elle occupe une position précise où demander de l'aide peut lui faire perdre son séjour. On y reviendra en détail à la séance 6.
+L'intersectionnalité vient d'ailleurs, et en partie contre ce féminisme de la deuxième vague, jugé aveugle à la race. Elle naît du féminisme noir [@bilge2009]. Kimberlé Crenshaw forge le mot en 1989 à partir d'une affaire judiciaire, dans laquelle un tribunal refusait de reconnaître la discrimination que des femmes noires reprochaient à General Motors, parce qu'elle ne relevait ni de la seule race ni du seul sexe [@crenshaw1989]. En 1991, elle applique l'outil aux violences faites aux femmes de couleur [@crenshaw1991].
+
+Elle y ajoute une précision décisive. Les dominations ne s'additionnent pas, elles se combinent et se transforment [@collins2020]. Une femme sans papiers, victime de violences, dont le titre de séjour dépend de son conjoint, n'est pas « une femme » plus « une migrante » plus « une pauvre ». Elle occupe une position précise où demander de l'aide peut lui faire perdre son séjour. Crenshaw décrivait déjà ce piège aux États-Unis, créé par la loi sur l'immigration de 1990 [@crenshaw2005]. On y reviendra en détail à la séance 6.
+
+L'outil vaut aussi pour les travailleuses sociales elles-mêmes. Delphine Serre montre que les assistantes sociales qui signalent des enfants en danger promeuvent auprès des mères de milieux populaires une norme d'autonomie qui oscille entre solidarité de genre et domination de classe [@serre2012]. En pratique, à Liège, le Collectif contre les violences familiales et l'exclusion défend un accompagnement « repolitisé » des femmes victimes, qui lit les violences conjugales comme un continuum de domination, articulé à la classe et à la race, plutôt que comme un problème psychologique individuel [@collignon2026].
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Le *care* est entré dans le débat français avec @paperman2005. Sur le travail social féministe dans les associations contre les violences conjugales, et ses contraintes gestionnaires, @herman2016. Pour un cadre de travail social féministe qui intègre les autres rapports sociaux, voir @dominelli2002, et pour une introduction à l'intersectionnalité, @collins2020.
+:::
 
 ::: {.callout-note}
 **Deux niveaux de lecture à ne pas confondre**
@@ -104,31 +162,61 @@ Les quatre approches ci-dessus sont des paradigmes d'intervention : elles disent
 
 ## Le paradoxe à l'épreuve d'une réforme belge
 
-Les concepts précédents ne sont pas des abstractions. Ils décident de la vie des gens. Prenons la réforme du statut de cohabitant, entrée en vigueur le 1er mars 2026, parce qu'elle met le paradoxe à nu.
+Les concepts précédents ne sont pas des abstractions. Ils décident de la vie des gens. Prenons la réforme du calcul du revenu d'intégration des cohabitants, entrée en vigueur le 1er mars 2026, parce qu'elle met le paradoxe à nu.
 
-Avant la réforme, pour calculer le RIS d'une personne, le CPAS pouvait tenir compte des ressources de certains proches vivant sous le même toit, sans y être obligé. Depuis mars 2026, il doit compter les ressources de tous les débiteurs alimentaires majeurs qui cohabitent : un frère, une sœur, un enfant majeur qui travaille, parfois un parent. Les allocations familiales perçues pour le demandeur sont comptées à hauteur d'un forfait de 240 euros. Le montant de base pour un cohabitant (catégorie 1) est de 893,65 euros par mois.
+Avant la réforme, le CPAS pouvait tenir compte des ressources des ascendants et descendants majeurs qui vivaient avec le demandeur, sans y être obligé. L'arrêté royal du 7 janvier 2026 l'y oblige désormais [@belgique2026]. Sont visés le partenaire et les débiteurs d'aliments majeurs au sens du Code civil : parents, grands-parents, enfants, petits-enfants, et beaux-parents si l'on est marié. Frères et sœurs, amis ou colocataires ne le sont pas, contrairement à ce qu'on entend souvent [@sppis2026a]. Pour chaque débiteur, le CPAS compte la part de ses ressources qui dépasse le montant du taux cohabitant. Les allocations familiales qu'un parent perçoit pour le demandeur, typiquement un jeune majeur aux études, sont comptées au forfait de 240 euros. Le montant maximum pour un cohabitant (catégorie 1) est de 911,56 euros par mois depuis le 1er septembre 2026 [@sppis2026b]. Pour la dame de Charleroi, la pension de sa mère entre désormais dans le calcul, pour ce qui dépasse ce taux.
 
-Lisez la mesure avec l'empowerment libéral : on « responsabilise » les familles, on rappelle que la solidarité commence à la maison. Lisez-la avec la théorie critique : on transfère la charge de la pauvreté sur les proches les plus modestes, et on rend l'accès au droit plus étroit pour ceux qui n'ont d'autre toit que celui d'un parent qui travaille. La même mesure, deux lectures.
+L'arrêté prévoit une porte de sortie. Le CPAS peut déroger pour des raisons d'équité, à condition de motiver sa décision par des faits concrets et d'indiquer son calcul [@belgique2026]. Le SPP Intégration sociale précise que cette dérogation se décide au cas par cas, jamais de façon systématique [@sppis2026a]. C'est là que se loge le paradoxe. L'assistante sociale qui applique la règle doit aussi décider, dossier par dossier, si l'équité commande de ne pas l'appliquer.
 
-Et le réel a tranché plus vite que prévu : dès le 24 mars 2026, le durcissement a été attaqué en justice. C'est exactement la situation dans laquelle vous travaillerez. Vous appliquerez une règle dont vous percevez les effets sur les gens que vous recevez, pendant que sa légitimité est contestée devant les tribunaux. Tenir ce grand écart sans cynisme ni naïveté, voilà le métier.
+Lisez la mesure avec l'empowerment libéral : on « responsabilise » les familles. Devant la commission des Affaires sociales, la ministre Anneleen Van Bossuyt l'a justifiée par la « primauté de la solidarité familiale sur la solidarité étatique » [@rtbf2026a]. Lisez-la avec la théorie critique : on transfère la charge de la pauvreté sur les proches les plus modestes, et on rend l'accès au droit plus étroit pour ceux qui n'ont d'autre toit que celui d'un parent. Cette seconde lecture n'est pas réservée aux militants. Dans son avis du 8 août 2025, le Conseil d'État a estimé que ce recours accru à la solidarité familiale allait contre l'obligation de maintenir le niveau de protection garanti par l'article 23 de la Constitution, et relevé que 253 065 dossiers devraient être réexaminés [@conseildetat2025]. La même mesure, deux lectures.
 
-Quelques repères de cadrage pour mesurer ce que pèse le RIS en Belgique. En 2024, 1,41 % de la population du pays en bénéficiait. En Wallonie, au 1er janvier 2024, les CPAS versaient le revenu d'intégration à 73 325 personnes, et l'aide sociale équivalente à 8 713 autres. La proportion varie fortement d'une région à l'autre : autour de 6,6 % à Bruxelles contre 1,2 % en Flandre. Derrière ces pourcentages, il y a des entretiens comme celui de Charleroi, des milliers par jour.
+Le réel a tranché plus vite que prévu. Le 23 mars 2026, la Ligue des droits humains, la Ligue des familles, la FEF, le BAPN et ATD Quart Monde ont introduit un recours en annulation devant le Conseil d'État [@liguedh2026]. Fin septembre 2026, aucun arrêt n'avait été rendu. Une réforme voisine montre ce qui peut suivre. Le 10 septembre 2026, la Cour constitutionnelle a validé la limitation dans le temps des allocations de chômage, un recul qu'elle juge « raisonnablement justifié », et n'en a annulé qu'une disposition [@courconstitutionnelle2026]. C'est exactement la situation dans laquelle vous travaillerez. Vous appliquerez une règle dont vous percevez les effets sur les gens que vous recevez, pendant que sa légitimité est contestée devant les juridictions. Tenir ce grand écart sans cynisme ni naïveté, voilà le métier.
+
+Quelques repères pour mesurer ce que pèse le revenu d'intégration en Belgique. En 2024, 1,41 % de la population en bénéficiait en moyenne chaque mois : 3,7 % à Bruxelles, 2,0 % en Wallonie, 0,6 % en Flandre [@bfp2025]. En Wallonie, au 1er janvier 2024, les CPAS versaient le revenu d'intégration à 73 325 personnes et l'aide sociale équivalente à 8 713 autres [@castaigne2025a]. La réforme du chômage va gonfler ces chiffres. À Bruxelles, 47,6 % des personnes exclues au premier trimestre 2026 étaient devenues bénéficiaires d'un CPAS trois mois plus tard [@rtbf2026b]. Derrière ces pourcentages, il y a des entretiens comme celui de Charleroi, des milliers par jour.
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Le statut de cohabitant était contesté bien avant 2026, parce qu'il pénalise la solidarité et pousse à cacher sa cohabitation [@slp2018]. Sur le financement des CPAS face aux exclus du chômage, remboursés à 100 % la première année puis de moins en moins, et sur la prime future au nombre de PIIS conclus, @castaigne2025b. Pour la lecture de l'État social comme « ordre protectionnel », mobilisée à la question 1.D, @vrancken2010. La même logique d'activation s'étend désormais à la maladie avec la loi « Retour au travail » [@belgique2025b].
+:::
 
 ## Ce que le métier fait à ceux qui l'exercent
 
 Reste une question qu'on évite souvent en formation : tenir ce paradoxe, ça use. Et la manière dont le travail est organisé aujourd'hui rend la tenue plus difficile qu'avant.
 
-Le premier facteur est la bureaucratisation. Une part croissante du temps passe à documenter le travail plutôt qu'à le faire : saisir dans des logiciels, justifier les décisions, répondre aux audits. On y reviendra à la séance 7, mais l'effet se sent dès le premier stage. Beaucoup de professionnels se rangent dans une position que je résumerais ainsi : ils ne croient pas à la légitimité des nouveaux outils de gestion, mais s'y conforment pour garder leur poste, tout en grappillant des marges pour faire du vrai travail relationnel. Ce n'est pas de la résistance héroïque ni de l'adhésion convaincue. C'est un inconfort permanent, et il a un coût psychique réel.
+L'usure a d'abord une part invisible. Everett Hughes a montré que tout métier comporte une part de *dirty work*, un sale boulot qui l'est physiquement, socialement ou moralement [@hughes1958, p. 49-50], et que la société délègue volontiers à d'autres le travail qu'elle juge nécessaire sans vouloir le voir [-@hughes1958, p. 51-52; @hughes2010]. Contrôler les pauvres en fait partie. Chez des travailleurs sociaux anglais chargés de décider d'hospitalisations sous contrainte, le sale boulot désigne le manque de lits, la coordination et le travail émotionnel [@morriss2016]. Les groupes professionnels s'en protègent en recadrant le sens de leur travail [@ashforth1999]. S'y ajoute le travail émotionnel, qui consiste à gérer ses émotions selon les règles de l'organisation, en les feignant ou en se convainquant de les ressentir [@hochschild1983; @hochschild2017]. Réduire l'aide à des familles en période d'austérité crée une dissonance que chacun gère seul [@grootegoed2018].
 
-Le second facteur est le numérique. La dématérialisation des services publics était censée simplifier l'accès aux droits. Elle a créé de nouvelles exclusions. Les personnes les plus à l'aise avec un guichet automatisé sont rarement celles qui poussent la porte d'un CPAS. Résultat : une partie de votre travail consiste désormais à faire à la place des gens des démarches que l'administration a déclarées « accessibles à tous ». L'arrivée d'outils d'aide à la décision automatisés ajoute une question que la déontologie n'a pas encore tranchée : que devient le secret professionnel quand les notes d'accompagnement nourrissent un algorithme, et qui répond d'une décision sociale prise pour partie par une machine ?
+Le burn-out a trois dimensions : épuisement émotionnel, dépersonnalisation, sentiment d'accomplissement réduit [@maslach1981]. Une méta-analyse récente estime qu'environ un travailleur des services sociaux sur cinq présente un burn-out, et qu'un sur deux souffre d'épuisement émotionnel [@gimenezbertomeu2024]. Bertrand Ravon distingue l'épuisement dans la relation d'aide du ressentiment face aux prescriptions contradictoires de l'institution [@ravon2009].
 
-Je n'ai pas de réponse propre à vous donner sur ces deux points, et je me méfie de ceux qui en ont. Ce que je peux dire, c'est que la lucidité sur ces mécanismes est une protection. Nommer ce qui use est déjà une manière de moins se laisser abîmer.
+Le premier facteur aggravant est la bureaucratisation. Une part croissante du temps passe à documenter le travail plutôt qu'à le faire : saisir dans des logiciels, justifier les décisions, répondre aux audits. On y reviendra à la séance 7, mais l'effet se sent dès le premier stage. En Belgique, le Service de lutte contre la pauvreté décrit le travailleur social de CPAS « entre le marteau et l'enclume ». La charge administrative réduit souvent le PIIS à une formalité, l'équilibre glisse vers le contrôle, et un quart des CPAS wallons et bruxellois disent durcir leurs contrôles, notamment sur le statut de cohabitant [@slp2025]. En Flandre, un travailleur social de CPAS sur quatre se dit sous très forte pression, un sur cinq en stress ou en épuisement [@slp2025, p. 36]. En 2012 déjà, des assistants sociaux de CPAS bruxellois répétaient : « Je ne fais plus le même métier qu'avant » [@maes2013, p. 73].
+
+Face aux outils de gestion, les professionnels ne réagissent pas tous de la même façon. Jean-Sébastien Alix, qui a enquêté sur l'accueil de la rationalité gestionnaire par les travailleurs sociaux, distingue des résistants, des adhérents et, pour la moitié environ, des « non-dupes » [@alix2023]. Ces derniers ne croient pas à la légitimité des nouveaux outils, mais s'y conforment pour garder leur poste, tout en grappillant des marges pour faire du vrai travail relationnel. Ce n'est ni de la résistance héroïque ni de l'adhésion convaincue. C'est un inconfort permanent, et il a un coût psychique réel. Abraham Franssen a décrit d'autres manières de tenir, du repli sur une « île préservée » ou dans une « forteresse assiégée » à la recherche d'issues offensives, par l'innovation ou l'action collective [@franssen2005].
+
+Le second facteur est le numérique. La dématérialisation des services publics était censée simplifier l'accès aux droits. Elle a créé de nouvelles exclusions. En 2023, 40 % des Belges de 16 à 74 ans étaient en situation de vulnérabilité numérique, 45 % en Wallonie, et 28 % des usagers d'internet avaient eu besoin d'un tiers pour une démarche administrative en ligne. À Schaerbeek, plus de huit travailleurs sociaux sur dix jugent les services publics numérisés difficilement accessibles pour leurs publics [@brotcorne2024]. La dématérialisation reporte sur les usagers la gestion de leurs dossiers, et sur leurs aidants une partie du travail administratif [@okbani2022; @defenseurdesdroits2022]. Résultat : une partie de votre travail consiste désormais à faire à la place des gens des démarches que l'administration a déclarées « accessibles à tous ».
+
+Reste la question des machines. En Belgique, ce qui est documenté, ce sont surtout les flux automatiques de données entre administrations. Ils font gagner du temps, mais bloquent parfois des droits sur la base de données erronées, et certains intervenants y voient d'abord un outil de contrôle [@noel2017]. En France, la CAF attribue chaque mois à chaque allocataire un score de risque qui déclenche la plupart des contrôles [@dubois2021; @laquadrature2023] ; aux États-Unis, Virginia Eubanks a décrit un « hospice numérique » [@eubanks2018]. Le secret professionnel a déjà été mis à l'épreuve. En 2017, le législateur belge a voulu obliger les travailleurs des institutions de sécurité sociale, CPAS compris, à signaler d'initiative des indices d'infraction terroriste ; la Cour constitutionnelle a annulé cette obligation en 2019 [@delhaise2019]. Que devient ce secret quand les notes d'accompagnement circulent entre bases de données, et qui répond d'une décision sociale prise pour partie par une machine ? La déontologie n'a pas encore tranché.
+
+Je n'ai pas de réponse propre à vous donner sur ces points, et je me méfie de ceux qui en ont. Ce que je peux dire, c'est que la lucidité sur ces mécanismes est une protection. Nommer ce qui use est déjà une manière de moins se laisser abîmer.
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+La détresse morale des travailleurs sociaux des services publics a été mesurée en Finlande [@manttarivanderkuip2016]. Pour une lecture clinique du sale boulot, voir @lhuilier2005, et pour le questionnaire de Maslach, son manuel [@maslach1986]. Sur le non-recours aux droits, @warin2016 ; sur l'accès au RSA dans les campagnes françaises après la fermeture des guichets, @deville2023. Roland Janvier revient sur les contradictions du métier dans une conférence récente [@janvier2025], et le Haut conseil du travail social esquisse une prospective à l'horizon 2050 [@hcts2025].
+:::
 
 ## Une frontière qui bouge : le travail social vert
 
-Une dernière ouverture, parce que le périmètre du métier se déplace sous nos yeux. Lena Dominelli a théorisé en 2012 le travail social vert. Son point de départ est un constat d'injustice supplémentaire : les dégâts environnementaux frappent d'abord ceux qui sont déjà en bas. Une canicule tue surtout des personnes âgées isolées dans des logements mal isolés. Une inondation ruine surtout ceux qui n'ont pas les moyens d'habiter ailleurs que dans la zone inondable. La crise climatique n'épargne personne, mais elle ne frappe pas tout le monde pareil, et c'est précisément ce qui en fait un objet de travail social.
+Une dernière ouverture, parce que le périmètre du métier se déplace sous nos yeux. Lena Dominelli a théorisé en 2012 le travail social vert [@dominelli2012]. Son point de départ est un constat d'injustice supplémentaire : les dégâts environnementaux frappent d'abord ceux qui sont déjà en bas, ce qui fait de la crise écologique une crise de justice sociale. Le travail social écologique existait avant elle, notamment en Finlande et en Flandre [@narhi2018; @peeters2012] ; Dominelli s'en distingue en y intégrant les systèmes sociopolitiques [@portillo2019].
 
-L'écoféminisme, dont Françoise d'Eaubonne a forgé le terme en 1974, ajoute un fil : la même logique qui dévalorise le travail de soin des femmes traite la nature comme une ressource gratuite et inépuisable. Les deux exploitations se tiennent. On verra à la séance 6 que cette intuition n'est pas qu'une métaphore.
+Une canicule tue surtout des personnes âgées isolées. Lors de celle de Chicago, en juillet 1995, Eric Klinenberg a montré que l'isolement social, l'abandon de certains quartiers et le retrait des services publics pesaient autant que la chaleur [@klinenberg2002]. Une inondation ruine surtout ceux qui ont le moins de moyens de s'en relever. Dans la province de Liège, l'exposition au risque ne suit pourtant pas simplement le revenu. Les ménages modestes sont plus exposés que les aisés, mais les plus précaires le sont moins que les classes intermédiaires [@poussard2021]. En juillet 2021, certains CPAS ont eux-mêmes été détruits par les eaux ; les sinistrés hébergés chez des proches ont conservé leur statut antérieur au regard du revenu d'intégration [@rombeaux2021]. La crise climatique n'épargne personne, mais elle ne frappe pas tout le monde pareil, et c'est précisément ce qui en fait un objet de travail social.
+
+L'écoféminisme ajoute un fil. Françoise d'Eaubonne a forgé le terme en 1974, en liant la domination masculine à l'appropriation de l'agriculture et de la fécondité [@deaubonne1974]. Une partie de l'écoféminisme ultérieur, d'inspiration matérialiste, a soutenu que la même logique qui dévalorise le travail de soin des femmes traite la nature comme une ressource gratuite et inépuisable. Les deux exploitations se tiennent. Catherine Larrère présente ces variétés d'écoféminisme et la discussion sur l'essentialisme qu'elles suscitent [@larrere2015].
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Pour une présentation en français du travail social vert, voir @portillo2019 ; l'ouvrage collectif de référence sur le travail social environnemental est @gray2013.
+:::
 
 ## Où nous allons
 
@@ -143,7 +231,7 @@ Ce cours ne va pas vous apprendre à supprimer le paradoxe aide/contrôle, parce
 
 Expliquez le paradoxe constitutif du travail social. Pourquoi ne peut-on pas le « résoudre » ? Appuyez-vous sur un exemple belge précis.
 
-*Références à mobiliser :* IFSW (2014) ; Castel (1995) ; Le Bossé (2012).
+*Références à mobiliser :* @ifsw2014 ; @autes2013 ; @keller2005 ; @castel1995 ; @lebosse2012.
 :::
 
 ::: {.question-examen}
@@ -151,7 +239,7 @@ Expliquez le paradoxe constitutif du travail social. Pourquoi ne peut-on pas le 
 
 Le travail social est-il une profession ? Présentez les réponses contrastées de Parsons, Hughes, Abbott et Dubar. Quel cadre vous paraît le plus convaincant pour le cas belge ?
 
-*Références à mobiliser :* Parsons (1951) ; Hughes (1958) ; Abbott (1988) ; Dubar & Tripier (1998).
+*Références à mobiliser :* @parsons1951 ; @hughes1958 ; @abbott1988 ; @dubar1991 ; @dubar1998 ; @vrancken2012.
 :::
 
 ::: {.question-examen}
@@ -159,7 +247,7 @@ Le travail social est-il une profession ? Présentez les réponses contrastées 
 
 Distinguez les quatre approches théoriques vues en cours. Montrez quelle place chacune donne au paradoxe aide/contrôle, et illustrez deux d'entre elles par un cas concret.
 
-*Références à mobiliser :* Bronfenbrenner (1979) ; Le Bossé (2012) ; Crenshaw (1991) ; Tronto (1993).
+*Références à mobiliser :* @amiguet1996 ; @bronfenbrenner1979 ; @moreau1987 ; @lebosse2012 ; @crenshaw1991 ; @tronto1993.
 :::
 
 ::: {.question-examen}
@@ -167,7 +255,7 @@ Distinguez les quatre approches théoriques vues en cours. Montrez quelle place 
 
 Analysez la réforme du statut de cohabitant (RIS, 1er mars 2026) à partir de deux approches théoriques opposées. Que révèle ce désaccord sur la nature du travail social ?
 
-*Références à mobiliser :* Castel (1995) ; Vrancken (2010) ; Le Bossé (2012).
+*Références à mobiliser :* @castel1995 ; @vrancken2010 ; @lebosse2012 ; @franssen2008 ; @conseildetat2025.
 :::
 
 ::: {.question-examen}
@@ -175,24 +263,12 @@ Analysez la réforme du statut de cohabitant (RIS, 1er mars 2026) à partir de d
 
 Qu'est-ce que le « dirty work » (Hughes) et le travail émotionnel (Hochschild) ? Comment s'appliquent-ils au travail social ? Quels en sont les coûts pour les professionnels ?
 
-*Références à mobiliser :* Hughes (1958) ; Hochschild (1983) ; Maslach & Jackson (1986).
+*Références à mobiliser :* @hughes1958 ; @hochschild1983 ; @maslach1981 ; @ravon2009 ; @maes2013.
 :::
 
 ---
 
 ## Références
 
-- Amiguet, O. & Julier, C. (2004). *L'intervention systémique dans le travail social*. Genève : IES.
-- Bronfenbrenner, U. (1979). *The Ecology of Human Development*. Cambridge (MA) : Harvard University Press.
-- Castel, R. (1995). *Les Métamorphoses de la question sociale*. Paris : Fayard.
-- D'Eaubonne, F. (1974). *Le Féminisme ou la Mort*. Paris : Pierre Horay.
-- Dominelli, L. (2012). *Green Social Work*. Cambridge : Polity Press.
-- IFSW (2014, réaff. 2024). *Définition globale du travail social*. [ifsw.org](https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/)
-- Le Bossé, Y. (2012). Soutenir sans prescrire. *Développement humain, handicap et changement social*, 20(1), 119–131.
-- Tronto, J. (1993). *Moral Boundaries*. New York : Routledge.
-
-**Sources des données belges**
-
-- SPP Intégration sociale, statistiques du revenu d'intégration. [stat.mi-is.be](https://stat.mi-is.be/fr/dashboard/ris_cities)
-- Fédération des CPAS (UVCW), *Radioscopie 2024 des politiques d'insertion menées dans les CPAS wallons*.
-- Réforme du calcul du RIS au 1er mars 2026 (statut de cohabitant) : CPAS de Liège, [note d'actualité](https://www.cpasdeliege.be/actualites-cpas/changement-dans-le-calcul-du-revenu-d2019integration-a-partir-du-1er-mars-2026).
+::: {#refs}
+:::
