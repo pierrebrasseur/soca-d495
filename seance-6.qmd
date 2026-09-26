@@ -1,5 +1,12 @@
 ---
-title: "Séance 6 — Genre et intersectionnalité dans le travail social"
+title: "Genre et intersectionnalité dans le travail social"
+ref: "S6"
+numero: "Séance 6"
+bloc: "Bloc 3 · Enjeux contemporains"
+periode: "1970–aujourd'hui"
+debut: 1970
+fin: 2026
+description: "Delphy, Crenshaw, Collins et Bilge : la féminisation du métier et le piège du séjour conditionnel."
 ---
 
 ::: {.objectifs}

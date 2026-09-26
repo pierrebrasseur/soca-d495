@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Le paradoxe aide/contrôle, quatre manières de l’habiter, et une réforme belge qui le met à nu : le statut de cohabitant (2026).">
 
-<title>2&nbsp; Séance 1 — Introduction et paradigmes contemporains du travail social – Théorie du travail social</title>
+<title>Introduction et paradigmes contemporains du travail social – Théories du travail social</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,17 +36,21 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./seance-2.html" rel="next">
 <link href="./index.html" rel="prev">
-<link href="./images/favicon.png" rel="icon" type="image/png">
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d402f4b7d095c35e05d0c815e375e5f9.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-59ccbd37e0db508a74555d94e7ae00f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-eb1f815df56349f5b5be1f0e2dc682c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,7 +63,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "Pas de résultats",
     "search-matching-documents-text": "documents trouvés",
@@ -73,11 +77,186 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap">
 
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -85,13 +264,38 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Théorie du travail social</span>
+    <span class="navbar-title">SOCA-D495</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools tools-end">
-    <a href="https://github.com/brasseurph/soca-d495" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Le cours</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./evaluation.html"> 
+<span class="menu-text">Évaluation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./references.html"> 
+<span class="menu-text">Bibliographie</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.ulb.be/fr/programme/soca-d495-1"> 
+<span class="menu-text">Fiche ULB</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
 </div>
-          <div id="quarto-search" class="" title="Recherche"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -99,28 +303,28 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./seance-1.html">Bloc 1 — Le paradoxe constitutif</a></li><li class="breadcrumb-item"><a href="./seance-1.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Séance 1 — Introduction et paradigmes contemporains du travail social</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">Introduction et paradigmes contemporains du travail social</h1>
+        </a>     
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Théorie du travail social</span></span></a>
+ <span class="menu-text">Accueil</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 1 — Le paradoxe constitutif</span></a>
+ <span class="menu-text">Bloc 1 · Le paradoxe constitutif</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -129,13 +333,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Séance 1 — Introduction et paradigmes contemporains du travail social</span></span></a>
+ <span class="menu-text">1 · Paradigmes contemporains</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Séance 2 — Émergence historique et fondements sociologiques</span></span></a>
+ <span class="menu-text">2 · Émergence historique</span></a>
   </div>
 </li>
       </ul>
@@ -143,7 +347,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 2 — Mutations et contrôle social</span></a>
+ <span class="menu-text">Bloc 2 · Mutations et contrôle social</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -152,19 +356,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Séance 3 — Professionnalisation et légitimation (1920–1960)</span></span></a>
+ <span class="menu-text">3 · Professionnalisation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Séance 4 — La mutation du contrôle social en Belgique (1970–2000)</span></span></a>
+ <span class="menu-text">4 · Contrôle social</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Séance 5 — Désaffiliation et disqualification sociale (1980–2010)</span></span></a>
+ <span class="menu-text">5 · Désaffiliation</span></a>
   </div>
 </li>
       </ul>
@@ -172,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 3 — Enjeux contemporains</span></a>
+ <span class="menu-text">Bloc 3 · Enjeux contemporains</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -181,13 +385,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Séance 6 — Genre et intersectionnalité dans le travail social</span></span></a>
+ <span class="menu-text">6 · Genre et intersectionnalité</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Séance 7 — Managérialisation et New Public Management</span></span></a>
+ <span class="menu-text">7 · Managérialisation</span></a>
   </div>
 </li>
       </ul>
@@ -195,7 +399,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Modules thématiques (annexes)</span></a>
+ <span class="menu-text">Modules thématiques</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -204,35 +408,46 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module C5 — Pauvreté et inconditionnalité de l’accueil</span></span></a>
+ <span class="menu-text">C5 · Pauvreté et accueil</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Module C7 — Féminisme d’État et égalité professionnelle</span></span></a>
+ <span class="menu-text">C7 · Féminisme d’État</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Module C8 — Le travail féministe et le « problème musulman » au Planning familial</span></span></a>
+ <span class="menu-text">C8 · Planning familial</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Repères</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evaluation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Évaluation</span></span></a>
+ <span class="menu-text">Évaluation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Bibliographie générale</span></span></a>
+ <span class="menu-text">Bibliographie générale</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -240,48 +455,36 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
+    <h2 id="toc-title">Dans cette séance</h2>
    
-  <ul>
-  <li><a href="#un-mardi-au-cpas" id="toc-un-mardi-au-cpas" class="nav-link active" data-scroll-target="#un-mardi-au-cpas"><span class="header-section-number">2.1</span> Un mardi au CPAS</a></li>
-  <li><a href="#le-paradoxe-constitutif" id="toc-le-paradoxe-constitutif" class="nav-link" data-scroll-target="#le-paradoxe-constitutif"><span class="header-section-number">2.2</span> Le paradoxe constitutif</a></li>
-  <li><a href="#une-profession-sans-territoire-à-elle" id="toc-une-profession-sans-territoire-à-elle" class="nav-link" data-scroll-target="#une-profession-sans-territoire-à-elle"><span class="header-section-number">2.3</span> Une profession sans territoire à elle</a></li>
-  <li><a href="#quatre-manières-dhabiter-le-paradoxe" id="toc-quatre-manières-dhabiter-le-paradoxe" class="nav-link" data-scroll-target="#quatre-manières-dhabiter-le-paradoxe"><span class="header-section-number">2.4</span> Quatre manières d’habiter le paradoxe</a>
   <ul class="collapse">
-  <li><a href="#lapproche-systémique" id="toc-lapproche-systémique" class="nav-link" data-scroll-target="#lapproche-systémique">L’approche systémique</a></li>
-  <li><a href="#la-théorie-critique-et-la-praxis" id="toc-la-théorie-critique-et-la-praxis" class="nav-link" data-scroll-target="#la-théorie-critique-et-la-praxis">La théorie critique et la praxis</a></li>
-  <li><a href="#lempowerment-ou-le-développement-du-pouvoir-dagir" id="toc-lempowerment-ou-le-développement-du-pouvoir-dagir" class="nav-link" data-scroll-target="#lempowerment-ou-le-développement-du-pouvoir-dagir">L’empowerment, ou le développement du pouvoir d’agir</a></li>
-  <li><a href="#lapproche-féministe-et-intersectionnelle" id="toc-lapproche-féministe-et-intersectionnelle" class="nav-link" data-scroll-target="#lapproche-féministe-et-intersectionnelle">L’approche féministe et intersectionnelle</a></li>
-  </ul></li>
-  <li><a href="#le-paradoxe-à-lépreuve-dune-réforme-belge" id="toc-le-paradoxe-à-lépreuve-dune-réforme-belge" class="nav-link" data-scroll-target="#le-paradoxe-à-lépreuve-dune-réforme-belge"><span class="header-section-number">2.5</span> Le paradoxe à l’épreuve d’une réforme belge</a></li>
-  <li><a href="#ce-que-le-métier-fait-à-ceux-qui-lexercent" id="toc-ce-que-le-métier-fait-à-ceux-qui-lexercent" class="nav-link" data-scroll-target="#ce-que-le-métier-fait-à-ceux-qui-lexercent"><span class="header-section-number">2.6</span> Ce que le métier fait à ceux qui l’exercent</a></li>
-  <li><a href="#une-frontière-qui-bouge-le-travail-social-vert" id="toc-une-frontière-qui-bouge-le-travail-social-vert" class="nav-link" data-scroll-target="#une-frontière-qui-bouge-le-travail-social-vert"><span class="header-section-number">2.7</span> Une frontière qui bouge : le travail social vert</a></li>
-  <li><a href="#où-nous-allons" id="toc-où-nous-allons" class="nav-link" data-scroll-target="#où-nous-allons"><span class="header-section-number">2.8</span> Où nous allons</a></li>
-  <li><a href="#questions-dexamen-séance-1" id="toc-questions-dexamen-séance-1" class="nav-link" data-scroll-target="#questions-dexamen-séance-1"><span class="header-section-number">2.9</span> Questions d’examen — Séance 1</a></li>
-  <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références"><span class="header-section-number">2.10</span> Références</a></li>
+  <li><a href="#un-mardi-au-cpas" id="toc-un-mardi-au-cpas" class="nav-link active" data-scroll-target="#un-mardi-au-cpas">Un mardi au CPAS</a></li>
+  <li><a href="#le-paradoxe-constitutif" id="toc-le-paradoxe-constitutif" class="nav-link" data-scroll-target="#le-paradoxe-constitutif">Le paradoxe constitutif</a></li>
+  <li><a href="#une-profession-sans-territoire-à-elle" id="toc-une-profession-sans-territoire-à-elle" class="nav-link" data-scroll-target="#une-profession-sans-territoire-à-elle">Une profession sans territoire à elle</a></li>
+  <li><a href="#quatre-manières-dhabiter-le-paradoxe" id="toc-quatre-manières-dhabiter-le-paradoxe" class="nav-link" data-scroll-target="#quatre-manières-dhabiter-le-paradoxe">Quatre manières d’habiter le paradoxe</a></li>
+  <li><a href="#le-paradoxe-à-lépreuve-dune-réforme-belge" id="toc-le-paradoxe-à-lépreuve-dune-réforme-belge" class="nav-link" data-scroll-target="#le-paradoxe-à-lépreuve-dune-réforme-belge">Le paradoxe à l’épreuve d’une réforme belge</a></li>
+  <li><a href="#ce-que-le-métier-fait-à-ceux-qui-lexercent" id="toc-ce-que-le-métier-fait-à-ceux-qui-lexercent" class="nav-link" data-scroll-target="#ce-que-le-métier-fait-à-ceux-qui-lexercent">Ce que le métier fait à ceux qui l’exercent</a></li>
+  <li><a href="#une-frontière-qui-bouge-le-travail-social-vert" id="toc-une-frontière-qui-bouge-le-travail-social-vert" class="nav-link" data-scroll-target="#une-frontière-qui-bouge-le-travail-social-vert">Une frontière qui bouge : le travail social vert</a></li>
+  <li><a href="#où-nous-allons" id="toc-où-nous-allons" class="nav-link" data-scroll-target="#où-nous-allons">Où nous allons</a></li>
+  <li><a href="#questions-dexamen-séance-1" id="toc-questions-dexamen-séance-1" class="nav-link" data-scroll-target="#questions-dexamen-séance-1">Questions d’examen — Séance 1</a></li>
+  <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références">Références</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./seance-1.html">Bloc 1 — Le paradoxe constitutif</a></li><li class="breadcrumb-item"><a href="./seance-1.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Séance 1 — Introduction et paradigmes contemporains du travail social</span></a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Séance 1 — Introduction et paradigmes contemporains du travail social</span></h1>
+
+<header id="title-block-header" class="quarto-title-block fiche-header">
+<div class="fiche-meta">
+  <span class="fiche-ref">SOCA-D495 / S1</span>
+  <span>Bloc 1 · Le paradoxe constitutif</span>
+  <span>Fil conducteur</span>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
+<p class="fiche-numero">Séance 1</p>
+<h1 class="title d-none d-lg-block display-7">Introduction et paradigmes contemporains du travail social</h1>
 </header>
+
 
 
 <div class="objectifs">
@@ -293,40 +496,43 @@ ul.task-list li input[type="checkbox"] {
 <li>Reconnaître ce que la bureaucratisation et le numérique font au métier au quotidien</li>
 </ul>
 </div>
-<section id="un-mardi-au-cpas" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="un-mardi-au-cpas"><span class="header-section-number">2.1</span> Un mardi au CPAS</h2>
+<section id="un-mardi-au-cpas" class="level2">
+<h2 class="anchored" data-anchor-id="un-mardi-au-cpas">Un mardi au CPAS</h2>
 <p>Commençons par une scène. Elle n’a rien d’exceptionnel : c’est le quotidien de milliers de travailleuses sociales en Belgique, et ce sera bientôt le vôtre.</p>
 <p>Une femme se présente à l’accueil d’un CPAS, à Charleroi. Elle a perdu son emploi il y a huit mois, ses allocations de chômage viennent de tomber, elle vit chez sa sœur le temps de se retourner. Elle demande le revenu d’intégration sociale. L’assistante sociale qui la reçoit doit faire deux choses en même temps, et ces deux choses tirent dans des directions opposées.</p>
 <p>D’un côté, elle doit ouvrir un droit. La loi le dit : toute personne en séjour légal qui n’a pas de moyens suffisants a droit à un revenu qui lui permet de vivre dignement. C’est un droit, pas une faveur.</p>
 <p>De l’autre, elle doit enquêter. Vérifier la composition du ménage. Calculer les ressources des autres personnes qui vivent sous le même toit. Évaluer si la demandeuse « fait des efforts » de recherche d’emploi. Lui faire signer un projet individualisé d’intégration sociale, et contrôler qu’elle le respecte. Si le contrat n’est pas tenu, l’aide peut être suspendue.</p>
 <p>Aider et contrôler. Ouvrir un droit et surveiller son usage. La même personne, dans le même entretien, fait les deux. Voilà le métier. Et voilà pourquoi il est si difficile à tenir.</p>
 </section>
-<section id="le-paradoxe-constitutif" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="le-paradoxe-constitutif"><span class="header-section-number">2.2</span> Le paradoxe constitutif</h2>
+<section id="le-paradoxe-constitutif" class="level2">
+<h2 class="anchored" data-anchor-id="le-paradoxe-constitutif">Le paradoxe constitutif</h2>
 <p>Le travail social est une drôle de profession. Elle n’a pas d’objet qui n’appartienne qu’à elle, comme le corps pour la médecine ou la norme juridique pour le droit. Elle n’a pas non plus de geste technique exclusif. Ce qui la définit, c’est une tension. Elle doit transformer des situations sociales injustes et, dans le même mouvement, aider des personnes à survivre dans ces situations telles qu’elles sont.</p>
 <p>Cette tension a deux pôles. Le premier exige de nommer les rapports de force : la pauvreté n’est pas un accident biographique, elle est produite et reproduite par des mécanismes économiques. Le second exige de répondre à l’urgence : la dame de Charleroi a besoin de 893,65 euros ce mois-ci pour manger et payer sa part de loyer, pas d’une analyse de la désindustrialisation wallonne.</p>
 <p>On aimerait pouvoir choisir un pôle contre l’autre. C’est impossible. Une intervenante qui ne ferait que dénoncer les structures laisserait les gens sans rien. Une intervenante qui ne ferait que distribuer des aides sans jamais questionner le système deviendrait un rouage de la gestion de la misère. Le métier se tient dans l’entre-deux, et il y reste.</p>
 <p>Méfiez-vous donc de toute théorie qui prétend dissoudre ce paradoxe. Quand un modèle vous promet de réconcilier définitivement l’aide et le contrôle, l’accompagnement et l’évaluation, c’est en général qu’il a discrètement sacrifié l’un des deux.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><strong>La définition de référence (IFSW, 2014, réaffirmée en 2024)</strong></p>
 <p>La Fédération internationale des travailleurs sociaux définit le travail social par cinq notions : le changement social, le développement social, la cohésion sociale, le pouvoir d’agir des personnes et leur libération. La définition s’appuie sur un socle commun : justice sociale, droits humains, responsabilité collective, respect des diversités. Elle ne résout pas le paradoxe. Elle le met par écrit. <a href="https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/">Texte officiel</a></p>
 </div>
 </div>
-</div>
 </section>
-<section id="une-profession-sans-territoire-à-elle" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="une-profession-sans-territoire-à-elle"><span class="header-section-number">2.3</span> Une profession sans territoire à elle</h2>
+<section id="une-profession-sans-territoire-à-elle" class="level2">
+<h2 class="anchored" data-anchor-id="une-profession-sans-territoire-à-elle">Une profession sans territoire à elle</h2>
 <p>Cette absence d’objet propre passe souvent pour une faiblesse. C’est une force, à condition d’en faire quelque chose.</p>
 <p>Le travail social emprunte à la sociologie ses outils d’analyse des institutions et des rapports sociaux. Il prend à la psychologie ce qu’on sait de l’attachement, du traumatisme, des mécanismes de défense. Il a besoin du droit pour connaître les cadres qui ouvrent ou ferment l’accès aux ressources. Il convoque l’économie pour comprendre la redistribution, et l’anthropologie pour ne pas plaquer une norme culturelle unique sur des trajectoires plurielles. Une bonne assistante sociale est un peu tout cela à la fois, sans être experte en rien.</p>
 <p>Cette hybridation a un nom dans la profession : elle articule l’action sociale, qui relève d’une logique institutionnelle et politique, et l’assistance professionnelle, qui relève d’une logique de relation. Tenir les deux ensemble est exactement ce que personne d’autre ne sait faire. C’est le territoire du travail social, et il est mouvant par construction.</p>
 </section>
-<section id="quatre-manières-dhabiter-le-paradoxe" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="quatre-manières-dhabiter-le-paradoxe"><span class="header-section-number">2.4</span> Quatre manières d’habiter le paradoxe</h2>
+<section id="quatre-manières-dhabiter-le-paradoxe" class="level2">
+<h2 class="anchored" data-anchor-id="quatre-manières-dhabiter-le-paradoxe">Quatre manières d’habiter le paradoxe</h2>
 <p>Il n’existe pas une théorie du travail social, mais des familles de pensée. Aucune n’est une chapelle fermée : on emprunte à l’une le matin et à l’autre l’après-midi, selon la situation. Ce qui les distingue, c’est la place qu’elles assignent au paradoxe aide/contrôle. Voici les quatre principales.</p>
 <section id="lapproche-systémique" class="level3">
 <h3 class="anchored" data-anchor-id="lapproche-systémique">L’approche systémique</h3>
@@ -355,46 +561,49 @@ ul.task-list li input[type="checkbox"] {
 <p>Elle hérite des féminismes de la deuxième vague et de leur mot d’ordre, « le privé est politique ». Carol Gilligan et Joan Tronto en tirent une éthique du care ; Kimberlé Crenshaw, en 1989 puis 1991, en tire l’intersectionnalité.</p>
 <p>Ce que cette approche déplace, c’est la frontière entre privé et public. La violence conjugale, la charge mentale, la pauvreté qui frappe d’abord les femmes ne sont pas des accidents domestiques. Elles ont une structure. Et le travail du soin, ce care assuré très majoritairement par des femmes et tenu pour aller de soi, est à la fois indispensable à la société et systématiquement sous-payé. Vous le vérifierez vous-mêmes : le secteur où vous allez travailler est l’un des plus féminisés et des moins bien rémunérés du pays.</p>
 <p>L’intersectionnalité ajoute une précision décisive. Les dominations ne s’additionnent pas, elles se combinent et se transforment. Une femme sans papiers, victime de violences, dont le titre de séjour dépend de son conjoint, n’est pas « une femme » plus « une migrante » plus « une pauvre ». Elle occupe une position précise où demander de l’aide peut lui faire perdre son séjour. On y reviendra en détail à la séance 6.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><strong>Deux niveaux de lecture à ne pas confondre</strong></p>
 <p>Les quatre approches ci-dessus sont des paradigmes d’intervention : elles disent comment agir. Le fil du cours mobilise par ailleurs de grandes approches analytiques, qui disent comment penser le travail social, et structurent les séances suivantes : histoire (S2), sociologie des professions (S3), analyse foucaldienne du contrôle social (S4), question sociale (S5), genre et intersectionnalité (S6), managérialisation (S7). Un même dossier peut être traité selon un paradigme d’intervention et analysé selon une approche du cours.</p>
 </div>
 </div>
-</div>
 </section>
 </section>
-<section id="le-paradoxe-à-lépreuve-dune-réforme-belge" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="le-paradoxe-à-lépreuve-dune-réforme-belge"><span class="header-section-number">2.5</span> Le paradoxe à l’épreuve d’une réforme belge</h2>
+<section id="le-paradoxe-à-lépreuve-dune-réforme-belge" class="level2">
+<h2 class="anchored" data-anchor-id="le-paradoxe-à-lépreuve-dune-réforme-belge">Le paradoxe à l’épreuve d’une réforme belge</h2>
 <p>Les concepts précédents ne sont pas des abstractions. Ils décident de la vie des gens. Prenons la réforme du statut de cohabitant, entrée en vigueur le 1er mars 2026, parce qu’elle met le paradoxe à nu.</p>
 <p>Avant la réforme, pour calculer le RIS d’une personne, le CPAS pouvait tenir compte des ressources de certains proches vivant sous le même toit, sans y être obligé. Depuis mars 2026, il doit compter les ressources de tous les débiteurs alimentaires majeurs qui cohabitent : un frère, une sœur, un enfant majeur qui travaille, parfois un parent. Les allocations familiales perçues pour le demandeur sont comptées à hauteur d’un forfait de 240 euros. Le montant de base pour un cohabitant (catégorie 1) est de 893,65 euros par mois.</p>
 <p>Lisez la mesure avec l’empowerment libéral : on « responsabilise » les familles, on rappelle que la solidarité commence à la maison. Lisez-la avec la théorie critique : on transfère la charge de la pauvreté sur les proches les plus modestes, et on rend l’accès au droit plus étroit pour ceux qui n’ont d’autre toit que celui d’un parent qui travaille. La même mesure, deux lectures.</p>
 <p>Et le réel a tranché plus vite que prévu : dès le 24 mars 2026, le durcissement a été attaqué en justice. C’est exactement la situation dans laquelle vous travaillerez. Vous appliquerez une règle dont vous percevez les effets sur les gens que vous recevez, pendant que sa légitimité est contestée devant les tribunaux. Tenir ce grand écart sans cynisme ni naïveté, voilà le métier.</p>
 <p>Quelques repères de cadrage pour mesurer ce que pèse le RIS en Belgique. En 2024, 1,41 % de la population du pays en bénéficiait. En Wallonie, au 1er janvier 2024, les CPAS versaient le revenu d’intégration à 73 325 personnes, et l’aide sociale équivalente à 8 713 autres. La proportion varie fortement d’une région à l’autre : autour de 6,6 % à Bruxelles contre 1,2 % en Flandre. Derrière ces pourcentages, il y a des entretiens comme celui de Charleroi, des milliers par jour.</p>
 </section>
-<section id="ce-que-le-métier-fait-à-ceux-qui-lexercent" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="ce-que-le-métier-fait-à-ceux-qui-lexercent"><span class="header-section-number">2.6</span> Ce que le métier fait à ceux qui l’exercent</h2>
+<section id="ce-que-le-métier-fait-à-ceux-qui-lexercent" class="level2">
+<h2 class="anchored" data-anchor-id="ce-que-le-métier-fait-à-ceux-qui-lexercent">Ce que le métier fait à ceux qui l’exercent</h2>
 <p>Reste une question qu’on évite souvent en formation : tenir ce paradoxe, ça use. Et la manière dont le travail est organisé aujourd’hui rend la tenue plus difficile qu’avant.</p>
 <p>Le premier facteur est la bureaucratisation. Une part croissante du temps passe à documenter le travail plutôt qu’à le faire : saisir dans des logiciels, justifier les décisions, répondre aux audits. On y reviendra à la séance 7, mais l’effet se sent dès le premier stage. Beaucoup de professionnels se rangent dans une position que je résumerais ainsi : ils ne croient pas à la légitimité des nouveaux outils de gestion, mais s’y conforment pour garder leur poste, tout en grappillant des marges pour faire du vrai travail relationnel. Ce n’est pas de la résistance héroïque ni de l’adhésion convaincue. C’est un inconfort permanent, et il a un coût psychique réel.</p>
 <p>Le second facteur est le numérique. La dématérialisation des services publics était censée simplifier l’accès aux droits. Elle a créé de nouvelles exclusions. Les personnes les plus à l’aise avec un guichet automatisé sont rarement celles qui poussent la porte d’un CPAS. Résultat : une partie de votre travail consiste désormais à faire à la place des gens des démarches que l’administration a déclarées « accessibles à tous ». L’arrivée d’outils d’aide à la décision automatisés ajoute une question que la déontologie n’a pas encore tranchée : que devient le secret professionnel quand les notes d’accompagnement nourrissent un algorithme, et qui répond d’une décision sociale prise pour partie par une machine ?</p>
 <p>Je n’ai pas de réponse propre à vous donner sur ces deux points, et je me méfie de ceux qui en ont. Ce que je peux dire, c’est que la lucidité sur ces mécanismes est une protection. Nommer ce qui use est déjà une manière de moins se laisser abîmer.</p>
 </section>
-<section id="une-frontière-qui-bouge-le-travail-social-vert" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="une-frontière-qui-bouge-le-travail-social-vert"><span class="header-section-number">2.7</span> Une frontière qui bouge : le travail social vert</h2>
+<section id="une-frontière-qui-bouge-le-travail-social-vert" class="level2">
+<h2 class="anchored" data-anchor-id="une-frontière-qui-bouge-le-travail-social-vert">Une frontière qui bouge : le travail social vert</h2>
 <p>Une dernière ouverture, parce que le périmètre du métier se déplace sous nos yeux. Lena Dominelli a théorisé en 2012 le travail social vert. Son point de départ est un constat d’injustice supplémentaire : les dégâts environnementaux frappent d’abord ceux qui sont déjà en bas. Une canicule tue surtout des personnes âgées isolées dans des logements mal isolés. Une inondation ruine surtout ceux qui n’ont pas les moyens d’habiter ailleurs que dans la zone inondable. La crise climatique n’épargne personne, mais elle ne frappe pas tout le monde pareil, et c’est précisément ce qui en fait un objet de travail social.</p>
 <p>L’écoféminisme, dont Françoise d’Eaubonne a forgé le terme en 1974, ajoute un fil : la même logique qui dévalorise le travail de soin des femmes traite la nature comme une ressource gratuite et inépuisable. Les deux exploitations se tiennent. On verra à la séance 6 que cette intuition n’est pas qu’une métaphore.</p>
 </section>
-<section id="où-nous-allons" class="level2" data-number="2.8">
-<h2 data-number="2.8" class="anchored" data-anchor-id="où-nous-allons"><span class="header-section-number">2.8</span> Où nous allons</h2>
+<section id="où-nous-allons" class="level2">
+<h2 class="anchored" data-anchor-id="où-nous-allons">Où nous allons</h2>
 <p>Ce cours ne va pas vous apprendre à supprimer le paradoxe aide/contrôle, parce que personne ne le peut. Il va vous donner de quoi le tenir : une histoire (d’où vient le métier), une sociologie des professions (ce qui fait sa fragilité), une analyse du contrôle social (ce que le travail social fait sans le dire), une lecture de la question sociale belge, des outils sur le genre et la racialisation, et une critique de la gestion qui presse aujourd’hui le secteur. La dame de Charleroi vous attend au bout. Autant arriver équipé.</p>
 <hr>
 </section>
-<section id="questions-dexamen-séance-1" class="level2" data-number="2.9">
-<h2 data-number="2.9" class="anchored" data-anchor-id="questions-dexamen-séance-1"><span class="header-section-number">2.9</span> Questions d’examen — Séance 1</h2>
+<section id="questions-dexamen-séance-1" class="level2">
+<h2 class="anchored" data-anchor-id="questions-dexamen-séance-1">Questions d’examen — Séance 1</h2>
 <div class="question-examen">
 <p><strong>Question 1.A</strong></p>
 <p>Expliquez le paradoxe constitutif du travail social. Pourquoi ne peut-on pas le « résoudre » ? Appuyez-vous sur un exemple belge précis.</p>
@@ -422,8 +631,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <hr>
 </section>
-<section id="références" class="level2" data-number="2.10">
-<h2 data-number="2.10" class="anchored" data-anchor-id="références"><span class="header-section-number">2.10</span> Références</h2>
+<section id="références" class="level2">
+<h2 class="anchored" data-anchor-id="références">Références</h2>
 <ul>
 <li>Amiguet, O. &amp; Julier, C. (2004). <em>L’intervention systémique dans le travail social</em>. Genève : IES.</li>
 <li>Bronfenbrenner, U. (1979). <em>The Ecology of Human Development</em>. Cambridge (MA) : Harvard University Press.</li>
@@ -447,6 +656,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -518,7 +740,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/brasseurph\.github\.io\/soca-d495");
+        var filterRegex = new RegExp("https:\/\/pierrebrasseur\.github\.io\/soca-d495");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -852,19 +1074,33 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Théorie du travail social">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Théorie du travail social</span></span>
+      <a href="./index.html" class="pagination-link" aria-label="Accueil">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Accueil</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./seance-2.html" class="pagination-link" aria-label="Séance 2 — Émergence historique et fondements sociologiques">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Séance 2 — Émergence historique et fondements sociologiques</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./seance-2.html" class="pagination-link" aria-label="2 · Émergence historique">
+        <span class="nav-page-text">2 · Émergence historique</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Pierre Brasseur · METICES / STRIGES · Université libre de Bruxelles</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>SOCA-D495 · 2025–2026</p>
+</div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

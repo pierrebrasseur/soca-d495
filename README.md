@@ -1,99 +1,72 @@
-# SOCA-D495 — Théorie du travail social
+# SOCA-D495 — Théories du travail social
 
-Site de cours Quarto (format book) pour le cours SOCA-D495, Master en sciences du travail, Université libre de Bruxelles.
+Site de cours Quarto (format *website*) pour le cours SOCA-D495, Master en sciences du travail, Université libre de Bruxelles.
+
+Adresse publique : https://pierrebrasseur.github.io/soca-d495
 
 ## Structure du projet
 
 ```
 soca-d495/
-├── _quarto.yml        # Configuration du book
-├── custom.scss        # Styles personnalisés
-├── index.qmd          # Page d'accueil
-├── seance-1.qmd       # Séance 1 — Introduction et paradigmes
-├── seance-2.qmd       # Séance 2 — Émergence historique
-├── seance-3.qmd       # Séance 3 — Professionnalisation (1920–1960)
-├── seance-4.qmd       # Séance 4 — Contrôle social (1970–2000)
-├── seance-5.qmd       # Séance 5 — Désaffiliation (1980–2010)
-├── seance-6.qmd       # Séance 6 — Genre et intersectionnalité
-├── seance-7.qmd       # Séance 7 — Managérialisation et NPM
-├── evaluation.qmd     # Modalités d'évaluation
-├── references.qmd     # Bibliographie générale
-└── docs/              # Dossier de sortie HTML (généré par Quarto)
+├── _quarto.yml          # Configuration du site, navigation, barre latérale
+├── index.qmd            # Accueil : parcours et modules générés à partir des séances
+├── seance-1.qmd … seance-7.qmd
+├── module-c5.qmd, module-c7.qmd, module-c8.qmd
+├── evaluation.qmd       # Modalités d'évaluation
+├── references.qmd       # Bibliographie générale
+├── theme/
+│   ├── light.scss       # Palette claire
+│   ├── dark.scss        # Palette sombre
+│   ├── rules.scss       # Styles communs (fiche de séance, objectifs, questions d'examen, accueil)
+│   ├── title-block.html # En-tête « fiche » des séances
+│   ├── parcours.ejs     # Gabarit du parcours et de la frise sur l'accueil
+│   ├── modules.ejs      # Gabarit des cartes de modules
+│   └── fonts.html       # Newsreader, Public Sans, IBM Plex Mono (Google Fonts)
+└── docs/                # Site compilé, publié par GitHub Pages
 ```
 
-## Prérequis
+## Métadonnées d'une séance
 
-- [Quarto](https://quarto.org/docs/get-started/) ≥ 1.4
+L'accueil lit le front matter de chaque séance et de chaque module. Modifier ces champs suffit à mettre à jour le parcours et la frise.
 
-## Utilisation locale
-
-```bash
-# Cloner le dépôt
-git clone https://github.com/brasseurph/soca-d495.git
-cd soca-d495
-
-# Prévisualiser le site en local
-quarto preview
-
-# Compiler le site
-quarto render
+```yaml
+title: "La mutation du contrôle social en Belgique (1970–2000)"
+ref: "S4"                      # référence courte (S1…S7, C5…)
+numero: "Séance 4"
+bloc: "Bloc 2 · Mutations et contrôle social"
+periode: "1970–2000"           # libellé affiché
+debut: 1970                    # début de la bande sur la frise
+fin: 2000                      # fin de la bande
+description: "Une phrase pour la page d'accueil."
 ```
 
-Le site compilé se trouve dans le dossier `docs/`.
+Sans `debut`/`fin`, la séance apparaît comme un fil conducteur en pointillés sur toute la frise. Pour un module, `periode` indique la séance qu'il prolonge.
 
-## Déploiement sur GitHub Pages
+Encadrés disponibles dans le texte : `::: {.objectifs}`, `::: {.question-examen}`, `::: {.callout-note}` (ou `-important`, `-warning`, `-tip`).
 
-### 1. Créer le dépôt GitHub
+Pour ajouter une séance : créer `seance-8.qmd` avec ces champs, puis l'ajouter à `sidebar` dans `_quarto.yml`.
+
+## Compiler et prévisualiser
+
+Quarto est installé dans `~/Applications/quarto` :
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/brasseurph/soca-d495.git
-git push -u origin main
+~/Applications/quarto/bin/quarto preview
+~/Applications/quarto/bin/quarto render
 ```
 
-### 2. Activer GitHub Pages
+## Publier
 
-Dans les paramètres du dépôt GitHub :
-- Aller dans **Settings → Pages**
-- Source : **Deploy from a branch**
-- Branch : `main` / dossier : `/docs`
-- Cliquer sur **Save**
-
-### 3. Mettre à jour le site
+GitHub Pages sert le dossier `docs/` de la branche `main`.
 
 ```bash
-quarto render
-git add docs/
+~/Applications/quarto/bin/quarto render
+git add -A
 git commit -m "Mise à jour du cours"
 git push
 ```
 
-Le site sera accessible à l'adresse : `https://brasseurph.github.io/soca-d495`
-
-## Modifier le contenu
-
-Chaque séance est un fichier `.qmd` (Quarto Markdown). La syntaxe est du Markdown standard avec quelques extensions Quarto :
-
-```markdown
-# Titre de section
-
-::: {.callout-note}
-**Titre de l'encadré**
-Contenu de l'encadré.
-:::
-
-::: {.objectifs}
-- Objectif 1
-- Objectif 2
-:::
-```
-
-Pour ajouter une séance, créer un fichier `seance-8.qmd` et l'ajouter dans `_quarto.yml` sous `chapters`.
-
 ## Contact
 
-Pierre Brasseur — pierre.brasseur@ulb.be  
+Pierre Brasseur — pierre.brasseur@ulb.be
 METICES / STRIGES — Université libre de Bruxelles

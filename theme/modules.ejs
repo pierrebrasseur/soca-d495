@@ -1,0 +1,12 @@
+```{=html}
+<div class="modules">
+<% for (const item of items) { %>
+  <a class="module" href="<%- item.path %>">
+    <span class="module-code"><%= item.numero %></span>
+    <span class="module-titre"><%= item.title %></span>
+    <span class="module-desc"><%= item.description %></span>
+    <span class="module-lien"><%= item.periode %></span>
+  </a>
+<% } %>
+</div>
+```

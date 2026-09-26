@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+
+$ts-paper:      #16141D;
+$ts-surface:    #1E1B27;
+$ts-ink:        #E9E6F0;
+$ts-muted:      #A7A1B8;
+$ts-rule:       #34303F;
+$ts-stamp:      #BCA6F0;
+$ts-stamp-soft: #262036;
+$ts-important:  #EC928C;
+$ts-warning:    #E2B066;
+$ts-tip:        #82C7A5;
+
+$body-bg: $ts-paper;
+$body-color: $ts-ink;
+$link-color: $ts-stamp;
+$primary: $ts-stamp;
+$text-muted: $ts-muted;
+$border-color: $ts-rule;
+
+$navbar-bg: $ts-paper;
+$navbar-fg: $ts-ink;
+$navbar-hl: $ts-stamp;
+$sidebar-bg: $ts-paper;
+$sidebar-fg: $ts-muted;
+$sidebar-hl: $ts-stamp;
+$footer-bg: $ts-paper;
+$footer-fg: $ts-muted;
+
+$callout-color-note: $ts-stamp;
+$callout-color-important: $ts-important;
+$callout-color-warning: $ts-warning;
+$callout-color-tip: $ts-tip;
+$callout-color-caution: $ts-warning;

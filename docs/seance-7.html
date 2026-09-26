@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Hood, la chalandisation selon Chauvière et la double injonction : la gestion par la performance face à la relation d’aide.">
 
-<title>8&nbsp; Séance 7 — Managérialisation et New Public Management – Théorie du travail social</title>
+<title>Managérialisation et New Public Management – Théories du travail social</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,17 +36,21 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./module-c5.html" rel="next">
 <link href="./seance-6.html" rel="prev">
-<link href="./images/favicon.png" rel="icon" type="image/png">
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d402f4b7d095c35e05d0c815e375e5f9.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-59ccbd37e0db508a74555d94e7ae00f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-eb1f815df56349f5b5be1f0e2dc682c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,7 +63,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "Pas de résultats",
     "search-matching-documents-text": "documents trouvés",
@@ -73,11 +77,186 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap">
 
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -85,13 +264,38 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Théorie du travail social</span>
+    <span class="navbar-title">SOCA-D495</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools tools-end">
-    <a href="https://github.com/brasseurph/soca-d495" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Le cours</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./evaluation.html"> 
+<span class="menu-text">Évaluation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./references.html"> 
+<span class="menu-text">Bibliographie</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.ulb.be/fr/programme/soca-d495-1"> 
+<span class="menu-text">Fiche ULB</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
 </div>
-          <div id="quarto-search" class="" title="Recherche"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -99,28 +303,28 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./seance-6.html">Bloc 3 — Enjeux contemporains</a></li><li class="breadcrumb-item"><a href="./seance-7.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Séance 7 — Managérialisation et New Public Management</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">Managérialisation et New Public Management</h1>
+        </a>     
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Théorie du travail social</span></span></a>
+ <span class="menu-text">Accueil</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 1 — Le paradoxe constitutif</span></a>
+ <span class="menu-text">Bloc 1 · Le paradoxe constitutif</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -129,13 +333,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Séance 1 — Introduction et paradigmes contemporains du travail social</span></span></a>
+ <span class="menu-text">1 · Paradigmes contemporains</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Séance 2 — Émergence historique et fondements sociologiques</span></span></a>
+ <span class="menu-text">2 · Émergence historique</span></a>
   </div>
 </li>
       </ul>
@@ -143,7 +347,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 2 — Mutations et contrôle social</span></a>
+ <span class="menu-text">Bloc 2 · Mutations et contrôle social</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -152,19 +356,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Séance 3 — Professionnalisation et légitimation (1920–1960)</span></span></a>
+ <span class="menu-text">3 · Professionnalisation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Séance 4 — La mutation du contrôle social en Belgique (1970–2000)</span></span></a>
+ <span class="menu-text">4 · Contrôle social</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Séance 5 — Désaffiliation et disqualification sociale (1980–2010)</span></span></a>
+ <span class="menu-text">5 · Désaffiliation</span></a>
   </div>
 </li>
       </ul>
@@ -172,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 3 — Enjeux contemporains</span></a>
+ <span class="menu-text">Bloc 3 · Enjeux contemporains</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -181,13 +385,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Séance 6 — Genre et intersectionnalité dans le travail social</span></span></a>
+ <span class="menu-text">6 · Genre et intersectionnalité</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-7.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Séance 7 — Managérialisation et New Public Management</span></span></a>
+ <span class="menu-text">7 · Managérialisation</span></a>
   </div>
 </li>
       </ul>
@@ -195,7 +399,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Modules thématiques (annexes)</span></a>
+ <span class="menu-text">Modules thématiques</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -204,35 +408,46 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module C5 — Pauvreté et inconditionnalité de l’accueil</span></span></a>
+ <span class="menu-text">C5 · Pauvreté et accueil</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Module C7 — Féminisme d’État et égalité professionnelle</span></span></a>
+ <span class="menu-text">C7 · Féminisme d’État</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Module C8 — Le travail féministe et le « problème musulman » au Planning familial</span></span></a>
+ <span class="menu-text">C8 · Planning familial</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Repères</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evaluation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Évaluation</span></span></a>
+ <span class="menu-text">Évaluation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Bibliographie générale</span></span></a>
+ <span class="menu-text">Bibliographie générale</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -240,42 +455,36 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
+    <h2 id="toc-title">Dans cette séance</h2>
    
-  <ul>
-  <li><a href="#cent-dossiers" id="toc-cent-dossiers" class="nav-link active" data-scroll-target="#cent-dossiers"><span class="header-section-number">8.1</span> Cent dossiers</a></li>
-  <li><a href="#doù-vient-la-managérialisation" id="toc-doù-vient-la-managérialisation" class="nav-link" data-scroll-target="#doù-vient-la-managérialisation"><span class="header-section-number">8.2</span> D’où vient la managérialisation</a></li>
-  <li><a href="#hood-et-la-performance-comme-religion" id="toc-hood-et-la-performance-comme-religion" class="nav-link" data-scroll-target="#hood-et-la-performance-comme-religion"><span class="header-section-number">8.3</span> Hood et la performance comme religion</a></li>
-  <li><a href="#la-chalandisation-ou-lusager-devenu-client" id="toc-la-chalandisation-ou-lusager-devenu-client" class="nav-link" data-scroll-target="#la-chalandisation-ou-lusager-devenu-client"><span class="header-section-number">8.4</span> La chalandisation, ou l’usager devenu client</a></li>
-  <li><a href="#le-paradoxe-moins-de-bureaucratie-vraiment" id="toc-le-paradoxe-moins-de-bureaucratie-vraiment" class="nav-link" data-scroll-target="#le-paradoxe-moins-de-bureaucratie-vraiment"><span class="header-section-number">8.5</span> Le paradoxe : moins de bureaucratie, vraiment ?</a></li>
-  <li><a href="#la-double-injonction-vécue-des-deux-côtés" id="toc-la-double-injonction-vécue-des-deux-côtés" class="nav-link" data-scroll-target="#la-double-injonction-vécue-des-deux-côtés"><span class="header-section-number">8.6</span> La double injonction, vécue des deux côtés</a></li>
-  <li><a href="#trois-manières-de-réagir" id="toc-trois-manières-de-réagir" class="nav-link" data-scroll-target="#trois-manières-de-réagir"><span class="header-section-number">8.7</span> Trois manières de réagir</a></li>
-  <li><a href="#un-exercice-et-une-question-ouverte" id="toc-un-exercice-et-une-question-ouverte" class="nav-link" data-scroll-target="#un-exercice-et-une-question-ouverte"><span class="header-section-number">8.8</span> Un exercice, et une question ouverte</a></li>
-  <li><a href="#questions-dexamen-séance-7" id="toc-questions-dexamen-séance-7" class="nav-link" data-scroll-target="#questions-dexamen-séance-7"><span class="header-section-number">8.9</span> Questions d’examen — Séance 7</a></li>
-  <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références"><span class="header-section-number">8.10</span> Références</a></li>
+  <ul class="collapse">
+  <li><a href="#cent-dossiers" id="toc-cent-dossiers" class="nav-link active" data-scroll-target="#cent-dossiers">Cent dossiers</a></li>
+  <li><a href="#doù-vient-la-managérialisation" id="toc-doù-vient-la-managérialisation" class="nav-link" data-scroll-target="#doù-vient-la-managérialisation">D’où vient la managérialisation</a></li>
+  <li><a href="#hood-et-la-performance-comme-religion" id="toc-hood-et-la-performance-comme-religion" class="nav-link" data-scroll-target="#hood-et-la-performance-comme-religion">Hood et la performance comme religion</a></li>
+  <li><a href="#la-chalandisation-ou-lusager-devenu-client" id="toc-la-chalandisation-ou-lusager-devenu-client" class="nav-link" data-scroll-target="#la-chalandisation-ou-lusager-devenu-client">La chalandisation, ou l’usager devenu client</a></li>
+  <li><a href="#le-paradoxe-moins-de-bureaucratie-vraiment" id="toc-le-paradoxe-moins-de-bureaucratie-vraiment" class="nav-link" data-scroll-target="#le-paradoxe-moins-de-bureaucratie-vraiment">Le paradoxe : moins de bureaucratie, vraiment ?</a></li>
+  <li><a href="#la-double-injonction-vécue-des-deux-côtés" id="toc-la-double-injonction-vécue-des-deux-côtés" class="nav-link" data-scroll-target="#la-double-injonction-vécue-des-deux-côtés">La double injonction, vécue des deux côtés</a></li>
+  <li><a href="#trois-manières-de-réagir" id="toc-trois-manières-de-réagir" class="nav-link" data-scroll-target="#trois-manières-de-réagir">Trois manières de réagir</a></li>
+  <li><a href="#un-exercice-et-une-question-ouverte" id="toc-un-exercice-et-une-question-ouverte" class="nav-link" data-scroll-target="#un-exercice-et-une-question-ouverte">Un exercice, et une question ouverte</a></li>
+  <li><a href="#questions-dexamen-séance-7" id="toc-questions-dexamen-séance-7" class="nav-link" data-scroll-target="#questions-dexamen-séance-7">Questions d’examen — Séance 7</a></li>
+  <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références">Références</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./seance-6.html">Bloc 3 — Enjeux contemporains</a></li><li class="breadcrumb-item"><a href="./seance-7.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Séance 7 — Managérialisation et New Public Management</span></a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Séance 7 — Managérialisation et New Public Management</span></h1>
+
+<header id="title-block-header" class="quarto-title-block fiche-header">
+<div class="fiche-meta">
+  <span class="fiche-ref">SOCA-D495 / S7</span>
+  <span>Bloc 3 · Enjeux contemporains</span>
+  <span>1980–aujourd’hui</span>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
+<p class="fiche-numero">Séance 7</p>
+<h1 class="title d-none d-lg-block display-7">Managérialisation et New Public Management</h1>
 </header>
+
 
 
 <div class="objectifs">
@@ -287,64 +496,67 @@ ul.task-list li input[type="checkbox"] {
 <li>Positionner trois réponses possibles à la managérialisation et évaluer leurs limites</li>
 </ul>
 </div>
-<section id="cent-dossiers" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="cent-dossiers"><span class="header-section-number">8.1</span> Cent dossiers</h2>
+<section id="cent-dossiers" class="level2">
+<h2 class="anchored" data-anchor-id="cent-dossiers">Cent dossiers</h2>
 <p>Imaginez votre première année en CPAS. On vous confie une centaine de dossiers. Pas cent personnes croisées dans l’année : cent situations actives en même temps, cent histoires, cent rendez-vous à tenir, cent contrats d’insertion à suivre. C’est l’ordre de grandeur réel : les plans de recrutement annoncés en Belgique tournent autour d’un équivalent temps plein pour cent dossiers. En mai 2026, la presse décrivait des CPAS « sous l’eau », incapables de traiter les demandes dans le délai légal de trente jours, avec un afflux qui a doublé en un an sous l’effet de la réforme du chômage. Et la phrase qui revient dans la bouche des travailleurs : « les gens tombent malades, partent en burn-out, démissionnent ».</p>
 <p>Cette séance ne parle pas d’un mauvais management qu’on corrigerait avec un meilleur logiciel. Elle parle d’une logique, celle qui a transformé le service public en prestation, l’usager en client, et l’accompagnement en production d’indicateurs. Comprendre cette logique, c’est la première condition pour y résister sans s’épuiser.</p>
 </section>
-<section id="doù-vient-la-managérialisation" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="doù-vient-la-managérialisation"><span class="header-section-number">8.2</span> D’où vient la managérialisation</h2>
+<section id="doù-vient-la-managérialisation" class="level2">
+<h2 class="anchored" data-anchor-id="doù-vient-la-managérialisation">D’où vient la managérialisation</h2>
 <p>La managérialisation importe dans les services publics et le secteur social des méthodes de gestion venues du privé. Le mouvement s’accélère dans les années 1980 dans les pays anglo-saxons, sous Thatcher et Reagan, puis gagne le continent dans les années 1990 et 2000. Le diagnostic est toujours le même : les bureaucraties publiques seraient inefficaces parce qu’elles échappent à la concurrence. La solution proposée : injecter du marché dans l’État.</p>
 <p>La Belgique a sa réforme fondatrice, la réforme Copernic, lancée par le gouvernement Verhofstadt à partir de la note du 16 février 2000. Elle transforme les ministères en services publics fédéraux, sur des principes directement empruntés au New Public Management. Le bilan, dix ans plus tard, est mitigé : la culture de défiance entre acteurs est restée vive, et la révolution annoncée est demeurée inachevée. Les CPAS, eux, sont devenus un terrain d’application emblématique avec la loi de 2002 sur le droit à l’intégration sociale, rencontrée à la séance 5.</p>
 </section>
-<section id="hood-et-la-performance-comme-religion" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="hood-et-la-performance-comme-religion"><span class="header-section-number">8.3</span> Hood et la performance comme religion</h2>
+<section id="hood-et-la-performance-comme-religion" class="level2">
+<h2 class="anchored" data-anchor-id="hood-et-la-performance-comme-religion">Hood et la performance comme religion</h2>
 <p>Christopher Hood a formalisé le NPM en 1991 dans un article au titre révélateur, <em>A Public Management for All Seasons?</em> Il en isole sept composantes : un management professionnel et responsable, des indicateurs de performance explicites, l’accent sur les résultats plutôt que sur les procédures, la fragmentation des grands services, la concurrence, l’emprunt des méthodes du privé, la réduction des coûts.</p>
 <p>Deux de ces composantes pèsent particulièrement sur le travail social. La première est la mesure de performance. Dans les CPAS, elle prend la forme de taux : taux de signature des contrats d’insertion, taux de mise à l’emploi dans les douze mois, taux de sortie des dispositifs. Ces chiffres ont l’avantage d’être faciles à produire et l’inconvénient d’ignorer ce qui compte le plus, la qualité de la relation, le temps long, les rechutes et leurs causes. La seconde est la parcimonie. Présentée comme une exigence de responsabilité budgétaire, elle se traduit concrètement par plus de dossiers et moins de temps par situation.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><strong>La loi de Goodhart</strong></p>
 <p>« Quand une mesure devient un objectif, elle cesse d’être une bonne mesure. » Appliquée au travail social, la formule a des effets très concrets. Si le taux de sortie positive d’un dispositif devient l’indicateur central, les travailleurs sociaux seront poussés à n’accompagner que les personnes les plus proches de l’emploi, celles qui feront grimper le chiffre. Les autres, les plus éloignées et donc les plus en besoin, deviennent un risque pour la statistique. L’indicateur finit par chasser ceux qu’il était censé servir.</p>
 </div>
 </div>
-</div>
 </section>
-<section id="la-chalandisation-ou-lusager-devenu-client" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="la-chalandisation-ou-lusager-devenu-client"><span class="header-section-number">8.4</span> La chalandisation, ou l’usager devenu client</h2>
+<section id="la-chalandisation-ou-lusager-devenu-client" class="level2">
+<h2 class="anchored" data-anchor-id="la-chalandisation-ou-lusager-devenu-client">La chalandisation, ou l’usager devenu client</h2>
 <p>Michel Chauvière, dans <em>Trop de gestion tue le social</em> (2007), a forgé un mot pour ce glissement : la chalandisation. Le chaland, c’est le client qu’on cherche à attirer dans une boutique. L’usager du service public se transforme en client d’une prestation, et la relation d’aide s’en trouve abîmée de trois manières.</p>
 <p>D’abord, la relation devient une transaction. Le client formule une demande, le prestataire livre une prestation. La confiance, le temps qu’il faut pour qu’un accompagnement prenne, le caractère incertain de tout changement réel, tout cela passe à la trappe.</p>
 <p>Ensuite, la demande doit entrer dans les cases de l’offre. On suppose que le client va « choisir » parmi des prestations standardisées. Mais les personnes en grande difficulté ne savent souvent pas formuler leur besoin dans le langage que l’institution attend. Résultat paradoxal : les plus vulnérables sont les plus mal servies, précisément par un système qui se réclame de leur autonomie.</p>
 <p>Enfin, le professionnel devient un prestataire évalué sur sa performance. Son autonomie de jugement se réduit. Sa capacité à s’écarter du protocole sur la base de son expertise, ce que la sociologie appelle le pouvoir discrétionnaire, devient suspecte.</p>
 <p>Nicolas Belorgey a montré le même mécanisme à l’hôpital. Quand la durée moyenne de séjour devient l’indicateur roi, les médecins raccourcissent les hospitalisations, parfois au détriment des soins. On mesure la vitesse de passage, pas la qualité de la prise en charge. Le parallèle avec le social est direct : une durée d’accompagnement qui dépasse le « standard » devient un problème de gestion, pas un signe que la situation est difficile.</p>
 </section>
-<section id="le-paradoxe-moins-de-bureaucratie-vraiment" class="level2" data-number="8.5">
-<h2 data-number="8.5" class="anchored" data-anchor-id="le-paradoxe-moins-de-bureaucratie-vraiment"><span class="header-section-number">8.5</span> Le paradoxe : moins de bureaucratie, vraiment ?</h2>
+<section id="le-paradoxe-moins-de-bureaucratie-vraiment" class="level2">
+<h2 class="anchored" data-anchor-id="le-paradoxe-moins-de-bureaucratie-vraiment">Le paradoxe : moins de bureaucratie, vraiment ?</h2>
 <p>Le NPM promettait d’alléger la bureaucratie par la performance. Il en a créé une autre. Catherine Farrell et Jonathan Morris (2003) ont nommé ce phénomène la néo-bureaucratie. Concrètement, cela veut dire saisir chaque acte dans un logiciel de gestion, rédiger des rapports d’évaluation périodiques, justifier chaque décision, répondre aux audits qualité. Le travail social devient, pour une part croissante, un travail de documentation du travail social. Le temps gagné sur la procédure ancienne se reperd dans la traçabilité nouvelle.</p>
 <p>Les ordres de grandeur belges donnent la mesure de la pression. En 2023, environ 1,35 % de la population du pays était couverte par un contrat d’insertion, et huit jeunes bénéficiaires du RIS sur dix en avaient un. Côté professionnels, une étude conduite en Suisse en 2021 a trouvé que 31,3 % des travailleurs sociaux présentaient un risque élevé d’épuisement émotionnel, et jusqu’à 55,6 % en Suisse romande. Le sociologue Fathi Ben Mrad le note avec justesse : ce ne sont pas les usagers qui épuisent les travailleurs sociaux, mais l’organisation du travail et la perte de sens.</p>
 </section>
-<section id="la-double-injonction-vécue-des-deux-côtés" class="level2" data-number="8.6">
-<h2 data-number="8.6" class="anchored" data-anchor-id="la-double-injonction-vécue-des-deux-côtés"><span class="header-section-number">8.6</span> La double injonction, vécue des deux côtés</h2>
+<section id="la-double-injonction-vécue-des-deux-côtés" class="level2">
+<h2 class="anchored" data-anchor-id="la-double-injonction-vécue-des-deux-côtés">La double injonction, vécue des deux côtés</h2>
 <p>Le travailleur social de CPAS est tenu d’accompagner avec bienveillance et de contrôler les conditions d’octroi de l’aide. Il doit vérifier la composition du ménage, s’assurer que la personne « fait des efforts », évaluer si les objectifs du contrat sont atteints. Ces vérifications sont intrusives par nature.</p>
 <p>De l’autre côté du bureau, les personnes accompagnées l’ont bien compris. Elles apprennent à présenter une version stratégique de leur situation, à dire ce que l’institution veut entendre pour préserver leurs droits. Erving Goffman appelait cela la gestion des impressions. Ce n’est pas de la mauvaise foi, c’est une adaptation rationnelle à un rapport de pouvoir déséquilibré. Le contrat d’insertion rend cette stratégie presque obligatoire pour survivre dans le système. On en arrive à une situation absurde où deux personnes jouent un rôle, l’une pour contrôler, l’autre pour ne pas perdre ses droits, et où la vérité de la relation se perd entre les deux.</p>
 </section>
-<section id="trois-manières-de-réagir" class="level2" data-number="8.7">
-<h2 data-number="8.7" class="anchored" data-anchor-id="trois-manières-de-réagir"><span class="header-section-number">8.7</span> Trois manières de réagir</h2>
+<section id="trois-manières-de-réagir" class="level2">
+<h2 class="anchored" data-anchor-id="trois-manières-de-réagir">Trois manières de réagir</h2>
 <p>Face à la managérialisation, la littérature distingue trois positions, et il est utile de savoir où vous vous situez.</p>
 <p>Les défenseurs du NPM rappellent que les indicateurs rendent les services plus transparents et protègent les usagers contre l’arbitraire des professionnels. Sans mesure des résultats, disent-ils, comment savoir si une politique fonctionne ? L’argument n’est pas nul : le pouvoir discrétionnaire peut aussi servir à discriminer.</p>
 <p>Les critiques radicaux, comme Chauvière, Belorgey ou Wacquant, jugent le NPM incompatible avec la logique de l’action sociale. Il attaque l’autonomie professionnelle, suspecte le jugement, et réduit le métier à son coût. Pour eux, on ne réforme pas cette logique, on la combat.</p>
 <p>Une position intermédiaire, qu’on rattache à Michael Lipsky et à ses « street-level bureaucrats », rappelle que les agents de terrain ne sont jamais totalement passifs. Ils gardent une marge de manœuvre, détournent des règles, préservent des espaces de pratique fidèle à leurs valeurs. Toute la question est de savoir jusqu’où cette marge résiste à l’intensification des contraintes. À cent dossiers par tête, elle se rétrécit vite.</p>
 </section>
-<section id="un-exercice-et-une-question-ouverte" class="level2" data-number="8.8">
-<h2 data-number="8.8" class="anchored" data-anchor-id="un-exercice-et-une-question-ouverte"><span class="header-section-number">8.8</span> Un exercice, et une question ouverte</h2>
+<section id="un-exercice-et-une-question-ouverte" class="level2">
+<h2 class="anchored" data-anchor-id="un-exercice-et-une-question-ouverte">Un exercice, et une question ouverte</h2>
 <p>Pour finir, deux choses à emporter en stage. Premièrement, dressez la liste des indicateurs utilisés sur votre lieu de travail, et demandez-vous quelles dimensions du métier ils capturent et lesquelles passent à travers les mailles. Deuxièmement, gardez en tête le scénario suivant : un CPAS décide d’évaluer chaque travailleur social sur son taux de sortie positive des bénéficiaires dans les douze mois. Quels comportements cette règle va-t-elle produire ? Qui en bénéficiera ? Qui en pâtira ? Vous connaissez déjà la réponse, et c’est précisément pour cela qu’il faut la formuler à voix haute avant de la subir en silence.</p>
 <hr>
 </section>
-<section id="questions-dexamen-séance-7" class="level2" data-number="8.9">
-<h2 data-number="8.9" class="anchored" data-anchor-id="questions-dexamen-séance-7"><span class="header-section-number">8.9</span> Questions d’examen — Séance 7</h2>
+<section id="questions-dexamen-séance-7" class="level2">
+<h2 class="anchored" data-anchor-id="questions-dexamen-séance-7">Questions d’examen — Séance 7</h2>
 <div class="question-examen">
 <p><strong>Question 7.A</strong></p>
 <p>Présentez les sept composantes du NPM selon Hood (1991) et identifiez les deux qui affectent le plus le travail social. Illustrez avec un exemple belge.</p>
@@ -372,8 +584,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <hr>
 </section>
-<section id="références" class="level2" data-number="8.10">
-<h2 data-number="8.10" class="anchored" data-anchor-id="références"><span class="header-section-number">8.10</span> Références</h2>
+<section id="références" class="level2">
+<h2 class="anchored" data-anchor-id="références">Références</h2>
 <ul>
 <li>Belorgey, N. (2010). <em>L’hôpital sous pression. Enquête sur le nouveau management public</em>. Paris : La Découverte.</li>
 <li>Bezes, P. &amp; Demazière, D. (dir.) (2011). New Public Management et professions dans l’État. <em>Sociologie du travail</em>, 53(3).</li>
@@ -405,6 +617,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -476,7 +701,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/brasseurph\.github\.io\/soca-d495");
+        var filterRegex = new RegExp("https:\/\/pierrebrasseur\.github\.io\/soca-d495");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -810,19 +1035,33 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./seance-6.html" class="pagination-link" aria-label="Séance 6 — Genre et intersectionnalité dans le travail social">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Séance 6 — Genre et intersectionnalité dans le travail social</span></span>
+      <a href="./seance-6.html" class="pagination-link" aria-label="6 · Genre et intersectionnalité">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">6 · Genre et intersectionnalité</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./module-c5.html" class="pagination-link" aria-label="Module C5 — Pauvreté et inconditionnalité de l'accueil">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module C5 — Pauvreté et inconditionnalité de l’accueil</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./module-c5.html" class="pagination-link" aria-label="C5 · Pauvreté et accueil">
+        <span class="nav-page-text">C5 · Pauvreté et accueil</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Pierre Brasseur · METICES / STRIGES · Université libre de Bruxelles</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>SOCA-D495 · 2025–2026</p>
+</div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -1,5 +1,10 @@
 ---
-title: "Module C8 — Le travail féministe et le « problème musulman » au Planning familial"
+title: "Le travail féministe et le « problème musulman » au Planning familial"
+ref: "C8"
+numero: "Module C8"
+bloc: "Module thématique"
+periode: "Prolonge la séance 6"
+description: "Fémonationalisme et fabrique du « problème musulman » dans les pratiques du planning familial."
 ---
 
 ::: {.objectifs}

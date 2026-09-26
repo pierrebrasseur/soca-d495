@@ -1,0 +1,21 @@
+$if(accueil)$
+$else$
+<header id="title-block-header" class="quarto-title-block fiche-header">
+$if(numero)$
+<div class="fiche-meta">
+  <span class="fiche-ref">SOCA-D495 / $ref$</span>
+$if(bloc)$
+  <span>$bloc$</span>
+$endif$
+$if(periode)$
+  <span>$periode$</span>
+$endif$
+</div>
+<p class="fiche-numero">$numero$</p>
+$endif$
+<h1 class="title">$title$</h1>
+$if(subtitle)$
+<p class="subtitle lead">$subtitle$</p>
+$endif$
+</header>
+$endif$

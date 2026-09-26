@@ -1,0 +1,44 @@
+<%
+// Axe commun à toutes les séances : 1840 → 2030
+const debutAxe = 1840, finAxe = 2030;
+const pos = (annee) => ((annee - debutAxe) / (finAxe - debutAxe) * 100).toFixed(2);
+const reperes = [1850, 1900, 1950, 2000];
+const blocs = templateParams.blocs || {};
+let blocCourant = null;
+%>
+```{=html}
+<div class="parcours">
+  <div class="parcours-axe" aria-hidden="true">
+    <span>Séance</span>
+    <div class="axe">
+      <% for (const r of reperes) { %><span style="left: <%= pos(r) %>%"><%= r %></span><% } %>
+    </div>
+  </div>
+<% for (const item of items) { %>
+<% if (item.bloc !== blocCourant) { blocCourant = item.bloc; %>
+  <div class="parcours-bloc"><%= item.bloc %><% if (blocs[item.bloc]) { %><small><%= blocs[item.bloc] %></small><% } %></div>
+<% } %>
+  <a class="parcours-ligne" href="<%- item.path %>">
+    <span class="parcours-texte">
+      <span class="parcours-num"><%= item.ref.replace('S', '') %></span>
+      <span class="parcours-titre"><%= item.title %></span>
+      <span class="parcours-desc"><%= item.description %></span>
+    </span>
+    <span class="piste" aria-label="<%= item.periode %>">
+      <% for (const r of reperes) { %><i class="repere" style="left: <%= pos(r) %>%"></i><% } %>
+      <% if (item.debut) { %>
+      <span class="bande" style="left: <%= pos(item.debut) %>%; width: <%= (pos(item.fin) - pos(item.debut)).toFixed(2) %>%"></span>
+      <% if (item.fin > 1990) { %>
+      <span class="bande-label avant" style="left: <%= pos(item.debut) %>%"><%= item.periode %></span>
+      <% } else { %>
+      <span class="bande-label" style="left: <%= pos(item.fin) %>%"><%= item.periode %></span>
+      <% } %>
+      <% } else { %>
+      <span class="bande fil" style="left: 0; width: 100%"></span>
+      <span class="bande-label fil"><%= item.periode %></span>
+      <% } %>
+    </span>
+  </a>
+<% } %>
+</div>
+```

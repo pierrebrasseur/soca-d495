@@ -1,41 +1,89 @@
 ---
-title: "Théorie du travail social"
-subtitle: "SOCA-D495 — Master en sciences du travail (finalité Travail social)"
+title: "Théories du travail social"
+accueil: true
+body-classes: accueil
+toc: false
+page-navigation: false
+listing:
+  - id: parcours
+    contents: "seance-*.qmd"
+    sort: filename
+    template: theme/parcours.ejs
+    template-params:
+      blocs:
+        "Bloc 1 · Le paradoxe constitutif": "Fondements théoriques et histoire longue. Le paradoxe entre transformation sociale et adaptation des individus est posé dès la séance 1 comme fil conducteur de tout le cours."
+        "Bloc 2 · Mutations et contrôle social": "Professionnalisation, logiques disciplinaires, désaffiliation et question sociale. Du choc Flexner (1915) à l'État social actif belge (1999–2002)."
+        "Bloc 3 · Enjeux contemporains": "Genre, intersectionnalité, managérialisation : les tensions actuelles de la pratique, situées par des données belges récentes."
+  - id: modules
+    contents: "module-*.qmd"
+    sort: filename
+    template: theme/modules.ejs
 ---
 
+::: {.hero}
+::: {.eyebrow}
+[SOCA-D495]{.e} [Master en sciences du travail]{.e} [Université libre de Bruxelles]{.e} [2025–2026]{.e}
+:::
+
+# Théories du travail social {.hero-titre .unlisted}
+
+::: {.these}
+> Aider et contrôler. Ouvrir un droit et surveiller son usage. La même personne, *dans le même entretien*, fait les deux.
+>
+> Séance 1, « Un mardi au CPAS »
+:::
+
+::: {.intro}
 Cours de master centré sur la généalogie critique du travail social. Il retrace les transformations historiques du champ, de la vocation charitable à la professionnalisation, en les articulant avec les théories sociologiques de l'action collective, de l'État et des professions.
+:::
 
-**Université libre de Bruxelles — METICES / STRIGES · 2025–2026**  
-Environ 280 étudiant·es · 7 séances de 3h · Campus Solbosch et Charleroi  
-Contact : [pierre.brasseur@ulb.be](mailto:pierre.brasseur@ulb.be) · [Fiche ULB officielle SOCA-D495](https://www.ulb.be/fr/programme/soca-d495-1)
+::: {.faits}
+- **7** séances de 3 h
+- **3** modules thématiques
+- Environ **280** étudiant·es
+- Campus Solbosch et Charleroi
+- [pierre.brasseur@ulb.be](mailto:pierre.brasseur@ulb.be)
+:::
+:::
 
----
+## Le parcours
 
-## Structure du cours
+::: {.section-intro}
+Sept séances en trois blocs. Chaque séance couvre une période ; les périodes se chevauchent, parce que les logiques du travail social s'ajoutent les unes aux autres plus qu'elles ne se remplacent. C'est la thèse de la sédimentation, développée à la séance 4.
+:::
 
-Le cours est organisé en trois blocs progressifs.
+::: {#parcours}
+:::
 
-**Bloc 1 — Le paradoxe constitutif (séances 1–2)**  
-Fondements théoriques et histoire longue. Qu'est-ce que le travail social, d'où vient-il, comment s'est-il institutionnalisé ? Le paradoxe entre transformation sociale et adaptation des individus est posé dès la séance 1 comme fil conducteur de tout le cours.
+## Modules thématiques
 
-**Bloc 2 — Mutations et contrôle social (séances 3–5)**  
-Professionnalisation, logiques disciplinaires, désaffiliation et question sociale. Du choc Flexner (1915) à l'État social actif belge (1999–2002), en passant par les prisons panoptiques et la désindustrialisation wallonne.
+::: {.section-intro}
+Trois dossiers en annexe, chacun rattaché à une séance du parcours.
+:::
 
-**Bloc 3 — Enjeux contemporains (séances 6–7)**  
-Genre, intersectionnalité, managérialisation : les tensions actuelles de la pratique professionnelle. Des données belges récentes situent chaque enjeu dans le contexte institutionnel concret des étudiant·es.
-
----
+::: {#modules}
+:::
 
 ## Évaluation
 
-Examen écrit en session. Questions à développement, au choix parmi cinq propositions par séance. Les questions sont intégrées à la fin de chaque topo de cours — elles orientent la lecture.
+Examen écrit en session, 3 heures. Questions à développement, au choix parmi cinq propositions par séance. Les questions figurent à la fin de chaque séance : elles orientent la lecture. Une bonne réponse articule quatre éléments.
 
----
+::: {.attendus}
+1. Une définition précise du ou des concepts en jeu, citée et sourcée.
+2. Une illustration concrète, belge de préférence, tirée du cours ou d'un stage.
+3. Une mise en tension : ce que le concept éclaire, et ses limites.
+4. Un ancrage bibliographique : deux ou trois références bien utilisées suffisent.
+:::
+
+[Modalités complètes de l'évaluation →](evaluation.qmd)
 
 ## Ressources institutionnelles
 
+::: {.ressources}
 - [Centre METICES — ULB](https://metices.phisoc.ulb.be)
 - [Équipe STRIGES](https://metices.phisoc.ulb.be/equipes/striges)
 - [SPP Intégration sociale](https://www.mi-is.be)
 - [Service de lutte contre la pauvreté](https://www.luttepauvrete.be)
 - [IEFH — Institut pour l'égalité des femmes et des hommes](https://igvm-iefh.belgium.be)
+- [Fiche ULB officielle SOCA-D495](https://www.ulb.be/fr/programme/soca-d495-1)
+:::

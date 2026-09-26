@@ -1,5 +1,12 @@
 ---
-title: "Séance 4 — La mutation du contrôle social en Belgique (1970–2000)"
+title: "La mutation du contrôle social en Belgique (1970–2000)"
+ref: "S4"
+numero: "Séance 4"
+bloc: "Bloc 2 · Mutations et contrôle social"
+periode: "1970–2000"
+debut: 1970
+fin: 2000
+description: "Discipline, dispositif tutélaire, tournant néolibéral : trois couches de contrôle qui se superposent au lieu de se remplacer."
 ---
 
 ::: {.objectifs}

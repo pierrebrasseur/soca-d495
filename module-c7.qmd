@@ -1,5 +1,10 @@
 ---
-title: "Module C7 — Féminisme d'État et égalité professionnelle"
+title: "Féminisme d'État et égalité professionnelle"
+ref: "C7"
+numero: "Module C7"
+bloc: "Module thématique"
+periode: "Prolonge la séance 6"
+description: "Femocrats, institutionnalisation de l'égalité et conseil en égalité professionnelle, entre cause militante et marché."
 ---
 
 ::: {.objectifs}

@@ -1,5 +1,12 @@
 ---
-title: "Séance 5 — Désaffiliation et disqualification sociale (1980–2010)"
+title: "Désaffiliation et disqualification sociale (1980–2010)"
+ref: "S5"
+numero: "Séance 5"
+bloc: "Bloc 2 · Mutations et contrôle social"
+periode: "1980–2010"
+debut: 1980
+fin: 2010
+description: "Castel, Paugam et la Wallonie désindustrialisée : du Minimex au RIS, ce que la désaffiliation fait au guichet."
 ---
 
 ::: {.objectifs}

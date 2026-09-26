@@ -1,69 +1,100 @@
 project:
-  type: book
+  type: website
   output-dir: docs
+  resources:
+    - .nojekyll
 
-book:
-  title: "Théorie du travail social"
-  subtitle: "SOCA-D495 — Master en sciences du travail"
-  author: "Pierre Brasseur"
-  date: "2025-2026"
-  date-format: "YYYY"
-  favicon: "images/favicon.png"
-  site-url: "https://brasseurph.github.io/soca-d495"
-  repo-url: "https://github.com/brasseurph/soca-d495"
-  repo-actions: []
-  search: true
-  
+lang: fr
+
+website:
+  title: "Théories du travail social"
+  description: "Cours SOCA-D495 — Master en sciences du travail, Université libre de Bruxelles."
+  site-url: "https://pierrebrasseur.github.io/soca-d495"
+  repo-url: "https://github.com/pierrebrasseur/soca-d495"
+  favicon: favicon.svg
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  back-to-top-navigation: false
+  bread-crumbs: false
+
   navbar:
-    background: "#1a1a2e"
-    foreground: "#f0f0f0"
-  
-  sidebar:
-    style: "docked"
-    background: "#f8f7f4"
-    
-  chapters:
-    - index.qmd
-    - part: "Bloc 1 — Le paradoxe constitutif"
-      chapters:
-        - seance-1.qmd
-        - seance-2.qmd
-    - part: "Bloc 2 — Mutations et contrôle social"
-      chapters:
-        - seance-3.qmd
-        - seance-4.qmd
-        - seance-5.qmd
-    - part: "Bloc 3 — Enjeux contemporains"
-      chapters:
-        - seance-6.qmd
-        - seance-7.qmd
-    - part: "Modules thématiques (annexes)"
-      chapters:
-        - module-c5.qmd
-        - module-c7.qmd
-        - module-c8.qmd
-    - evaluation.qmd
-    - references.qmd
+    title: "SOCA-D495"
+    left:
+      - href: index.qmd
+        text: "Le cours"
+      - href: evaluation.qmd
+        text: "Évaluation"
+      - href: references.qmd
+        text: "Bibliographie"
+    right:
+      - text: "Fiche ULB"
+        href: "https://www.ulb.be/fr/programme/soca-d495-1"
 
-bibliography: references.bib
-csl: apa.csl
+  sidebar:
+    style: floating
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: "Accueil"
+      - section: "Bloc 1 · Le paradoxe constitutif"
+        contents:
+          - href: seance-1.qmd
+            text: "1 · Paradigmes contemporains"
+          - href: seance-2.qmd
+            text: "2 · Émergence historique"
+      - section: "Bloc 2 · Mutations et contrôle social"
+        contents:
+          - href: seance-3.qmd
+            text: "3 · Professionnalisation"
+          - href: seance-4.qmd
+            text: "4 · Contrôle social"
+          - href: seance-5.qmd
+            text: "5 · Désaffiliation"
+      - section: "Bloc 3 · Enjeux contemporains"
+        contents:
+          - href: seance-6.qmd
+            text: "6 · Genre et intersectionnalité"
+          - href: seance-7.qmd
+            text: "7 · Managérialisation"
+      - section: "Modules thématiques"
+        contents:
+          - href: module-c5.qmd
+            text: "C5 · Pauvreté et accueil"
+          - href: module-c7.qmd
+            text: "C7 · Féminisme d'État"
+          - href: module-c8.qmd
+            text: "C8 · Planning familial"
+      - section: "Repères"
+        contents:
+          - href: evaluation.qmd
+            text: "Évaluation"
+          - href: references.qmd
+            text: "Bibliographie générale"
+
+  page-footer:
+    left: "Pierre Brasseur · METICES / STRIGES · Université libre de Bruxelles"
+    right: "SOCA-D495 · 2025–2026"
 
 format:
   html:
     theme:
-      light: [flatly, custom.scss]
+      light: [theme/light.scss, theme/rules.scss]
+      dark: [theme/dark.scss, theme/rules.scss]
+    respect-user-color-scheme: true
+    include-in-header: theme/fonts.html
+    template-partials:
+      - theme/title-block.html
     toc: true
-    toc-depth: 3
-    toc-title: "Sur cette page"
-    number-sections: true
-    number-depth: 2
-    lang: fr
-    code-fold: false
-    fig-cap-location: bottom
-    callout-appearance: minimal
+    toc-depth: 2
+    toc-title: "Dans cette séance"
+    number-sections: false
     link-external-icon: false
     link-external-newwindow: true
+    smooth-scroll: true
     grid:
-      sidebar-width: 260px
-      body-width: 740px
-      margin-width: 200px
+      sidebar-width: 270px
+      body-width: 720px
+      margin-width: 230px
+      gutter-width: 2.5rem

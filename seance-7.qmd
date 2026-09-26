@@ -1,5 +1,12 @@
 ---
-title: "Séance 7 — Managérialisation et New Public Management"
+title: "Managérialisation et New Public Management"
+ref: "S7"
+numero: "Séance 7"
+bloc: "Bloc 3 · Enjeux contemporains"
+periode: "1980–aujourd'hui"
+debut: 1980
+fin: 2026
+description: "Hood, la chalandisation selon Chauvière et la double injonction : la gestion par la performance face à la relation d'aide."
 ---
 
 ::: {.objectifs}

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Inconditionnalité de l’accueil, pénurie de places et Housing First : le tri au cœur de l’aide aux personnes sans abri.">
 
-<title>9&nbsp; Module C5 — Pauvreté et inconditionnalité de l’accueil – Théorie du travail social</title>
+<title>Pauvreté et inconditionnalité de l’accueil – Théories du travail social</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -35,17 +36,21 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./module-c7.html" rel="next">
 <link href="./seance-7.html" rel="prev">
-<link href="./images/favicon.png" rel="icon" type="image/png">
+<link href="./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d402f4b7d095c35e05d0c815e375e5f9.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-59ccbd37e0db508a74555d94e7ae00f2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-eb1f815df56349f5b5be1f0e2dc682c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,7 +63,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "Pas de résultats",
     "search-matching-documents-text": "documents trouvés",
@@ -73,11 +77,186 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap">
 
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -85,13 +264,38 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Théorie du travail social</span>
+    <span class="navbar-title">SOCA-D495</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools tools-end">
-    <a href="https://github.com/brasseurph/soca-d495" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Le cours</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./evaluation.html"> 
+<span class="menu-text">Évaluation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./references.html"> 
+<span class="menu-text">Bibliographie</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.ulb.be/fr/programme/soca-d495-1"> 
+<span class="menu-text">Fiche ULB</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
 </div>
-          <div id="quarto-search" class="" title="Recherche"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -99,28 +303,28 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./module-c5.html">Modules thématiques (annexes)</a></li><li class="breadcrumb-item"><a href="./module-c5.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module C5 — Pauvreté et inconditionnalité de l’accueil</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+        <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+          <h1 class="quarto-secondary-nav-title">Pauvreté et inconditionnalité de l’accueil</h1>
+        </a>     
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Théorie du travail social</span></span></a>
+ <span class="menu-text">Accueil</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 1 — Le paradoxe constitutif</span></a>
+ <span class="menu-text">Bloc 1 · Le paradoxe constitutif</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -129,13 +333,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Séance 1 — Introduction et paradigmes contemporains du travail social</span></span></a>
+ <span class="menu-text">1 · Paradigmes contemporains</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Séance 2 — Émergence historique et fondements sociologiques</span></span></a>
+ <span class="menu-text">2 · Émergence historique</span></a>
   </div>
 </li>
       </ul>
@@ -143,7 +347,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 2 — Mutations et contrôle social</span></a>
+ <span class="menu-text">Bloc 2 · Mutations et contrôle social</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -152,19 +356,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Séance 3 — Professionnalisation et légitimation (1920–1960)</span></span></a>
+ <span class="menu-text">3 · Professionnalisation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Séance 4 — La mutation du contrôle social en Belgique (1970–2000)</span></span></a>
+ <span class="menu-text">4 · Contrôle social</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Séance 5 — Désaffiliation et disqualification sociale (1980–2010)</span></span></a>
+ <span class="menu-text">5 · Désaffiliation</span></a>
   </div>
 </li>
       </ul>
@@ -172,7 +376,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Bloc 3 — Enjeux contemporains</span></a>
+ <span class="menu-text">Bloc 3 · Enjeux contemporains</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -181,13 +385,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Séance 6 — Genre et intersectionnalité dans le travail social</span></span></a>
+ <span class="menu-text">6 · Genre et intersectionnalité</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./seance-7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Séance 7 — Managérialisation et New Public Management</span></span></a>
+ <span class="menu-text">7 · Managérialisation</span></a>
   </div>
 </li>
       </ul>
@@ -195,7 +399,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Modules thématiques (annexes)</span></a>
+ <span class="menu-text">Modules thématiques</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -204,35 +408,46 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c5.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module C5 — Pauvreté et inconditionnalité de l’accueil</span></span></a>
+ <span class="menu-text">C5 · Pauvreté et accueil</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Module C7 — Féminisme d’État et égalité professionnelle</span></span></a>
+ <span class="menu-text">C7 · Féminisme d’État</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./module-c8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Module C8 — Le travail féministe et le « problème musulman » au Planning familial</span></span></a>
+ <span class="menu-text">C8 · Planning familial</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Repères</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./evaluation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Évaluation</span></span></a>
+ <span class="menu-text">Évaluation</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Bibliographie générale</span></span></a>
+ <span class="menu-text">Bibliographie générale</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -240,40 +455,34 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
+    <h2 id="toc-title">Dans cette séance</h2>
    
-  <ul>
-  <li><a href="#une-nuit-de-novembre" id="toc-une-nuit-de-novembre" class="nav-link active" data-scroll-target="#une-nuit-de-novembre"><span class="header-section-number">9.1</span> Une nuit de novembre</a></li>
-  <li><a href="#le-principe-dinconditionnalité" id="toc-le-principe-dinconditionnalité" class="nav-link" data-scroll-target="#le-principe-dinconditionnalité"><span class="header-section-number">9.2</span> Le principe d’inconditionnalité</a></li>
-  <li><a href="#la-pénurie-et-le-tri-quelle-impose" id="toc-la-pénurie-et-le-tri-quelle-impose" class="nav-link" data-scroll-target="#la-pénurie-et-le-tri-quelle-impose"><span class="header-section-number">9.3</span> La pénurie, et le tri qu’elle impose</a></li>
-  <li><a href="#le-retour-des-bons-et-mauvais-pauvres" id="toc-le-retour-des-bons-et-mauvais-pauvres" class="nav-link" data-scroll-target="#le-retour-des-bons-et-mauvais-pauvres"><span class="header-section-number">9.4</span> Le retour des « bons » et « mauvais » pauvres</a></li>
-  <li><a href="#housing-first-ou-inverser-lescalier" id="toc-housing-first-ou-inverser-lescalier" class="nav-link" data-scroll-target="#housing-first-ou-inverser-lescalier"><span class="header-section-number">9.5</span> Housing First, ou inverser l’escalier</a></li>
-  <li><a href="#pour-la-pratique" id="toc-pour-la-pratique" class="nav-link" data-scroll-target="#pour-la-pratique"><span class="header-section-number">9.6</span> Pour la pratique</a></li>
-  <li><a href="#questions-dexamen-module-c5" id="toc-questions-dexamen-module-c5" class="nav-link" data-scroll-target="#questions-dexamen-module-c5"><span class="header-section-number">9.7</span> Questions d’examen — Module C5</a></li>
-  <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références"><span class="header-section-number">9.8</span> Références</a></li>
+  <ul class="collapse">
+  <li><a href="#une-nuit-de-novembre" id="toc-une-nuit-de-novembre" class="nav-link active" data-scroll-target="#une-nuit-de-novembre">Une nuit de novembre</a></li>
+  <li><a href="#le-principe-dinconditionnalité" id="toc-le-principe-dinconditionnalité" class="nav-link" data-scroll-target="#le-principe-dinconditionnalité">Le principe d’inconditionnalité</a></li>
+  <li><a href="#la-pénurie-et-le-tri-quelle-impose" id="toc-la-pénurie-et-le-tri-quelle-impose" class="nav-link" data-scroll-target="#la-pénurie-et-le-tri-quelle-impose">La pénurie, et le tri qu’elle impose</a></li>
+  <li><a href="#le-retour-des-bons-et-mauvais-pauvres" id="toc-le-retour-des-bons-et-mauvais-pauvres" class="nav-link" data-scroll-target="#le-retour-des-bons-et-mauvais-pauvres">Le retour des « bons » et « mauvais » pauvres</a></li>
+  <li><a href="#housing-first-ou-inverser-lescalier" id="toc-housing-first-ou-inverser-lescalier" class="nav-link" data-scroll-target="#housing-first-ou-inverser-lescalier">Housing First, ou inverser l’escalier</a></li>
+  <li><a href="#pour-la-pratique" id="toc-pour-la-pratique" class="nav-link" data-scroll-target="#pour-la-pratique">Pour la pratique</a></li>
+  <li><a href="#questions-dexamen-module-c5" id="toc-questions-dexamen-module-c5" class="nav-link" data-scroll-target="#questions-dexamen-module-c5">Questions d’examen — Module C5</a></li>
+  <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références">Références</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./module-c5.html">Modules thématiques (annexes)</a></li><li class="breadcrumb-item"><a href="./module-c5.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module C5 — Pauvreté et inconditionnalité de l’accueil</span></a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Module C5 — Pauvreté et inconditionnalité de l’accueil</span></h1>
+
+<header id="title-block-header" class="quarto-title-block fiche-header">
+<div class="fiche-meta">
+  <span class="fiche-ref">SOCA-D495 / C5</span>
+  <span>Module thématique</span>
+  <span>Prolonge la séance 5</span>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
+<p class="fiche-numero">Module C5</p>
+<h1 class="title d-none d-lg-block display-7">Pauvreté et inconditionnalité de l’accueil</h1>
 </header>
+
 
 
 <div class="objectifs">
@@ -285,35 +494,35 @@ ul.task-list li input[type="checkbox"] {
 <li>Situer le sans-abrisme belge et le modèle Housing First dans les cadres de la séance 5</li>
 </ul>
 </div>
-<section id="une-nuit-de-novembre" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="une-nuit-de-novembre"><span class="header-section-number">9.1</span> Une nuit de novembre</h2>
+<section id="une-nuit-de-novembre" class="level2">
+<h2 class="anchored" data-anchor-id="une-nuit-de-novembre">Une nuit de novembre</h2>
 <p>Un mercredi soir de novembre 2024, plus de trois cents travailleurs et bénévoles se déploient dans les rues de Bruxelles. Ils comptent. C’est le septième dénombrement des personnes sans chez-soi, organisé par Bruss’help. Le résultat tombe : 9 777 personnes sans abri ou mal logées dans la Région bruxelloise, soit une hausse de près de 25 % en deux ans. Près d’un millier dorment dehors. Le nombre de femmes sans logement est passé de 1 283 à 1 991 en deux ans, celui des mineurs de 977 à 1 678. Les causes pointées sont concrètes : la pauvreté qui monte, des hausses de loyer abusives qui jettent les gens dehors, l’arrêt de l’accès aux structures d’accueil pour les hommes seuls.</p>
 <p>Ce module prolonge la séance 5 en la portant sur ce terrain précis. Il pose un problème que vous rencontrerez de plein fouet : on affirme un droit inconditionnel à l’hébergement, et on manque de places. Quelqu’un doit donc trier. Ce sera vous.</p>
 </section>
-<section id="le-principe-dinconditionnalité" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="le-principe-dinconditionnalité"><span class="header-section-number">9.2</span> Le principe d’inconditionnalité</h2>
+<section id="le-principe-dinconditionnalité" class="level2">
+<h2 class="anchored" data-anchor-id="le-principe-dinconditionnalité">Le principe d’inconditionnalité</h2>
 <p>L’inconditionnalité de l’accueil pose que toute personne en détresse a droit à un hébergement, sans condition préalable. Pas de statut à prouver, pas de papiers à montrer, pas de « projet » à présenter, pas de sobriété à garantir. L’idée vise explicitement à abolir le tri moral, celui qui sépare le pauvre méritant du pauvre suspect. Elle prolonge la logique du droit subjectif rencontrée à la séance 5, celle du minimex de 1974 et de la dignité humaine inscrite dans la loi des CPAS de 1976.</p>
 </section>
-<section id="la-pénurie-et-le-tri-quelle-impose" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="la-pénurie-et-le-tri-quelle-impose"><span class="header-section-number">9.3</span> La pénurie, et le tri qu’elle impose</h2>
+<section id="la-pénurie-et-le-tri-quelle-impose" class="level2">
+<h2 class="anchored" data-anchor-id="la-pénurie-et-le-tri-quelle-impose">La pénurie, et le tri qu’elle impose</h2>
 <p>Dans les faits, les places manquent durablement. La contradiction retombe alors sur les épaules des travailleurs sociaux, qui doivent sélectionner tout en tenant un discours d’accueil pour tous. C’est intenable, et pourtant c’est le quotidien.</p>
 <p>Le tri porte un nom technique, le travail d’attribution. Il consiste à transformer des situations singulières en demandes classables. En commission, on reconstitue à partir d’informations partielles la « vraie » urgence de chacun. On mobilise des critères, souvent informels, qui priorisent certains profils, les familles avec enfants, les raisons médicales, et écartent d’autres jugés trop lourds, les troubles psychiatriques, les addictions, les comportements ingérables. Et l’on se dispute, entre services centralisateurs et structures d’accueil, sur qui décide d’admettre qui.</p>
 </section>
-<section id="le-retour-des-bons-et-mauvais-pauvres" class="level2" data-number="9.4">
-<h2 data-number="9.4" class="anchored" data-anchor-id="le-retour-des-bons-et-mauvais-pauvres"><span class="header-section-number">9.4</span> Le retour des « bons » et « mauvais » pauvres</h2>
+<section id="le-retour-des-bons-et-mauvais-pauvres" class="level2">
+<h2 class="anchored" data-anchor-id="le-retour-des-bons-et-mauvais-pauvres">Le retour des « bons » et « mauvais » pauvres</h2>
 <p>La séance 5 l’a montré avec Simmel et Paugam : l’aide ne se contente pas de secourir, elle assigne une place. Le travail d’attribution réactive cette logique sous un habit gestionnaire. Sous couvert de critères « objectifs » d’urgence ou de faisabilité, il reconduit un jugement moral. Le « bon » pauvre est celui qui coopère, formule une demande lisible, a un projet. Le « mauvais » pauvre est celui dont les ruptures et les troubles rendent l’accompagnement coûteux pour le service. On retrouve la gouvernementalité néolibérale de la séance 4 : l’accès au droit se conditionne, en pratique, à la capacité de jouer le bon rôle. Le poids croissant des critères médicaux dans la priorisation ajoute une médicalisation de la misère.</p>
 </section>
-<section id="housing-first-ou-inverser-lescalier" class="level2" data-number="9.5">
-<h2 data-number="9.5" class="anchored" data-anchor-id="housing-first-ou-inverser-lescalier"><span class="header-section-number">9.5</span> Housing First, ou inverser l’escalier</h2>
+<section id="housing-first-ou-inverser-lescalier" class="level2">
+<h2 class="anchored" data-anchor-id="housing-first-ou-inverser-lescalier">Housing First, ou inverser l’escalier</h2>
 <p>Une réponse existe, et elle vaut la peine d’être connue parce qu’elle prend le contre-pied du tri. Le modèle classique fonctionne comme un escalier : on mérite un logement par étapes, en prouvant d’abord qu’on se soigne, qu’on se stabilise, qu’on est prêt. Housing First renverse l’ordre. On donne d’abord un logement stable, sans condition de traitement préalable, et l’accompagnement vient ensuite, à partir de cette base. La Belgique l’expérimente à Bruxelles et en Wallonie depuis les années 2010. Le pari est que la stabilité du logement est la condition du reste, pas sa récompense. C’est l’inconditionnalité prise au sérieux, contre la logique de l’escalier et du tri.</p>
 </section>
-<section id="pour-la-pratique" class="level2" data-number="9.6">
-<h2 data-number="9.6" class="anchored" data-anchor-id="pour-la-pratique"><span class="header-section-number">9.6</span> Pour la pratique</h2>
+<section id="pour-la-pratique" class="level2">
+<h2 class="anchored" data-anchor-id="pour-la-pratique">Pour la pratique</h2>
 <p>Ce module rend visible une violence discrète : trier en disant accueillir. Le travail réflexif consiste à nommer cette contradiction plutôt qu’à la porter comme une faute personnelle. Quand vous refuserez une place faute de lit disponible, rappelez-vous que le tri n’est pas un défaut de l’accueil. C’est un effet de la pénurie, et la pénurie est une décision politique sur l’allocation des moyens, pas une fatalité. Nommer cela ne vous donnera pas de lit supplémentaire. Cela vous évitera de confondre une décision budgétaire avec votre propre échec.</p>
 <hr>
 </section>
-<section id="questions-dexamen-module-c5" class="level2" data-number="9.7">
-<h2 data-number="9.7" class="anchored" data-anchor-id="questions-dexamen-module-c5"><span class="header-section-number">9.7</span> Questions d’examen — Module C5</h2>
+<section id="questions-dexamen-module-c5" class="level2">
+<h2 class="anchored" data-anchor-id="questions-dexamen-module-c5">Questions d’examen — Module C5</h2>
 <div class="question-examen">
 <p><strong>Question C5.A</strong></p>
 <p>Définissez l’inconditionnalité de l’accueil. En quoi entre-t-elle en contradiction avec la pénurie de places ? Comment les professionnels gèrent-ils cette contradiction ?</p>
@@ -331,8 +540,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <hr>
 </section>
-<section id="références" class="level2" data-number="9.8">
-<h2 data-number="9.8" class="anchored" data-anchor-id="références"><span class="header-section-number">9.8</span> Références</h2>
+<section id="références" class="level2">
+<h2 class="anchored" data-anchor-id="références">Références</h2>
 <ul>
 <li>Bresson, M. (2007). <em>Sociologie de la précarité</em>. Paris : Armand Colin.</li>
 <li>Castel, R. (1995). <em>Les Métamorphoses de la question sociale</em>. Paris : Fayard.</li>
@@ -353,6 +562,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -424,7 +646,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/brasseurph\.github\.io\/soca-d495");
+        var filterRegex = new RegExp("https:\/\/pierrebrasseur\.github\.io\/soca-d495");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -758,19 +980,33 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./seance-7.html" class="pagination-link" aria-label="Séance 7 — Managérialisation et New Public Management">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Séance 7 — Managérialisation et New Public Management</span></span>
+      <a href="./seance-7.html" class="pagination-link" aria-label="7 · Managérialisation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">7 · Managérialisation</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./module-c7.html" class="pagination-link" aria-label="Module C7 — Féminisme d'État et égalité professionnelle">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Module C7 — Féminisme d’État et égalité professionnelle</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./module-c7.html" class="pagination-link" aria-label="C7 · Féminisme d'État">
+        <span class="nav-page-text">C7 · Féminisme d’État</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Pierre Brasseur · METICES / STRIGES · Université libre de Bruxelles</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>SOCA-D495 · 2025–2026</p>
+</div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

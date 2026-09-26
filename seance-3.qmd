@@ -1,5 +1,12 @@
 ---
-title: "Séance 3 — Professionnalisation et légitimation (1920–1960)"
+title: "Professionnalisation et légitimation (1920–1960)"
+ref: "S3"
+numero: "Séance 3"
+bloc: "Bloc 2 · Mutations et contrôle social"
+periode: "1920–1960"
+debut: 1920
+fin: 1960
+description: "Le choc Flexner, le casework et la sociologie des professions : comment un métier cherche sa légitimité."
 ---
 
 ::: {.objectifs}

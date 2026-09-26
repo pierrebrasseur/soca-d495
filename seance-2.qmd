@@ -1,5 +1,12 @@
 ---
-title: "Séance 2 — Émergence historique et fondements sociologiques"
+title: "Émergence historique et fondements sociologiques"
+ref: "S2"
+numero: "Séance 2"
+bloc: "Bloc 1 · Le paradoxe constitutif"
+periode: "1840–1940"
+debut: 1840
+fin: 1940
+description: "De la question sociale à la naissance du métier en Belgique autour de 1920, en passant par Richmond, Addams et Hill."
 ---
 
 ::: {.objectifs}

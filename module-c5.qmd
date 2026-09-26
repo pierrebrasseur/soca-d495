@@ -1,5 +1,10 @@
 ---
-title: "Module C5 — Pauvreté et inconditionnalité de l'accueil"
+title: "Pauvreté et inconditionnalité de l'accueil"
+ref: "C5"
+numero: "Module C5"
+bloc: "Module thématique"
+periode: "Prolonge la séance 5"
+description: "Inconditionnalité de l'accueil, pénurie de places et Housing First : le tri au cœur de l'aide aux personnes sans abri."
 ---
 
 ::: {.objectifs}

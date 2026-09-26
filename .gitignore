@@ -1,3 +1,7 @@
 .quarto/
 *.bak
 .DS_Store
+
+/.quarto/
+**/*.quarto_ipynb
+.claude/

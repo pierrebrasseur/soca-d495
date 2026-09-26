@@ -1,5 +1,10 @@
 ---
-title: "Séance 1 — Introduction et paradigmes contemporains du travail social"
+title: "Introduction et paradigmes contemporains du travail social"
+ref: "S1"
+numero: "Séance 1"
+bloc: "Bloc 1 · Le paradoxe constitutif"
+periode: "Fil conducteur"
+description: "Le paradoxe aide/contrôle, quatre manières de l'habiter, et une réforme belge qui le met à nu : le statut de cohabitant (2026)."
 ---
 
 ::: {.objectifs}
