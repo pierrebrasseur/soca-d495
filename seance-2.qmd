@@ -7,6 +7,7 @@ periode: "1840–1940"
 debut: 1840
 fin: 1940
 description: "De la question sociale à la naissance du métier en Belgique autour de 1920, en passant par Richmond, Addams et Hill."
+bibliography: bib/seance-2.bib
 ---
 
 ::: {.objectifs}
@@ -14,6 +15,7 @@ description: "De la question sociale à la naissance du métier en Belgique auto
 
 - Situer la naissance de la « question sociale » dans la révolution industrielle
 - Présenter trois inventeurs du travail social et leurs méthodes (Richmond, Addams, Hill)
+- Dire pourquoi Flexner refuse en 1915 au travail social le statut de profession, et ce que Richmond lui répond
 - Raconter la naissance institutionnelle du métier en Belgique autour de 1920
 - Expliquer ce que le maternalisme et la pilarisation ont durablement déposé dans la profession
 :::
@@ -22,81 +24,163 @@ description: "De la question sociale à la naissance du métier en Belgique auto
 
 Imaginez Bruxelles vers 1900. Une femme de la bonne bourgeoisie monte les étages d'un immeuble ouvrier de Molenbeek. Elle apporte un panier, peut-être une recommandation pour un dispensaire, sûrement un conseil sur la manière de tenir un ménage. Elle visite les pauvres. C'est une œuvre pieuse autant qu'une affaire sociale : on sauve son âme en faisant le bien, et on maintient l'ordre en montrant aux familles ouvrières comment vivre proprement.
 
-Cette femme n'est pas une professionnelle. Elle n'a pas de diplôme, pas de salaire, pas de méthode transmissible. Elle a de la bonne volonté et une position sociale. Vingt ans plus tard, sa fille ou sa nièce suivra une formation, recevra un diplôme reconnu par l'État, et touchera un traitement pour faire un travail qui ressemble au sien mais ne s'appelle plus charité. Entre les deux, quelque chose s'est passé. C'est l'objet de cette séance.
+La scène a une longue histoire. Dès 1820, Joseph-Marie de Gérando fait de la visite à domicile la condition d'une aumône utile, et son *Visiteur du pauvre* est réédité à Bruxelles [@degerando1833]. La visite sert déjà à trier autant qu'à secourir. De Gérando cite en exemple une société londonienne qui enquête sur chaque mendiant, secourt les malheureux et envoie les autres en prison. En Belgique, la visite n'a pas d'abord été une affaire de femmes. Les premières visites organisées sont celles des conférences de Saint-Vincent-de-Paul, présentes dès 1842, qui réunissent des hommes de la bourgeoisie et de l'aristocratie catholiques [@demaeyer1992; @verzelen2016b]. Les dames ont leurs propres œuvres, comme l'Association des Dames de la Miséricorde, fondée à Bruxelles en 1840 [@verzelen2016b]. À Namur, après 1830, vincentiens, dames de la bonne société, congrégations et même la loge maçonnique compensent l'immobilisme des pouvoirs publics [@lothe1978]. En 1915 encore, Jane Addams raconte avoir vu à Bruxelles des « gentle Belgian ladies » organiser le travail des pauvres [@addams1915, p. 26].
+
+Cette femme n'est pas une professionnelle. Elle n'a pas de diplôme, pas de salaire, pas de méthode transmissible. Elle a de la bonne volonté et une position sociale. Vingt ans plus tard, sa fille ou sa nièce suivra une formation, recevra un diplôme reconnu par l'État, et touchera un traitement pour faire un travail qui ressemble au sien mais ne s'appelle plus charité. Les premières élèves de l'école catholique de Bruxelles viennent de familles aisées et disent vouloir « se dévouer » [@zelis2002, p. 295]. Éliane Gubin décrit ce relais pour l'entre-deux-guerres. Les assistantes sociales y sont payées pour des tâches que les dames patronnesses faisaient bénévolement [@gubin1998, p. 264]. On observe le même glissement en France, par exemple à Rouen, où l'accueil des jeunes enfants pauvres passe des dames patronnesses aux institutrices [@marec1985]. Entre les deux, quelque chose s'est passé. C'est l'objet de cette séance.
 
 ## La question sociale : rendre la société gouvernable
 
-La pauvreté a changé de nature au XIXe siècle. Au village, le pauvre était connu, inscrit dans la paroisse et la parenté, secouru tant bien que mal par ses proches. L'industrialisation l'a déraciné. Elle a entassé dans les villes une population qui ne possédait rien d'autre que sa force de travail, et qui basculait dans la misère dès que cette force ne se vendait plus. Le pauvre est devenu l'ouvrier sans emploi, puis le vagabond sans attaches, puis, dans le regard des possédants, une menace.
+La pauvreté a changé de nature au XIXe siècle. Au village, le pauvre était connu, inscrit dans la paroisse et la parenté, secouru tant bien que mal par ses proches. À Namur, les tables des pauvres des paroisses remontaient au XIIIe siècle ; les autorités françaises les ont remplacées par des bureaux de bienfaisance, qui ont assuré la charité publique jusqu'en 1925 [@archivesdeletat2016]. L'industrialisation a déraciné ce pauvre. Elle a entassé dans les villes une population qui ne possédait rien d'autre que sa force de travail, et qui basculait dans la misère dès que cette force ne se vendait plus. Le pauvre est devenu l'ouvrier sans emploi, puis le vagabond sans attaches, puis, dans le regard des possédants, une menace. Robert Castel a suivi sur plusieurs siècles cette figure de l'indigent valide sans travail, que la société produit à ses marges [@castel1995]. Face à elle, l'Europe hésite depuis le Moyen Âge entre la potence et la pitié [@geremek1987].
 
-La Belgique en a fait la dure expérience. Les émeutes ouvrières de 1886, parties du bassin industriel wallon, ont sidéré les élites. Des verreries brûlent, l'armée tire, il y a des morts. La question qui s'impose alors n'est pas seulement morale, elle est politique : comment une société industrielle peut-elle rester gouvernable quand une partie de sa population n'a plus rien à perdre ?
+En Belgique, la misère la plus noire du milieu du siècle est pourtant rurale. Dans les Flandres, les familles vivaient d'une petite culture complétée par le filage et le tissage du lin à domicile. La perte des marchés français et hollandais, puis la concurrence des lins mécaniques anglais après 1837, minent ce travail. Après 1845, les mauvaises récoltes, le typhus et le choléra changent le malaise en catastrophe [@gubin1983, p. 369-370; @jacquemyns1929]. Le prolétariat urbain se forme ensuite à Gand, où les filatures remplacent le travail à domicile [@gubin1996]. L'exode ne suit pas mécaniquement la misère. Après la crise de 1845-1847, les villages les plus touchés ne sont pas ceux qu'on quitte le plus, et les départs suivent surtout des traditions migratoires plus anciennes [@deschacht2015]. Méfiez-vous au passage des chiffres de l'époque, souvent repris et souvent fragiles [@gubin1983, p. 373-374].
 
-C'est là, dans cette inquiétude, que naît l'État social. Le sociologue belge Didier Vrancken le formule sans détour : le social est né pour rendre la société gouvernable, pour fournir à l'État un terrain d'action compatible avec sa promesse démocratique d'égalité. Retenez cette idée, parce qu'elle dérange et qu'elle est juste : le travail social ne sort pas d'un élan de bonté collective. Il sort d'un compromis arraché entre le capital et le travail, sous la pression de la rue.
+Les contemporains voient le problème. Dès 1843, Édouard Ducpétiaux, inspecteur général des prisons et des établissements de bienfaisance, fait du sort des travailleurs la grande question du temps. Tout le monde, note-t-il, dénonce le mal, et l'accord cesse dès qu'il s'agit du remède [@ducpetiaux1843]. Quelques années plus tard, il rappelle que l'association de la petite culture et du tissage domestique avait passé pour un système « proposé comme modèle aux autres nations », avant que la crise ne l'emporte [@ducpetiaux1850, p. 66; voir @gubin1983]. On retient surtout de lui le réformateur des prisons ; il fut aussi journaliste, militant et haut fonctionnaire [@judo2021].
+
+La Belgique a ensuite fait la dure expérience de la révolte. Les émeutes ouvrières de 1886, parties du bassin industriel wallon, ont sidéré les élites. Le 18 mars, à Liège, un meeting anarchiste qui commémore la Commune de Paris est débordé par la foule. La grève gagne le bassin liégeois, puis celui de Charleroi. Le 26 mars, à Jumet, la verrerie modernisée d'Eugène Baudoux et son château sont incendiés ; le soir, à Roux, la troupe tire et tue quatre ouvriers. Le général Van der Smissen dirige ensuite la répression. On compte 28 morts en mars 1886, surtout des mineurs de 17 à 24 ans [@deneckere1993, p. 349-350]. Frans Van Kalken en a donné dès 1936 un premier récit d'ensemble, parmi les autres émeutes du siècle [@vankalken1936]. La question qui s'impose alors n'est pas seulement morale, elle est politique : comment une société industrielle peut-elle rester gouvernable quand une partie de sa population n'a plus rien à perdre ?
+
+L'État répond par l'enquête, puis par la loi. Un arrêté royal du 15 avril 1886 crée une Commission du travail, qui publie ses quatre volumes d'enquête dès 1887 [@commission1887]. Suivent une loi de 1887 sur le paiement des salaires en monnaie, l'inspection du travail en 1888, et en 1889 des lois sur le travail des enfants et des femmes et sur le logement ouvrier [@deneckere1993, p. 359-361]. La loi du 24 décembre 1903 sur les accidents du travail ouvre ensuite un moment paternaliste, entre l'État libéral et l'État assurantiel [@nandrin2016].
+
+C'est là, dans cette inquiétude, que naît l'État social. Jacques Donzelot l'a montré pour la France d'après 1848. Le social y est inventé comme un registre intermédiaire entre le civil et le politique, pour rendre gouvernable une société qui a choisi la démocratie sans renoncer à l'inégalité [@donzelot1984]. Pour Giovanna Procacci, la pauvreté devient dès la première moitié du XIXe siècle un problème de rapport au travail salarié, qu'il s'agit de moraliser [@procacci1993]. Le sociologue belge Didier Vrancken reprend l'idée pour la Belgique, où l'État social est un compromis préféré à l'affrontement direct du capital et du travail [@vrancken2002; @foucart2022]. Retenez cette idée, parce qu'elle dérange et qu'elle est juste : le travail social ne sort pas d'un élan de bonté collective. Il sort d'un compromis arraché entre le capital et le travail, sous la pression de la rue.
 
 ::: {.callout-note}
 **Deux regards fondateurs**
 
-Émile Durkheim (*De la division du travail social*, 1893) voit dans l'industrialisation un passage de la solidarité mécanique, fondée sur la ressemblance, à la solidarité organique, fondée sur l'interdépendance des métiers. Ce passage laisse un vide moral que l'État doit combler.
+Émile Durkheim (*De la division du travail social*, 1893) voit dans l'industrialisation un passage de la solidarité mécanique, fondée sur la ressemblance, à la solidarité organique, fondée sur l'interdépendance des métiers [@durkheim1893]. Ce passage laisse un vide moral, l'anomie, que l'État ne peut combler seul. Dans la préface de la seconde édition, en 1902, Durkheim juge que « l'État est trop loin des individus » et confie la régulation aux groupements professionnels [@durkheim1922, p. XXXII].
 
-Georg Simmel (*Sociologie*, 1908) ajoute une intuition qui ne nous quittera plus : assister un pauvre, ce n'est pas seulement lui donner de l'argent, c'est le constituer comme pauvre. La société crée la catégorie « assisté » par le geste même qui prétend la secourir.
+Georg Simmel (« Le pauvre », dans *Sociologie*, 1908) ajoute une intuition qui ne nous quittera plus : assister un pauvre, ce n'est pas seulement lui donner de l'argent, c'est le constituer comme pauvre. La société crée la catégorie « assisté » par le geste même qui prétend la secourir. Pour Simmel, l'assistance sert d'abord la cohésion de la société ; elle ne cherche pas à supprimer la pauvreté [@simmel1998].
+:::
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Pour la suite de la thèse de Vrancken, qui voit l'État social devenir un « ordre protectionnel », voir @vrancken2010. Pour voir la misère ouvrière de l'entre-deux-guerres, regardez *Misère au Borinage*, tourné en 1933 par Henri Storck et Joris Ivens après la grève des mineurs de 1932, et longtemps interdit de projection [@storck1933]. Sur son montage, voir @hogenkamp2017, et sur la tradition belge qui associe travail et pauvreté, de Constantin Meunier à ce film, @depotter2009.
 :::
 
 ## De la charité à l'enquête : trois inventeurs
 
-Entre 1880 et 1920, une nouvelle idée s'impose des deux côtés de l'Atlantique : la pauvreté doit être étudiée avant d'être traitée. On enquête, on diagnostique, on compare. Trois figures incarnent cette bascule, et leurs désaccords structurent encore le métier.
+Entre 1880 et 1920, une nouvelle idée s'impose des deux côtés de l'Atlantique : la pauvreté doit être étudiée avant d'être traitée. On enquête, on diagnostique, on compare. En France, une « nébuleuse réformatrice » d'hommes politiques, d'industriels, d'universitaires, de médecins et d'architectes partage ce langage de l'enquête, avant d'être absorbée par l'État social [@topalov1999]. Trois figures marquent cette bascule, et leurs désaccords structurent encore le métier.
+
+L'idée avait des racines. La philanthropie parisienne, des Lumières aux années 1840, demandait déjà de donner, et surtout d'enquêter, d'informer, d'expérimenter [@duprat1993]. En Belgique, le ministre de l'Intérieur lance en 1843 une enquête sur la condition des classes ouvrières et le travail des enfants. Les chambres de commerce répondent entreprise par entreprise, et l'on y trouve des enfants de moins de 9 ans dans la rubanerie bruxelloise et des dentellières travaillant dans les réduits de la rue Haute [@belgique1846]. Les médecins fournissent l'essentiel du matériau. Les décideurs imputent pourtant la misère à l'imprévoyance ouvrière, et aucune loi ne suit avant les années 1880 [@geerkens2019]. Enquêter ne suffit pas à réformer.
 
 ### Mary Richmond et le diagnostic social
 
-Mary Richmond (1861-1928) ne vient pas de l'université. Elle entre comme employée à la Charity Organization Society de Baltimore, en devient directrice, puis rejoint la Russell Sage Foundation à New York. Avec *Social Diagnosis* (1917), elle pose les bases d'une pratique méthodique : observer, enquêter, croiser les sources, formuler un diagnostic, intervenir.
+Mary Richmond (1861-1928) ne vient pas de l'université. Orpheline jeune et largement autodidacte, elle entre en 1889 comme trésorière adjointe à la Charity Organization Society de Baltimore, dont elle devient secrétaire générale [@agnew2004; @richmond1899]. Elle dirige ensuite la société de Philadelphie de 1900 à 1909, puis le département de l'organisation de la charité de la Russell Sage Foundation, à New York [@agnew2004; @richmond1917]. Son manuel de 1899 s'adresse aux bénévoles de la visite amicale, que les sociétés de charité recrutent et forment. C'est l'étape entre la dame visiteuse et le diagnostic [@richmond1899]. Avec *Social Diagnosis* (1917), elle pose les bases d'une pratique méthodique : observer, enquêter, croiser les sources, formuler un diagnostic, intervenir [@richmond1917].
 
-Le mot « diagnostic » n'est pas innocent. Richmond emprunte au vocabulaire médical pour faire reconnaître le travail social comme un savoir, pas comme un bon sentiment. Elle remplace la pitié par l'investigation. On reverra à la séance 3 ce que cette méthode a produit de meilleur et de pire.
+Le mot « diagnostic » n'est pas innocent. Richmond emprunte au vocabulaire médical pour faire reconnaître le travail social comme un savoir, pas comme un bon sentiment. Elle remplace la pitié par l'investigation. La première partie du livre traite de la preuve sociale (témoignages, inférences, biais du témoin), sur le modèle du droit et de la médecine. Le diagnostic y cherche la définition la plus exacte possible de la situation et de la personnalité d'une personne, prise dans ses relations avec les autres et avec les institutions de sa communauté [@richmond1917, p. 357]. Aucun diagnostic, ajoute-t-elle, n'est définitif. On reverra à la séance 3 ce que cette méthode a produit de meilleur et de pire.
+
+Ce vocabulaire répond aussi à un affront. En 1915, devant la Conférence nationale des œuvres de charité et de correction, le médecin Abraham Flexner reconnaît au travail social un caractère intellectuel. Il voit pourtant dans le travailleur social un médiateur, qui fait appel au médecin, à l'école ou au législateur au lieu d'agir lui-même, et le juge à peine éligible au rang de profession [@flexner2001]. Lilian Gravière lit l'œuvre de Richmond comme une réponse à ce verdict, dont le *social case work* est la pièce maîtresse [@graviere2014]. Ses derniers textes y ajoutent une exigence démocratique [@graviere2013]. Pour juger ce débat, reprenez les outils de la séance 1, la licence et le mandat d'Everett Hughes [@hughes1958] et la sociologie des professions de Claude Dubar et Pierre Tripier [@dubar1998].
 
 ### Jane Addams et Hull House
 
-À Chicago, Jane Addams choisit une autre voie. En 1889, avec Ellen Gates Starr, elle ouvre Hull House dans un quartier ouvrier d'immigrés. Ce n'est pas un guichet, c'est une maison où des femmes instruites viennent vivre, partager le quotidien des habitants, apprendre d'eux autant que leur transmettre.
+À Chicago, Jane Addams choisit une autre voie. Le 18 septembre 1889, avec Ellen Gates Starr et Mary Keyser, elle s'installe à Hull House, dans un quartier ouvrier d'immigrés [@addams1910, p. 94]. Ce n'est pas un guichet, c'est une maison où des femmes instruites viennent vivre, partager le quotidien des habitants, apprendre d'eux autant que leur transmettre [@knight2005].
 
-Le concret donne la mesure de l'ambition. Chaque semaine, Hull House faisait tourner une crèche pour les mères qui travaillaient, un jardin d'enfants, des cours d'anglais et de cuisine pour les immigrants, un bureau de placement, un gymnase, une galerie d'art. Addams pense le changement à l'échelle du quartier, en reliant l'aide à la personne et la mobilisation collective. Son engagement déborde le social : pacifiste, elle préside le Congrès international des femmes en 1915, et reçoit en 1931 le prix Nobel de la paix, première Américaine à l'obtenir.
+Le concret donne la mesure de l'ambition. Le programme de 1895 décrit un jardin d'enfants gratuit, une crèche à cinq cents par enfant pour les mères qui travaillaient, des cours de cuisine, dont un pour de jeunes Italiennes, des cours de niveau universitaire, un gymnase et une galerie d'art. Environ deux mille personnes y passent chaque semaine [@hullhouse1895, p. 207-229]. La maison enquête aussi. Elle dénonce les agences privées de placement qui exploitent les immigrés, et fait campagne pour des bureaux publics gratuits, qu'une loi de l'Illinois crée en 1899. Dix ans plus tard, Addams constate que la loi reste mal appliquée [@addams1910, p. 221-222].
 
-Le modèle des settlements n'est d'ailleurs pas américain à l'origine. Il naît à Londres dans les années 1880, à Toynbee Hall, en réponse aux désordres de l'industrialisation. Il essaime ensuite dans tout le monde industriel.
+Addams pense le changement à l'échelle du quartier, en reliant l'aide à la personne et la mobilisation collective. Son engagement déborde le social. Pacifiste, elle préside le Congrès international des femmes réuni à La Haye en avril 1915 [@addams1915], et reçoit en 1931 le prix Nobel de la paix, qu'elle partage avec Nicholas Murray Butler [@nobelprize2026]. Elle est la première Américaine à l'obtenir [@knight2005]. Ses arguments pacifistes partent de l'expérience des femmes, sans rien devoir à une supposée nature féminine [@revol2025].
+
+Le modèle des settlements n'est d'ailleurs pas américain à l'origine. Il naît à Londres dans les années 1880, à Toynbee Hall, que Samuel Barnett a voulu dans l'East End en réponse aux désordres de l'industrialisation. Addams y a séjourné en juin 1888 [@addams1910, p. 87-88]. Il essaime ensuite dans tout le monde industriel, jusqu'aux Maisons sociales et aux Résidences sociales françaises du début du XXe siècle [@eloy2012].
 
 ### Octavia Hill et le logement
 
-En Angleterre, Octavia Hill (1838-1912) part du logement. Elle achète des immeubles insalubres, les rénove, les loue à bas prix, et combine une gestion locative stricte avec des visites régulières. Sa conviction est victorienne jusqu'au bout : on relève les pauvres en leur apprenant l'hygiène, l'épargne, la respectabilité. Le modèle influencera les initiatives catholiques de logement social en Belgique.
+En Angleterre, Octavia Hill (1838-1912) part du logement. En 1864-1865, elle achète à bail trois maisons insalubres avec l'argent de John Ruskin, qui prend tout le risque à sa charge mais exige un intérêt raisonnable [@hill1875; @steyaert2010]. Elle les rénove, perçoit elle-même les loyers, et combine une gestion locative stricte avec des visites régulières. Les loyers sont modérés, sans être subventionnés, et l'opération rapporte 5 % [@hill1875]. Le paradoxe aide/contrôle de la séance 1 est déjà là. Son plan, écrit-elle, « depended on just governing more than on helping » [@hill1875, p. 6].
+
+Sa conviction est victorienne jusqu'au bout : on relève les pauvres en leur apprenant l'hygiène, l'épargne, la respectabilité. Elle refuse d'ailleurs que l'État prenne en charge le logement et l'aide sociale [@payne2024]. Le modèle influencera le casework de la Charity Organization Society de Londres, dont elle est l'une des premières membres, et Richmond reconnaîtra sa dette envers elle [@payne2024; @steyaert2010; @richmond1899, p. vii]. Il essaime vers Amsterdam, Berlin et Chicago [@steyaert2010].
 
 Trois figures, trois unités d'intervention : l'individu et sa famille pour Richmond, le quartier pour Addams, le logement pour Hill. Trois sources de légitimité aussi : la science médicale, le pragmatisme démocratique, la gestion morale. Le travail social d'aujourd'hui tient encore un peu des trois.
 
+Ne durcissez pas trop l'opposition entre Richmond et Addams. Toutes deux font passer la pratique de la certitude morale à l'enquête rationnelle [@franklin1986]. Le versant collectif a ses héritières. Lena Dominelli demande aujourd'hui au travail social d'aider les usagers à contester les oppressions qui les privent de pouvoir [@dominelli2002a].
+
+Ces méthodes circulent vite, y compris par la Belgique. En Allemagne, Alice Salomon (1872-1948) ouvre à Berlin, en 1908, la première école de travail social du pays [@healy2013]. En 1926, son *Soziale Diagnose* s'inspire de Richmond et fait de l'examen de la situation une méthode d'aide systématique [@salomon1926]. Brigitte Bouquet la rapproche d'Addams. Toutes deux ont créé un travail social ouvert et communautaire, engagé dans la réforme sociale, et ont dirigé le mouvement des femmes de leur pays [@bouquet2012]. La même année, *What Is Social Case Work?* paraît en français, traduit par Pauline de Chary et le médecin belge René Sand [@richmond2002]. En 1928, Sand conçoit et organise à Paris la première Conférence internationale du service social, qui pose les bases des organisations internationales ultérieures [@eilers2011; @hering2003]. Salomon deviendra la première présidente de l'association internationale des écoles de travail social [@healy2013].
+
 ### Chicago : la ville comme laboratoire
 
-Dans les années 1920, le département de sociologie de l'Université de Chicago fournit au travail social naissant sa caution scientifique. Robert Park et Ernest Burgess (*The City*, 1925) proposent une écologie urbaine : comme des organismes en compétition pour un espace, les groupes humains se répartissent dans la ville en zones concentriques, du centre des affaires à la banlieue aisée, en passant par une zone de transition dégradée où s'entassent les immigrants récents.
+Dans les années 1920, le département de sociologie de l'Université de Chicago fournit au travail social naissant sa caution scientifique. Robert Park, Ernest Burgess et Roderick McKenzie (*The City*, 1925) proposent une écologie urbaine [@park1925]. Dans le chapitre de Burgess, les groupes humains se répartissent dans la ville comme des organismes en compétition pour un espace, en zones concentriques, du centre des affaires à la banlieue aisée, en passant par une zone de transition dégradée où s'entassent les immigrants récents. Une anthologie en français réunit ces textes avec deux textes de Simmel [@grafmeyer2009].
+
+La caution a pourtant circulé dans les deux sens. Dès 1895, les résidentes de Hull House avaient cartographié les nationalités et les salaires de leur quartier [@hullhouse1895]. Mary Jo Deegan fait de cette enquête la naissance de la sociologie de Chicago. Elle montre comment Addams, avec le réseau des femmes de Hull House, a été reléguée du côté du travail social, pendant que les hommes de l'université gardaient la sociologie [@deegan1988]. Le partage entre une science masculine et une pratique féminine a été construit.
 
 L'apport est politique autant que scientifique. Si certains quartiers concentrent les problèmes sociaux, ce n'est pas que leurs habitants seraient mauvais par nature. C'est leur position dans la dynamique urbaine qui les fragilise. Le modèle rompt avec les explications raciales et morales de la pauvreté. Sa transposition en Belgique a ses limites : nos villes sont plus denses et plus anciennes, et c'est souvent l'appartenance idéologique, le pilier, qui structure l'espace social autant que la géographie.
 
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Pour une porte d'entrée en français sur Richmond, lisez sa traduction de 1926, rééditée avec une préface de Brigitte Bouquet [@richmond2002]. L'histoire classique de la professionnalisation américaine, de la visite amicale au diagnostic, reste @lubove1965. Christian Topalov compare les enquêtes de Londres, de Paris et de Chicago, dont celle de Park et Burgess [@topalov2015]. Sur les pionnières européennes et les organisations internationales, voir @hering2003. Le canon flamand et néerlandais d'histoire du travail social propose une frise de 1817 à 2001 [@steyaert2010].
+:::
+
 ## 1920 : la Belgique se dote d'un métier
 
-Avant 1920, la Belgique n'a ni professionnels ni formation structurée du travail social. La réponse à la misère reste l'affaire des œuvres charitables. Puis, en quelques mois, tout s'organise. L'École catholique de service social de Bruxelles est créée le 23 février 1920. L'arrêté royal du 15 octobre 1920 institue le diplôme d'« auxiliaire social » et reconnaît les écoles de service social. Le pays sort meurtri de la guerre, avec ses orphelins, ses veuves, ses invalides, ses sans-abri, et il lui faut reconstruire un ordre social. La professionnalisation répond à ce besoin autant qu'à un idéal.
+Avant 1920, la Belgique n'a ni écoles permanentes ni diplôme de travail social. Des cours temporaires existent, dès 1911 dans le mouvement ouvrier socialiste, de 1916 à 1919 dans le mouvement social chrétien féminin [@zelis2004]. La réponse à la misère reste l'affaire des œuvres charitables et des bureaux de bienfaisance. Puis, en quelques mois, tout s'organise. La section néerlandophone de l'école catholique ouvre le 17 janvier 1920 [@zelis2004, p. 8]. Le 23 janvier, le ministre socialiste de la Justice, Émile Vandervelde, inaugure une école d'État provisoire et résume l'ambition en une phrase : « La charité est devenue une science ; pour beaucoup elle devient une profession » [@zelis2004, p. 2]. L'École catholique de service social de Bruxelles est créée officiellement le 23 février 1920 [@zelis2019]. Victoire Cappe et Maria Baers en sont à l'origine, avec l'appui de Victor Brants [@zelis2002].
 
-Cette naissance porte d'emblée la marque belge : la pilarisation. Le pays s'est construit sur un compromis entre trois mondes (catholique, socialiste, libéral), et chacun possède ses propres institutions. Le travail social se crée donc en trois versions parallèles. Le pilier catholique domine largement : environ la moitié des quelque 1 200 auxiliaires sociaux diplômés entre 1920 et 1939 en sortent. Maria Baers, figure du catholicisme social féminin, anime l'Union internationale catholique de service social fondée en 1925. Le pilier socialiste, moins doté, porte une autre idée : l'aide est un droit, pas une aumône. Le pilier officiel forme, à l'École centrale de Bruxelles, des praticiennes sur un mode laïque et généraliste.
+L'arrêté royal du 15 octobre 1920, publié au *Moniteur belge* du 31 octobre, organise l'ensemble. Il crée un Conseil des écoles de service social, une école d'État, l'École centrale, des subsides pour les écoles reconnues et un diplôme officiel, que son article 6 appelle diplôme « de service social » [@zelis2004, p. 6-7; @zelis2002]. L'expression « diplôme d'auxiliaire social » n'apparaît qu'avec l'arrêté royal du 10 août 1921 [@zelis2002; @zelis2019a]. Les ministres du gouvernement Delacroix justifient la réforme par les besoins nés de la guerre et par la nécessité d'une « bienfaisance préventive » dotée d'une méthode [@zelis2004, p. 6-7]. Le pays sort meurtri de la guerre, avec ses orphelins, ses veuves, ses invalides, ses sans-abri, et il lui faut reconstruire un ordre social. La professionnalisation répond à ce besoin autant qu'à un idéal.
 
-Cette histoire a une conséquence très concrète pour vous. En Belgique, il n'y a jamais eu un travail social, mais plusieurs, portés par des valeurs et des réseaux distincts. Le paysage est fragmenté, et il l'est par construction, pas par accident.
+Cette naissance porte d'emblée la marque belge : la pilarisation. Un pilier est un réseau d'organisations (mutualités, syndicats, coopératives, écoles, soins, mouvements) réunies par une idéologie et adossées à un parti, qui encadre ses membres du berceau à la tombe. Le pays s'est construit sur un compromis entre trois mondes (catholique, socialiste, libéral), et chacun possède ses propres institutions, même si le monde libéral ne forme qu'un quasi-pilier [@crisp2021]. Ces piliers perpétuent de vieux clivages, entre l'Église et l'État, entre possédants et travailleurs [@decoorebyter2008]. La charité était déjà un champ de bataille. En 1857, des émeutes éclatent contre la loi sur la charité, dite « loi des couvents » [@vankalken1936]. Ducpétiaux, lui, défend la liberté des fondations charitables privées contre la critique libérale [@ducpetiaux1859].
+
+Le travail social naît donc en plusieurs versions parallèles. Entre 1920 et 1922, cinq écoles ouvrent huit sections linguistiques [@zelis2004, p. 8; @zelis2019]. Les catholiques forment des femmes à Bruxelles et des ouvriers chrétiens à Heverlee. Le mouvement socialiste ouvre deux sections, dont l'École ouvrière supérieure, dirigée par Henri De Man. Les libéraux ont leur école à Anvers. L'École centrale, enfin, est une école d'État, officielle et neutre, en dehors des piliers [@zelis2004, p. 8; @amara2024]. Si on l'a parfois rangée dans un « pilier officiel », c'est que la lecture duale du pays, chrétiens contre laïques, classe les institutions publiques du côté laïque [@crisp2021].
+
+Le pilier catholique domine largement. De 1922 à 1938, ces écoles diplôment 1 199 personnes. Les écoles catholiques en forment 626 (52 %), l'École centrale 347 (29 %), les écoles socialistes 134 (11 %) et l'école libérale d'Anvers 92 (7,7 %) [@zelis2004, p. 9-10]. Maria Baers, figure du catholicisme social féminin, cofonde en 1925 l'Union catholique internationale de service social, créée par les écoles catholiques à l'initiative de l'école bruxelloise [@zelis2004, p. 17]. Elle en sera la secrétaire générale de 1927 à 1950, puis la présidente jusqu'en 1958 [@keymolen2016].
+
+Le pilier socialiste, moins doté, suit une autre logique. Son école vient de l'éducation ouvrière. Sur le modèle du Ruskin College, elle forme surtout des hommes, les cadres du mouvement [@zelis2004]. Ce pilier s'appuie sur un réseau plus ancien de coopératives, du Vooruit de Gand (1880) à la Maison du Peuple de Bruxelles (1882), que la fondation du Parti ouvrier belge en 1885 accélère [@legros1991]. Le POB sert alors de modèle d'organisation à toute la Deuxième Internationale [@defoort2025].
+
+Cette histoire a une conséquence très concrète pour vous. En Belgique, il n'y a jamais eu un travail social, mais plusieurs, portés par des valeurs et des réseaux distincts. Le paysage est fragmenté, et il l'est par construction, pas par accident. La dépilarisation a commencé dans les années 1960 [@crisp2021], mais les piliers structurent encore l'enseignement en Fédération Wallonie-Bruxelles, jusqu'aux programmes d'éducation à la citoyenneté [@tisseyre2025]. Les formations sociales se recomposent aujourd'hui entre hautes écoles et promotion sociale, sous l'effet du processus de Bologne, et les statuts restent inégaux. Le titre d'assistant social est protégé depuis 1945, alors que la loi sur le statut d'éducateur, votée en 1994, n'a jamais reçu d'arrêtés d'application [@melon2014].
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Pour le récit de la fondation de l'école catholique par son historien, voir le résumé de thèse de @zelis2002, et sur la place de l'enquête sociale dans la formation, @zelis2019a. Les rapports de stage des élèves, de 1922 à 1970, sont conservés aux Archives générales du Royaume et attendent leurs mémoires [@amara2024; @agr2024]. Pour une synthèse par périodes du travail social en Belgique francophone, lisez @foucart2022, avec prudence sur la chronologie des lois. Sur le mouvement ouvrier chrétien, voir @gerard1994, et sur la charité catholique organisée, @demaeyer1992.
+:::
 
 ## Le maternalisme : une porte d'entrée ambivalente
 
-Une chose saute aux yeux dans cette histoire : le métier est féminin dès l'origine. Guy Zelis a montré comment la formation belge des années 1920-1940 s'est construite entre maternalisme et professionnalisation. Le travail social a offert aux femmes instruites un domaine où exercer une autorité, une expertise, une responsabilité, à une époque où le pouvoir politique direct leur restait fermé.
+Une chose saute aux yeux dans cette histoire : le métier est très majoritairement féminin dès l'origine. Sur les 1 199 diplômés de l'entre-deux-guerres, on compte 909 femmes pour 290 hommes [@zelis2004, p. 13], soit environ trois quarts de femmes [@agr2024]. Les hommes viennent surtout des écoles ouvrières, socialistes ou chrétiennes. Guy Zelis a montré comment la formation belge des années 1920-1940 s'est construite entre maternalisme et professionnalisation [@zelis2019]. Il reprend la définition de Seth Koven et Sonya Michel. Le maternalisme désigne les idéologies qui exaltent la capacité des femmes à être mères et étendent à la société entière les valeurs de soin et de moralité [@koven1990, p. 1079]. Le travail social a offert aux femmes instruites un domaine où exercer une autorité, une expertise, une responsabilité, à une époque où le pouvoir politique direct leur restait fermé.
 
-L'ambivalence est entière. Cette féminisation a ouvert une voie d'émancipation réelle. Elle a aussi enfermé le métier dans un rôle pensé comme un prolongement de la fonction maternelle : prendre soin, éduquer, moraliser. Et ce qui est défini comme « naturellement féminin » se paie moins cher et se reconnaît moins. La séance 6 reprendra ce fil, qui ne s'est jamais cassé : le secteur où vous allez travailler reste l'un des plus féminisés et des moins bien rémunérés du pays.
+Il ne s'ouvre qu'à moitié. Les femmes votent aux élections communales à partir de 1920. Chaque parti crée alors ses organisations féminines et les cantonne à la protection de l'enfance, à la santé et à la bienfaisance, que les hommes du parti délaissent [@jacques1998]. Chaque pilier mobilise ainsi « ses » femmes et les fait sortir de la sphère privée [@gubin1998, p. 249-250], sans les faire sortir du social. Maria Baers résume l'ambivalence à elle seule. Elle professionnalise le travail social féminin, et les ligues qu'elle dirige défendent le retour de la mère au foyer [@keymolen2016].
+
+L'ambivalence est entière. Cette féminisation a ouvert une voie d'émancipation réelle. Elle a aussi enfermé le métier dans un rôle pensé comme un prolongement de la fonction maternelle : prendre soin, éduquer, moraliser. Et ce qui est défini comme « naturellement féminin » se paie moins cher et se reconnaît moins [@gubin1998; @bessin2005]. Zelis ajoute un étage. Les auxiliaires sont « maternalistes » envers les ouvrières et les mères, mais elles restent sous la tutelle d'hommes, aumôniers, juges des enfants, médecins, patrons [@zelis2019, § 5]. Il parle, avec Christoph Sachße, de « maternité comme profession » [@zelis2019, § 13]. La tension entre les deux pôles dure au lieu de se résoudre. La séance 6 reprendra ce fil, qui ne s'est jamais cassé : le secteur où vous allez travailler reste l'un des plus féminisés et des moins bien rémunérés du pays.
+
+La protection de la petite enfance suit la même pente. L'Œuvre nationale de l'enfance, créée en 1919, subventionne les œuvres privées sans toucher à leur couleur religieuse ou politique. Les dames patronnesses y financent et animent les œuvres, sans les diriger. Les infirmières-visiteuses professionnalisent la visite, dans un métier dur et mal payé, et médecins et puériculteurs exercent sur les mères ouvrières une double domination, de sexe et de classe. En centrant tout sur le lien entre la mère et l'enfant, cette politique évite de s'attaquer aux causes économiques de la mortalité infantile [@marissal2014].
+
+Le schéma se retrouve ailleurs. En France, en Allemagne et en Suisse, les premières écoles sont créées par des femmes, pour des femmes, et souvent dirigées par des hommes [@modak2013]. À Paris, l'assistante sociale de l'entre-deux-guerres doit devenir l'amie des familles populaires tout en les surveillant. Une élève trouve paradoxal d'être l'ami de quelqu'un et son espion [@zappi2019]. Pour Marc Bessin, le travail social a socialisé la fonction maternelle et professionnalisé les œuvres de charité ; les hommes, qui occupent moins de 10 % des emplois du secteur, y tiennent plus souvent les postes de direction [@bessin2005].
+
+Trois outils théoriques aident à penser cette ambivalence, et vous les retrouverez à la séance 6. Joan Tronto définit le *care* comme tout ce que nous faisons pour maintenir, perpétuer et réparer notre monde [@tronto1993]. Elle critique l'idée d'une morale propre aux femmes, qui a pu servir de stratégie politique mais renforce les stéréotypes et confine les femmes au privé [@tronto2009]. C'est la carte qu'a jouée le maternalisme. Arlie Hochschild appelle travail émotionnel la gestion des sentiments exigée et vendue dans un emploi, selon des règles fixées par l'organisation [@hochschild1983; @hochschild2017]. Le dévouement attendu des auxiliaires, ou la bonne distance qu'on enseigne aux assistantes parisiennes, en relèvent, sans être reconnus comme une qualification. Son article de 1979, traduit en français, en donne une entrée courte [@hochschild2003]. Silvia Federici, enfin, place le travail de reproduction, domestique et non payé, au centre de l'accumulation capitaliste. Elle a participé à la campagne pour un salaire ménager lancée en 1972 [@federici2016] et fait remonter l'assignation des femmes à ce travail aux débuts du capitalisme [@federici2014]. Lu avec elle, le travail social apparaît comme le prolongement salarié, et mal payé, de ce travail.
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Sur le concept de maternalisme vingt ans après Koven et Michel, voir @vanderklein2012, qui traite aussi des Pays-Bas, voisin pilarisé de la Belgique. Pour la France, @cova1997 étudie le féminisme maternaliste et @zappi2022 les assistantes sociales parisiennes face aux familles populaires. Sur le féminisme belge dans le système des clivages, voir @jacques2009. Le numéro « Genre et travail social » de *Travailler le social* et de *Chronique féministe* est l'un des deux dossiers belges francophones sur la question [@coenen2008]. Pour retrouver une pionnière, le *Dictionnaire des femmes belges* rassemble plus de 400 biographies [@gubin2006]. Pour une lecture critique classique, qui voit dans l'assistance sociale une violence symbolique contre la culture ouvrière, lisez @verdesleroux1978.
+:::
 
 ## Les lois qui ont fait le système belge
 
-Quatre textes suffisent à raconter un siècle. L'arrêté royal du 15 octobre 1920 crée le diplôme et les écoles. La loi du 12 juin 1945 protège le titre d'assistant social et lui donne une reconnaissance légale. La loi du 7 août 1974 fait de l'aide sociale un droit, et non plus une faveur laissée à l'appréciation des bienfaiteurs. La loi organique du 8 juillet 1976 crée les CPAS et consacre le droit à mener une vie conforme à la dignité humaine. D'un siècle à l'autre, on passe de la charité au droit, lentement, par paliers, jamais tout à fait.
+Six textes suffisent à raconter un siècle. L'arrêté royal du 15 octobre 1920 crée le diplôme et organise les écoles [@zelis2002]. La loi du 10 mars 1925 fusionne, dans chaque commune, le bureau de bienfaisance et les hospices civils en une commission d'assistance publique, l'ancêtre du CPAS [@belgique1925]. L'arrêté-loi du 28 décembre 1944 crée la sécurité sociale des travailleurs [@belgique1944]. Le gouvernement, qui craint l'opposition des mutualités chrétiennes, l'impose par pouvoirs spéciaux, sans vote du Parlement. Le Pacte social qu'il traduit a été négocié dans la clandestinité et répond à des problèmes belges, sans modèle beveridgien [@vanthemsche1994]. La loi du 12 juin 1945 protège le titre d'auxiliaire ou d'assistant social, sans réserver l'exercice du métier à ses porteurs [@belgique1945]. Maria Baers, devenue sénatrice, en est l'autrice [@keymolen2016].
+
+La loi du 7 août 1974 crée le minimex, un droit à un minimum de moyens d'existence, réservé à l'origine aux Belges majeurs [@belgique1974]. Les parlementaires ont écarté un droit plus large à l'aide sociale et l'ont renvoyé à une loi future. André Nayer, juriste contemporain de la réforme, oppose alors un minimum qui permet d'« exister » à un minimum qui permettrait de « vivre » [@nayer1975, p. 227-231]. Cette loi future, c'est la loi organique du 8 juillet 1976. Elle crée les centres publics d'aide sociale, devenus d'action sociale en 2002, et consacre dans son article 1er le droit à l'aide sociale, pour mener une vie conforme à la dignité humaine [@belgique1976]. D'un siècle à l'autre, on passe de la charité au droit, lentement, par paliers, jamais tout à fait.
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Pour la genèse de la sécurité sociale belge, lisez @vanthemsche1994. Le juriste Jacques Fierens, de l'Université de Namur, relit Geremek à partir du droit, qui traduit surtout la répression ou la pitié, et voit dans la solidarité une troisième voie fragile [@fierens2018].
+:::
 
 ## France et Belgique : deux manières de faire
 
-Le contraste avec la France éclaire la singularité belge. La France a bâti un État social centralisé, avec un diplôme d'État national et une philosophie universaliste : on aide « les citoyens », pas « les pauvres ». La Belgique a fait l'inverse. Son travail social est fragmenté par Communauté et par pilier, son financement éclaté, ses statuts souvent plus précaires. Là où la France affiche un universalisme parfois aveugle aux discriminations réelles, la Belgique vit avec une diversité institutionnelle qui peut virer à l'incohérence. Ni l'un ni l'autre n'a résolu la tension entre l'égalité promise et l'inégalité vécue.
+Le contraste avec la France éclaire la singularité belge, à condition de ne pas le forcer. La France affiche une philosophie universaliste : on aide « les citoyens », pas « les pauvres ». Elle a aujourd'hui un diplôme d'État national, quand le travail social belge est fragmenté par Communauté et par pilier, et son financement éclaté.
+
+L'histoire brouille pourtant ce tableau. Côté diplôme, la Belgique a été la plus étatique des deux. En 1928, seules les écoles allemandes et belges délivrent un diplôme officiel [@zelis2019]. Le brevet de capacité français n'est créé que par le décret du 12 janvier 1932, puis fusionné en 1938 avec le diplôme d'infirmière-visiteuse [@goyau2014]. La loi du 8 avril 1946 réserve ensuite l'exercice du métier aux titulaires du diplôme d'État et impose le secret professionnel [@france1946], alors que la loi belge de 1945 ne protège que le titre. En Belgique, un Conseil des écoles et un jury central contrôlent les diplômes pour tout le pays, sous l'autorité de la Justice. Le jury central cesse d'être obligatoire en 1963, et les compétences passent à l'Éducation nationale en 1970 [@zelis2019; @amara2024]. La fragmentation par Communauté vient après. Sur le travail des enfants, la loi belge du 13 décembre 1889 a même précédé la loi française de 1892, et les parlementaires français s'en sont servis, les uns pour freiner, les autres pour accélérer leur propre texte [@lekeal2020].
+
+La structure de l'État social rapproche aussi les deux pays. Gøsta Esping-Andersen les range dans le même régime conservateur-corporatiste, où les droits dépendent du travail et des cotisations [@espingandersen1990]. Au début des années 1980, tous deux ont un système bismarckien, fondé sur des assurances obligatoires, géré par les partenaires sociaux et très fragmenté ; la France compte alors plus de 600 régimes de base de retraite [@palier2010, p. 35-44]. Leur politique familiale généreuse les écarte en partie du modèle de l'homme gagne-pain [@lewis1992; @palier2010]. Et l'État social français est né d'une coalition de patrons paternalistes, de catholiques sociaux et de natalistes, qui a construit par les caisses d'allocations familiales un État social parental [@pedersen1993]. On est loin d'un universalisme abstrait, et près du monde catholique belge. Le service social français est sorti d'initiatives privées, en partie confessionnelles [@zappi2022], mais aussi radicales et socialistes municipales, comme à Suresnes [@knibiehler1980].
+
+Là où la France affiche un universalisme parfois aveugle aux discriminations réelles, la Belgique vit avec une diversité institutionnelle qui peut virer à l'incohérence. Ni l'un ni l'autre n'a résolu la tension entre l'égalité promise et l'inégalité vécue.
+
+::: {.plus-loin}
+**Pour aller plus loin**
+
+Pour une histoire du travail social français, voir @pascal2014, et pour la première synthèse, qui juge que la composante féministe du départ a été sacrifiée, @guerrand1978. Des assistantes sociales françaises des années 1930 à 1960 racontent leur métier dans @knibiehler1980. Henri Hatzfeld a retracé, pour la France, le chemin qui mène du paupérisme à la sécurité sociale [@hatzfeld1971]. La typologie d'Esping-Andersen existe en traduction française [@espingandersen1999].
+:::
 
 ## Pourquoi cette histoire compte
 
 On pourrait croire qu'un cours d'histoire est un détour. Il est exactement le contraire. Les débats que vous vivrez en stage ont tous été posés entre 1890 et 1920. La place du contrôle dans la relation d'aide, la légitimité à entrer dans la vie privée des familles, la tension entre accompagner et redresser : tout cela était déjà là chez la dame patronnesse de Molenbeek, chez Richmond et son diagnostic, chez Addams et son quartier.
 
-Comprendre cette généalogie ne sert pas à vénérer les fondatrices. Cela sert à démystifier le présent. Mary Richmond n'a pas inventé le casework par pure bonté : elle l'a théorisé pour faire reconnaître une profession. Les écoles belges ne sont pas nées en 1920 d'un sursaut humaniste : elles sont nées parce qu'un pays avait peur de sa classe ouvrière et voulait reconstruire son ordre. Savoir cela ne vous rend pas cynique. Cela vous rend lucide, ce qui est la première condition pour faire ce métier sans s'y perdre.
+Comprendre cette généalogie ne sert pas à vénérer les fondatrices. Cela sert à démystifier le présent. Mary Richmond n'a pas inventé le casework par pure bonté : elle l'a théorisé pour faire reconnaître une profession [@graviere2014]. Les écoles belges ne sont pas nées en 1920 d'un sursaut humaniste : elles sont nées parce qu'un pays avait peur de sa classe ouvrière et voulait reconstruire son ordre. Savoir cela ne vous rend pas cynique. Cela vous rend lucide, ce qui est la première condition pour faire ce métier sans s'y perdre.
 
 ---
 
@@ -107,7 +191,7 @@ Comprendre cette généalogie ne sert pas à vénérer les fondatrices. Cela ser
 
 Quel verdict Abraham Flexner prononce-t-il en 1915 sur le travail social, et comment Mary Richmond y répond-elle ? Quelles tensions cette controverse révèle-t-elle sur la nature du travail social comme profession ?
 
-*Références à mobiliser :* Flexner (1915) ; Richmond (1917) ; Hughes (1958) ; Dubar & Tripier (1998).
+*Références à mobiliser :* @flexner2001 ; @richmond1917 ; @graviere2014 ; @hughes1958 ; @dubar1998.
 :::
 
 ::: {.question-examen}
@@ -115,7 +199,7 @@ Quel verdict Abraham Flexner prononce-t-il en 1915 sur le travail social, et com
 
 Analysez la création des écoles de service social en Belgique (1920). Comment la pilarisation structure-t-elle le travail social naissant, et quels effets cette fondation a-t-elle encore aujourd'hui ?
 
-*Références à mobiliser :* Zelis (2004, 2019) ; Foucart (2022) ; Mélon & Hamzaoui (2014).
+*Références à mobiliser :* @zelis2004 ; @zelis2019 ; @foucart2022 ; @melon2014 ; @crisp2021.
 :::
 
 ::: {.question-examen}
@@ -123,7 +207,7 @@ Analysez la création des écoles de service social en Belgique (1920). Comment 
 
 Comparez l'approche de Mary Richmond (casework individuel) et celle de Jane Addams (mobilisation de quartier). Ces deux modèles sont-ils réconciliables ? Quelles tensions demeurent pertinentes aujourd'hui ?
 
-*Références à mobiliser :* Richmond (1917) ; Addams (1910) ; Dominelli (2002).
+*Références à mobiliser :* @richmond1917 ; @addams1910 ; @franklin1986 ; @bouquet2012 ; @dominelli2002a.
 :::
 
 ::: {.question-examen}
@@ -131,7 +215,7 @@ Comparez l'approche de Mary Richmond (casework individuel) et celle de Jane Adda
 
 Qu'est-ce que le « maternalisme » dans l'histoire du travail social belge ? En quoi révèle-t-il une tension fondatrice autour du genre et de la professionnalisation ?
 
-*Références à mobiliser :* Zelis (2019) ; Hochschild (1983) ; Federici (2012) ; Tronto (1993).
+*Références à mobiliser :* @zelis2019 ; @koven1990 ; @hochschild1983 ; @federici2014 ; @federici2016 ; @tronto1993.
 :::
 
 ::: {.question-examen}
@@ -139,32 +223,12 @@ Qu'est-ce que le « maternalisme » dans l'histoire du travail social belge ? En
 
 Pourquoi peut-on dire avec Vrancken que le travail social naît pour « rendre la société gouvernable » ? Discutez cette thèse à partir de la situation belge après 1886.
 
-*Références à mobiliser :* Vrancken (2002, 2010) ; Durkheim (1893) ; Simmel (1908).
+*Références à mobiliser :* @vrancken2002 ; @vrancken2010 ; @donzelot1984 ; @deneckere1993 ; @durkheim1893 ; @simmel1998.
 :::
 
 ---
 
 ## Références
 
-- Addams, J. (1910). *Twenty Years at Hull House*. New York : Macmillan.
-- Donzelot, J. (1984). *L'Invention du social*. Paris : Fayard.
-- Durkheim, É. (1893). *De la division du travail social*. Paris : Félix Alcan.
-- Esping-Andersen, G. (1990). *The Three Worlds of Welfare Capitalism*. Princeton : Princeton University Press.
-- Federici, S. (2012). *Caliban et la sorcière*. Genève : Entremonde.
-- Foucart, J. (2022). Le travail social en Belgique francophone. Dans *Le travail social en Europe*. Rennes : Presses de l'EHESP, pp. 83–99.
-- Mélon, L. & Hamzaoui, M. (2014). La recomposition de la formation en Belgique francophone face aux nouveaux défis du travail social. *Empan*, 95(3), 28–35.
-- Park, R. E. & Burgess, E. W. (1925). *The City*. Chicago : University of Chicago Press.
-- Richmond, M. E. (1917). *Social Diagnosis*. New York : Russell Sage Foundation.
-- Simmel, G. (1908/1998). Le pauvre. Dans *Sociologie*. Paris : PUF.
-- Tronto, J. (1993). *Moral Boundaries*. New York : Routledge.
-- Vrancken, D. (2002). *L'État social face à la question sociale*. Bruxelles : Presses de l'Université de Bruxelles.
-- Vrancken, D. (2010). *Le Nouvel Ordre Protectionnel*. Lyon : Parangon.
-- Zelis, G. (2019). La formation au travail social en Belgique (1920-1940), entre « maternalisme » et professionnalisation. *Les Politiques Sociales*, 3–4(2), 11–21.
-
-**Lectures complémentaires**
-
-- Verdès-Leroux, J. (1978). *Le travail social*. Paris : Minuit.
-- Topalov, C. (dir.) (1999). *Laboratoires du nouveau siècle*. Paris : Éd. de l'EHESS.
-- Procacci, G. (1993). *Gouverner la misère. La question sociale en France (1789-1848)*. Paris : Seuil.
-- Guerrand, R.-H. & Rupp, M.-A. (1978). *Brève histoire du service social en France*. Toulouse : Privat.
-- Lorenz, W. (1994). *Social Work in a Changing Europe*. Londres : Routledge.
+::: {#refs}
+:::
