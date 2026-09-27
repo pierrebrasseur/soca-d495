@@ -13,7 +13,11 @@ soca-d495/
 ├── seance-1.qmd … seance-7.qmd
 ├── module-c5.qmd, module-c7.qmd, module-c8.qmd
 ├── evaluation.qmd       # Modalités d'évaluation
-├── references.qmd       # Bibliographie générale
+├── references.qmd       # Bibliographie générale (toutes les références des pages)
+├── bib/
+│   ├── seance-1.bib … module-c8.bib   # Une bibliographie vérifiée par page
+│   ├── fusionner.py     # Fusionne les .bib en generale.bib (lancé avant chaque rendu)
+│   └── generale.bib     # Généré : ne pas modifier à la main
 ├── theme/
 │   ├── light.scss       # Palette claire
 │   ├── dark.scss        # Palette sombre
@@ -42,7 +46,9 @@ description: "Une phrase pour la page d'accueil."
 
 Sans `debut`/`fin`, la séance apparaît comme un fil conducteur en pointillés sur toute la frise. Pour un module, `periode` indique la séance qu'il prolonge.
 
-Encadrés disponibles dans le texte : `::: {.objectifs}`, `::: {.question-examen}`, `::: {.callout-note}` (ou `-important`, `-warning`, `-tip`).
+Citations : `[@cle]`, `[@cle, p. 12]`, `@cle` (narratif). Chaque page déclare `bibliography: bib/<page>.bib` ; la bibliographie de fin de page et la bibliographie générale sont produites automatiquement. Pour ajouter une référence, l'ajouter au `.bib` de la page et la citer.
+
+Encadrés disponibles dans le texte : `::: {.objectifs}`, `::: {.question-examen}`, `::: {.plus-loin}` (Pour aller plus loin), `::: {.callout-note}` (ou `-important`, `-warning`, `-tip`).
 
 Pour ajouter une séance : créer `seance-8.qmd` avec ces champs, puis l'ajouter à `sidebar` dans `_quarto.yml`.
 

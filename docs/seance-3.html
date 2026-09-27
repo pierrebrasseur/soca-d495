@@ -24,7 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -48,9 +68,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-eb1f815df56349f5b5be1f0e2dc682c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ec4b35a2ecb5a0f88c46805f11164cbd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-976eff664b41c7e7be51e78eb8fb4124.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ec4b35a2ecb5a0f88c46805f11164cbd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -495,6 +515,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Situer la critique de Flexner (1915) et expliquer pourquoi un constat d’échec a pu servir de moteur</li>
 <li>Mobiliser les outils de la sociologie des professions (attributs, semi-profession, fermeture du marché, juridictions) sur le cas du travail social</li>
+<li>Retracer les étapes de la professionnalisation en Belgique (diplôme de 1920, titre de 1945, code de 1948) et dire ce qu’elles laissent ouvert</li>
 <li>Distinguer les méthodes classiques (casework, travail de groupe, organisation communautaire) et leurs présupposés</li>
 <li>Repérer la dérive psychologisante du casework et savoir pourquoi elle pose un problème politique</li>
 </ul>
@@ -506,10 +527,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="le-choc-flexner" class="level2">
 <h2 class="anchored" data-anchor-id="le-choc-flexner">Le choc Flexner</h2>
-<p>En 1915, la Conférence nationale des œuvres de charité et de correction se tient à Baltimore. On y invite Abraham Flexner comme conférencier d’honneur. Flexner n’est pas travailleur social : c’est un réformateur de l’enseignement médical, l’homme dont le rapport de 1910 a refondé les facultés de médecine américaines. Devant une salle pleine de praticiens du social, il pose une question brutale en guise de titre : <em>Is Social Work a Profession?</em></p>
-<p>Sa réponse tient à une grille. Pour Flexner, une vraie profession réunit six conditions : des opérations intellectuelles engageant la responsabilité du praticien, un savoir tiré de la science, un objectif pratique délimité, une technique transmissible, une organisation interne avec un contrôle d’accès, une visée altruiste. Le travail social coche plusieurs cases, mais rate la décisive. Il n’a pas de technique propre ni de champ délimité. Le travailleur social, dit Flexner, est un médiateur : sa fonction est d’orienter les gens vers d’autres experts. Il n’a pas d’« agence originale ».</p>
-<p>Pourquoi ce verdict a-t-il fait si mal ? D’abord parce qu’il venait du bon endroit : la médecine était le modèle de toutes les professions en quête de respectabilité, et Flexner venait de la réformer. Ensuite parce qu’il touchait une corde sensible. Les « visiteuses amicales » des Charity Organization Societies savaient bien que leur travail reposait davantage sur la vertu morale que sur un savoir formalisé. Flexner a dit tout haut une fragilité ressentie tout bas.</p>
-<p>Et puis le constat d’échec s’est retourné en programme. Si le travail social manque d’un savoir propre, qu’à cela ne tienne : on va le construire. Des écoles, des manuels, des méthodes, des revues. La blessure de 1915 a déclenché trente ans de fabrication d’une profession.</p>
+<p>En 1915, la Conférence nationale des œuvres de charité et de correction se tient à Baltimore. On y invite Abraham Flexner comme conférencier d’honneur. Flexner n’est pas travailleur social : c’est un réformateur de l’enseignement médical, l’homme dont le rapport de 1910 a refondé les facultés de médecine américaines. Le 17 mai, devant une salle pleine de praticiens du social, il pose une question brutale en guise de titre <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">Flexner, 1915</a>)</span> : <em>Is Social Work a Profession?</em></p>
+<p>Sa réponse tient à une grille. Pour Flexner, une vraie profession réunit six conditions : des opérations intellectuelles engageant la responsabilité du praticien, un savoir tiré de la science, un objectif pratique délimité, une technique transmissible, une organisation interne avec un contrôle d’accès, une visée altruiste <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">Flexner, 1915, p. 8‑10</a>)</span>. La grille écarte d’emblée la plomberie <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">1915, p. 10</a>)</span>. Le travail social coche plusieurs cases, mais rate la décisive. Il n’a pas de technique propre ni de champ délimité, puisqu’il est « not so much a definite field as an aspect of work in many fields » <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">1915, p. 17</a>)</span>. Le travailleur social, dit Flexner, est un médiateur : sa fonction est d’orienter les gens vers d’autres experts <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">1915, p. 15‑16</a>)</span>. Il n’a pas d’« agence originale ».</p>
+<p>Le verdict est pourtant plus nuancé que sa légende. Flexner juge le travail social « hardly eligible » à ce stade <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">1915, p. 20</a>)</span>. Il imagine aussi le travailleur social aux commandes d’un clavier, qui fait jouer les spécialistes ensemble <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">1915, p. 17</a>)</span>. Il dit ne pas vouloir être trop catégorique, et termine sur l’esprit professionnel, qu’il tient pour le premier des critères et que le travail social peut, selon lui, pleinement satisfaire <span class="citation" data-cites="flexner1915">(<a href="#ref-flexner1915" role="doc-biblioref">1915, p. 23‑24</a>)</span>.</p>
+<p>Pourquoi ce verdict a-t-il fait si mal ? D’abord parce qu’il venait du bon endroit : la médecine était le modèle de toutes les professions en quête de respectabilité, et Flexner venait de la réformer. Ensuite parce qu’il touchait une corde sensible. Les « visiteuses amicales » des Charity Organization Societies savaient bien que leur travail reposait davantage sur la vertu morale que sur un savoir formalisé. Flexner a dit tout haut une fragilité ressentie tout bas. Le modèle médical pèse encore aujourd’hui. Dans les hôpitaux belges, la médecine est à la fois la source de la reconnaissance du service social et celle de sa dépendance <span class="citation" data-cites="gaspar2019">(<a href="#ref-gaspar2019" role="doc-biblioref">Gaspar, 2019</a>)</span>.</p>
+<p>Et puis le constat d’échec s’est retourné en programme. Si le travail social manque d’un savoir propre, qu’à cela ne tienne : on va le construire. Des écoles, des manuels, des méthodes, des revues. Vingt ans plus tard, pour la Russell Sage Foundation, Esther Lucile Brown reprend un à un les critères de Flexner et juge le travail social en bonne voie. À l’objection de la médiation, elle répond que le généraliste, lui aussi, envoie ses patients chez le spécialiste <span class="citation" data-cites="brown1942">(<a href="#ref-brown1942" role="doc-biblioref">Brown, 1935/1942</a>)</span>. La blessure de 1915 aurait ainsi déclenché trente ans de fabrication d’une profession. Les historiens discutent ce récit. David Austin parle d’un « mythe Flexner », qui a poussé la profession à courir après des critères taillés pour la médecine <span class="citation" data-cites="austin1983">(<a href="#ref-austin1983" role="doc-biblioref">Austin, 1983</a>)</span>. Patricia Morris montre que la conférence a été mal lue, souvent de façon anachronique, et que son influence sur les débuts de la professionnalisation tient en partie de la légende <span class="citation" data-cites="morris2008">(<a href="#ref-morris2008" role="doc-biblioref">Morris, 2008</a>)</span>.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -521,39 +543,72 @@ Important
 </div>
 <div class="callout-body-container callout-body">
 <p><strong>Le prix payé</strong></p>
-<p>En voulant ressembler à la médecine, le travail social a parfois troqué son ambition de réforme sociale contre l’ajustement des individus. La quête de scientificité a un coût politique : à force de soigner des cas, on oublie d’interroger ce qui les produit. Cette tension ne s’est jamais refermée, et vous la retrouverez à chaque séance.</p>
+<p>En voulant ressembler à la médecine, le travail social a parfois troqué son ambition de réforme sociale contre l’ajustement des individus <span class="citation" data-cites="austin1983 wagner1986">(<a href="#ref-austin1983" role="doc-biblioref">Austin, 1983</a>; <a href="#ref-wagner1986" role="doc-biblioref">Wagner, 1986</a>)</span>. La quête de scientificité a un coût politique : à force de soigner des cas, on oublie d’interroger ce qui les produit. Cette tension ne s’est jamais refermée, et vous la retrouverez à chaque séance.</p>
 </div>
 </div>
 </section>
 <section id="la-sociologie-des-professions" class="level2">
 <h2 class="anchored" data-anchor-id="la-sociologie-des-professions">La sociologie des professions</h2>
 <p>La question de Flexner, la sociologie l’a reprise tout au long du XXe siècle. Quatre réponses successives éclairent la position singulière du travail social, et chacune vous donne un outil utilisable en stage.</p>
-<p>La première est le <strong>modèle des attributs</strong>. Dans les années 1950, on dresse la liste des traits d’une vraie profession : savoir abstrait, formation longue, déontologie, autonomie, association. Harold Wilensky (1964) en montre la limite avec un titre ironique, <em>The Professionalization of Everyone?</em> Si tout le monde réclame ces attributs, du plombier au cadre, le critère ne distingue plus rien. Le travail social y figure comme un cas inachevé, ni tout à fait profession, ni tout à fait métier.</p>
-<p>La deuxième réponse nomme cette position. Amitai Etzioni (1969) parle de <strong>semi-profession</strong> pour le travail social, l’enseignement et le soin infirmier : formation plus courte, savoir moins ésotérique, autonomie bridée par l’organisation qui emploie. Un détail change tout : ce sont des activités historiquement féminines, donc socialement minorées. La séance 6 reviendra sur ce nœud entre genre et reconnaissance.</p>
-<p>La troisième réponse renverse la question. Magali Larson (1977) cesse de chercher ce qu’une profession <em>possède</em> et regarde ce qu’elle <em>fait</em> : un projet collectif pour fermer un marché du travail, transformer une expertise en monopole, et en tirer des avantages. Le titre protégé d’assistant social, voté en Belgique en 1945, en est l’exemple net. Ce n’est pas une reconnaissance tombée du ciel : c’est une conquête.</p>
-<p>La quatrième réponse pense le mouvement. Andrew Abbott (1988) décrit les professions comme un système en concurrence permanente pour le contrôle de « juridictions », c’est-à-dire de domaines de problèmes. Le travail social est disputé en continu par ses voisins : psychologues, juristes, éducateurs, soignants se partagent et se reprennent des territoires. D’où son périmètre toujours mouvant. Eliot Freidson (2001) ajoute une idée que la séance 7 mettra à l’épreuve : le professionnalisme est une « troisième logique », distincte du marché et de la bureaucratie. C’est cette logique-là que la gestion managériale viendra écraser.</p>
-<p>En francophonie, Claude Dubar et Pierre Tripier (1998) rassemblent ces apports autour des identités professionnelles. La leçon, pour le cas belge, est libératrice : la « fragilité » du travail social n’est pas un défaut honteux à corriger. Elle découle d’un savoir partagé avec d’autres, d’une autonomie encadrée et de juridictions disputées. C’est la condition normale du métier, pas sa maladie.</p>
+<p>La première est le <strong>modèle des attributs</strong>. Talcott Parsons avait fait du médecin le professionnel type, défini par une compétence technique, une orientation vers la collectivité, l’universalisme et la neutralité affective <span class="citation" data-cites="parsons1951">(<a href="#ref-parsons1951" role="doc-biblioref">Parsons, 1951, p. 434‑470</a>)</span>. Dans les années 1950, on dresse la liste des traits d’une vraie profession. La plus citée est celle d’Ernest Greenwood, en 1957, qui retient un corps de théorie systématique, une autorité reconnue par le client, la sanction de la communauté, un code éthique et une culture professionnelle <span class="citation" data-cites="greenwood1957">(<a href="#ref-greenwood1957" role="doc-biblioref">Greenwood, 1957</a>)</span>. Harold Wilensky (1964) prend ce modèle au sérieux, mais doute qu’il vaille pour tout le monde, comme l’annonce son titre ironique, <em>The Professionalization of Everyone?</em> Il écarte l’usage lâche du mot, qui appelle professionnalisation toute spécialisation ou toute certification. À partir de l’histoire de dix-huit métiers, il reconstitue la séquence par laquelle les professions établies sont arrivées, et conclut que très peu de métiers atteindront leur autorité <span class="citation" data-cites="wilensky1964">(<a href="#ref-wilensky1964" role="doc-biblioref">Wilensky, 1964</a>)</span>. Un savoir trop vague ou trop étroit fonde mal un territoire exclusif. C’est le reproche que Flexner adressait au travail social, qui reste un cas inachevé, ni tout à fait profession, ni tout à fait métier.</p>
+<p>La deuxième réponse nomme cette position. En 1969, un ouvrage collectif dirigé par Amitai Etzioni parle de <strong>semi-profession</strong> pour le travail social, l’enseignement et le soin infirmier : formation plus courte, savoir moins spécialisé, autonomie bridée par l’organisation qui emploie <span class="citation" data-cites="etzioni1969">(<a href="#ref-etzioni1969" role="doc-biblioref">Etzioni, 1969</a>)</span>. Le chapitre consacré au travail social est de Nina Toren. Elle y décrit une autorité fondée sur un savoir moins codifié et exercée dans des organisations bureaucratiques <span class="citation" data-cites="toren1969">(<a href="#ref-toren1969" role="doc-biblioref">Toren, 1969</a>)</span>. Un détail change tout : ce sont des activités historiquement féminines, donc socialement minorées. Jeff Hearn lit même la professionnalisation comme un processus patriarcal, qui accroît le contrôle masculin sur ces métiers à mesure qu’ils se professionnalisent <span class="citation" data-cites="hearn1982">(<a href="#ref-hearn1982" role="doc-biblioref">Hearn, 1982</a>)</span>. En Belgique, Guy Zelis montre que la formation des années 1920 et 1930 tient ensemble maternalisme et professionnalisation, et reprend à Christoph Sachße l’idée d’une « maternité comme profession » <span class="citation" data-cites="zelis2019 sachsse1994">(<a href="#ref-sachsse1994" role="doc-biblioref">Sachße, 1986/1994</a>; <a href="#ref-zelis2019" role="doc-biblioref">Zelis, 2019</a>)</span>. La séance 6 reviendra sur ce nœud entre genre et reconnaissance.</p>
+<p>La troisième réponse renverse la question. Everett Hughes l’avait déjà déplacée en demandant comment un groupe obtient une licence, le droit de faire ce que d’autres ne font pas, et un mandat, le droit de dire ce qui est bon pour autrui <span class="citation" data-cites="hughes1958">(<a href="#ref-hughes1958" role="doc-biblioref">Hughes, 1958, p. 78‑80</a>)</span>. Magali Larson (1977) cesse de chercher ce qu’une profession <em>possède</em> et regarde ce qu’elle <em>fait</em> : un projet collectif pour fermer un marché du travail, transformer une expertise en monopole, et en tirer des avantages <span class="citation" data-cites="larson1977">(<a href="#ref-larson1977" role="doc-biblioref">Larson, 1977</a>)</span>. Catherine Paradeise étend l’idée à tous les « marchés du travail fermés », des professions aux métiers <span class="citation" data-cites="paradeise1988">(<a href="#ref-paradeise1988" role="doc-biblioref">Paradeise, 1988</a>)</span>. David Wagner l’applique au travail social américain. La professionnalisation y devient un projet de mobilité collective, dans lequel le casework absorbe tour à tour les courants qui le contestent, des settlements aux organisateurs communautaires <span class="citation" data-cites="wagner1986">(<a href="#ref-wagner1986" role="doc-biblioref">Wagner, 1986</a>)</span>. Le titre protégé d’assistant social, voté en Belgique en 1945, en est un exemple. Ce n’est pas une reconnaissance tombée du ciel : c’est une conquête, portée par la sénatrice catholique Maria Baers <span class="citation" data-cites="belgique1945 keymolen1985">(<a href="#ref-belgique1945" role="doc-biblioref">Belgique, 1945</a>; <a href="#ref-keymolen1985" role="doc-biblioref">Keymolen, 1985</a>)</span>. Mais la conquête est partielle. La loi du 12 juin 1945 réserve le titre aux diplômés et interdit à un employeur de le donner à qui n’a pas le diplôme. Elle ne réserve pas l’exercice de la fonction. La France est allée plus loin en 1946, en réservant aux diplômées d’État l’emploi autant que le titre <span class="citation" data-cites="pascal2012b">(<a href="#ref-pascal2012b" role="doc-biblioref">Pascal, 2012b</a>)</span>. Larson s’y applique mieux qu’en Belgique.</p>
+<p>La quatrième réponse pense le mouvement. Andrew Abbott (1988) décrit les professions comme un système en concurrence permanente pour le contrôle de « juridictions », c’est-à-dire de domaines de problèmes <span class="citation" data-cites="abbott1988">(<a href="#ref-abbott1988" role="doc-biblioref">Abbott, 1988</a>)</span>. Le travail social est disputé en continu par ses voisins : psychologues, juristes, éducateurs, soignants se partagent et se reprennent des territoires. D’où son périmètre toujours mouvant. Abbott en propose trois lectures successives, qui en font la profession de l’interstitialité, puis un territoire défendu, puis un territoire né de l’assemblage de groupes voisins <span class="citation" data-cites="abbott1995">(<a href="#ref-abbott1995" role="doc-biblioref">Abbott, 1995</a>)</span>. La lutte se voit encore aujourd’hui. En France, les programmes de réussite éducative confient souvent aux assistantes sociales le rôle de référentes de parcours, et cette extension de territoire divise le groupe lui-même <span class="citation" data-cites="morel2023">(<a href="#ref-morel2023" role="doc-biblioref">Morel, 2023</a>)</span>. Arnon Bar-On retourne l’argument de Flexner. La singularité du travail social tiendrait justement à l’absence de frontières définies, qui le rend dépendant de ceux qui contrôlent les ressources <span class="citation" data-cites="baron1994">(<a href="#ref-baron1994" role="doc-biblioref">Bar-On, 1994</a>)</span>. Philip Popple propose de le définir par sa fonction sociale, la gestion de la dépendance, et non par ses traits <span class="citation" data-cites="popple1985">(<a href="#ref-popple1985" role="doc-biblioref">Popple, 1985</a>)</span>. Eliot Freidson (2001) ajoute une idée que la séance 7 mettra à l’épreuve : le professionnalisme est une « troisième logique », distincte du marché et de la bureaucratie <span class="citation" data-cites="freidson2001">(<a href="#ref-freidson2001" role="doc-biblioref">Freidson, 2001</a>)</span>. C’est cette logique-là que la gestion managériale viendra écraser.</p>
+<p>En francophonie, Claude Dubar et Pierre Tripier (1998) ont donné le premier manuel de <em>Sociologie des professions</em>, un panorama des théories et des modèles historiques de profession <span class="citation" data-cites="dubar1998">(<a href="#ref-dubar1998" role="doc-biblioref">Dubar &amp; Tripier, 1998</a>)</span>. Dubar avait auparavant relié ces questions à la construction des identités professionnelles <span class="citation" data-cites="dubar1991">(<a href="#ref-dubar1991" role="doc-biblioref">Dubar, 1991</a>)</span>. La critique française du modèle des attributs est plus ancienne. Dès 1973, à partir du cas des enseignants, Jean-Michel Chapoulie proposait de rapporter les groupes professionnels à la structure des classes <span class="citation" data-cites="chapoulie1973">(<a href="#ref-chapoulie1973" role="doc-biblioref">Chapoulie, 1973</a>)</span>. Plus récemment, Florent Champy parle de professions à pratique prudentielle. Elles traitent des cas singuliers sous une incertitude irréductible et délibèrent sur les fins autant que sur les moyens. Champy n’y range pas les travailleurs sociaux <span class="citation" data-cites="champy2011">(<a href="#ref-champy2011" role="doc-biblioref">Champy, 2011</a>)</span>. À Liège, Jean-François Orianne le lui reproche, puisque ces travailleurs, privés d’autonomie de décision, exercent chaque jour une autonomie de réflexion <span class="citation" data-cites="orianne2012">(<a href="#ref-orianne2012" role="doc-biblioref">Orianne, 2012</a>)</span>. Didier Vrancken reprend le vieux débat pour la Belgique à partir de cette dimension prudentielle, dans un État social devenu État d’intervention sur les personnes <span class="citation" data-cites="vrancken2012">(<a href="#ref-vrancken2012" role="doc-biblioref">Vrancken, 2012</a>)</span>. La leçon, pour le cas belge, est libératrice : la « fragilité » du travail social n’est pas un défaut honteux à corriger. Elle découle d’un savoir partagé avec d’autres, d’une autonomie encadrée et de juridictions disputées. C’est la condition normale du métier, pas sa maladie.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Pour les manuels francophones, voir <span class="citation" data-cites="champy2009">Champy (<a href="#ref-champy2009" role="doc-biblioref">2009</a>)</span>, <span class="citation" data-cites="demaziere2009">Demazière &amp; Gadéa (<a href="#ref-demaziere2009" role="doc-biblioref">2009</a>)</span> et, plus court, <span class="citation" data-cites="vezinat2016">Vezinat (<a href="#ref-vezinat2016" role="doc-biblioref">2016</a>)</span>. Pour une porte d’entrée en français sur Abbott, lisez <span class="citation" data-cites="abbott2003">Abbott (<a href="#ref-abbott2003" role="doc-biblioref">2003</a>)</span>. Les textes de Hughes sur le sale boulot, présentés à la séance 1, sont traduits dans <span class="citation" data-cites="hughes1996">Hughes (<a href="#ref-hughes1996" role="doc-biblioref">1996</a>)</span> ; l’article original est <span class="citation" data-cites="hughes1962">Hughes (<a href="#ref-hughes1962" role="doc-biblioref">1962</a>)</span>, et <span class="citation" data-cites="lhuilier2005">Lhuilier (<a href="#ref-lhuilier2005" role="doc-biblioref">2005</a>)</span> en propose une lecture clinique. Pour une relecture critique récente des modèles classiques, attentive au genre et au <em>care</em>, voir <span class="citation" data-cites="mikula2026">Mikula &amp; Mikula (<a href="#ref-mikula2026" role="doc-biblioref">2026</a>)</span>. La conférence de Flexner est aussi réimprimée avec la pagination des actes de 1915, dans la version que cite la séance 1 <span class="citation" data-cites="flexner2001">(<a href="#ref-flexner2001" role="doc-biblioref">Flexner, 1915/2001</a>)</span>.</p>
+</div>
+<section id="en-belgique-un-diplôme-un-titre-un-code" class="level3">
+<h3 class="anchored" data-anchor-id="en-belgique-un-diplôme-un-titre-un-code">En Belgique : un diplôme, un titre, un code</h3>
+<p>Le cas belge se lit bien avec ces outils. Le 23 janvier 1920, le ministre socialiste Émile Vandervelde inaugure à Bruxelles l’École centrale de service social, ouverte trois jours plus tôt. Il a cette formule : « La charité est devenue une science ; pour beaucoup elle devient une profession » <span class="citation" data-cites="zelis2004">(<a href="#ref-zelis2004" role="doc-biblioref">Zelis, 2004</a>)</span>. Le médecin René Sand, qui avait découvert à Londres la Charity Organisation Society pendant la guerre, compte parmi les fondateurs de l’école <span class="citation" data-cites="eilers2008">(<a href="#ref-eilers2008" role="doc-biblioref">Eilers, 2008</a>)</span>. L’arrêté royal du 15 octobre 1920 crée un diplôme d’auxiliaire social, un Conseil des écoles de service social, une école officielle et des subsides. Cinq écoles, organisées en huit sections linguistiques, naissent entre 1920 et 1922, et elles suivent les piliers. On compte une école officielle, deux écoles catholiques, une école socialiste et une école libérale à Anvers. De 1922 à 1938, elles délivrent 1 199 diplômes, dont 626 dans le pilier catholique et 909 à des femmes <span class="citation" data-cites="zelis2004">(<a href="#ref-zelis2004" role="doc-biblioref">Zelis, 2004</a>)</span>. Côté néerlandophone, l’une des premières écoles, dite de la Poststraat, ouvre dès le 17 janvier 1920 <span class="citation" data-cites="verzelen2016a">(<a href="#ref-verzelen2016a" role="doc-biblioref">Verzelen, 2016</a>)</span>. Maria Baers préside la Katholieke sociale Normaalschool voor Vrouwen, créée la même année <span class="citation" data-cites="keymolen1985">(<a href="#ref-keymolen1985" role="doc-biblioref">Keymolen, 1985</a>)</span>. Les revues naissent aussi dans les piliers. <em>Les Politiques sociales</em>, fondée en 1935, sert d’abord de bulletin de liaison à l’Union catholique internationale de service social <span class="citation" data-cites="beauduin2019">(<a href="#ref-beauduin2019" role="doc-biblioref">Beauduin &amp; Lodewick, 2019</a>)</span>.</p>
+<p>Chez les premières travailleuses sociales catholiques de Flandre, le célibat est souvent une condition de fait de l’engagement. Ria Christens y voit des figures de transition entre la charité bourgeoise et le modèle de la religieuse active, sous l’auréole de la « maternité spirituelle » <span class="citation" data-cites="christens1998">(<a href="#ref-christens1998" role="doc-biblioref">Christens, 1998</a>)</span>.</p>
+<p>Le titre suit en 1945, et l’auxiliaire social devient assistant social <span class="citation" data-cites="belgique1945 zelis2004">(<a href="#ref-belgique1945" role="doc-biblioref">Belgique, 1945</a>; <a href="#ref-zelis2004" role="doc-biblioref">Zelis, 2004</a>)</span>. Vue d’Europe, cette protection précoce du titre est remarquable <span class="citation" data-cites="kornbeck2006">(<a href="#ref-kornbeck2006" role="doc-biblioref">Kornbeck, 2006</a>)</span>. Le code vient ensuite. Les associations professionnelles élaborent un premier code de déontologie en 1948, et la IIIe Conférence nationale belge de service social adopte des règles de déontologie le 21 janvier 1951 <span class="citation" data-cites="ufas1985 zelis2004">(<a href="#ref-ufas1985" role="doc-biblioref">Union professionnelle francophone des assistants sociaux, 1985</a>; <a href="#ref-zelis2004" role="doc-biblioref">Zelis, 2004</a>)</span>. En 1956, les associations belges comptent parmi les organisations de douze pays qui fondent à Munich la Fédération internationale des travailleurs sociaux <span class="citation" data-cites="johannesensd">(<a href="#ref-johannesensd" role="doc-biblioref">Johannesen, s.&nbsp;d.</a>)</span>. Le secret professionnel avait précédé tout cela. En 1933, le ministre de la Justice juge l’article 458 du Code pénal applicable aux auxiliaires sociaux <span class="citation" data-cites="zelis2004">(<a href="#ref-zelis2004" role="doc-biblioref">Zelis, 2004</a>)</span> ; depuis le 1er septembre 2026, c’est l’article 352 du nouveau Code pénal qui protège ce secret <span class="citation" data-cites="belgique2024">(<a href="#ref-belgique2024" role="doc-biblioref">Belgique, 2024</a>)</span>.</p>
+<p>Mesuré au modèle des attributs, le travail social belge a donc une association, une déontologie et un secret. Il n’a pas d’ordre. Le code n’a jamais eu force de loi, et l’Union professionnelle francophone des assistants sociaux n’a jamais eu de pouvoir de sanction, même si les tribunaux reconnaissent son code <span class="citation" data-cites="bosquet2004">(<a href="#ref-bosquet2004" role="doc-biblioref">Bosquet, 2004</a>)</span>. L’UFAS a annoncé sa disparition début 2024. Le code de 2025 a été rédigé par un Comité de vigilance en travail social, avec des terrains, des formateurs et des représentants d’usagers. Il s’étend aux travailleurs sociaux qui n’ont pas le diplôme, parce que la fonction, elle, n’est pas protégée <span class="citation" data-cites="cvts2025">(<a href="#ref-cvts2025" role="doc-biblioref">Comité de vigilance en travail social, 2025</a>)</span>. Le métier protégé en 1945 s’insère enfin dans un État social qui se construit au même moment. La sécurité sociale de 1944 est une adaptation belge, négociée dans la clandestinité puis imposée par arrêté-loi, où les piliers et les organisations privées gardent un grand poids <span class="citation" data-cites="vanthemsche1994">(<a href="#ref-vanthemsche1994" role="doc-biblioref">Vanthemsche, 1994</a>)</span>. En Flandre, Wim Verzelen situe même la professionnalisation au sens fort après 1960, sous la forme d’une rationalisation managériale <span class="citation" data-cites="verzelen2019">(<a href="#ref-verzelen2019" role="doc-biblioref">Verzelen, 2019</a>)</span>.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Pour une synthèse de l’histoire du travail social en Belgique francophone, voir <span class="citation" data-cites="foucart2022">Foucart (<a href="#ref-foucart2022" role="doc-biblioref">2022</a>)</span>. Pour la même période en France, lisez les souvenirs rassemblés par <span class="citation" data-cites="knibiehler1980">Knibiehler (<a href="#ref-knibiehler1980" role="doc-biblioref">1980</a>)</span> et l’histoire de l’Association nationale des assistantes sociales, fondée en 1944 <span class="citation" data-cites="pascal2013">(<a href="#ref-pascal2013" role="doc-biblioref">Pascal, 2013</a>)</span>. Sur les pionnières européennes, voir <span class="citation" data-cites="hering2003">Hering &amp; Waaldijk (<a href="#ref-hering2003" role="doc-biblioref">2003</a>)</span>, et sur René Sand, la biographie de <span class="citation" data-cites="eilers2011">Eilers (<a href="#ref-eilers2011" role="doc-biblioref">2011</a>)</span>. Pour situer la Belgique, on peut comparer avec la Suisse <span class="citation" data-cites="keller2019">(<a href="#ref-keller2019" role="doc-biblioref">Keller, 2019</a>)</span> ou avec dix pays classés selon huit traits professionnels <span class="citation" data-cites="weissgal2008">(<a href="#ref-weissgal2008" role="doc-biblioref">Weiss-Gal &amp; Welbourne, 2008</a>)</span>.</p>
+</div>
+</section>
 </section>
 <section id="le-casework-ou-la-professionnalisation-par-la-méthode" class="level2">
 <h2 class="anchored" data-anchor-id="le-casework-ou-la-professionnalisation-par-la-méthode">Le casework, ou la professionnalisation par la méthode</h2>
 <p>Le parcours de Mary Richmond et le contexte d’émergence du casework relèvent de la séance 2. Ici, on regarde la méthode pour ce qu’elle est : un acte de professionnalisation.</p>
-<p>Richmond définit le service social des cas comme un travail d’ajustement entre une personne et son milieu, mené individu par individu. Elle propose de croiser six sources d’information : la personne elle-même, son ménage, son voisinage, les institutions civiles, les associations privées, les organismes publics. L’idée moderne est là : ne pas regarder seulement les manques, mais aussi les ressources. On parlerait aujourd’hui d’approche par les forces.</p>
-<p>Le casework a pourtant connu une dérive lourde. Sous l’influence de la psychanalyse, dans les années 1930-1950, le diagnostic social a glissé vers le diagnostic psychologique. Les difficultés des personnes ont été lues comme des défauts intérieurs plutôt que comme des effets de structures. Barbara Wootton, dès 1959, a tiré la sonnette d’alarme : à force de psychologiser la pauvreté, on dédouane les institutions et on culpabilise les pauvres. Gardez ce point en tête, parce qu’il est encore d’actualité chaque fois qu’on explique un échec scolaire par la seule « personnalité » de l’enfant.</p>
+<p>En 1922, dans <em>What Is Social Case Work?</em>, Richmond définit le service social des cas comme l’ensemble des processus qui développent la personnalité par des ajustements consciemment opérés, individu par individu, entre les hommes et leur milieu social <span class="citation" data-cites="richmond1922">(<a href="#ref-richmond1922" role="doc-biblioref">Richmond, 1922, p. 98‑99</a>)</span>. La formule compte, car « développer la personnalité » ouvre déjà la voie à une lecture psychologique. Richmond n’oppose pourtant pas le casework à la réforme. Il n’est pour elle qu’une partie d’un ensemble qui comprend le travail de groupe, la réforme sociale et la recherche, et elle demande aux caseworkers de travailler à leur point de rencontre <span class="citation" data-cites="richmond1922">(<a href="#ref-richmond1922" role="doc-biblioref">1922, p. 224‑225</a>)</span>. Le livre est traduit en français dès 1926 par Pauline de Chary et le médecin bruxellois René Sand <span class="citation" data-cites="richmond2002">(<a href="#ref-richmond2002" role="doc-biblioref">Richmond, 1922/2002</a>)</span>.</p>
+<p>Cinq ans plus tôt, <em>Social Diagnosis</em> avait posé la méthode sur le modèle de la preuve judiciaire : témoins, preuve testimoniale et circonstancielle, inférence, biais du témoin <span class="citation" data-cites="richmond1917">(<a href="#ref-richmond1917" role="doc-biblioref">Richmond, 1917, p. 25‑99</a>)</span>. Le diagnostic social y est la tentative d’arriver à la définition la plus exacte possible de la situation sociale et de la personnalité d’un client <span class="citation" data-cites="richmond1917">(<a href="#ref-richmond1917" role="doc-biblioref">1917, p. 51</a>)</span>. Il croise bien plus de six sources, du premier entretien au groupe familial, des médecins aux écoles, des employeurs au voisinage et aux agences sociales <span class="citation" data-cites="richmond1917">(<a href="#ref-richmond1917" role="doc-biblioref">1917, p. 103‑340</a>)</span>. Avec Jane Addams, Richmond fait passer la profession de la certitude morale à l’enquête rationnelle <span class="citation" data-cites="franklin1986">(<a href="#ref-franklin1986" role="doc-biblioref">Franklin, 1986</a>)</span>.</p>
+<p>Le « cercle de Richmond » vient d’un texte antérieur, une conférence de 1901 sur la coopération charitable. Son schéma place la famille au centre, avec les capacités de chacun de ses membres. Autour d’elle s’étagent des « forces » avec lesquelles l’intervenant peut coopérer : les forces personnelles (parents, amis), celles du voisinage (voisins, propriétaires, commerçants, employeurs, clergé, médecins, syndicats, clubs, bibliothèques), les forces civiques (enseignants, police, inspection sanitaire), puis la charité privée et l’assistance publique. L’argent et les secours n’y sont qu’une petite partie des ressources, et l’enquête ne doit jamais retarder un secours urgent <span class="citation" data-cites="richmond1901">(<a href="#ref-richmond1901" role="doc-biblioref">Richmond, 1901</a>)</span>. L’idée moderne est là : ne pas regarder seulement les manques, mais aussi les ressources qui entourent une famille. Le mot invite à parler d’approche par les forces, mais le rapprochement est anachronique. Les forces de Richmond sont des personnes et des institutions autour de la famille, et non des capacités personnelles.</p>
+<p>Le casework a pourtant connu une dérive lourde. Sous l’influence de la psychiatrie puis de la psychanalyse, des années 1920 aux années 1950 et de façon inégale selon les milieux, le diagnostic social a glissé vers le diagnostic psychologique. Les difficultés des personnes ont été lues comme des défauts intérieurs plutôt que comme des effets de structures. Kathleen Woodroofe en donne un raccourci. En 1883, la Charity Organisation Society de Londres vérifie les références d’un colporteur et lui accorde un petit capital, avec un résultat économique. En 1948, le client d’une association familiale américaine passe par une longue exploration de ses relations avec ses parents, son travail et son couple, par des tests, un Rorschach et un psychiatre. Ses « dividendes » sont psychologiques <span class="citation" data-cites="woodroofe1962">(<a href="#ref-woodroofe1962" role="doc-biblioref">Woodroofe, 1962</a>)</span>.</p>
+<p>Virginia Robinson observe ce tournant de l’intérieur. En 1930, elle note qu’avec la nouvelle psychologie, le petit groupe familial devient le premier facteur de conditionnement et que les pressions du milieu paraissent de moins en moins importantes <span class="citation" data-cites="robinson1930">(<a href="#ref-robinson1930" role="doc-biblioref">Robinson, 1930, p. 37‑38</a>)</span>. Roy Lubove en donne une raison qui nous ramène à Flexner. Les travailleurs sociaux proches de la médecine ont trouvé dans la psychanalyse de quoi fonder une méthode distinctive et revendiquer un statut plus élevé <span class="citation" data-cites="lubove1965">(<a href="#ref-lubove1965" role="doc-biblioref">Lubove, 1965</a>)</span>.</p>
+<p>Deux écoles se disputent alors le casework américain. L’école diagnostique, à la New York School of Social Work, s’appuie sur Freud. Gordon Hamilton en publie le manuel en 1940 et le refond en 1951 pour y intégrer l’<em>ego psychology</em>, sans renoncer à l’action sur le milieu <span class="citation" data-cites="hamilton1951">(<a href="#ref-hamilton1951" role="doc-biblioref">Hamilton, 1951</a>)</span>. L’école fonctionnelle naît à la Pennsylvania School de Philadelphie, autour de Virginia Robinson et de Jessie Taft, dans le sillage des conférences qu’Otto Rank donne à la fin des années 1920 <span class="citation" data-cites="robinson1930">(<a href="#ref-robinson1930" role="doc-biblioref">Robinson, 1930, p. 122‑123</a>)</span>. Leur controverse, souvent acrimonieuse, occupe les années 1930 et 1940 <span class="citation" data-cites="dore1990">(<a href="#ref-dore1990" role="doc-biblioref">Dore, 1990</a>)</span>.</p>
+<p>L’ampleur de ce « déluge psychiatrique », pour reprendre le titre d’un chapitre de Woodroofe, reste discutée. Leslie Alexander montre qu’il a touché une élite, en marge du gros de la pratique <span class="citation" data-cites="alexander1972">(<a href="#ref-alexander1972" role="doc-biblioref">Alexander, 1972</a>)</span>. Martha Field, qui a dépouillé les dossiers d’une agence représentative, n’y trouve presque aucune trace d’influence psychodynamique avant 1939 <span class="citation" data-cites="field1980">(<a href="#ref-field1980" role="doc-biblioref">Field, 1980</a>)</span>. Les théories changent plus vite que les pratiques. Linda Gordon le vérifie sur les violences familiales à Boston, de 1880 à 1960. La réponse des agences y varie très peu malgré les doctrines. Cette continuité tient au mieux au bon sens, au pire à des idéologies familiales étroites, comme la domesticité des femmes <span class="citation" data-cites="gordon1988">(<a href="#ref-gordon1988" role="doc-biblioref">Gordon, 1988</a>)</span>. En France, le tournant psychologique du casework date surtout d’après 1945 <span class="citation" data-cites="valettedamase2013">(<a href="#ref-valettedamase2013" role="doc-biblioref">Valette-Damase, 2013</a>)</span>. Mais dès l’entre-deux-guerres, les assistantes du tribunal pour enfants de la Seine étaient prises entre la peur du milieu populaire et une psychologisation croissante des liens entre parents et enfants <span class="citation" data-cites="zappi2022a">(<a href="#ref-zappi2022a" role="doc-biblioref">Zappi, 2022</a>)</span>.</p>
+<p>En Grande-Bretagne, Barbara Wootton a tiré la sonnette d’alarme en 1959. Cette figure des sciences sociales britanniques <span class="citation" data-cites="oakley2011">(<a href="#ref-oakley2011" role="doc-biblioref">Oakley, 2011</a>)</span> soumet aux recherches disponibles les théories en vogue, celle de la carence d’affection maternelle précoce et celle des « familles à problèmes » qui se reproduiraient de génération en génération. Elle montre que l’essor de la psychiatrie a déplacé la frontière entre délinquance et maladie, et critique les prétentions psychothérapeutiques des travailleurs sociaux <span class="citation" data-cites="wootton1959">(<a href="#ref-wootton1959" role="doc-biblioref">Wootton, 1959, p. 203‑226, 268‑298</a>)</span>. L’influence psychiatrique, conclut-elle, conduit à « analyse the infected individual rather than to eliminate the infection from the environment » <span class="citation" data-cites="wootton1959">(<a href="#ref-wootton1959" role="doc-biblioref">1959, p. 329</a>)</span>. On peut en tirer une leçon politique, qui va au-delà de sa lettre. À force de psychologiser la pauvreté, on dédouane les institutions et on culpabilise les pauvres. Gardez ce point en tête, parce qu’il est encore d’actualité chaque fois qu’on explique un échec scolaire par la seule « personnalité » de l’enfant.</p>
+<p>La critique francophone a pris le relais. Jeannine Verdès-Leroux voit en 1978 dans le case-work une « philosophie pratique » des assistantes sociales, au service d’un travail de stigmatisation qui divise la classe ouvrière <span class="citation" data-cites="verdesleroux1978">(<a href="#ref-verdesleroux1978" role="doc-biblioref">Verdès-Leroux, 1978</a>)</span>. Robert Castel décrit en 1981 une nouvelle gestion du social, qui associe informatisation et psychologisation, et où la psychanalyse se dissout dans une culture psychologique généralisée <span class="citation" data-cites="castel1981">(<a href="#ref-castel1981" role="doc-biblioref">Castel, 1981</a>)</span>. Au Québec, Simon Lapierre et ses collègues définissent la psychologisation comme la tendance à lire les problèmes sociaux de façon individuelle et psychologique, et non structurelle et politique. Ils observent que les étudiant·es en travail social adoptent spontanément ces cadres et jugent « partisanes » les approches structurelles, alors que les premiers ne sont pas plus neutres <span class="citation" data-cites="lapierre2011">(<a href="#ref-lapierre2011" role="doc-biblioref">Lapierre et al., 2011</a>)</span>. Maryse Bresson rappelle que le terme reste polémique et que tout accompagnement n’est pas une psychologisation <span class="citation" data-cites="bresson2012">(<a href="#ref-bresson2012" role="doc-biblioref">Bresson, 2012</a>)</span>.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Pour la trajectoire de Richmond, voir la biographie de <span class="citation" data-cites="agnew2004">Agnew (<a href="#ref-agnew2004" role="doc-biblioref">2004</a>)</span>. Sur l’oscillation du travail social américain entre traitement individuel et réforme sociale, lisez <span class="citation" data-cites="ehrenreich1985">Ehrenreich (<a href="#ref-ehrenreich1985" role="doc-biblioref">1985</a>)</span> ; pour la thèse selon laquelle il a abandonné les pauvres au profit de la psychothérapie, <span class="citation" data-cites="specht1994">Specht &amp; Courtney (<a href="#ref-specht1994" role="doc-biblioref">1994</a>)</span>. Le collectif dirigé par <span class="citation" data-cites="bresson2006">Bresson (<a href="#ref-bresson2006" role="doc-biblioref">2006</a>)</span> discute la psychologisation de l’intervention sociale, avec deux contributions belges. Pour une vue européenne en français, voir <span class="citation" data-cites="zappi2020">Zappi (<a href="#ref-zappi2020" role="doc-biblioref">2020</a>)</span>. Pour une pratique qui aide les usagers à contester les rapports d’oppression, voir <span class="citation" data-cites="dominelli2002a">Dominelli (<a href="#ref-dominelli2002a" role="doc-biblioref">2002</a>)</span>.</p>
+</div>
 </section>
 <section id="trois-méthodes-trois-théories-du-changement" class="level2">
 <h2 class="anchored" data-anchor-id="trois-méthodes-trois-théories-du-changement">Trois méthodes, trois théories du changement</h2>
-<p>Le travail social s’est doté de trois grandes méthodes. Le casework agit sur l’individu et sa famille. Le travail de groupe agit par le collectif. L’organisation communautaire agit sur le territoire. Derrière chacune se cache une théorie du changement.</p>
-<p>Grace Coyle théorise le travail de groupe dans les années 1930 en s’appuyant sur John Dewey. Pour elle, le groupe n’est pas un décor : c’est le lieu où se forme la personnalité démocratique. L’animateur ne dirige pas, il crée les conditions pour que le groupe trouve ses propres ressources.</p>
-<p>En Belgique, le travail de groupe prend une forme bien plus combative avec Joseph Cardijn. Né à Schaerbeek en 1882, vicaire à Laeken, Cardijn voit de près la dureté de la vie ouvrière. Dès 1912, il met au point une méthode qu’il rendra célèbre en fondant la Jeunesse ouvrière chrétienne en 1925 : Voir, Juger, Agir. <em>Voir</em>, c’est une enquête menée par les jeunes travailleurs eux-mêmes sur leurs conditions réelles, contre les statistiques abstraites. <em>Juger</em>, c’est analyser ces faits à la lumière de valeurs, et passer de la résignation à l’indignation. <em>Agir</em>, c’est transformer concrètement, collectivement. La méthode a une force qui se mesure : en 1939, à la veille de la guerre, la JOC est présente dans cinquante pays. Et elle irrigue plus tard la pédagogie de Paulo Freire, qui en laïcise et en radicalise la démarche.</p>
-<p>L’organisation communautaire, enfin, prolonge le mouvement des settlements. Saul Alinsky (<em>Rules for Radicals</em>, 1971) la pousse à son terme conflictuel : il ne s’agit pas d’harmonie sociale mais de redistribution du pouvoir, en confrontant directement ceux qui le détiennent. Notez au passage que cette version-là, frontale, est presque absente des formations européennes en travail social. Ce silence n’est pas neutre : on enseigne volontiers à accompagner, plus rarement à organiser un rapport de force.</p>
+<p>Le travail social s’est doté de trois grandes méthodes. Le casework agit sur l’individu et sa famille. Le travail de groupe agit par le collectif. L’organisation communautaire agit sur le territoire. Derrière chacune se cache une théorie du changement, et souvent plusieurs. Le travail de groupe peut poursuivre des buts sociaux hérités des settlements, soigner l’inadaptation individuelle ou miser sur l’aide mutuelle <span class="citation" data-cites="papell1966">(<a href="#ref-papell1966" role="doc-biblioref">Papell &amp; Rothman, 1966</a>)</span>. L’organisation communautaire peut planifier, développer les capacités d’une population ou défendre ses droits <span class="citation" data-cites="rothman2007">(<a href="#ref-rothman2007" role="doc-biblioref">Rothman, 2007</a>)</span>. Ces méthodes entrent tard dans les écoles belges, du moins en Flandre, où le casework et le groupwork ne figurent au programme qu’à partir de 1952, quand les écoles sociales passent sous le ministère de l’Instruction publique <span class="citation" data-cites="verzelen2016a">(<a href="#ref-verzelen2016a" role="doc-biblioref">Verzelen, 2016</a>)</span>.</p>
+<p>Grace Coyle théorise le travail de groupe dans les années 1930 <span class="citation" data-cites="coyle1930">(<a href="#ref-coyle1930" role="doc-biblioref">Coyle, 1930</a>)</span>, en s’appuyant sur John Dewey. En 1935, dans une communication primée, elle en fait un processus éducatif qui fait vivre la participation démocratique et ouvre sur l’action sociale. Elle y cite Dewey et Harold Laski, pour qui les associations volontaires sont des écoles d’autogouvernement <span class="citation" data-cites="coyle1935">(<a href="#ref-coyle1935" role="doc-biblioref">Coyle, 1935</a>)</span>. Pour elle, le groupe n’est pas un décor : c’est le lieu où se forme la personnalité démocratique <span class="citation" data-cites="coyle1947">(<a href="#ref-coyle1947" role="doc-biblioref">Coyle, 1947</a>)</span>. L’animateur ne dirige pas, il crée les conditions pour que le groupe trouve ses propres ressources. Coyle lui demande aussi une philosophie sociale, et le courage de la traduire en actes <span class="citation" data-cites="coyle1935">(<a href="#ref-coyle1935" role="doc-biblioref">Coyle, 1935</a>)</span>. Aux États-Unis, le travail de groupe a payé cher sa reconnaissance. En fusionnant en 1955 dans la National Association of Social Workers, il gagne l’identité professionnelle qu’il cherchait, puis s’efface peu à peu comme composante propre de la formation et de la pratique <span class="citation" data-cites="andrews2001">(<a href="#ref-andrews2001" role="doc-biblioref">Andrews, 2001</a>)</span>.</p>
+<p>En Belgique, le travail de groupe prend une forme bien plus combative avec Joseph Cardijn, hors du service social, dans un mouvement d’Action catholique. Né à Schaerbeek en 1882, vicaire à Laeken à partir de 1912, Cardijn voit de près la dureté de la vie ouvrière. Il y met au point une enquête préparatoire au cercle d’études et à l’action, apprise à Louvain auprès de Victor Brants, un disciple de Le Play, et reçoit le soutien de Victoire Cappe et de Maria Baers. Ses groupes de Laeken deviennent la Jeunesse syndicaliste en 1919, puis la Jeunesse ouvrière chrétienne en 1924, que les évêques belges autorisent en 1925 <span class="citation" data-cites="wynants2013">(<a href="#ref-wynants2013" role="doc-biblioref">Wynants, 2013</a>)</span>. Après 1925, la méthode se fixe peu à peu en trois temps : Voir, Juger, Agir. <em>Voir</em>, c’est une enquête menée par les jeunes travailleurs eux-mêmes sur leurs conditions réelles, contre les statistiques abstraites <span class="citation" data-cites="geerkens2019b">(<a href="#ref-geerkens2019b" role="doc-biblioref">Geerkens &amp; Vigna, 2019</a>)</span>. <em>Juger</em>, c’est analyser ces faits à la lumière de l’Évangile, et passer de la résignation à l’indignation. <em>Agir</em>, c’est transformer concrètement, collectivement.</p>
+<p>La JOC gagne la France dès 1927, puis d’autres pays d’Europe dans les années 1930. Son extension aux autres continents date surtout de l’après-guerre, et la JOC internationale ne se structure qu’en 1957. Comme mouvement d’Action catholique, elle doit en principe s’abstenir de toute activité politique <span class="citation" data-cites="wynants2013">(<a href="#ref-wynants2013" role="doc-biblioref">Wynants, 2013</a>)</span>. Elle croise le service social par l’enquête. En France, la JOC féminine mène chaque année la sienne, et des assistantes sociales comme Céline Lhotte et Élisabeth Dupeyrat en publient les résultats et parlent au nom du mouvement <span class="citation" data-cites="chessel2019">(<a href="#ref-chessel2019" role="doc-biblioref">Chessel &amp; Egea, 2019</a>)</span>. La méthode aurait irrigué plus tard la pédagogie de Paulo Freire <span class="citation" data-cites="freire1974">(<a href="#ref-freire1974" role="doc-biblioref">Freire, 1970/1974</a>)</span>, qui en aurait laïcisé et radicalisé la démarche. La parenté entre l’enquête jociste et la conscientisation est frappante, mais aucune filiation directe n’est établie. Mike Miller situe Freire dans le catholicisme brésilien des années 1960, entre l’humanisme de Maritain et la théologie de la libération, et le rapproche d’Alinsky et de Myles Horton <span class="citation" data-cites="miller2014">(<a href="#ref-miller2014" role="doc-biblioref">Miller, 2014</a>)</span>.</p>
+<p>L’organisation communautaire, enfin, a deux racines. Dans le service social, le mot désigne d’abord la coordination des œuvres privées, et c’est encore le cas au Québec avant 1960 <span class="citation" data-cites="bergerongaudin2019">(<a href="#ref-bergerongaudin2019" role="doc-biblioref">Bergeron-Gaudin, 2019, p. 84‑85</a>)</span>. Eduard Lindeman en fait dès 1921 une application de la théorie démocratique, en dix étapes qui vont de la conscience d’un besoin au compromis final, en passant par le conflit des solutions <span class="citation" data-cites="lindeman1921">(<a href="#ref-lindeman1921" role="doc-biblioref">Lindeman, 1921, p. 119‑123</a>)</span>. L’autre racine prolonge le mouvement des settlements <span class="citation" data-cites="talpin2016b">(<a href="#ref-talpin2016b" role="doc-biblioref">Talpin &amp; Balazard, 2016</a>)</span>. Murray Ross en donne en 1955 la version consensuelle, dans laquelle la communauté renforce elle-même ses capacités de coopération <span class="citation" data-cites="ross1955">(<a href="#ref-ross1955" role="doc-biblioref">Ross, 1955</a>)</span>. Saul Alinsky la pousse à son terme conflictuel. Formé à la sociologie de Chicago, recruté en 1936 au Chicago Area Project, il fonde en 1939 le Back of the Yards Neighborhood Council et en 1940 l’Industrial Areas Foundation <span class="citation" data-cites="talpin2016b">(<a href="#ref-talpin2016b" role="doc-biblioref">Talpin &amp; Balazard, 2016</a>)</span>. Sa stratégie est formulée dès <em>Reveille for Radicals</em>, en 1946 <span class="citation" data-cites="alinsky1946">(<a href="#ref-alinsky1946" role="doc-biblioref">Alinsky, 1946</a>)</span>, puis dans <em>Rules for Radicals</em>, en 1971 <span class="citation" data-cites="alinsky1971">(<a href="#ref-alinsky1971" role="doc-biblioref">Alinsky, 1971</a>)</span>. Il ne s’agit pas d’harmonie sociale mais de redistribution du pouvoir, en confrontant directement ceux qui le détiennent. Les premiers textes québécois opposent d’ailleurs cette stratégie conflictuelle à la stratégie consensuelle de Ross <span class="citation" data-cites="bergerongaudin2019">(<a href="#ref-bergerongaudin2019" role="doc-biblioref">Bergeron-Gaudin, 2019, p. 92‑93</a>)</span>.</p>
+<p>Notez au passage que cette version-là, frontale, est restée longtemps marginale dans les formations européennes en travail social. En Europe, Alinsky n’a guère été lu que par des travailleurs sociaux, à partir de la traduction de 1976, le <em>Manuel de l’animateur social</em> <span class="citation" data-cites="zamora2014a">(<a href="#ref-zamora2014a" role="doc-biblioref">Zamora, 2014a</a>)</span>. En France, il reste peu connu, et le mot « communautaire » y nourrit les malentendus <span class="citation" data-cites="quinqueton2012">(<a href="#ref-quinqueton2012" role="doc-biblioref">Quinqueton, 2012</a>)</span>. L’intérêt revient depuis les années 2010. Une édition bruxelloise revue paraît en 2012 <span class="citation" data-cites="alinsky2012">(<a href="#ref-alinsky2012" role="doc-biblioref">Alinsky, 1971/2012</a>)</span>, l’Institut de sociologie de l’ULB lui consacre un dossier en 2014 <span class="citation" data-cites="zamora2014a">(<a href="#ref-zamora2014a" role="doc-biblioref">Zamora, 2014a</a>)</span>, et des collectifs importent la méthode, comme l’Alliance citoyenne de Grenoble <span class="citation" data-cites="talpin2016b">(<a href="#ref-talpin2016b" role="doc-biblioref">Talpin &amp; Balazard, 2016</a>)</span>. La méthodologie du travail social communautaire s’enseigne aujourd’hui dans les écoles sociales bruxelloises <span class="citation" data-cites="bosquet2016">(<a href="#ref-bosquet2016" role="doc-biblioref">Bosquet &amp; Maeyens, 2016</a>)</span>. La marginalité a pourtant duré, et elle n’est pas neutre : on enseigne volontiers à accompagner, plus rarement à organiser un rapport de force.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Pour les manuels québécois d’organisation communautaire, voir <span class="citation" data-cites="doucet1991">Doucet &amp; Favreau (<a href="#ref-doucet1991" role="doc-biblioref">1991</a>)</span> et <span class="citation" data-cites="bourque2007">Bourque et al. (<a href="#ref-bourque2007" role="doc-biblioref">2007</a>)</span>, qui retrace l’itinéraire d’une pratique devenue profession. Pour un manuel francophone de l’intervention collective, présent dans les bibliothèques des écoles sociales belges, lisez <span class="citation" data-cites="derobertis1987">Robertis &amp; Pascal (<a href="#ref-derobertis1987" role="doc-biblioref">1987</a>)</span>. Sur la réception en France, voir <span class="citation" data-cites="ward2012">Ward (<a href="#ref-ward2012" role="doc-biblioref">2012</a>)</span> et l’histoire de l’École normale sociale <span class="citation" data-cites="pascal2012a">(<a href="#ref-pascal2012a" role="doc-biblioref">Pascal, 2012a</a>)</span>. Pour une enquête sur le <em>community organizing</em> à Los Angeles, voir <span class="citation" data-cites="talpin2016a">Talpin (<a href="#ref-talpin2016a" role="doc-biblioref">2016</a>)</span>. La première expérience d’animation sociale urbaine au Québec, à Saint-Henri en 1963, est racontée par <span class="citation" data-cites="blondin1965">Blondin (<a href="#ref-blondin1965" role="doc-biblioref">1965</a>)</span>.</p>
+</div>
 </section>
 <section id="la-science-comme-caution" class="level2">
 <h2 class="anchored" data-anchor-id="la-science-comme-caution">La science comme caution</h2>
-<p>Tout ce mouvement de professionnalisation s’est appuyé sur les sciences sociales naissantes. L’École de Chicago, dont la séance 2 détaille l’écologie urbaine, a fourni au travail social ses méthodes empiriques et, surtout, une légitimité : la preuve qu’on pouvait intervenir sur du solide, des enquêtes et des monographies, plutôt que sur de la bonne volonté. C’est exactement ce que Flexner réclamait. Le travail social lui a répondu en allant chercher la science là où elle se faisait.</p>
+<p>Tout ce mouvement de professionnalisation s’est appuyé sur les sciences sociales naissantes, et d’abord sur l’enquête. Richmond emprunte au droit le modèle de la preuve <span class="citation" data-cites="richmond1917">(<a href="#ref-richmond1917" role="doc-biblioref">Richmond, 1917, p. 25‑99</a>)</span>, mais dit attendre davantage de la médecine et de la psychologie : « From physician and psychologist social work has more to learn » <span class="citation" data-cites="richmond1917">(<a href="#ref-richmond1917" role="doc-biblioref">1917, p. 61‑62</a>)</span>. C’est exactement ce que Flexner réclamait. En Belgique, le médecin René Sand réclame dès 1919 un service social professionnel à base scientifique, sur le modèle du casework et des settlements <span class="citation" data-cites="eilers2008">(<a href="#ref-eilers2008" role="doc-biblioref">Eilers, 2008</a>)</span>.</p>
+<p>Le lien avec l’École de Chicago, dont la séance 2 détaille l’écologie urbaine, est plus conflictuel qu’on ne le dit souvent. Robert Park construit sa sociologie contre le mouvement d’enquête sociale, réformateur et proche du travail social <span class="citation" data-cites="lannoy2004">(<a href="#ref-lannoy2004" role="doc-biblioref">Lannoy, 2004</a>)</span>. Alinsky, sorti de la même école, rompt avec elle et juge conservateurs les projets communautaires de Burgess et de Shaw <span class="citation" data-cites="zamora2014b">(<a href="#ref-zamora2014b" role="doc-biblioref">Zamora, 2014b</a>)</span>. La légitimation scientifique du métier passe surtout par la psychiatrie <span class="citation" data-cites="lubove1965">(<a href="#ref-lubove1965" role="doc-biblioref">Lubove, 1965</a>)</span>. Le travail social a répondu à Flexner en allant chercher la science là où elle se faisait, et il l’a trouvée surtout du côté de la médecine.</p>
 </section>
 <section id="pourquoi-cela-vous-concerne" class="level2">
 <h2 class="anchored" data-anchor-id="pourquoi-cela-vous-concerne">Pourquoi cela vous concerne</h2>
-<p>On pourrait croire ces débats datés. Ils sont vivants. Quand on vous demandera de prouver l’« efficacité » de votre accompagnement par des indicateurs, vous rejouerez Flexner. Quand vous hésiterez entre soutenir une famille et la juger, vous rejouerez la dérive psychologisante dénoncée par Wootton. Quand vous choisirez d’accompagner un usager plutôt que d’organiser un collectif, vous trancherez sans le savoir le débat Coyle contre Alinsky.</p>
+<p>On pourrait croire ces débats datés. Ils sont vivants. Quand on vous demandera de prouver l’« efficacité » de votre accompagnement par des indicateurs, vous rejouerez Flexner. Quand vous hésiterez entre soutenir une famille et la juger, vous rejouerez la dérive psychologisante dénoncée par Wootton. Elle a pris des formes nouvelles. En Belgique, Abraham Franssen a montré que l’État social actif généralise le projet individualisé et le contrat au nom de l’autonomie, et que la médiation y remplace en partie la sanction, comme la psychologisation remplace la culpabilisation <span class="citation" data-cites="franssen2003">(<a href="#ref-franssen2003" role="doc-biblioref">Franssen, 2003</a>)</span>. Quand vous choisirez d’accompagner un usager plutôt que d’organiser un collectif, ou de préférer le consensus au conflit, vous trancherez sans le savoir le débat de Ross contre Alinsky. Et le jour où vous signerez votre premier contrat, vous porterez un titre protégé depuis 1945 pour exercer une fonction qui ne l’est pas ; le code de déontologie de 2025 en tire les conséquences <span class="citation" data-cites="cvts2025">(<a href="#ref-cvts2025" role="doc-biblioref">Comité de vigilance en travail social, 2025</a>)</span>.</p>
 <p>Connaître cette histoire ne vous donnera pas de réponse toute faite. Elle vous donnera quelque chose de mieux : la conscience que vos dilemmes quotidiens ne sont pas des ratés personnels, mais des tensions installées dans le métier depuis un siècle.</p>
 <hr>
 </section>
@@ -562,53 +617,391 @@ Important
 <div class="question-examen">
 <p><strong>Question 3.A</strong></p>
 <p>Présentez les six critères de Flexner (1915) et son verdict sur le travail social. En quoi ce constat d’échec a-t-il fonctionné comme un moteur de professionnalisation ?</p>
-<p><em>Références à mobiliser :</em> Flexner (1915) ; Richmond (1917) ; Hughes (1958) ; Dubar &amp; Tripier (1998).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="flexner1915">Flexner (<a href="#ref-flexner1915" role="doc-biblioref">1915</a>)</span> ; <span class="citation" data-cites="brown1942">Brown (<a href="#ref-brown1942" role="doc-biblioref">1935/1942</a>)</span> ; <span class="citation" data-cites="austin1983">Austin (<a href="#ref-austin1983" role="doc-biblioref">1983</a>)</span> ; <span class="citation" data-cites="morris2008">Morris (<a href="#ref-morris2008" role="doc-biblioref">2008</a>)</span> ; <span class="citation" data-cites="greenwood1957">Greenwood (<a href="#ref-greenwood1957" role="doc-biblioref">1957</a>)</span> ; <span class="citation" data-cites="hughes1958">Hughes (<a href="#ref-hughes1958" role="doc-biblioref">1958</a>)</span> ; <span class="citation" data-cites="dubar1998">Dubar &amp; Tripier (<a href="#ref-dubar1998" role="doc-biblioref">1998</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 3.B</strong></p>
 <p>Présentez le « cercle de Richmond » et ses six sources d’information. En quoi rompt-il avec la charité ? Quelle limite majeure du casework la critique de Wootton met-elle au jour ?</p>
-<p><em>Références à mobiliser :</em> Richmond (1917) ; Wootton (1959) ; Coyle (1947).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="richmond1901">Richmond (<a href="#ref-richmond1901" role="doc-biblioref">1901</a>)</span> ; <span class="citation" data-cites="richmond1917">Richmond (<a href="#ref-richmond1917" role="doc-biblioref">1917</a>)</span> ; <span class="citation" data-cites="richmond1922">Richmond (<a href="#ref-richmond1922" role="doc-biblioref">1922</a>)</span> ; <span class="citation" data-cites="franklin1986">Franklin (<a href="#ref-franklin1986" role="doc-biblioref">1986</a>)</span> ; <span class="citation" data-cites="wootton1959">Wootton (<a href="#ref-wootton1959" role="doc-biblioref">1959</a>)</span> ; <span class="citation" data-cites="coyle1947">Coyle (<a href="#ref-coyle1947" role="doc-biblioref">1947</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 3.C</strong></p>
 <p>Comparez la méthode Voir-Juger-Agir (Cardijn) et le travail de groupe américain (Coyle). Quelles sont leurs différences ? En quoi la JOC anticipe-t-elle Paulo Freire ?</p>
-<p><em>Références à mobiliser :</em> Coyle (1947) ; Freire (1968/1974) ; Dubar &amp; Tripier (1998).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="coyle1935">Coyle (<a href="#ref-coyle1935" role="doc-biblioref">1935</a>)</span> ; <span class="citation" data-cites="coyle1947">Coyle (<a href="#ref-coyle1947" role="doc-biblioref">1947</a>)</span> ; <span class="citation" data-cites="wynants2013">Wynants (<a href="#ref-wynants2013" role="doc-biblioref">2013</a>)</span> ; <span class="citation" data-cites="geerkens2019b">Geerkens &amp; Vigna (<a href="#ref-geerkens2019b" role="doc-biblioref">2019</a>)</span> ; <span class="citation" data-cites="miller2014">Miller (<a href="#ref-miller2014" role="doc-biblioref">2014</a>)</span> ; <span class="citation" data-cites="freire1974">Freire (<a href="#ref-freire1974" role="doc-biblioref">1970/1974</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 3.D</strong></p>
 <p>Le travail social est-il une « semi-profession » (Etzioni) ? Mobilisez le modèle des attributs (Wilensky), la fermeture du marché (Larson) et les luttes de juridiction (Abbott) pour en discuter dans le cas belge.</p>
-<p><em>Références à mobiliser :</em> Wilensky (1964) ; Etzioni (1969) ; Larson (1977) ; Abbott (1988) ; Dubar &amp; Tripier (1998).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="greenwood1957">Greenwood (<a href="#ref-greenwood1957" role="doc-biblioref">1957</a>)</span> ; <span class="citation" data-cites="wilensky1964">Wilensky (<a href="#ref-wilensky1964" role="doc-biblioref">1964</a>)</span> ; <span class="citation" data-cites="etzioni1969">Etzioni (<a href="#ref-etzioni1969" role="doc-biblioref">1969</a>)</span> ; <span class="citation" data-cites="toren1969">Toren (<a href="#ref-toren1969" role="doc-biblioref">1969</a>)</span> ; <span class="citation" data-cites="larson1977">Larson (<a href="#ref-larson1977" role="doc-biblioref">1977</a>)</span> ; <span class="citation" data-cites="abbott1988">Abbott (<a href="#ref-abbott1988" role="doc-biblioref">1988</a>)</span> ; <span class="citation" data-cites="dubar1998">Dubar &amp; Tripier (<a href="#ref-dubar1998" role="doc-biblioref">1998</a>)</span> ; <span class="citation" data-cites="belgique1945">Belgique (<a href="#ref-belgique1945" role="doc-biblioref">1945</a>)</span> ; <span class="citation" data-cites="vrancken2012">Vrancken (<a href="#ref-vrancken2012" role="doc-biblioref">2012</a>)</span> ; <span class="citation" data-cites="orianne2012">Orianne (<a href="#ref-orianne2012" role="doc-biblioref">2012</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 3.E</strong></p>
 <p>Pourquoi la professionnalisation du travail social a-t-elle entraîné une psychologisation des problèmes sociaux dans les années 1930-1950 ? Quels effets politiques cela a-t-il eus ? Comment y résister aujourd’hui ?</p>
-<p><em>Références à mobiliser :</em> Richmond (1917) ; Wootton (1959) ; Castel (1995) ; Dominelli (2002).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="richmond1922">Richmond (<a href="#ref-richmond1922" role="doc-biblioref">1922</a>)</span> ; <span class="citation" data-cites="lubove1965">Lubove (<a href="#ref-lubove1965" role="doc-biblioref">1965</a>)</span> ; <span class="citation" data-cites="wootton1959">Wootton (<a href="#ref-wootton1959" role="doc-biblioref">1959</a>)</span> ; <span class="citation" data-cites="castel1981">Castel (<a href="#ref-castel1981" role="doc-biblioref">1981</a>)</span> ; <span class="citation" data-cites="lapierre2011">Lapierre et al. (<a href="#ref-lapierre2011" role="doc-biblioref">2011</a>)</span> ; <span class="citation" data-cites="franssen2003">Franssen (<a href="#ref-franssen2003" role="doc-biblioref">2003</a>)</span> ; <span class="citation" data-cites="dominelli2002a">Dominelli (<a href="#ref-dominelli2002a" role="doc-biblioref">2002</a>)</span>.</p>
 </div>
 <hr>
 </section>
 <section id="références" class="level2">
 <h2 class="anchored" data-anchor-id="références">Références</h2>
-<ul>
-<li>Abbott, A. (1988). <em>The System of Professions</em>. Chicago : University of Chicago Press.</li>
-<li>Alinsky, S. (1971). <em>Rules for Radicals</em>. New York : Random House.</li>
-<li>Coyle, G. (1947). <em>Group Experience and Democratic Values</em>. New York : Woman’s Press.</li>
-<li>Dubar, C. &amp; Tripier, P. (1998). <em>Sociologie des professions</em>. Paris : Armand Colin.</li>
-<li>Etzioni, A. (dir.) (1969). <em>The Semi-Professions and Their Organization</em>. New York : Free Press.</li>
-<li>Flexner, A. (1915). Is Social Work a Profession? <em>Studies in Social Work</em>, 4, 1–26.</li>
-<li>Freire, P. (1968/1974). <em>Pédagogie des opprimés</em>. Paris : Maspero.</li>
-<li>Freidson, E. (2001). <em>Professionalism: The Third Logic</em>. Cambridge : Polity Press.</li>
-<li>Larson, M. S. (1977). <em>The Rise of Professionalism</em>. Berkeley : University of California Press.</li>
-<li>Richmond, M. E. (1917). <em>Social Diagnosis</em>. New York : Russell Sage Foundation.</li>
-<li>Wilensky, H. L. (1964). The Professionalization of Everyone? <em>American Journal of Sociology</em>, 70(2), 137–158.</li>
-<li>Wootton, B. (1959). <em>Social Science and Social Pathology</em>. Londres : Allen &amp; Unwin.</li>
-</ul>
-<p><strong>Lectures complémentaires</strong></p>
-<ul>
-<li>Champy, F. (2009). <em>La sociologie des professions</em>. Paris : PUF.</li>
-<li>Demazière, D. &amp; Gadéa, C. (dir.) (2009). <em>Sociologie des groupes professionnels</em>. Paris : La Découverte.</li>
-<li>Hughes, E. C. (1958). <em>Men and Their Work</em>. Glencoe : Free Press.</li>
-<li>Vézinat, N. (2016). <em>Sociologie des groupes professionnels</em>. Paris : Armand Colin.</li>
-</ul>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-abbott1988" class="csl-entry" role="listitem">
+Abbott, A. (1988). <em>The System of Professions: An Essay on the Division of Expert Labor</em>. University of Chicago Press. <a href="https://doi.org/10.7208/chicago/9780226189666.001.0001">https://doi.org/10.7208/chicago/9780226189666.001.0001</a>
+</div>
+<div id="ref-abbott1995" class="csl-entry" role="listitem">
+Abbott, A. (1995). Boundaries of Social Work or Social Work of Boundaries? The <span>Social Service Review</span> Lecture. <em>Social Service Review</em>, <em>69</em>(4), 545‑562. <a href="https://doi.org/10.1086/604148">https://doi.org/10.1086/604148</a>
+</div>
+<div id="ref-abbott2003" class="csl-entry" role="listitem">
+Abbott, A. (2003). Écologies liées : à propos du système des professions. In P.-M. Menger (Éd.), <em>Les professions et leurs sociologies</em>. Éditions de la Maison des sciences de l’homme. <a href="https://doi.org/10.4000/books.editionsmsh.5721">https://doi.org/10.4000/books.editionsmsh.5721</a>
+</div>
+<div id="ref-agnew2004" class="csl-entry" role="listitem">
+Agnew, E. N. (2004). <em>From Charity to Social Work: <span>Mary E. Richmond</span> and the Creation of an <span>American</span> Profession</em>. University of Illinois Press.
+</div>
+<div id="ref-alexander1972" class="csl-entry" role="listitem">
+Alexander, L. B. (1972). Social Work’s <span>Freudian</span> Deluge: Myth or Reality? <em>Social Service Review</em>, <em>46</em>(4), 517‑538. <a href="https://doi.org/10.1086/642898">https://doi.org/10.1086/642898</a>
+</div>
+<div id="ref-alinsky1946" class="csl-entry" role="listitem">
+Alinsky, S. D. (1946). <em>Reveille for Radicals</em>. University of Chicago Press.
+</div>
+<div id="ref-alinsky1971" class="csl-entry" role="listitem">
+Alinsky, S. D. (1971). <em>Rules for Radicals: A Practical Primer for Realistic Radicals</em>. Random House.
+</div>
+<div id="ref-alinsky2012" class="csl-entry" role="listitem">
+Alinsky, S. D. (2012). <em>Être radical : manuel pragmatique pour radicaux réalistes</em> (O. Hellier &amp; J. Gouriou, Trad.). Aden. (Édition originale 1971)
+</div>
+<div id="ref-andrews2001" class="csl-entry" role="listitem">
+Andrews, J. (2001). Group Work’s Place in Social Work: A Historical Analysis. <em>The Journal of Sociology &amp; Social Welfare</em>, <em>28</em>(4). <a href="https://doi.org/10.15453/0191-5096.2765">https://doi.org/10.15453/0191-5096.2765</a>
+</div>
+<div id="ref-austin1983" class="csl-entry" role="listitem">
+Austin, D. M. (1983). The <span>Flexner</span> Myth and the History of Social Work. <em>Social Service Review</em>, <em>57</em>(3), 357‑377. <a href="https://doi.org/10.1086/644113">https://doi.org/10.1086/644113</a>
+</div>
+<div id="ref-baron1994" class="csl-entry" role="listitem">
+Bar-On, A. A. (1994). The Elusive Boundaries of Social Work. <em>The Journal of Sociology &amp; Social Welfare</em>, <em>21</em>(3). <a href="https://doi.org/10.15453/0191-5096.2160">https://doi.org/10.15453/0191-5096.2160</a>
+</div>
+<div id="ref-beauduin2019" class="csl-entry" role="listitem">
+Beauduin, M.-A., &amp; Lodewick, P. (2019). La revue <em>Les Politiques sociales</em> : 80 ans de débats au service de l’Action sociale. <em>Les Politiques sociales</em>, (3-4), 88‑99. <a href="https://doi.org/10.3917/lps.193.0088">https://doi.org/10.3917/lps.193.0088</a>
+</div>
+<div id="ref-belgique1945" class="csl-entry" role="listitem">
+Belgique. (1945). <em>Loi du 12 juin 1945 sur la protection du titre d’auxiliaire ou d’assistant social</em>. <a href="https://www.ejustice.just.fgov.be/eli/loi/1945/06/12/1945061203/justel">https://www.ejustice.just.fgov.be/eli/loi/1945/06/12/1945061203/justel</a>
+</div>
+<div id="ref-belgique2024" class="csl-entry" role="listitem">
+Belgique. (2024). <em>Code pénal du 29 février 2024, livre 2, titre 3, chapitre 9, section 3 : « La protection du secret professionnel » (art. 352-353)</em>. <a href="https://www.ejustice.just.fgov.be/eli/loi/2024/02/29/2024A02052/justel">https://www.ejustice.just.fgov.be/eli/loi/2024/02/29/2024A02052/justel</a>
+</div>
+<div id="ref-bergerongaudin2019" class="csl-entry" role="listitem">
+Bergeron-Gaudin, J.-V. (2019). L’organisation communautaire en travail social au Québec : origines, trajectoire et tensions. <em>Nouvelles pratiques sociales</em>, <em>30</em>(2), 80‑99. <a href="https://doi.org/10.7202/1066102ar">https://doi.org/10.7202/1066102ar</a>
+</div>
+<div id="ref-blondin1965" class="csl-entry" role="listitem">
+Blondin, M. (1965). L’animation sociale en milieu urbain : une solution. <em>Recherches sociographiques</em>, <em>6</em>(3), 283‑304. <a href="https://doi.org/10.7202/055279ar">https://doi.org/10.7202/055279ar</a>
+</div>
+<div id="ref-bosquet2004" class="csl-entry" role="listitem">
+Bosquet, C. (2004). <em>Questions de déontologie</em>. Exposé à la journée de formation FCSS / Comité de vigilance en travail social « Entre secret professionnel et contrôle, une éthique pour éclairer les missions du travail social », Namur, 7 octobre 2004. <a href="https://www.fdss.be/wp-content/uploads/SecretProEtControlCombo.pdf">https://www.fdss.be/wp-content/uploads/SecretProEtControlCombo.pdf</a>
+</div>
+<div id="ref-bosquet2016" class="csl-entry" role="listitem">
+Bosquet, C., &amp; Maeyens, C. (2016). Une approche du travail social communautaire en Belgique. <em>Les Politiques Sociales</em>, (1-2), 62‑74. <a href="https://doi.org/10.3917/lps.161.0062">https://doi.org/10.3917/lps.161.0062</a>
+</div>
+<div id="ref-bourque2007" class="csl-entry" role="listitem">
+Bourque, D., Comeau, Y., Favreau, L., &amp; Fréchette, L. (Éds.). (2007). <em>L’organisation communautaire. Fondements, approches et champs de pratique</em>. Presses de l’Université du Québec. <a href="https://doi.org/10.2307/j.ctv18pghk6">https://doi.org/10.2307/j.ctv18pghk6</a>
+</div>
+<div id="ref-bresson2006" class="csl-entry" role="listitem">
+Bresson, M. (Éd.). (2006). <em>La psychologisation de l’intervention sociale : mythes et réalités</em>. L’Harmattan.
+</div>
+<div id="ref-bresson2012" class="csl-entry" role="listitem">
+Bresson, M. (2012). La psychologisation de l’intervention sociale : paradoxes et enjeux. <em>Informations sociales</em>, (169), 68‑75. <a href="https://doi.org/10.3917/inso.169.0068">https://doi.org/10.3917/inso.169.0068</a>
+</div>
+<div id="ref-brown1942" class="csl-entry" role="listitem">
+Brown, E. L. (1942). <em>Social Work as a Profession</em> (4ᵉ éd.). Russell Sage Foundation. <a href="https://www.russellsage.org/sites/default/files/Social-Work-Profession.pdf">https://www.russellsage.org/sites/default/files/Social-Work-Profession.pdf</a> (Édition originale 1935)
+</div>
+<div id="ref-castel1981" class="csl-entry" role="listitem">
+Castel, R. (1981). <em>La gestion des risques : de l’anti-psychiatrie à l’après-psychanalyse</em>. Éditions de Minuit.
+</div>
+<div id="ref-champy2009" class="csl-entry" role="listitem">
+Champy, F. (2009). <em>La sociologie des professions</em>. Presses universitaires de France.
+</div>
+<div id="ref-champy2011" class="csl-entry" role="listitem">
+Champy, F. (2011). <em>Nouvelle théorie sociologique des professions</em>. Presses universitaires de France. <a href="https://doi.org/10.3917/puf.mestr.2011.01">https://doi.org/10.3917/puf.mestr.2011.01</a>
+</div>
+<div id="ref-chapoulie1973" class="csl-entry" role="listitem">
+Chapoulie, J.-M. (1973). Sur l’analyse sociologique des groupes professionnels. <em>Revue française de sociologie</em>, <em>14</em>(1), 86‑114. <a href="https://doi.org/10.2307/3320324">https://doi.org/10.2307/3320324</a>
+</div>
+<div id="ref-chessel2019" class="csl-entry" role="listitem">
+Chessel, M.-E., &amp; Egea, A. (2019). Céline Lhotte, Élisabeth Dupeyrat, « La préparation du futur foyer de la jeune travailleuse ». Restitution d’une enquête de la Jeunesse ouvrière chrétienne féminine (1937). <em>Les Études sociales</em>, (169), 203‑240. <a href="https://doi.org/10.3917/etsoc.169.0203">https://doi.org/10.3917/etsoc.169.0203</a>
+</div>
+<div id="ref-christens1998" class="csl-entry" role="listitem">
+Christens, R. (1998). Sociaal geëngageerd en ongehuwd. Sociale werksters in Vlaanderen in de jaren 1920-1930. <em>Bijdragen tot de Eigentijdse Geschiedenis / Cahiers d’histoire du temps présent</em>, (4), 65‑81. <a href="https://www.journalbelgianhistory.be/nl/system/files/article_pdf/chtp4_006_Christens.pdf">https://www.journalbelgianhistory.be/nl/system/files/article_pdf/chtp4_006_Christens.pdf</a>
+</div>
+<div id="ref-cvts2025" class="csl-entry" role="listitem">
+Comité de vigilance en travail social. (2025). <em>Code de déontologie belge francophone des assistants sociaux et du travail social</em>. <a href="https://fedabxl.be/site/wp-content/uploads/2025/11/2025_code_as_ts-2.pdf">https://fedabxl.be/site/wp-content/uploads/2025/11/2025_code_as_ts-2.pdf</a>
+</div>
+<div id="ref-coyle1930" class="csl-entry" role="listitem">
+Coyle, G. L. (1930). <em>Social Process in Organized Groups</em>. Richard R. Smith.
+</div>
+<div id="ref-coyle1935" class="csl-entry" role="listitem">
+Coyle, G. L. (1935). Group Work and Social Change. In <em>Proceedings of the National Conference of Social Work, 1935</em> (p. 393‑405). <a href="https://socialwelfare.library.vcu.edu/social-work/social-group-work-and-change-1935/">https://socialwelfare.library.vcu.edu/social-work/social-group-work-and-change-1935/</a>
+</div>
+<div id="ref-coyle1947" class="csl-entry" role="listitem">
+Coyle, G. L. (1947). <em>Group Experience and Democratic Values</em>. Woman’s Press.
+</div>
+<div id="ref-demaziere2009" class="csl-entry" role="listitem">
+Demazière, D., &amp; Gadéa, C. (Éds.). (2009). <em>Sociologie des groupes professionnels : acquis récents et nouveaux défis</em>. La Découverte. <a href="https://doi.org/10.3917/dec.demaz.2010.01">https://doi.org/10.3917/dec.demaz.2010.01</a>
+</div>
+<div id="ref-dominelli2002a" class="csl-entry" role="listitem">
+Dominelli, L. (2002). <em>Anti-Oppressive Social Work Theory and Practice</em>. Palgrave Macmillan. <a href="https://doi.org/10.1007/978-1-4039-1400-2">https://doi.org/10.1007/978-1-4039-1400-2</a>
+</div>
+<div id="ref-dore1990" class="csl-entry" role="listitem">
+Dore, M. M. (1990). Functional Theory: Its History and Influence on Contemporary Social Work Practice. <em>Social Service Review</em>, <em>64</em>(3), 358‑374. <a href="https://doi.org/10.1086/603776">https://doi.org/10.1086/603776</a>
+</div>
+<div id="ref-doucet1991" class="csl-entry" role="listitem">
+Doucet, L., &amp; Favreau, L. (Éds.). (1991). <em>Théorie et pratiques en organisation communautaire</em>. Presses de l’Université du Québec. <a href="https://doi.org/10.2307/j.ctv18pgm6z">https://doi.org/10.2307/j.ctv18pgm6z</a>
+</div>
+<div id="ref-dubar1991" class="csl-entry" role="listitem">
+Dubar, C. (1991). <em>La socialisation : construction des identités sociales et professionnelles</em>. Armand Colin.
+</div>
+<div id="ref-dubar1998" class="csl-entry" role="listitem">
+Dubar, C., &amp; Tripier, P. (1998). <em>Sociologie des professions</em>. Armand Colin.
+</div>
+<div id="ref-ehrenreich1985" class="csl-entry" role="listitem">
+Ehrenreich, J. H. (1985). <em>The Altruistic Imagination: A History of Social Work and Social Policy in the <span>United States</span></em>. Cornell University Press.
+</div>
+<div id="ref-eilers2008" class="csl-entry" role="listitem">
+Eilers, K. (2008). <span>René Sand</span> (<span>Belgium</span>), President 1946-1953. <em>Social Work &amp; Society</em>, <em>6</em>(1), 142‑148. <a href="http://nbn-resolving.de/urn:nbn:de:0009-11-14599">http://nbn-resolving.de/urn:nbn:de:0009-11-14599</a>
+</div>
+<div id="ref-eilers2011" class="csl-entry" role="listitem">
+Eilers, K. (2011). <em>René Sand (1877–1953) – Weltbürger der internationalen Sozialen Arbeit</em>. Verlag Barbara Budrich. <a href="https://doi.org/10.2307/j.ctvhktjq3">https://doi.org/10.2307/j.ctvhktjq3</a>
+</div>
+<div id="ref-etzioni1969" class="csl-entry" role="listitem">
+Etzioni, A. (Éd.). (1969). <em>The Semi-Professions and Their Organization: Teachers, Nurses, Social Workers</em>. Free Press.
+</div>
+<div id="ref-field1980" class="csl-entry" role="listitem">
+Field, M. H. (1980). Social Casework Practice during the <span>«&nbsp;Psychiatric Deluge&nbsp;»</span>. <em>Social Service Review</em>, <em>54</em>(4), 482‑507. <a href="https://doi.org/10.1086/643868">https://doi.org/10.1086/643868</a>
+</div>
+<div id="ref-flexner1915" class="csl-entry" role="listitem">
+Flexner, A. (1915). <em>Is Social Work a Profession?</em> New York School of Philanthropy. <a href="https://archive.org/details/cu31924014006617">https://archive.org/details/cu31924014006617</a>
+</div>
+<div id="ref-flexner2001" class="csl-entry" role="listitem">
+Flexner, A. (2001). Is Social Work a Profession? <em>Research on Social Work Practice</em>, <em>11</em>(2), 152‑165. <a href="https://doi.org/10.1177/104973150101100202">https://doi.org/10.1177/104973150101100202</a> (Édition originale 1915)
+</div>
+<div id="ref-foucart2022" class="csl-entry" role="listitem">
+Foucart, J. (2022). Le travail social en Belgique francophone : histoire et tendances actuelles. In E. Jovelin &amp; L. Liénard (Éds.), <em>Le travail social en Europe. Entre passé, présent et avenir</em> (p. 83‑99). Presses de l’EHESP. <a href="https://doi.org/10.3917/ehesp.jovel.2022.01.0085">https://doi.org/10.3917/ehesp.jovel.2022.01.0085</a>
+</div>
+<div id="ref-franklin1986" class="csl-entry" role="listitem">
+Franklin, D. L. (1986). <span>Mary Richmond</span> and <span>Jane Addams</span>: From Moral Certainty to Rational Inquiry in Social Work Practice. <em>Social Service Review</em>, <em>60</em>(4), 504‑525. <a href="https://doi.org/10.1086/644396">https://doi.org/10.1086/644396</a>
+</div>
+<div id="ref-franssen2003" class="csl-entry" role="listitem">
+Franssen, A. (2003). Le sujet au cœur de la nouvelle question sociale. <em>La Revue nouvelle</em>, (12). <a href="https://revuenouvelle.be/le-sujet-au-coeur-de-la-nouvelle-question-sociale/">https://revuenouvelle.be/le-sujet-au-coeur-de-la-nouvelle-question-sociale/</a>
+</div>
+<div id="ref-freidson2001" class="csl-entry" role="listitem">
+Freidson, E. (2001). <em>Professionalism: The Third Logic</em>. Polity Press.
+</div>
+<div id="ref-freire1974" class="csl-entry" role="listitem">
+Freire, P. (1974). <em>Pédagogie des opprimés, suivi de Conscientisation et révolution</em>. François Maspero. (Édition originale 1970)
+</div>
+<div id="ref-gaspar2019" class="csl-entry" role="listitem">
+Gaspar, J.-F. (2019). Sociogenèse et défis du travail social hospitalier. <em>Les Politiques sociales</em>, (1-2), 34‑44. <a href="https://doi.org/10.3917/lps.191.0034">https://doi.org/10.3917/lps.191.0034</a>
+</div>
+<div id="ref-geerkens2019b" class="csl-entry" role="listitem">
+Geerkens, É., &amp; Vigna, X. (2019). Les enquêtes jocistes en Belgique et en France, c. 1925-c. 1940. In É. Geerkens, N. Hatzfeld, I. Lespinet-Moret, &amp; X. Vigna (Éds.), <em>Les enquêtes ouvrières dans l’Europe contemporaine : entre pratiques scientifiques et passions politiques</em> (p. 426‑442). La Découverte. <a href="https://doi.org/10.3917/dec.geerk.2019.01.0426">https://doi.org/10.3917/dec.geerk.2019.01.0426</a>
+</div>
+<div id="ref-gordon1988" class="csl-entry" role="listitem">
+Gordon, L. (1988). The Frustrations of Family Violence Social Work: An Historical Critique. <em>Journal of Sociology and Social Welfare</em>, <em>15</em>(4). <a href="https://doi.org/10.15453/0191-5096.1874">https://doi.org/10.15453/0191-5096.1874</a>
+</div>
+<div id="ref-greenwood1957" class="csl-entry" role="listitem">
+Greenwood, E. (1957). Attributes of a Profession. <em>Social Work</em>, <em>2</em>(3), 45‑55. <a href="https://doi.org/10.1093/sw/2.3.45">https://doi.org/10.1093/sw/2.3.45</a>
+</div>
+<div id="ref-hamilton1951" class="csl-entry" role="listitem">
+Hamilton, G. (1951). <em>Theory and Practice of Social Case Work</em> (2ᵉ éd.). Columbia University Press.
+</div>
+<div id="ref-hearn1982" class="csl-entry" role="listitem">
+Hearn, J. (1982). Notes on Patriarchy, Professionalization and the Semi-Professions. <em>Sociology</em>, <em>16</em>(2), 184‑202. <a href="https://doi.org/10.1177/0038038582016002002">https://doi.org/10.1177/0038038582016002002</a>
+</div>
+<div id="ref-hering2003" class="csl-entry" role="listitem">
+Hering, S., &amp; Waaldijk, B. (Éds.). (2003). <em>History of Social Work in Europe (1900–1960): Female Pioneers and their Influence on the Development of International Social Organizations</em>. Leske + Budrich. <a href="https://doi.org/10.1007/978-3-322-80895-0">https://doi.org/10.1007/978-3-322-80895-0</a>
+</div>
+<div id="ref-hughes1958" class="csl-entry" role="listitem">
+Hughes, E. C. (1958). <em>Men and Their Work</em>. Free Press.
+</div>
+<div id="ref-hughes1962" class="csl-entry" role="listitem">
+Hughes, E. C. (1962). Good People and Dirty Work. <em>Social Problems</em>, <em>10</em>(1), 3‑11. <a href="https://doi.org/10.2307/799402">https://doi.org/10.2307/799402</a>
+</div>
+<div id="ref-hughes1996" class="csl-entry" role="listitem">
+Hughes, E. C. (1996). <em>Le regard sociologique. Essais choisis</em> (J.-M. Chapoulie, Éd.). Éditions de l’EHESS.
+</div>
+<div id="ref-johannesensd" class="csl-entry" role="listitem">
+Johannesen, T. (s.&nbsp;d.). <em>IFSW Chronology 1956–1974</em>. International Federation of Social Workers. Consulté 27 septembre 2026, à l’adresse <a href="https://www.ifsw.org/wp-content/uploads/ifsw-cdn/assets/ifsw_42224-4.pdf">https://www.ifsw.org/wp-content/uploads/ifsw-cdn/assets/ifsw_42224-4.pdf</a>
+</div>
+<div id="ref-keller2019" class="csl-entry" role="listitem">
+Keller, V. (2019). Cent ans de travail social en Suisse. <em>Les Politiques sociales</em>, (1-2), 19‑33. <a href="https://doi.org/10.3917/lps.191.0019">https://doi.org/10.3917/lps.191.0019</a>
+</div>
+<div id="ref-keymolen1985" class="csl-entry" role="listitem">
+Keymolen, D. (1985). Baers (Maria-Gabriella). In <em>Biographie nationale</em> (Vol. 44, p. 5‑16). Établissements Émile Bruylant. <a href="https://www.academieroyale.be/academie/documents/FichierPDFBiographieNationaleTome2102.pdf">https://www.academieroyale.be/academie/documents/FichierPDFBiographieNationaleTome2102.pdf</a>
+</div>
+<div id="ref-knibiehler1980" class="csl-entry" role="listitem">
+Knibiehler, Y. (Éd.). (1980). <em>Nous, les assistantes sociales. Naissance d’une profession. Trente ans de souvenirs d’assistantes sociales françaises (1930-1960)</em>. Aubier Montaigne.
+</div>
+<div id="ref-kornbeck2006" class="csl-entry" role="listitem">
+Kornbeck, J. (2006). A Belgian jubilee: 60 years protection of the professional title of social worker. <em>European Journal of Social Work</em>, <em>9</em>(1), 103‑108. <a href="https://doi.org/10.1080/13691450500482454">https://doi.org/10.1080/13691450500482454</a>
+</div>
+<div id="ref-lannoy2004" class="csl-entry" role="listitem">
+Lannoy, P. (2004). Quand Robert Park écrit « La ville » (1915). Essai de scientométrie qualitative. <em>Revue d’histoire des sciences humaines</em>, (11). <a href="https://doi.org/10.3917/rhsh.011.0157">https://doi.org/10.3917/rhsh.011.0157</a>
+</div>
+<div id="ref-lapierre2011" class="csl-entry" role="listitem">
+Lapierre, S., Moreau, N., &amp; Larose-Hébert, K. (2011). La psychologisation de l’intervention sociale : enjeux et perspectives. <em>Reflets : revue d’intervention sociale et communautaire</em>, <em>17</em>(1), 10‑13. <a href="https://doi.org/10.7202/1005230ar">https://doi.org/10.7202/1005230ar</a>
+</div>
+<div id="ref-larson1977" class="csl-entry" role="listitem">
+Larson, M. S. (1977). <em>The Rise of Professionalism: A Sociological Analysis</em>. University of California Press. <a href="https://doi.org/10.1525/9780520323070">https://doi.org/10.1525/9780520323070</a>
+</div>
+<div id="ref-lhuilier2005" class="csl-entry" role="listitem">
+Lhuilier, D. (2005). Le « sale boulot ». <em>Travailler</em>, (14), 73‑98. <a href="https://doi.org/10.3917/trav.014.0073">https://doi.org/10.3917/trav.014.0073</a>
+</div>
+<div id="ref-lindeman1921" class="csl-entry" role="listitem">
+Lindeman, E. C. (1921). <em>The Community: An Introduction to the Study of Community Leadership and Organization</em>. Association Press. <a href="https://archive.org/details/thecommunity00linduoft">https://archive.org/details/thecommunity00linduoft</a>
+</div>
+<div id="ref-lubove1965" class="csl-entry" role="listitem">
+Lubove, R. (1965). <em>The Professional Altruist: The Emergence of Social Work as a Career, 1880-1930</em>. Harvard University Press. <a href="https://doi.org/10.4159/harvard.9780674420939">https://doi.org/10.4159/harvard.9780674420939</a>
+</div>
+<div id="ref-mikula2026" class="csl-entry" role="listitem">
+Mikula, Z., &amp; Mikula, F. A. (2026). Reconceptualising Professionalism in Social Work: A Critical Reflection on Classical Theoretical Models. <em>European Journal of Social Work</em>, 1‑15. <a href="https://doi.org/10.1080/13691457.2026.2635594">https://doi.org/10.1080/13691457.2026.2635594</a>
+</div>
+<div id="ref-miller2014" class="csl-entry" role="listitem">
+Miller, M. (2014). Organisation et éducation : Saul Alinsky, Myles Horton et Paulo Freire. <em>Revue de l’Institut de Sociologie</em>, <em>84</em>, 59‑80. <a href="https://doi.org/10.4000/keur">https://doi.org/10.4000/keur</a>
+</div>
+<div id="ref-morel2023" class="csl-entry" role="listitem">
+Morel, S. (2023). « L’inquiétante étrangeté ». Les rapports des assistantes sociales aux programmes de réussite éducative vus au prisme de la sociologie des professions d’Andrew Abbott. <em>Sociologie</em>, <em>14</em>(3), 333‑349. <a href="https://doi.org/10.3917/socio.143.0333">https://doi.org/10.3917/socio.143.0333</a>
+</div>
+<div id="ref-morris2008" class="csl-entry" role="listitem">
+Morris, P. M. (2008). Reinterpreting <span>Abraham Flexner’s</span> Speech, <span>«&nbsp;<span>Is Social Work a Profession?</span>&nbsp;»</span>: Its Meaning and Influence on the Field’s Early Professional Development. <em>Social Service Review</em>, <em>82</em>(1), 29‑60. <a href="https://doi.org/10.1086/529399">https://doi.org/10.1086/529399</a>
+</div>
+<div id="ref-oakley2011" class="csl-entry" role="listitem">
+Oakley, A. (2011). <em>A Critical Woman: <span>Barbara Wootton</span>, Social Science and Public Policy in the Twentieth Century</em>. Bloomsbury Academic. <a href="https://doi.org/10.5040/9781849664769">https://doi.org/10.5040/9781849664769</a>
+</div>
+<div id="ref-orianne2012" class="csl-entry" role="listitem">
+Orianne, J.-F. (2012). Haute pression théorique sur le territoire francophone de la sociologie des groupes professionnels. <em>SociologieS</em>. <a href="https://doi.org/10.4000/sociologies.3926">https://doi.org/10.4000/sociologies.3926</a>
+</div>
+<div id="ref-papell1966" class="csl-entry" role="listitem">
+Papell, C. P., &amp; Rothman, B. (1966). Social Group Work Models: Possession and Heritage. <em>Journal of Education for Social Work</em>, <em>2</em>(2), 66‑77. <a href="https://doi.org/10.1080/00220612.1966.10778680">https://doi.org/10.1080/00220612.1966.10778680</a>
+</div>
+<div id="ref-paradeise1988" class="csl-entry" role="listitem">
+Paradeise, C. (1988). Les professions comme marchés du travail fermés. <em>Sociologie et sociétés</em>, <em>20</em>(2), 9‑21. <a href="https://doi.org/10.7202/001543ar">https://doi.org/10.7202/001543ar</a>
+</div>
+<div id="ref-parsons1951" class="csl-entry" role="listitem">
+Parsons, T. (1951). <em>The Social System</em>. Free Press.
+</div>
+<div id="ref-pascal2012a" class="csl-entry" role="listitem">
+Pascal, H. (2012a). L’École normale sociale : de l’action collective à l’intervention sociale collective. <em>Vie sociale</em>, (2), 129‑146. <a href="https://doi.org/10.3917/vsoc.122.0129">https://doi.org/10.3917/vsoc.122.0129</a>
+</div>
+<div id="ref-pascal2012b" class="csl-entry" role="listitem">
+Pascal, H. (2012b). <em>La construction de l’identité professionnelle des assistantes sociales. L’Association nationale des assistantes sociales (1944-1950)</em>. Presses de l’EHESP. <a href="https://doi.org/10.3917/ehesp.pasca.2012.01">https://doi.org/10.3917/ehesp.pasca.2012.01</a>
+</div>
+<div id="ref-pascal2013" class="csl-entry" role="listitem">
+Pascal, H. (2013). L’ANAS 1944-1950 : la construction de l’identité professionnelle des assistantes sociales. <em>Vie sociale</em>, (4), 69‑78. <a href="https://doi.org/10.3917/vsoc.134.0069">https://doi.org/10.3917/vsoc.134.0069</a>
+</div>
+<div id="ref-popple1985" class="csl-entry" role="listitem">
+Popple, P. R. (1985). The Social Work Profession: A Reconceptualization. <em>Social Service Review</em>, <em>59</em>(4), 560‑577. <a href="https://doi.org/10.1086/644331">https://doi.org/10.1086/644331</a>
+</div>
+<div id="ref-quinqueton2012" class="csl-entry" role="listitem">
+Quinqueton, T. (2012). Saul Alinsky, le conflit et la communauté à la source de l’intégration démocratique. <em>Vie sociale</em>, (2), 111‑128. <a href="https://doi.org/10.3917/vsoc.122.0111">https://doi.org/10.3917/vsoc.122.0111</a>
+</div>
+<div id="ref-richmond1901" class="csl-entry" role="listitem">
+Richmond, M. E. (1901). Charitable Co-operation. In I. C. Barrows (Éd.), <em>Proceedings of the <span>National Conference of Charities and Correction</span> at the Twenty-Eighth Annual Session Held in the City of <span>Washington, D.C.</span>, <span>May</span> 9-15, 1901</em> (p. 298‑313). George H. Ellis. <a href="https://archive.org/details/sim_national-conference-on-social-welfare-bulletin_may-9-15-1901_28">https://archive.org/details/sim_national-conference-on-social-welfare-bulletin_may-9-15-1901_28</a>
+</div>
+<div id="ref-richmond1917" class="csl-entry" role="listitem">
+Richmond, M. E. (1917). <em>Social Diagnosis</em>. Russell Sage Foundation. <a href="https://archive.org/details/socialdiagnosis00richuoft">https://archive.org/details/socialdiagnosis00richuoft</a>
+</div>
+<div id="ref-richmond1922" class="csl-entry" role="listitem">
+Richmond, M. E. (1922). <em>What Is Social Case Work? An Introductory Description</em>. Russell Sage Foundation. <a href="https://archive.org/details/whatissocialcase00richuoft">https://archive.org/details/whatissocialcase00richuoft</a>
+</div>
+<div id="ref-richmond2002" class="csl-entry" role="listitem">
+Richmond, M. E. (2002). <em>Les méthodes nouvelles d’assistance : le service social des cas individuels</em> (P. de Chary &amp; R. Sand, Trad.; 2ᵉ éd.). Éditions de l’École nationale de la santé publique. <a href="https://doi.org/10.3917/ehesp.richm.2002.01">https://doi.org/10.3917/ehesp.richm.2002.01</a> (Édition originale 1922)
+</div>
+<div id="ref-derobertis1987" class="csl-entry" role="listitem">
+Robertis, C. de, &amp; Pascal, H. (1987). <em>L’intervention collective en travail social : l’action auprès des groupes et des communautés</em>. Le Centurion.
+</div>
+<div id="ref-robinson1930" class="csl-entry" role="listitem">
+Robinson, V. P. (1930). <em>A Changing Psychology in Social Case Work</em>. University of North Carolina Press. <a href="https://doi.org/10.1037/14828-000">https://doi.org/10.1037/14828-000</a>
+</div>
+<div id="ref-ross1955" class="csl-entry" role="listitem">
+Ross, M. G. (1955). <em>Community Organization: Theory and Principles</em>. Harper &amp; Brothers.
+</div>
+<div id="ref-rothman2007" class="csl-entry" role="listitem">
+Rothman, J. (2007). Multi Modes of Intervention at the Macro Level. <em>Journal of Community Practice</em>, <em>15</em>(4), 11‑40. <a href="https://doi.org/10.1300/J125v15n04_02">https://doi.org/10.1300/J125v15n04_02</a>
+</div>
+<div id="ref-sachsse1994" class="csl-entry" role="listitem">
+Sachße, C. (1994). Sozialarbeit als Beruf: Ansätze einer Professionalisierung. In <em>Mütterlichkeit als Beruf. Sozialarbeit, Sozialreform und Frauenbewegung 1871–1929</em> (2ᵉ éd., p. 228‑276). Westdeutscher Verlag. <a href="https://doi.org/10.1007/978-3-663-14358-1_8">https://doi.org/10.1007/978-3-663-14358-1_8</a> (Édition originale 1986)
+</div>
+<div id="ref-specht1994" class="csl-entry" role="listitem">
+Specht, H., &amp; Courtney, M. E. (1994). <em>Unfaithful Angels: How Social Work Has Abandoned Its Mission</em>. Free Press.
+</div>
+<div id="ref-talpin2016a" class="csl-entry" role="listitem">
+Talpin, J. (2016). <em>Community organizing. De l’émeute à l’alliance des classes populaires aux États-Unis</em>. Raisons d’agir.
+</div>
+<div id="ref-talpin2016b" class="csl-entry" role="listitem">
+Talpin, J., &amp; Balazard, H. (2016). Community organizing : généalogie, modèles et circulation d’une pratique émancipatrice. <em>Mouvements</em>, (85), 11‑25. <a href="https://doi.org/10.3917/mouv.085.0011">https://doi.org/10.3917/mouv.085.0011</a>
+</div>
+<div id="ref-toren1969" class="csl-entry" role="listitem">
+Toren, N. (1969). Semi-Professionalism and Social Work: A Theoretical Perspective. In A. Etzioni (Éd.), <em>The Semi-Professions and Their Organization: Teachers, Nurses, Social Workers</em> (p. 141‑195). Free Press.
+</div>
+<div id="ref-ufas1985" class="csl-entry" role="listitem">
+Union professionnelle francophone des assistants sociaux. (1985). <em>Code de déontologie belge francophone des assistants sociaux</em>. <a href="https://www.fdss.be/wp-content/uploads/code_belge_AS.pdf">https://www.fdss.be/wp-content/uploads/code_belge_AS.pdf</a>
+</div>
+<div id="ref-valettedamase2013" class="csl-entry" role="listitem">
+Valette-Damase, C. (2013). Usages et mésusages de la psychanalyse dans la professionnalisation des assistantes de service social. <em>Vie sociale</em>, (4), 115‑126. <a href="https://doi.org/10.3917/vsoc.134.0115">https://doi.org/10.3917/vsoc.134.0115</a>
+</div>
+<div id="ref-vanthemsche1994" class="csl-entry" role="listitem">
+Vanthemsche, G. (1994). <em>La sécurité sociale. Les origines du système belge. Le présent face à son passé</em>. De Boeck Université.
+</div>
+<div id="ref-verdesleroux1978" class="csl-entry" role="listitem">
+Verdès-Leroux, J. (1978). <em>Le travail social</em>. Éditions de Minuit.
+</div>
+<div id="ref-verzelen2016a" class="csl-entry" role="listitem">
+Verzelen, W. (2016). <em>1920 Sociale scholen. Opleidingen sociaal werk, ontstaan en groei</em>. Canon sociaal werk Vlaanderen. <a href="https://canonsociaalwerk.eu/be/detail/24">https://canonsociaalwerk.eu/be/detail/24</a>
+</div>
+<div id="ref-verzelen2019" class="csl-entry" role="listitem">
+Verzelen, W. (2019). Les formations en travail social en Flandre : analyse historique et évolutions. <em>Les Politiques sociales</em>, (3-4), 76‑87. <a href="https://doi.org/10.3917/lps.193.0076">https://doi.org/10.3917/lps.193.0076</a>
+</div>
+<div id="ref-vezinat2016" class="csl-entry" role="listitem">
+Vezinat, N. (2016). <em>Sociologie des groupes professionnels</em>. Armand Colin. <a href="https://doi.org/10.3917/arco.zinat.2016.01">https://doi.org/10.3917/arco.zinat.2016.01</a>
+</div>
+<div id="ref-vrancken2012" class="csl-entry" role="listitem">
+Vrancken, D. (2012). Le travail social serait-il devenu une profession ? Quand la « prudence » s’invite au cœur d’un vieux débat. <em>Pensée plurielle</em>, <em>30-31</em>(2), 27‑36. <a href="https://doi.org/10.3917/pp.030.0025">https://doi.org/10.3917/pp.030.0025</a>
+</div>
+<div id="ref-wagner1986" class="csl-entry" role="listitem">
+Wagner, D. (1986). Collective Mobility and Fragmentation: A Model of Social Work History. <em>The Journal of Sociology &amp; Social Welfare</em>, <em>13</em>(3). <a href="https://doi.org/10.15453/0191-5096.1774">https://doi.org/10.15453/0191-5096.1774</a>
+</div>
+<div id="ref-ward2012" class="csl-entry" role="listitem">
+Ward, J. (2012). La démocratie locale en Amérique à travers le discours des organisateurs communautaires. <em>Vie sociale</em>, (2), 27‑40. <a href="https://doi.org/10.3917/vsoc.122.0027">https://doi.org/10.3917/vsoc.122.0027</a>
+</div>
+<div id="ref-weissgal2008" class="csl-entry" role="listitem">
+Weiss-Gal, I., &amp; Welbourne, P. (2008). The Professionalisation of Social Work: A Cross-National Exploration. <em>International Journal of Social Welfare</em>, <em>17</em>(4), 281‑290. <a href="https://doi.org/10.1111/j.1468-2397.2008.00574.x">https://doi.org/10.1111/j.1468-2397.2008.00574.x</a>
+</div>
+<div id="ref-wilensky1964" class="csl-entry" role="listitem">
+Wilensky, H. L. (1964). The Professionalization of Everyone? <em>American Journal of Sociology</em>, <em>70</em>(2), 137‑158. <a href="https://doi.org/10.1086/223790">https://doi.org/10.1086/223790</a>
+</div>
+<div id="ref-woodroofe1962" class="csl-entry" role="listitem">
+Woodroofe, K. (1962). <em>From Charity to Social Work in <span>England</span> and the <span>United States</span></em>. Routledge &amp; Kegan Paul.
+</div>
+<div id="ref-wootton1959" class="csl-entry" role="listitem">
+Wootton, B. (1959). <em>Social Science and Social Pathology</em>. George Allen &amp; Unwin.
+</div>
+<div id="ref-wynants2013" class="csl-entry" role="listitem">
+Wynants, P. (2013, décembre 2). <em>CARDIJN Léon, Joseph, Marie. [Belgique]</em>. Le Maitron. Dictionnaire biographique du mouvement ouvrier et social. <a href="https://maitron.fr/spip.php?article150749">https://maitron.fr/spip.php?article150749</a>
+</div>
+<div id="ref-zamora2014a" class="csl-entry" role="listitem">
+Zamora, D. (2014a). Introduction. <em>Revue de l’Institut de Sociologie</em>, <em>84</em>, 9‑14. <a href="https://doi.org/10.4000/keun">https://doi.org/10.4000/keun</a>
+</div>
+<div id="ref-zamora2014b" class="csl-entry" role="listitem">
+Zamora, D. (2014b). Saul Alinsky et les sociologues de Chicago. <em>Revue de l’Institut de Sociologie</em>, <em>84</em>, 25‑42. <a href="https://doi.org/10.4000/keup">https://doi.org/10.4000/keup</a>
+</div>
+<div id="ref-zappi2020" class="csl-entry" role="listitem">
+Zappi, L. (2020, juin 22). <em>Le travail social en Europe (19e siècle-20e siècle)</em>. Encyclopédie d’histoire numérique de l’Europe. <a href="https://ehne.fr/fr/node/12506">https://ehne.fr/fr/node/12506</a>
+</div>
+<div id="ref-zappi2022a" class="csl-entry" role="listitem">
+Zappi, L. (2022). Protéger l’enfant ou préserver la famille ? Les assistantes sociales face aux placements d’enfants dans l’entre-deux-guerres. <em>Le Mouvement social</em>, (279), 67‑82. <a href="https://doi.org/10.3917/lms1.279.0067">https://doi.org/10.3917/lms1.279.0067</a>
+</div>
+<div id="ref-zelis2004" class="csl-entry" role="listitem">
+Zelis, G. (2004). <em>Travail social en mutation : repères historiques. Statut professionnel du travail social et secret professionnel dans le travail social. Apports de l’histoire</em>. Communication à la journée de formation FCSS / Comité de vigilance en travail social « Entre secret professionnel et contrôle, une éthique pour éclairer les missions du travail social », Namur, 7 octobre 2004. <a href="https://www.fdss.be/wp-content/uploads/SecretProEtControlCombo.pdf">https://www.fdss.be/wp-content/uploads/SecretProEtControlCombo.pdf</a>
+</div>
+<div id="ref-zelis2019" class="csl-entry" role="listitem">
+Zelis, G. (2019). La formation au travail social en Belgique (1920-1940), entre « maternalisme » et professionnalisation. <em>Les Politiques sociales</em>, (3-4), 11‑21. <a href="https://doi.org/10.3917/lps.193.0011">https://doi.org/10.3917/lps.193.0011</a>
+</div>
+</div>
 
 
 </section>
