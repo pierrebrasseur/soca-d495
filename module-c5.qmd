@@ -147,7 +147,7 @@ Définissez l'inconditionnalité de l'accueil. En quoi entre-t-elle en contradic
 ::: {.question-examen}
 **Question C5.B**
 
-Qu'est-ce que le « travail d'attribution » ? Montrez comment il reconduit la distinction entre « bons » et « mauvais » pauvres sous une forme gestionnaire.
+Qu'est-ce que le « travail d'inférence » ? Montrez comment il reconduit la distinction entre « bons » et « mauvais » pauvres sous une forme gestionnaire.
 
 *Références à mobiliser :* @schlegel2017 ; @abbott1988 ; @paugam1991 ; @simmel1998 ; @fassin2000 ; @castel1995 ; @duvoux2009 ; @soulie1997 ; @maeseele2013.
 :::

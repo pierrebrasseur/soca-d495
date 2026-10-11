@@ -185,7 +185,7 @@ Présentez les sept composantes du NPM selon Hood (1991) et identifiez les deux 
 ::: {.question-examen}
 **Question 7.B**
 
-Qu'est-ce que la « chalandisation » selon Chauvière ? Quels sont ses trois effets sur la relation d'aide ? En quoi transforme-t-elle la nature du travail social ?
+Qu'est-ce que la « chalandisation » selon Chauvière ? Quels effets a-t-elle sur la relation d'aide ? En quoi transforme-t-elle la nature du travail social ?
 
 *Références à mobiliser :* @chauviere2007 ; @chauviere2009 ; @dubois1999 ; @vrancken2006 ; @freidson2001 ; @belorgey2010.
 :::

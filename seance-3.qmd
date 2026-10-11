@@ -155,7 +155,7 @@ Présentez les six critères de Flexner (1915) et son verdict sur le travail soc
 ::: {.question-examen}
 **Question 3.B**
 
-Présentez le « cercle de Richmond » et ses six sources d'information. En quoi rompt-il avec la charité ? Quelle limite majeure du casework la critique de Wootton met-elle au jour ?
+Présentez le « cercle de Richmond » (1901) et les forces qu'il place autour de la famille. En quoi rompt-il avec la charité ? Quelle limite majeure du casework la critique de Wootton met-elle au jour ?
 
 *Références à mobiliser :* @richmond1901 ; @richmond1917 ; @richmond1922 ; @franklin1986 ; @wootton1959 ; @coyle1947.
 :::
@@ -163,7 +163,7 @@ Présentez le « cercle de Richmond » et ses six sources d'information. En quoi
 ::: {.question-examen}
 **Question 3.C**
 
-Comparez la méthode Voir-Juger-Agir (Cardijn) et le travail de groupe américain (Coyle). Quelles sont leurs différences ? En quoi la JOC anticipe-t-elle Paulo Freire ?
+Comparez la méthode Voir-Juger-Agir (Cardijn) et le travail de groupe américain (Coyle). Quelles sont leurs différences ? Peut-on rapprocher la méthode de la JOC de la conscientisation chez Paulo Freire ?
 
 *Références à mobiliser :* @coyle1935 ; @coyle1947 ; @wynants2013 ; @geerkens2019b ; @miller2014 ; @freire1974.
 :::
@@ -171,7 +171,7 @@ Comparez la méthode Voir-Juger-Agir (Cardijn) et le travail de groupe américai
 ::: {.question-examen}
 **Question 3.D**
 
-Le travail social est-il une « semi-profession » (Etzioni) ? Mobilisez le modèle des attributs (Wilensky), la fermeture du marché (Larson) et les luttes de juridiction (Abbott) pour en discuter dans le cas belge.
+Le travail social est-il une « semi-profession » (Etzioni, Toren) ? Mobilisez le modèle des attributs (Greenwood), la fermeture du marché (Larson) et les luttes de juridiction (Abbott) pour en discuter dans le cas belge.
 
 *Références à mobiliser :* @greenwood1957 ; @wilensky1964 ; @etzioni1969 ; @toren1969 ; @larson1977 ; @abbott1988 ; @dubar1998 ; @belgique1945 ; @vrancken2012 ; @orianne2012.
 :::
@@ -179,7 +179,7 @@ Le travail social est-il une « semi-profession » (Etzioni) ? Mobilisez le mod�
 ::: {.question-examen}
 **Question 3.E**
 
-Pourquoi la professionnalisation du travail social a-t-elle entraîné une psychologisation des problèmes sociaux dans les années 1930-1950 ? Quels effets politiques cela a-t-il eus ? Comment y résister aujourd'hui ?
+Pourquoi la professionnalisation du travail social a-t-elle entraîné une psychologisation des problèmes sociaux des années 1920 aux années 1950 ? Quels effets politiques cela a-t-il eus ? Comment y résister aujourd'hui ?
 
 *Références à mobiliser :* @richmond1922 ; @lubove1965 ; @wootton1959 ; @castel1981 ; @lapierre2011 ; @franssen2003 ; @dominelli2002a.
 :::

@@ -179,7 +179,7 @@ La consigne pratique tient en une ligne. Ne traitez jamais une situation comme �
 ::: {.question-examen}
 **Question 6.A**
 
-Exposez la thèse de Delphy sur le mode de production domestique. Quelles sont ses trois conséquences pour le travail social belge ?
+Exposez la thèse de Delphy sur le mode de production domestique. Quelles sont les trois conséquences que le cours en tire pour le travail social belge ?
 
 *Références à mobiliser :* @delphy1970 ; @delphy1998 ; @guillaumin1978 ; @kergoat2001 ; @england2002 ; @glorieux2016 ; @iefh2025 ; @statbel2026a.
 :::
@@ -187,7 +187,7 @@ Exposez la thèse de Delphy sur le mode de production domestique. Quelles sont s
 ::: {.question-examen}
 **Question 6.B**
 
-Définissez l'intersectionnalité (Crenshaw 1989, 1991 ; Collins & Bilge 2016). En quoi se distingue-t-elle d'une simple addition de discriminations ? Illustrez par le cas belge des femmes migrantes victimes de violences.
+Définissez l'intersectionnalité (Crenshaw 1989, 1991 ; Collins & Bilge 2020). En quoi se distingue-t-elle d'une simple addition de discriminations ? Illustrez par le cas belge des femmes migrantes victimes de violences.
 
 *Références à mobiliser :* @crenshaw1989 ; @crenshaw1991 ; @collins2020 ; @bilge2023 ; @hancock2007 ; @belgique2023 ; @carles2018 ; @hrw2012.
 :::
@@ -203,7 +203,7 @@ Expliquez le « piège du séjour conditionnel » en Belgique. Comment une lectu
 ::: {.question-examen}
 **Question 6.D**
 
-Qu'est-ce que le non-recours aux droits sociaux ? Identifiez ses trois niveaux. Pourquoi touche-t-il davantage les personnes à oppressions croisées en Belgique ?
+Qu'est-ce que le non-recours aux droits sociaux ? Identifiez ses formes, non-proposition comprise. Pourquoi touche-t-il davantage les personnes à oppressions croisées en Belgique ?
 
 *Références à mobiliser :* @vandenbroeck2024 ; @goedeme2022 ; @warin2016b ; @noel2017 ; @noel2015 ; @crenshaw1991.
 :::

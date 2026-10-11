@@ -66,7 +66,7 @@ Trois dossiers en annexe, chacun rattaché à une séance du parcours.
 
 ## Évaluation
 
-Examen écrit en session, 3 heures. Questions à développement, au choix parmi cinq propositions par séance. Les questions figurent à la fin de chaque séance : elles orientent la lecture. Une bonne réponse articule quatre éléments.
+Examen écrit en session, 1 heure, sans documents. Deux questions à développement, notées chacune sur 10, tirées des questions qui figurent à la fin de chaque séance. Une bonne réponse articule quatre éléments.
 
 ::: {.attendus}
 1. Une définition précise du ou des concepts en jeu, citée et sourcée.

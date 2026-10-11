@@ -4,7 +4,7 @@ title: "Évaluation"
 
 ## Format de l'examen
 
-Examen écrit en session (3 heures). Questions à développement, au choix parmi cinq propositions par séance. Chaque séance du cours donne lieu à cinq questions d'examen, intégrées à la fin de chaque topo de cours.
+Examen écrit en session, d'une durée d'une heure, sans documents ni matériel. Le sujet comporte deux questions à développement, toutes deux à traiter, notées chacune sur 10. Elles sont tirées des questions d'examen qui figurent à la fin de chaque séance, cinq par séance.
 
 ## Ce que l'examen évalue
 

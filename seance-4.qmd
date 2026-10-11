@@ -201,7 +201,7 @@ Qu'est-ce que le « complexe tutélaire » chez Donzelot ? Comment la loi belge 
 ::: {.question-examen}
 **Question 4.C**
 
-Distinguez sociétés disciplinaires et sociétés de contrôle (Deleuze). Comment le bracelet électronique et les algorithmes des CPAS illustrent-ils ce passage ?
+Distinguez sociétés disciplinaires et sociétés de contrôle (Deleuze). Comment le bracelet électronique et le croisement automatisé des données des allocataires illustrent-ils ce passage ?
 
 *Références à mobiliser :* @deleuze1990 ; @foucault1975 ; @foucault2004a ; @foucault2004b ; @castel2003 ; @mincke2006 ; @devresse2011 ; @degrave2020 ; @dubois2021.
 :::
@@ -217,7 +217,7 @@ Expliquez la thèse de Wacquant sur le couple workfare/prisonfare. Comment se ma
 ::: {.question-examen}
 **Question 4.E**
 
-Analysez les ambiguïtés de la justice restauratrice belge avec les concepts de Foucault (l'aveu) et de Cartuyvels (l'élargissement du filet). Alternative à la prison ou extension du contrôle ?
+Analysez les ambiguïtés de la justice restauratrice belge avec les concepts de Foucault (l'aveu) et de Cohen (l'élargissement du filet). Alternative à la prison ou extension du contrôle ?
 
 *Références à mobiliser :* @foucault1976 ; @foucault2012 ; @mincke2006 ; @mincke2006b ; @cohen1985 ; @mary1997 ; @cartuyvels1999 ; @deleuze1990.
 :::
