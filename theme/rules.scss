@@ -259,6 +259,47 @@ table {
   font-size: 0.86rem;
 }
 
+/* ---------- Citations et bibliographie générée ---------- */
+
+main a[role="doc-biblioref"] {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+#refs {
+  font-family: $ui;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  margin-top: 1.2rem;
+}
+
+#refs .csl-entry {
+  padding-left: 1.6rem;
+  text-indent: -1.6rem;
+  margin-bottom: 0.55rem;
+  hyphens: manual;
+}
+
+#refs .csl-entry a { word-break: break-all; }
+
+.plus-loin {
+  font-family: $ui;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: $ts-ink;
+  border-top: 1px solid $ts-rule;
+  padding-top: 1rem;
+  margin-top: 1.8rem;
+  hyphens: manual;
+
+  > p:first-child {
+    @include label;
+    color: $ts-stamp;
+    margin-bottom: 0.6rem;
+    strong { font-weight: 500; }
+  }
+}
+
 /* ---------- Accueil ---------- */
 
 .accueil #title-block-header { display: none; }

@@ -1,10 +1,14 @@
 project:
   type: website
   output-dir: docs
+  pre-render: python3 bib/fusionner.py
   resources:
     - .nojekyll
 
 lang: fr
+csl: apa.csl
+link-citations: true
+citations-hover: true
 
 website:
   title: "Théories du travail social"

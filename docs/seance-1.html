@@ -24,7 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -48,9 +68,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-701ecf5a3c7fe509613b743fad33545f.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-eb1f815df56349f5b5be1f0e2dc682c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-a5a9b8831195332cc23b46036cd8e211.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ec4b35a2ecb5a0f88c46805f11164cbd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-976eff664b41c7e7be51e78eb8fb4124.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-ec4b35a2ecb5a0f88c46805f11164cbd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -495,6 +515,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>À l’issue de cette séance, vous devez être capables de :</strong></p>
 <ul>
 <li>Expliquer le paradoxe constitutif du travail social et dire pourquoi il ne se résout pas</li>
+<li>Dire ce que la sociologie des professions (Parsons, Hughes, Abbott, Dubar) apprend sur un métier sans territoire propre</li>
 <li>Distinguer quatre manières d’habiter ce paradoxe (systémique, critique, empowerment, féministe-intersectionnelle) et situer chacune</li>
 <li>Lire une réforme belge récente (le RIS, le statut de cohabitant) comme une mise en jeu de ce paradoxe</li>
 <li>Reconnaître ce que la bureaucratisation et le numérique font au métier au quotidien</li>
@@ -503,16 +524,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="un-mardi-au-cpas" class="level2">
 <h2 class="anchored" data-anchor-id="un-mardi-au-cpas">Un mardi au CPAS</h2>
 <p>Commençons par une scène. Elle n’a rien d’exceptionnel : c’est le quotidien de milliers de travailleuses sociales en Belgique, et ce sera bientôt le vôtre.</p>
-<p>Une femme se présente à l’accueil d’un CPAS, à Charleroi. Elle a perdu son emploi il y a huit mois, ses allocations de chômage viennent de tomber, elle vit chez sa sœur le temps de se retourner. Elle demande le revenu d’intégration sociale. L’assistante sociale qui la reçoit doit faire deux choses en même temps, et ces deux choses tirent dans des directions opposées.</p>
-<p>D’un côté, elle doit ouvrir un droit. La loi le dit : toute personne en séjour légal qui n’a pas de moyens suffisants a droit à un revenu qui lui permet de vivre dignement. C’est un droit, pas une faveur.</p>
-<p>De l’autre, elle doit enquêter. Vérifier la composition du ménage. Calculer les ressources des autres personnes qui vivent sous le même toit. Évaluer si la demandeuse « fait des efforts » de recherche d’emploi. Lui faire signer un projet individualisé d’intégration sociale, et contrôler qu’elle le respecte. Si le contrat n’est pas tenu, l’aide peut être suspendue.</p>
+<p>Un mardi de septembre 2026, une femme se présente à l’accueil d’un CPAS, à Charleroi. Elle a enchaîné pendant des années des contrats courts et des périodes de chômage. Elle a perdu ses allocations le 1er avril, dans l’une des vagues d’exclusion prévues par la loi-programme du 18 juillet 2025, qui limite désormais le chômage dans le temps <span class="citation" data-cites="belgique2025a">(<a href="#ref-belgique2025a" role="doc-biblioref">Belgique, 2025b</a>)</span>. Elle n’est pas un cas isolé. Selon la Fédération des CPAS, 40 à 50 % des personnes exclues se tournent vers un CPAS, alors que les budgets avaient été calculés sur un tiers <span class="citation" data-cites="wilquin2026">(<a href="#ref-wilquin2026" role="doc-biblioref">Wilquin, 2026</a>)</span>. Depuis le printemps, elle vit chez sa mère, retraitée. Elle demande le revenu d’intégration sociale. L’assistante sociale qui la reçoit doit faire deux choses en même temps, et ces deux choses tirent dans des directions opposées.</p>
+<p>D’un côté, elle doit ouvrir un droit. La loi du 26 mai 2002 l’écrit dès son article 2 : toute personne a droit à l’intégration sociale, sous la forme d’un emploi ou d’un revenu d’intégration <span class="citation" data-cites="belgique2002">(<a href="#ref-belgique2002" role="doc-biblioref">Belgique, 2002</a>)</span>. Derrière cette loi, il y a l’article 23 de la Constitution, qui garantit à chacun le droit de mener une vie conforme à la dignité humaine. C’est un droit, pas une faveur.</p>
+<p>De l’autre, elle doit enquêter. Vérifier la composition du ménage, souvent lors d’une visite à domicile <span class="citation" data-cites="noel2017">(<a href="#ref-noel2017" role="doc-biblioref">Noël, 2017</a>)</span>. Calculer les ressources de la mère. Évaluer si la demandeuse est « disposée à travailler », l’une des conditions de l’article 3 de la loi. Lui proposer un projet individualisé d’intégration sociale, le PIIS, et contrôler qu’elle le respecte. Si le contrat n’est pas tenu, l’aide peut être suspendue.</p>
 <p>Aider et contrôler. Ouvrir un droit et surveiller son usage. La même personne, dans le même entretien, fait les deux. Voilà le métier. Et voilà pourquoi il est si difficile à tenir.</p>
+<p>Ce contrôle n’a rien de mécanique. Une enquête menée auprès de 584 assistants sociaux de 89 CPAS belges, à partir de cas fictifs, montre que la décision de sanctionner un refus d’emploi varie peu d’une commune à l’autre, mais beaucoup d’un travailleur social à l’autre, selon son âge et ses opinions sur l’État social <span class="citation" data-cites="dewilde2019">(<a href="#ref-dewilde2019" role="doc-biblioref">De Wilde &amp; Marchal, 2019</a>)</span>. Le PIIS lui-même est ambivalent. Les travailleurs sociaux voudraient en faire un outil d’accompagnement ; les usagers y voient de la clarté, mais aussi un rapport de force déséquilibré <span class="citation" data-cites="franssen2015">(<a href="#ref-franssen2015" role="doc-biblioref">Franssen et al., 2015</a>)</span>.</p>
 </section>
 <section id="le-paradoxe-constitutif" class="level2">
 <h2 class="anchored" data-anchor-id="le-paradoxe-constitutif">Le paradoxe constitutif</h2>
 <p>Le travail social est une drôle de profession. Elle n’a pas d’objet qui n’appartienne qu’à elle, comme le corps pour la médecine ou la norme juridique pour le droit. Elle n’a pas non plus de geste technique exclusif. Ce qui la définit, c’est une tension. Elle doit transformer des situations sociales injustes et, dans le même mouvement, aider des personnes à survivre dans ces situations telles qu’elles sont.</p>
-<p>Cette tension a deux pôles. Le premier exige de nommer les rapports de force : la pauvreté n’est pas un accident biographique, elle est produite et reproduite par des mécanismes économiques. Le second exige de répondre à l’urgence : la dame de Charleroi a besoin de 893,65 euros ce mois-ci pour manger et payer sa part de loyer, pas d’une analyse de la désindustrialisation wallonne.</p>
+<p>Cette tension a deux pôles. Le premier exige de nommer les rapports de force : la pauvreté n’est pas un accident biographique, elle est produite et reproduite par des mécanismes économiques. Le second exige de répondre à l’urgence : la dame de Charleroi a besoin de son revenu ce mois-ci pour manger et payer sa part de loyer, pas d’une analyse de la désindustrialisation wallonne.</p>
 <p>On aimerait pouvoir choisir un pôle contre l’autre. C’est impossible. Une intervenante qui ne ferait que dénoncer les structures laisserait les gens sans rien. Une intervenante qui ne ferait que distribuer des aides sans jamais questionner le système deviendrait un rouage de la gestion de la misère. Le métier se tient dans l’entre-deux, et il y reste.</p>
+<p>Ce diagnostic n’est pas neuf. Dès 1980, Max Siporin décrivait le travail social comme un instrument à la fois de stabilité et de changement <span class="citation" data-cites="siporin1980">(<a href="#ref-siporin1980" role="doc-biblioref">Siporin, 1980</a>)</span>. Michel Autès a fait de ces paradoxes le titre d’un livre <span class="citation" data-cites="autes2013">(<a href="#ref-autes2013" role="doc-biblioref">Autès, 1999/2013</a>)</span>, et Claude Julier, qui s’appuie sur lui, voit le travailleur social « au service du pauvre et représentant d’un système producteur de pauvreté » <span class="citation" data-cites="amiguet2004">(<a href="#ref-amiguet2004" role="doc-biblioref">Amiguet &amp; Julier, 2004</a>)</span>. Guy Hardy, assistant social liégeois formé à la systémique, qualifie l’aide imposée par un juge ou une administration de « véritable oxymore » <span class="citation" data-cites="hardy2012">(<a href="#ref-hardy2012" role="doc-biblioref">Hardy, 2001/2012</a>)</span>. À partir des services d’aide sociale suisses, Véréna Keller le dit sans détour : le travail social « est une puissante instance de contrôle social » <span class="citation" data-cites="keller2005">(<a href="#ref-keller2005" role="doc-biblioref">Keller, 2005, p. 60</a>)</span>. Même Talcott Parsons, qui a fait du médecin le modèle du professionnel, analysait son rôle comme un mécanisme de contrôle social <span class="citation" data-cites="parsons1951">(<a href="#ref-parsons1951" role="doc-biblioref">Parsons, 1951, p. 477</a>)</span>. Et quand l’aide heurte le mandat de surveillance, par exemple lors d’un signalement d’enfant en danger, les assistantes sociales finissent souvent par se convertir aux exigences du poste <span class="citation" data-cites="serre2010">(<a href="#ref-serre2010" role="doc-biblioref">Serre, 2010</a>)</span>. Silvia Staub-Bernasconi propose une issue partielle, qui consiste à ajouter au double mandat de l’usager et de l’employeur un troisième mandat, celui de la profession, de ses savoirs et de son code éthique <span class="citation" data-cites="staubbernasconi2016">(<a href="#ref-staubbernasconi2016" role="doc-biblioref">Staub-Bernasconi, 2016</a>)</span>.</p>
 <p>Méfiez-vous donc de toute théorie qui prétend dissoudre ce paradoxe. Quand un modèle vous promet de réconcilier définitivement l’aide et le contrôle, l’accompagnement et l’évaluation, c’est en général qu’il a discrètement sacrifié l’un des deux.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -524,47 +547,80 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>La définition de référence (IFSW, 2014, réaffirmée en 2024)</strong></p>
-<p>La Fédération internationale des travailleurs sociaux définit le travail social par cinq notions : le changement social, le développement social, la cohésion sociale, le pouvoir d’agir des personnes et leur libération. La définition s’appuie sur un socle commun : justice sociale, droits humains, responsabilité collective, respect des diversités. Elle ne résout pas le paradoxe. Elle le met par écrit. <a href="https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/">Texte officiel</a></p>
+<p><strong>La définition de référence (IFSW et IASSW, 2014)</strong></p>
+<p>La Fédération internationale des travailleurs sociaux et l’Association internationale des écoles de travail social ont adopté ensemble, en juillet 2014, une définition mondiale du travail social <span class="citation" data-cites="ifsw2014">(<a href="#ref-ifsw2014" role="doc-biblioref">International Federation of Social Workers &amp; International Association of Schools of Social Work, 2014</a>)</span>. Il y est à la fois une profession fondée sur la pratique et une discipline universitaire. Ses mandats : le changement et le développement social, la cohésion sociale, le pouvoir d’agir des personnes et leur libération. Ses principes : justice sociale, droits humains, responsabilité collective, respect des diversités. Le mot « contrôle » n’y figure pas, et la définition passe ainsi sous silence l’un des deux pôles du paradoxe. <a href="https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/">Texte officiel</a></p>
 </div>
 </div>
 </section>
 <section id="une-profession-sans-territoire-à-elle" class="level2">
 <h2 class="anchored" data-anchor-id="une-profession-sans-territoire-à-elle">Une profession sans territoire à elle</h2>
-<p>Cette absence d’objet propre passe souvent pour une faiblesse. C’est une force, à condition d’en faire quelque chose.</p>
+<p>Cette absence d’objet propre passe souvent pour une faiblesse. On l’a reprochée au métier dès sa naissance. En 1915, devant la Conférence nationale des œuvres de charité et de correction, le médecin Abraham Flexner concluait que le travail social n’était pas une profession, parce que le travailleur social fait appel au médecin, au juriste ou à l’enseignant plutôt qu’il n’agit lui-même, et son domaine est trop vaste pour une technique propre <span class="citation" data-cites="flexner2001">(<a href="#ref-flexner2001" role="doc-biblioref">Flexner, 1915/2001</a>)</span>. C’est pourtant une force, à condition d’en faire quelque chose.</p>
 <p>Le travail social emprunte à la sociologie ses outils d’analyse des institutions et des rapports sociaux. Il prend à la psychologie ce qu’on sait de l’attachement, du traumatisme, des mécanismes de défense. Il a besoin du droit pour connaître les cadres qui ouvrent ou ferment l’accès aux ressources. Il convoque l’économie pour comprendre la redistribution, et l’anthropologie pour ne pas plaquer une norme culturelle unique sur des trajectoires plurielles. Une bonne assistante sociale est un peu tout cela à la fois, sans être experte en rien.</p>
-<p>Cette hybridation a un nom dans la profession : elle articule l’action sociale, qui relève d’une logique institutionnelle et politique, et l’assistance professionnelle, qui relève d’une logique de relation. Tenir les deux ensemble est exactement ce que personne d’autre ne sait faire. C’est le territoire du travail social, et il est mouvant par construction.</p>
+<p>Cette hybridation a reçu plusieurs noms. Michel Autès parle d’une « incertitude constitutive » et d’une double logique, un social de gestion et un social d’intervention <span class="citation" data-cites="autes1996">(<a href="#ref-autes1996" role="doc-biblioref">Autès, 1996</a>)</span>. Andrew Abbott fait du travail social une profession de l’interstitialité, installée entre les territoires des autres <span class="citation" data-cites="abbott1995">(<a href="#ref-abbott1995" role="doc-biblioref">Abbott, 1995</a>)</span>. Jean-Noël Chopart préfère parler d’un champ de l’intervention sociale, dont les contours posent un dilemme. Une définition étroite consolide l’identité mais limite le champ ; une définition large l’étend mais ouvre la concurrence <span class="citation" data-cites="chopart2000">(<a href="#ref-chopart2000" role="doc-biblioref">Chopart, 2000</a>)</span>. L’appellation même de « travailleurs sociaux » rassemble des salariés aux titres et aux statuts très variés <span class="citation" data-cites="ion1985 ravon2012">(<a href="#ref-ion1985" role="doc-biblioref">Ion &amp; Tricart, 1985</a>; <a href="#ref-ravon2012" role="doc-biblioref">Ravon &amp; Ion, 2012</a>)</span>. Tenir ensemble ces logiques est exactement ce que personne d’autre ne sait faire. C’est le territoire du travail social, et il est mouvant par construction.</p>
+<section id="est-ce-une-profession" class="level3">
+<h3 class="anchored" data-anchor-id="est-ce-une-profession">Est-ce une profession ?</h3>
+<p>La sociologie des professions a donné à cette question des réponses contrastées. Pour Talcott Parsons, le professionnel type, le médecin, se définit par une compétence technique acquise au terme d’une longue formation, une orientation vers la collectivité plutôt que vers son intérêt propre, une éthique dont le secret est l’un des principes, et une indépendance revendiquée face au contrôle des profanes <span class="citation" data-cites="parsons1951">(<a href="#ref-parsons1951" role="doc-biblioref">Parsons, 1951, p. 434‑470</a>)</span>. Mesuré à cette aune, le travail social n’est au mieux qu’une profession incomplète.</p>
+<p>Everett Hughes déplace la question. Il demande comment un groupe obtient une licence, le droit de faire ce que d’autres ne font pas, et un mandat, le droit de dire ce qui est bon pour autrui dans son domaine <span class="citation" data-cites="hughes1958">(<a href="#ref-hughes1958" role="doc-biblioref">Hughes, 1958, p. 78‑80</a>)</span>. Le travail social a une licence ; son mandat reste contesté. Hughes remarque aussi que, dans les services rendus à autrui, la frontière entre aider et corriger est mince <span class="citation" data-cites="hughes1958">(<a href="#ref-hughes1958" role="doc-biblioref">1958, p. 70</a>)</span>.</p>
+<p>Andrew Abbott regarde le système entier. Les professions s’y disputent des juridictions, c’est-à-dire des domaines de travail sur lesquels elles revendiquent une autorité, arbitrée par l’État, le public et les collègues <span class="citation" data-cites="abbott1988 abbott2003">(<a href="#ref-abbott1988" role="doc-biblioref">Abbott, 1988</a>; <a href="#ref-abbott2003" role="doc-biblioref">Abbott, 2003</a>)</span>. Le travail social doit défendre la sienne face à des voisins qui empiètent sur son terrain.</p>
+<p>Claude Dubar, enfin, s’intéresse aux identités. Il distingue l’identité pour autrui, attribuée par les institutions et les partenaires, et l’identité pour soi, intériorisée au fil de la trajectoire ; quand elles divergent, les individus développent des stratégies identitaires <span class="citation" data-cites="dubar1991">(<a href="#ref-dubar1991" role="doc-biblioref">Dubar, 1991</a>)</span>. Avec Pierre Tripier, il a donné le premier manuel français de sociologie des professions <span class="citation" data-cites="dubar1998">(<a href="#ref-dubar1998" role="doc-biblioref">Dubar &amp; Tripier, 1998</a>)</span>. Didier Vrancken reprend ce débat pour la Belgique et conclut que le travail social est une activité « prudentielle », faite de délibération sur des cas singuliers et incertains, exercée dans un État social devenu un État d’intervention sur les personnes <span class="citation" data-cites="vrancken2012">(<a href="#ref-vrancken2012" role="doc-biblioref">Vrancken, 2012</a>)</span>. Marc-Henry Soulet décrit de son côté les « tenailles » du métier, dont celle qui oblige à traiter l’usager à la fois comme victime et comme responsable <span class="citation" data-cites="soulet2016">(<a href="#ref-soulet2016" role="doc-biblioref">Soulet, 2016</a>)</span>.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Pour une porte d’entrée francophone sur Abbott, voir <span class="citation" data-cites="abbott2003">Abbott (<a href="#ref-abbott2003" role="doc-biblioref">2003</a>)</span>. Deux manuels complètent le tableau, l’un classique <span class="citation" data-cites="ravon2012">(<a href="#ref-ravon2012" role="doc-biblioref">Ravon &amp; Ion, 2012</a>)</span>, l’autre critique et suisse <span class="citation" data-cites="keller2016">(<a href="#ref-keller2016" role="doc-biblioref">Keller, 2016</a>)</span>. Sur la définition mondiale de 2014 et ses critiques, voir <span class="citation" data-cites="ornellas2018">Ornellas et al. (<a href="#ref-ornellas2018" role="doc-biblioref">2018</a>)</span> et <span class="citation" data-cites="staubbernasconi2017">Staub-Bernasconi (<a href="#ref-staubbernasconi2017" role="doc-biblioref">2017</a>)</span>.</p>
+</div>
+</section>
 </section>
 <section id="quatre-manières-dhabiter-le-paradoxe" class="level2">
 <h2 class="anchored" data-anchor-id="quatre-manières-dhabiter-le-paradoxe">Quatre manières d’habiter le paradoxe</h2>
 <p>Il n’existe pas une théorie du travail social, mais des familles de pensée. Aucune n’est une chapelle fermée : on emprunte à l’une le matin et à l’autre l’après-midi, selon la situation. Ce qui les distingue, c’est la place qu’elles assignent au paradoxe aide/contrôle. Voici les quatre principales.</p>
 <section id="lapproche-systémique" class="level3">
 <h3 class="anchored" data-anchor-id="lapproche-systémique">L’approche systémique</h3>
-<p>Elle vient de l’écologie du développement d’Urie Bronfenbrenner et de l’École de Palo Alto. En travail social francophone, on pense à Olivier Amiguet et Claude Julier.</p>
-<p>Son idée tient en une phrase : un individu ne s’explique pas tout seul. Il fait partie de systèmes (la famille, l’école, le quartier, l’institution) qui interagissent en permanence. Plutôt que de chercher un coupable, on regarde des boucles. Un enfant qui s’agite en classe fait réagir l’enseignant, dont la réaction renforce l’agitation, qui appelle une nouvelle réaction. Il n’y a pas de premier responsable : il y a une dynamique qui s’entretient.</p>
-<p>L’intérêt pour la pratique est immédiat. Une assistante sociale qui débarque dans une famille « défaillante » et qui veut corriger la mère se trompe de niveau. La question utile n’est pas « qui est en faute ? » mais « quel est le système pertinent à mobiliser, et où peut-on agir pour que la boucle change ? ».</p>
-<p>Le risque guette pourtant. Amiguet le dit lui-même : la systémique est devenue si centrale dans les formations qu’elle menace de tourner à la recette. On coche les cases, on parle de « cadre » et de « boucles » sans plus voir les personnes. Et surtout, à force de regarder les interactions, on peut perdre de vue ce qui les surplombe : un loyer impayable et un marché du travail fermé ne sont pas une affaire de communication familiale.</p>
+<p>Elle a deux sources, qui ne se confondent pas. La première est l’École de Palo Alto, qui étudie dans les années 1950 à 1970 la communication au sein des familles <span class="citation" data-cites="watzlawick1975">(<a href="#ref-watzlawick1975" role="doc-biblioref">Watzlawick et al., 1974/1975</a>)</span>. C’est d’elle que vient, en travail social francophone, le modèle d’Olivier Amiguet et Claude Julier, fondé sur la théorie générale des systèmes, la théorie de la communication et le constructivisme <span class="citation" data-cites="amiguet1996">(<a href="#ref-amiguet1996" role="doc-biblioref">Amiguet &amp; Julier, 1996</a>)</span>. La seconde est l’écologie du développement d’Urie Bronfenbrenner, qui observe l’enfant dans des milieux emboîtés, de la famille aux institutions et aux valeurs d’une société <span class="citation" data-cites="bronfenbrenner1979">(<a href="#ref-bronfenbrenner1979" role="doc-biblioref">Bronfenbrenner, 1979</a>)</span>. Elle entre en travail social avec le <em>Life Model</em> de Carel Germain et Alex Gitterman <span class="citation" data-cites="germain1980">(<a href="#ref-germain1980" role="doc-biblioref">Germain &amp; Gitterman, 1980</a>)</span>. Le livre de Bronfenbrenner n’a jamais été traduit en français ; une synthèse liégeoise en donne l’essentiel <span class="citation" data-cites="absil2012">(<a href="#ref-absil2012" role="doc-biblioref">Absil et al., 2012</a>)</span>.</p>
+<p>L’idée commune tient en une phrase : un individu ne s’explique pas tout seul. Il fait partie de systèmes (la famille, l’école, le quartier, l’institution) qui interagissent en permanence. Plutôt que de chercher un coupable, on regarde des boucles. Un enfant qui s’agite en classe fait réagir l’enseignant, dont la réaction renforce l’agitation, qui appelle une nouvelle réaction. Il n’y a pas de premier responsable : il y a une dynamique qui s’entretient. Les auteurs de Palo Alto en ont tiré une formule restée célèbre, selon laquelle le problème, c’est souvent la solution qu’on lui applique <span class="citation" data-cites="watzlawick1975">(<a href="#ref-watzlawick1975" role="doc-biblioref">Watzlawick et al., 1974/1975</a>)</span>.</p>
+<p>L’intérêt pour la pratique est immédiat. Une assistante sociale qui débarque dans une famille « défaillante » et qui veut corriger la mère se trompe de niveau. La question utile n’est pas « qui est en faute ? » mais « quel est le système pertinent à mobiliser, et où peut-on agir pour que la boucle change ? ». Au guichet, une distinction de Robert Neuburger rend service, car celui qui souffre n’est pas toujours celui qui demande <span class="citation" data-cites="neuburger1984">(<a href="#ref-neuburger1984" role="doc-biblioref">Neuburger, 1984</a>)</span>. Au CPAS, la demande est souvent portée par l’institution elle-même. Et l’intervenante fait partie du système qu’elle analyse, puisque les attentes du juge, de l’administration ou de la hiérarchie pèsent sur elle comme autant de « pressions », selon le mot de Pierrette Lebbe-Berrier <span class="citation" data-cites="lebbeberrier1988">(<a href="#ref-lebbeberrier1988" role="doc-biblioref">1988, p. 55</a>)</span>.</p>
+<p>Le droit belge parle ce langage. En Fédération Wallonie-Bruxelles, le décret du 21 novembre 2013 crée dans les écoles une cellule de concertation locale, qui réunit direction, centre PMS et aide à la jeunesse autour de l’élève et de sa famille, et lui demande d’identifier les problèmes « de manière dynamique et systémique » <span class="citation" data-cites="cfwb2013">(<a href="#ref-cfwb2013" role="doc-biblioref">Communauté française de Belgique, 2013</a>)</span>. Le décret du 16 mai 2024 prolonge ce dispositif par un suivi individuel en trois axes. Mais il fixe aussi des seuils. À 9 demi-jours d’absence injustifiée, l’administration écrit aux parents ; à 12, la direction les convoque, et se rend au domicile s’ils ne viennent pas <span class="citation" data-cites="cfwb2024">(<a href="#ref-cfwb2024" role="doc-biblioref">Communauté française de Belgique, 2024</a>)</span>. Accompagner et contrôler, encore. Dans la protection de l’enfance, Jorge Barudy a développé à l’équipe SOS Enfants-Familles des Cliniques universitaires Saint-Luc une approche écosystémique de la maltraitance, où l’intervention judiciaire arrête l’abus et où le travail en réseau cherche à en changer les conditions <span class="citation" data-cites="barudy1997">(<a href="#ref-barudy1997" role="doc-biblioref">Barudy, 1997</a>)</span>.</p>
+<p>Le risque guette pourtant. Amiguet le constate lui-même : la systémique est devenue si centrale dans les formations romandes qu’elle est victime de son succès, banalisée, rangée dans la « caisse à outils » des intervenants <span class="citation" data-cites="amiguet2010">(<a href="#ref-amiguet2010" role="doc-biblioref">Amiguet, 2010</a>)</span>. Guy Ausloos mettait déjà en garde contre une intervention réduite à des techniques apprises en quelques week-ends <span class="citation" data-cites="ausloos1994">(<a href="#ref-ausloos1994" role="doc-biblioref">Ausloos, 1994</a>)</span>. D’autres objections viennent de l’extérieur. Pour Jerome Wakefield, un cadre qui englobe tout n’oriente aucune action précise <span class="citation" data-cites="wakefield1996">(<a href="#ref-wakefield1996" role="doc-biblioref">Wakefield, 1996</a>)</span>. Et l’approche structurelle rappelle qu’à force de regarder les interactions, on perd de vue ce qui les surplombe <span class="citation" data-cites="moreau1987 siporin1980">(<a href="#ref-moreau1987" role="doc-biblioref">Moreau, 1987</a>; <a href="#ref-siporin1980" role="doc-biblioref">Siporin, 1980</a>)</span> : un loyer impayable et un marché du travail fermé ne sont pas une affaire de communication familiale.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Le manuel de référence reste <span class="citation" data-cites="amiguet1996">Amiguet &amp; Julier (<a href="#ref-amiguet1996" role="doc-biblioref">1996</a>)</span> ; pour son bilan critique, lire <span class="citation" data-cites="amiguet2010">Amiguet (<a href="#ref-amiguet2010" role="doc-biblioref">2010</a>)</span>. Sur la compétence des familles, <span class="citation" data-cites="ausloos1995">Ausloos (<a href="#ref-ausloos1995" role="doc-biblioref">1995</a>)</span>. Sur l’aide contrainte vue par un praticien belge, <span class="citation" data-cites="hardy2012">Hardy (<a href="#ref-hardy2012" role="doc-biblioref">2001/2012</a>)</span>. Sur les enjeux contradictoires pensés par les systémiciens eux-mêmes, <span class="citation" data-cites="amiguet2004">Amiguet &amp; Julier (<a href="#ref-amiguet2004" role="doc-biblioref">2004</a>)</span>. Pour le calendrier de la réforme de 2024 (primaire en 2026-2027, secondaire reporté à 2027-2028), <span class="citation" data-cites="glatigny2026">Cabinet de la ministre de l’Éducation de la Fédération Wallonie-Bruxelles (<a href="#ref-glatigny2026" role="doc-biblioref">2026</a>)</span>.</p>
+</div>
 </section>
 <section id="la-théorie-critique-et-la-praxis" class="level3">
 <h3 class="anchored" data-anchor-id="la-théorie-critique-et-la-praxis">La théorie critique et la praxis</h3>
-<p>Sa filiation va de l’École de Francfort à des auteurs contemporains comme Iain Ferguson ou Lena Dominelli. En France, on lui rattache souvent les travaux de Robert Castel sur l’effritement du salariat.</p>
-<p>Son postulat retourne le regard ordinaire : ce qu’on appelle « problèmes individuels » sont les symptômes de structures. Le chômage de longue durée d’un ouvrier de Liège après la fermeture des hauts-fourneaux n’est pas un défaut de motivation. C’est l’effet d’une désindustrialisation que personne ne lui a demandé son avis avant de décider.</p>
-<p>De là vient le concept de praxis, hérité de Marx : l’intervention ne sépare pas la pensée de l’action. Il s’agit de rendre aux personnes l’intelligence de leur propre situation, non pour les accabler avec un discours savant, mais pour qu’elles cessent de se vivre comme seules responsables de ce qui les dépasse.</p>
-<p>Cette approche a deux maladies professionnelles. La première est le surplomb : l’intervenant se prend pour le détenteur d’une vérité politique et regarde les usagers de haut, ce qui reproduit exactement la domination qu’il prétend combattre. La seconde est la paralysie : si toute aide concrète est suspecte de « pansement sur une jambe de bois », on finit par ne plus rien faire. Or la dame de Charleroi a besoin de ses 893,65 euros maintenant.</p>
+<p>Sous ce nom se rangent plusieurs familles qui se disputent entre elles <span class="citation" data-cites="lima2010">(<a href="#ref-lima2010" role="doc-biblioref">Lima, 2010</a>)</span>. Le travail social radical britannique naît en 1975 d’un ouvrage collectif qui critique le <em>casework</em> individualisant et demande aux travailleurs sociaux de se situer politiquement <span class="citation" data-cites="bailey1975">(<a href="#ref-bailey1975" role="doc-biblioref">Bailey &amp; Brake, 1975</a>)</span>. Iain Ferguson en est aujourd’hui l’héritier, d’inspiration marxiste <span class="citation" data-cites="ferguson2008 ferguson2009">(<a href="#ref-ferguson2008" role="doc-biblioref">Ferguson, 2008</a>; <a href="#ref-ferguson2009" role="doc-biblioref">Ferguson &amp; Woodward, 2009</a>)</span>. L’approche structurelle, élaborée à Montréal, place l’oppression au centre de l’analyse <span class="citation" data-cites="moreau1987 mullaly2007">(<a href="#ref-moreau1987" role="doc-biblioref">Moreau, 1987</a>; <a href="#ref-mullaly2007" role="doc-biblioref">Mullaly, 1993/2007</a>)</span>. Le travail social critique d’inspiration poststructuraliste insiste sur le discours, le pouvoir et la réflexivité <span class="citation" data-cites="fook2002 healy2000">(<a href="#ref-fook2002" role="doc-biblioref">Fook, 2002</a>; <a href="#ref-healy2000" role="doc-biblioref">Healy, 2000</a>)</span>. L’École de Francfort n’y entre que tard, par la théorie de la reconnaissance d’Axel Honneth <span class="citation" data-cites="honneth2004 houston2016">(<a href="#ref-honneth2004" role="doc-biblioref">Honneth, 2004</a>; <a href="#ref-houston2016" role="doc-biblioref">Houston, 2016</a>)</span>. On mobilise souvent, dans la même perspective, les travaux de Robert Castel sur l’effritement de la société salariale, même si sa démarche historique doit plus à Durkheim, à Marx et à Foucault qu’à Francfort <span class="citation" data-cites="castel1995">(<a href="#ref-castel1995" role="doc-biblioref">Castel, 1995</a>)</span>.</p>
+<p>Le postulat commun retourne le regard ordinaire : ce qu’on appelle « problèmes individuels » sont les symptômes de structures. Le chômage de longue durée d’un ouvrier de Liège après la fermeture des hauts-fourneaux n’est pas un défaut de motivation. C’est l’effet d’une désindustrialisation que personne ne lui a demandé son avis avant de décider.</p>
+<p>De là vient le concept de praxis. Le mot est hérité de Marx ; en travail social, il circule surtout par Paulo Freire <span class="citation" data-cites="freire1974">(<a href="#ref-freire1974" role="doc-biblioref">Freire, 1970/1974</a>)</span> et par la réflexivité critique de Jan Fook <span class="citation" data-cites="fook2002">(<a href="#ref-fook2002" role="doc-biblioref">Fook, 2002</a>)</span>. L’intervention ne sépare pas la pensée de l’action. Il s’agit de rendre aux personnes l’intelligence de leur propre situation, non pour les accabler avec un discours savant, mais pour qu’elles cessent de se vivre comme seules responsables de ce qui les dépasse. Le mépris produit souvent de la honte, qui bloque l’action au lieu de la déclencher, et Stephen Houston montre que ce travail sur la honte passe par la relation <span class="citation" data-cites="houston2016">(<a href="#ref-houston2016" role="doc-biblioref">Houston, 2016</a>)</span>.</p>
+<p>Cette approche a deux maladies professionnelles, et ses propres auteurs les ont nommées. La première est le surplomb : l’intervenant se prend pour le détenteur d’une vérité politique et regarde les usagers de haut, ce qui reproduit exactement la domination qu’il prétend combattre. Karen Healy rappelle que les travailleurs sociaux critiques exercent eux aussi un pouvoir, et qu’ils doivent dire comment l’exercer justement au lieu de prétendre l’abolir <span class="citation" data-cites="healy2001">(<a href="#ref-healy2001" role="doc-biblioref">Healy, 2001</a>)</span>. Elle note aussi que ces modèles, pensés pour de petites structures militantes, se transposent mal dans les grandes organisations publiques. C’est exactement le cas du CPAS.</p>
+<p>La seconde est la paralysie : si toute aide concrète est suspecte de « pansement sur une jambe de bois », on finit par ne plus rien faire. Dès 1975, dans le livre fondateur du courant radical, Stanley Cohen prenait au sérieux ce reproche des praticiens <span class="citation" data-cites="cohen1975">(<a href="#ref-cohen1975" role="doc-biblioref">Cohen, 1975</a>)</span>. La tradition structurelle l’avait d’ailleurs refusé d’emblée, puisque Maurice Moreau demandait d’accorder la priorité à l’aide matérielle, avant tout travail sur les émotions ou les comportements <span class="citation" data-cites="moreau1987">(<a href="#ref-moreau1987" role="doc-biblioref">1987, p. 235‑236</a>)</span>. La dame de Charleroi a besoin de son revenu maintenant, et une intervenante formée à l’approche structurelle commencerait par faire valoir ce droit.</p>
+<p>Entre ces deux écueils, beaucoup de praticiens pratiquent une résistance discrète, faite de petits contournements et de ruses ordinaires qui font passer l’aide concrète avant la théorie <span class="citation" data-cites="carey2011">(<a href="#ref-carey2011" role="doc-biblioref">Carey &amp; Foster, 2011</a>)</span>. Dans les CPAS bruxellois, une enquête décrit le travailleur social comme un traducteur de finalités collectives en traitements individuels, pour qui une part de déviance fait partie du métier <span class="citation" data-cites="maes2019">(<a href="#ref-maes2019" role="doc-biblioref">Maes &amp; Sylin, 2019</a>)</span>.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>La meilleure porte d’entrée en français sur le débat britannique est <span class="citation" data-cites="lima2010">Lima (<a href="#ref-lima2010" role="doc-biblioref">2010</a>)</span>. Pour une critique des théories de la reconnaissance, qui oublieraient le rôle de l’État, voir <span class="citation" data-cites="garrett2010">Garrett (<a href="#ref-garrett2010" role="doc-biblioref">2010</a>)</span>. Sur le mépris que l’accompagnement peut lui-même produire, voir l’enquête de <span class="citation" data-cites="tcholakova2014">Tcholakova (<a href="#ref-tcholakova2014" role="doc-biblioref">2014</a>)</span> auprès de réfugiés accompagnés vers l’emploi. Pour la pratique radicale au quotidien, <span class="citation" data-cites="ferguson2009">Ferguson &amp; Woodward (<a href="#ref-ferguson2009" role="doc-biblioref">2009</a>)</span>.</p>
+</div>
 </section>
 <section id="lempowerment-ou-le-développement-du-pouvoir-dagir" class="level3">
 <h3 class="anchored" data-anchor-id="lempowerment-ou-le-développement-du-pouvoir-dagir">L’empowerment, ou le développement du pouvoir d’agir</h3>
-<p>Deux sources : Paulo Freire et sa pédagogie de la conscientisation collective ; Amartya Sen et sa théorie des capabilités. En francophonie, Yann Le Bossé a systématisé l’idée sous le nom de développement du pouvoir d’agir.</p>
-<p>Le pari est que les personnes possèdent déjà une expertise de leur propre vie. Ce qui leur manque, ce n’est pas la volonté ou la compétence : ce sont des appuis, et souvent les dispositifs d’aide eux-mêmes les enferment dans la dépendance qu’ils prétendent combattre.</p>
-<p>Tout le problème est que le mot a été capturé. Il existe deux empowerments, et ils n’ont presque rien en commun.</p>
+<p>Ses sources sont plus nombreuses qu’on ne le dit. Le mot naît dans des mouvements radicaux, de la pédagogie de la conscientisation de Paulo Freire au Black Power et aux féminismes du Sud <span class="citation" data-cites="calves2009">(<a href="#ref-calves2009" role="doc-biblioref">Calvès, 2009</a>)</span>. Freire, qui alphabétisait les paysans du Nordeste brésilien, oppose à l’éducation « bancaire » un dialogue qui part de la situation vécue <span class="citation" data-cites="freire1974">(<a href="#ref-freire1974" role="doc-biblioref">Freire, 1970/1974</a>)</span>. Amartya Sen apporte une autre idée. Ce qui compte, pour lui, c’est la liberté réelle de faire ou d’être, qu’il appelle capabilité, et qu’un droit formel ne suffit pas à garantir <span class="citation" data-cites="sen2000">(<a href="#ref-sen2000" role="doc-biblioref">Sen, 1999/2000</a>)</span>. En francophonie, Yann Le Bossé a proposé de traduire <em>empowerment</em> par « pouvoir d’agir » <span class="citation" data-cites="lebosse2003">(<a href="#ref-lebosse2003" role="doc-biblioref">Le Bossé, 2003</a>)</span> et a systématisé une approche centrée sur le développement du pouvoir d’agir des personnes et des collectivités <span class="citation" data-cites="lebosse2012 lebosse2016">(<a href="#ref-lebosse2012" role="doc-biblioref">Le Bossé, 2012</a>, <a href="#ref-lebosse2016" role="doc-biblioref">2016</a>)</span>.</p>
+<p>Le pari est que les personnes possèdent déjà une expertise de leur propre vie. Ce qui leur manque, ce n’est pas la volonté ou la compétence : ce sont des appuis, et souvent les dispositifs d’aide eux-mêmes les enferment dans la dépendance qu’ils prétendent combattre. Le Bossé part d’un constat paradoxal. Des sociétés riches financent des professionnels spécialisés, et pourtant praticiens et personnes accompagnées restent pris dans un sentiment d’impuissance <span class="citation" data-cites="lebosse2012">(<a href="#ref-lebosse2012" role="doc-biblioref">Le Bossé, 2012</a>)</span>.</p>
+<p>La Belgique a essayé. De 2009 à 2012, le Centre de formation des CPAS wallons a mené à Mozet une recherche-action avec l’équipe de Le Bossé, qui a débouché sur la formation de travailleurs sociaux « personnes-ressources ». Le bilan relève une tension durable entre des mandats centrés sur l’insertion socioprofessionnelle et une démarche qui part de ce qui importe à la personne <span class="citation" data-cites="dekeukeleire2018">(<a href="#ref-dekeukeleire2018" role="doc-biblioref">De Keukeleire, 2018</a>)</span>. Le paradoxe aide/contrôle traverse aussi le pouvoir d’agir.</p>
+<p>Tout le problème est que le mot a été capturé. Coopté par les organisations internationales, il est devenu un terme consensuel, qui réduit le pouvoir à des choix individuels <span class="citation" data-cites="calves2009">(<a href="#ref-calves2009" role="doc-biblioref">Calvès, 2009</a>)</span>. Marie-Hélène Bacqué et Carole Biewener distinguent trois modèles : radical, social-libéral et néolibéral <span class="citation" data-cites="bacque2013">(<a href="#ref-bacque2013" role="doc-biblioref">Bacqué &amp; Biewener, 2013</a>)</span>. Pour simplifier, on peut opposer deux pôles, qui n’ont presque rien en commun.</p>
 <p>L’empowerment radical vise une transformation des rapports de force. Le pouvoir se construit collectivement, par l’organisation et la lutte. C’est l’empowerment des locataires qui se regroupent pour obliger un bailleur à faire des travaux.</p>
-<p>L’empowerment libéral, lui, individualise tout. Il fait de l’usager le seul responsable de sa réussite comme de son échec. Sous sa forme appauvrie, il se réduit à « responsabiliser » les gens pour les coûter moins cher. Quand le discours public belge parle d’« activation » et de « responsabilisation » des bénéficiaires du RIS, c’est de ce second empowerment qu’il s’agit, même s’il emprunte le vocabulaire généreux du premier.</p>
+<p>L’empowerment libéral, lui, individualise tout. Il fait de l’usager le seul responsable de sa réussite comme de son échec. Sous sa forme appauvrie, il se réduit à « responsabiliser » les gens pour qu’ils coûtent moins cher. Quand le discours public belge parle d’« activation » et de « responsabilisation » des bénéficiaires du RIS, c’est de ce second pôle qu’il s’agit, même s’il emprunte le vocabulaire généreux du premier. L’État social actif, projet porté en 1999 par le ministre Frank Vandenbroucke <span class="citation" data-cites="vandenbroucke1999">(<a href="#ref-vandenbroucke1999" role="doc-biblioref">Vandenbroucke, 1999</a>)</span>, relève d’ailleurs de la troisième voie sociale-libérale plus que d’un néolibéralisme pur <span class="citation" data-cites="vielle2005">(<a href="#ref-vielle2005" role="doc-biblioref">Vielle et al., 2005</a>)</span>. Abraham Franssen montre que la réforme du minimex en revenu d’intégration, en 2002, fait glisser le revenu minimum du besoin vers le mérite, et que le discours humaniste des travailleurs sociaux devient « la condition de son efficacité instrumentale » <span class="citation" data-cites="franssen2008">(<a href="#ref-franssen2008" role="doc-biblioref">Franssen, 2008, paragr. 66</a>)</span>. Le contrat en est l’instrument, et il ne gomme ni l’asymétrie de pouvoir ni la fonction de contrôle <span class="citation" data-cites="hamzaoui2017">(<a href="#ref-hamzaoui2017" role="doc-biblioref">Hamzaoui, 2017</a>)</span>.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Sur les trois niveaux du pouvoir d’agir (individuel, communautaire, organisationnel), <span class="citation" data-cites="ninacs2008">Ninacs (<a href="#ref-ninacs2008" role="doc-biblioref">2008</a>)</span>. Pour une version pratique, avec des expériences de terrain françaises, <span class="citation" data-cites="jouffray2024">Jouffray (<a href="#ref-jouffray2024" role="doc-biblioref">2014/2024</a>)</span>. Sur les capabilités, en complément de Sen, <span class="citation" data-cites="nussbaum2012">Nussbaum (<a href="#ref-nussbaum2012" role="doc-biblioref">2011/2012</a>)</span>. Sur la conscientisation freirienne dans la formation des travailleurs sociaux, <span class="citation" data-cites="motoi2016">Motoi (<a href="#ref-motoi2016" role="doc-biblioref">2016</a>)</span>.</p>
+</div>
 </section>
 <section id="lapproche-féministe-et-intersectionnelle" class="level3">
 <h3 class="anchored" data-anchor-id="lapproche-féministe-et-intersectionnelle">L’approche féministe et intersectionnelle</h3>
-<p>Elle hérite des féminismes de la deuxième vague et de leur mot d’ordre, « le privé est politique ». Carol Gilligan et Joan Tronto en tirent une éthique du care ; Kimberlé Crenshaw, en 1989 puis 1991, en tire l’intersectionnalité.</p>
-<p>Ce que cette approche déplace, c’est la frontière entre privé et public. La violence conjugale, la charge mentale, la pauvreté qui frappe d’abord les femmes ne sont pas des accidents domestiques. Elles ont une structure. Et le travail du soin, ce care assuré très majoritairement par des femmes et tenu pour aller de soi, est à la fois indispensable à la société et systématiquement sous-payé. Vous le vérifierez vous-mêmes : le secteur où vous allez travailler est l’un des plus féminisés et des moins bien rémunérés du pays.</p>
-<p>L’intersectionnalité ajoute une précision décisive. Les dominations ne s’additionnent pas, elles se combinent et se transforment. Une femme sans papiers, victime de violences, dont le titre de séjour dépend de son conjoint, n’est pas « une femme » plus « une migrante » plus « une pauvre ». Elle occupe une position précise où demander de l’aide peut lui faire perdre son séjour. On y reviendra en détail à la séance 6.</p>
+<p>Elle hérite des féminismes de la deuxième vague et de leur mot d’ordre, « le privé est politique ». Carol Gilligan en tire une éthique. Contre la théorie du développement moral de Kohlberg, elle fait entendre une voix attentive au contexte et aux relations, associée aux femmes parce que l’organisation patriarcale la réduit au silence <span class="citation" data-cites="gilligan1982">(<a href="#ref-gilligan1982" role="doc-biblioref">Gilligan, 1982</a>)</span>. Joan Tronto en fait une politique. Le <em>care</em> désigne l’ensemble des activités par lesquelles nous maintenons et réparons notre monde ; il est dévalorisé parce qu’il est assigné aux femmes, aux personnes racisées et aux classes populaires, et Tronto refuse d’en faire une disposition féminine <span class="citation" data-cites="tronto1993">(<a href="#ref-tronto1993" role="doc-biblioref">Tronto, 1993</a>)</span>.</p>
+<p>Ce que cette approche déplace, c’est la frontière entre privé et public. La violence conjugale, la charge mentale, la pauvreté qui frappe d’abord les femmes ne sont pas des accidents domestiques. Elles ont une structure. Et le travail du soin, assuré très majoritairement par des femmes et tenu pour aller de soi, est à la fois indispensable et sous-payé <span class="citation" data-cites="molinier2013">(<a href="#ref-molinier2013" role="doc-biblioref">Molinier, 2013</a>)</span>. Vous le vérifierez vous-mêmes, avec une nuance. En Belgique, l’action sociale sans hébergement emploie 70,9 % de femmes ; leur salaire horaire moyen y est de 19,85 euros, sous la moyenne nationale des femmes (22,28 euros), et 60,9 % d’entre elles travaillent à temps partiel. Le secteur médico-social avec hébergement, plus féminisé encore, paie en revanche près de la moyenne <span class="citation" data-cites="iefh2025">(<a href="#ref-iefh2025" role="doc-biblioref">Institut pour l’égalité des femmes et des hommes &amp; SPF Emploi, Travail et Concertation sociale, 2025</a>)</span>.</p>
+<p>L’intersectionnalité vient d’ailleurs, et en partie contre ce féminisme de la deuxième vague, jugé aveugle à la race. Elle naît du féminisme noir <span class="citation" data-cites="bilge2009">(<a href="#ref-bilge2009" role="doc-biblioref">Bilge, 2009</a>)</span>. Kimberlé Crenshaw forge le mot en 1989 à partir d’une affaire judiciaire, dans laquelle un tribunal refusait de reconnaître la discrimination que des femmes noires reprochaient à General Motors, parce qu’elle ne relevait ni de la seule race ni du seul sexe <span class="citation" data-cites="crenshaw1989">(<a href="#ref-crenshaw1989" role="doc-biblioref">Crenshaw, 1989</a>)</span>. En 1991, elle applique l’outil aux violences faites aux femmes de couleur <span class="citation" data-cites="crenshaw1991">(<a href="#ref-crenshaw1991" role="doc-biblioref">Crenshaw, 1991</a>)</span>.</p>
+<p>Elle y ajoute une précision décisive. Les dominations ne s’additionnent pas, elles se combinent et se transforment <span class="citation" data-cites="collins2020">(<a href="#ref-collins2020" role="doc-biblioref">Collins &amp; Bilge, 2016/2020</a>)</span>. Une femme sans papiers, victime de violences, dont le titre de séjour dépend de son conjoint, n’est pas « une femme » plus « une migrante » plus « une pauvre ». Elle occupe une position précise où demander de l’aide peut lui faire perdre son séjour. Crenshaw décrivait déjà ce piège aux États-Unis, créé par les amendements de 1986 contre les mariages frauduleux ; la dérogation introduite en 1990 restait hors de portée des femmes les plus marginalisées, faute de preuves <span class="citation" data-cites="crenshaw1991 crenshaw2005">(<a href="#ref-crenshaw1991" role="doc-biblioref">Crenshaw, 1991</a>; <a href="#ref-crenshaw2005" role="doc-biblioref">Crenshaw, 2005</a>)</span>. On y reviendra en détail à la séance 6.</p>
+<p>L’outil vaut aussi pour les travailleuses sociales elles-mêmes. Delphine Serre montre que les assistantes sociales qui signalent des enfants en danger promeuvent auprès des mères de milieux populaires une norme d’autonomie qui oscille entre solidarité de genre et domination de classe <span class="citation" data-cites="serre2012">(<a href="#ref-serre2012" role="doc-biblioref">Serre, 2012</a>)</span>. En pratique, à Liège, le Collectif contre les violences familiales et l’exclusion défend un accompagnement « repolitisé » des femmes victimes, qui lit les violences conjugales comme un continuum de domination, articulé à la classe et à la race, plutôt que comme un problème psychologique individuel <span class="citation" data-cites="collignon2026">(<a href="#ref-collignon2026" role="doc-biblioref">Collignon, 2026</a>)</span>.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Le <em>care</em> est entré dans le débat français avec <span class="citation" data-cites="paperman2005">Paperman &amp; Laugier (<a href="#ref-paperman2005" role="doc-biblioref">2005</a>)</span>. Sur le travail social féministe dans les associations contre les violences conjugales, et ses contraintes gestionnaires, <span class="citation" data-cites="herman2016">Herman (<a href="#ref-herman2016" role="doc-biblioref">2016</a>)</span>. Pour un cadre de travail social féministe qui intègre les autres rapports sociaux, voir <span class="citation" data-cites="dominelli2002">Dominelli (<a href="#ref-dominelli2002" role="doc-biblioref">2002</a>)</span>, et pour une introduction à l’intersectionnalité, <span class="citation" data-cites="collins2020">Collins &amp; Bilge (<a href="#ref-collins2020" role="doc-biblioref">2016/2020</a>)</span>.</p>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -583,23 +639,41 @@ Note
 </section>
 <section id="le-paradoxe-à-lépreuve-dune-réforme-belge" class="level2">
 <h2 class="anchored" data-anchor-id="le-paradoxe-à-lépreuve-dune-réforme-belge">Le paradoxe à l’épreuve d’une réforme belge</h2>
-<p>Les concepts précédents ne sont pas des abstractions. Ils décident de la vie des gens. Prenons la réforme du statut de cohabitant, entrée en vigueur le 1er mars 2026, parce qu’elle met le paradoxe à nu.</p>
-<p>Avant la réforme, pour calculer le RIS d’une personne, le CPAS pouvait tenir compte des ressources de certains proches vivant sous le même toit, sans y être obligé. Depuis mars 2026, il doit compter les ressources de tous les débiteurs alimentaires majeurs qui cohabitent : un frère, une sœur, un enfant majeur qui travaille, parfois un parent. Les allocations familiales perçues pour le demandeur sont comptées à hauteur d’un forfait de 240 euros. Le montant de base pour un cohabitant (catégorie 1) est de 893,65 euros par mois.</p>
-<p>Lisez la mesure avec l’empowerment libéral : on « responsabilise » les familles, on rappelle que la solidarité commence à la maison. Lisez-la avec la théorie critique : on transfère la charge de la pauvreté sur les proches les plus modestes, et on rend l’accès au droit plus étroit pour ceux qui n’ont d’autre toit que celui d’un parent qui travaille. La même mesure, deux lectures.</p>
-<p>Et le réel a tranché plus vite que prévu : dès le 24 mars 2026, le durcissement a été attaqué en justice. C’est exactement la situation dans laquelle vous travaillerez. Vous appliquerez une règle dont vous percevez les effets sur les gens que vous recevez, pendant que sa légitimité est contestée devant les tribunaux. Tenir ce grand écart sans cynisme ni naïveté, voilà le métier.</p>
-<p>Quelques repères de cadrage pour mesurer ce que pèse le RIS en Belgique. En 2024, 1,41 % de la population du pays en bénéficiait. En Wallonie, au 1er janvier 2024, les CPAS versaient le revenu d’intégration à 73 325 personnes, et l’aide sociale équivalente à 8 713 autres. La proportion varie fortement d’une région à l’autre : autour de 6,6 % à Bruxelles contre 1,2 % en Flandre. Derrière ces pourcentages, il y a des entretiens comme celui de Charleroi, des milliers par jour.</p>
+<p>Les concepts précédents ne sont pas des abstractions. Ils décident de la vie des gens. Prenons la réforme du calcul du revenu d’intégration des cohabitants, entrée en vigueur le 1er mars 2026, parce qu’elle met le paradoxe à nu.</p>
+<p>Avant la réforme, le CPAS pouvait tenir compte des ressources des ascendants et descendants majeurs qui vivaient avec le demandeur, sans y être obligé. L’arrêté royal du 7 janvier 2026 l’y oblige désormais <span class="citation" data-cites="belgique2026">(<a href="#ref-belgique2026" role="doc-biblioref">Belgique, 2026</a>)</span>. Sont visés le partenaire et les débiteurs d’aliments majeurs au sens du Code civil : parents, grands-parents, enfants, petits-enfants, et beaux-parents si l’on est marié. Frères et sœurs, amis ou colocataires ne le sont pas, contrairement à ce qu’on entend souvent <span class="citation" data-cites="sppis2026a">(<a href="#ref-sppis2026a" role="doc-biblioref">SPP Intégration sociale, 2026a</a>)</span>. Pour chaque débiteur, le CPAS compte la part de ses ressources qui dépasse le montant du taux cohabitant. Les allocations familiales qu’un parent perçoit pour le demandeur, typiquement un jeune majeur aux études, sont comptées au forfait de 240 euros. Le montant maximum pour un cohabitant (catégorie 1) est de 911,56 euros par mois depuis le 1er septembre 2026 <span class="citation" data-cites="sppis2026b">(<a href="#ref-sppis2026b" role="doc-biblioref">SPP Intégration sociale, 2026b</a>)</span>. Pour la dame de Charleroi, la pension de sa mère entre désormais dans le calcul, pour ce qui dépasse ce taux.</p>
+<p>L’arrêté prévoit une porte de sortie. Le CPAS peut déroger pour des raisons d’équité, à condition de motiver sa décision par des faits concrets et d’indiquer son calcul <span class="citation" data-cites="belgique2026">(<a href="#ref-belgique2026" role="doc-biblioref">Belgique, 2026</a>)</span>. Le SPP Intégration sociale précise que cette dérogation se décide au cas par cas, jamais de façon systématique <span class="citation" data-cites="sppis2026a">(<a href="#ref-sppis2026a" role="doc-biblioref">SPP Intégration sociale, 2026a</a>)</span>. C’est là que se loge le paradoxe. L’assistante sociale qui applique la règle doit aussi décider, dossier par dossier, si l’équité commande de ne pas l’appliquer.</p>
+<p>Lisez la mesure avec l’empowerment libéral : on « responsabilise » les familles. Devant la commission des Affaires sociales, la ministre Anneleen Van Bossuyt l’a justifiée par la « primauté de la solidarité familiale sur la solidarité étatique » <span class="citation" data-cites="rtbf2026a">(<a href="#ref-rtbf2026a" role="doc-biblioref">RTBF, 2026a</a>)</span>. Lisez-la avec la théorie critique : on transfère la charge de la pauvreté sur les proches les plus modestes, et on rend l’accès au droit plus étroit pour ceux qui n’ont d’autre toit que celui d’un parent. Cette seconde lecture n’est pas réservée aux militants. Dans son avis du 8 août 2025, le Conseil d’État a estimé que ce recours accru à la solidarité familiale allait contre l’obligation de maintenir le niveau de protection garanti par l’article 23 de la Constitution, et relevé que 253 065 dossiers devraient être réexaminés <span class="citation" data-cites="conseildetat2025">(<a href="#ref-conseildetat2025" role="doc-biblioref">Conseil d’État, section de législation, 2025</a>)</span>. La même mesure, deux lectures.</p>
+<p>Le réel a tranché plus vite que prévu. Le 23 mars 2026, la Ligue des droits humains, la Ligue des familles, la FEF, le BAPN et ATD Quart Monde ont introduit un recours en annulation devant le Conseil d’État <span class="citation" data-cites="liguedh2026">(<a href="#ref-liguedh2026" role="doc-biblioref">Ligue des droits humains, 2026</a>)</span>. Fin septembre 2026, aucun arrêt n’avait été rendu. Une réforme voisine montre ce qui peut suivre. Le 10 septembre 2026, la Cour constitutionnelle a validé la limitation dans le temps des allocations de chômage, un recul qu’elle juge « raisonnablement justifié », et n’en a annulé qu’une disposition <span class="citation" data-cites="courconstitutionnelle2026">(<a href="#ref-courconstitutionnelle2026" role="doc-biblioref">Cour constitutionnelle, 2026</a>)</span>. C’est exactement la situation dans laquelle vous travaillerez. Vous appliquerez une règle dont vous percevez les effets sur les gens que vous recevez, pendant que sa légitimité est contestée devant les juridictions. Tenir ce grand écart sans cynisme ni naïveté, voilà le métier.</p>
+<p>Quelques repères pour mesurer ce que pèse le revenu d’intégration en Belgique. En 2024, 1,41 % de la population en bénéficiait en moyenne chaque mois : 3,7 % à Bruxelles, 2,0 % en Wallonie, 0,6 % en Flandre <span class="citation" data-cites="bfp2025">(<a href="#ref-bfp2025" role="doc-biblioref">Bureau fédéral du Plan, 2025</a>)</span>. En Wallonie, au 1er janvier 2024, les CPAS versaient le revenu d’intégration à 73 325 personnes et l’aide sociale équivalente à 8 713 autres <span class="citation" data-cites="castaigne2025a">(<a href="#ref-castaigne2025a" role="doc-biblioref">Castaigne, 2025a</a>)</span>. La réforme du chômage va gonfler ces chiffres. À Bruxelles, 47,6 % des personnes exclues au premier trimestre 2026 étaient devenues bénéficiaires d’un CPAS trois mois plus tard <span class="citation" data-cites="rtbf2026b">(<a href="#ref-rtbf2026b" role="doc-biblioref">RTBF, 2026b</a>)</span>. Derrière ces pourcentages, il y a des entretiens comme celui de Charleroi, des milliers par jour.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Le statut de cohabitant était contesté bien avant 2026, parce qu’il pénalise la solidarité et pousse à cacher sa cohabitation <span class="citation" data-cites="slp2018">(<a href="#ref-slp2018" role="doc-biblioref">Service de lutte contre la pauvreté, la précarité et l’exclusion sociale, 2018</a>)</span>. Sur le financement des CPAS face aux exclus du chômage, remboursés à 100 % la première année puis de moins en moins, et sur la prime future au nombre de PIIS conclus, <span class="citation" data-cites="castaigne2025b">Castaigne (<a href="#ref-castaigne2025b" role="doc-biblioref">2025b</a>)</span>. Pour la lecture de l’État social comme « ordre protectionnel », mobilisée à la question 1.D, <span class="citation" data-cites="vrancken2010">Vrancken (<a href="#ref-vrancken2010" role="doc-biblioref">2010</a>)</span>. La même logique d’activation s’étend désormais à la maladie avec la loi « Retour au travail » <span class="citation" data-cites="belgique2025b">(<a href="#ref-belgique2025b" role="doc-biblioref">Belgique, 2025a</a>)</span>.</p>
+</div>
 </section>
 <section id="ce-que-le-métier-fait-à-ceux-qui-lexercent" class="level2">
 <h2 class="anchored" data-anchor-id="ce-que-le-métier-fait-à-ceux-qui-lexercent">Ce que le métier fait à ceux qui l’exercent</h2>
 <p>Reste une question qu’on évite souvent en formation : tenir ce paradoxe, ça use. Et la manière dont le travail est organisé aujourd’hui rend la tenue plus difficile qu’avant.</p>
-<p>Le premier facteur est la bureaucratisation. Une part croissante du temps passe à documenter le travail plutôt qu’à le faire : saisir dans des logiciels, justifier les décisions, répondre aux audits. On y reviendra à la séance 7, mais l’effet se sent dès le premier stage. Beaucoup de professionnels se rangent dans une position que je résumerais ainsi : ils ne croient pas à la légitimité des nouveaux outils de gestion, mais s’y conforment pour garder leur poste, tout en grappillant des marges pour faire du vrai travail relationnel. Ce n’est pas de la résistance héroïque ni de l’adhésion convaincue. C’est un inconfort permanent, et il a un coût psychique réel.</p>
-<p>Le second facteur est le numérique. La dématérialisation des services publics était censée simplifier l’accès aux droits. Elle a créé de nouvelles exclusions. Les personnes les plus à l’aise avec un guichet automatisé sont rarement celles qui poussent la porte d’un CPAS. Résultat : une partie de votre travail consiste désormais à faire à la place des gens des démarches que l’administration a déclarées « accessibles à tous ». L’arrivée d’outils d’aide à la décision automatisés ajoute une question que la déontologie n’a pas encore tranchée : que devient le secret professionnel quand les notes d’accompagnement nourrissent un algorithme, et qui répond d’une décision sociale prise pour partie par une machine ?</p>
-<p>Je n’ai pas de réponse propre à vous donner sur ces deux points, et je me méfie de ceux qui en ont. Ce que je peux dire, c’est que la lucidité sur ces mécanismes est une protection. Nommer ce qui use est déjà une manière de moins se laisser abîmer.</p>
+<p>L’usure a d’abord une part invisible. Everett Hughes a montré que tout métier comporte une part de <em>dirty work</em>, un sale boulot qui l’est physiquement, socialement ou moralement <span class="citation" data-cites="hughes1958">(<a href="#ref-hughes1958" role="doc-biblioref">Hughes, 1958, p. 49‑50</a>)</span>, et que la société délègue volontiers à d’autres le travail qu’elle juge nécessaire sans vouloir le voir <span class="citation" data-cites="hughes1958 hughes2010">(<a href="#ref-hughes1958" role="doc-biblioref">1958, p. 51‑52</a>; <a href="#ref-hughes2010" role="doc-biblioref">Hughes, 1962/2010</a>)</span>. Contrôler les pauvres en fait partie. Chez des travailleurs sociaux anglais chargés de décider d’hospitalisations sous contrainte, le sale boulot désigne le manque de lits, la coordination et le travail émotionnel <span class="citation" data-cites="morriss2016">(<a href="#ref-morriss2016" role="doc-biblioref">Morriss, 2016</a>)</span>. Les groupes professionnels s’en protègent en recadrant le sens de leur travail <span class="citation" data-cites="ashforth1999">(<a href="#ref-ashforth1999" role="doc-biblioref">Ashforth &amp; Kreiner, 1999</a>)</span>. S’y ajoute le travail émotionnel, qui consiste à gérer ses émotions selon les règles de l’organisation, en les feignant ou en se convainquant de les ressentir <span class="citation" data-cites="hochschild1983 hochschild2017">(<a href="#ref-hochschild1983" role="doc-biblioref">Hochschild, 1983</a>; <a href="#ref-hochschild2017" role="doc-biblioref">Hochschild, 1983/2017</a>)</span>. Réduire l’aide à des familles en période d’austérité crée une dissonance que chacun gère seul <span class="citation" data-cites="grootegoed2018">(<a href="#ref-grootegoed2018" role="doc-biblioref">Grootegoed &amp; Smith, 2018</a>)</span>.</p>
+<p>Le burn-out a trois dimensions : épuisement émotionnel, dépersonnalisation, sentiment d’accomplissement réduit <span class="citation" data-cites="maslach1981">(<a href="#ref-maslach1981" role="doc-biblioref">Maslach &amp; Jackson, 1981</a>)</span>. Une méta-analyse récente estime qu’environ un travailleur des services sociaux sur cinq présente un burn-out, et qu’un sur deux souffre d’épuisement émotionnel <span class="citation" data-cites="gimenezbertomeu2024">(<a href="#ref-gimenezbertomeu2024" role="doc-biblioref">Giménez-Bertomeu et al., 2024</a>)</span>. Bertrand Ravon distingue l’épuisement dans la relation d’aide du ressentiment face aux prescriptions contradictoires de l’institution <span class="citation" data-cites="ravon2009">(<a href="#ref-ravon2009" role="doc-biblioref">Ravon, 2009</a>)</span>.</p>
+<p>Le premier facteur aggravant est la bureaucratisation. Une part croissante du temps passe à documenter le travail plutôt qu’à le faire : saisir dans des logiciels, justifier les décisions, répondre aux audits. On y reviendra à la séance 7, mais l’effet se sent dès le premier stage. En Belgique, le Service de lutte contre la pauvreté décrit le travailleur social de CPAS « entre le marteau et l’enclume ». La charge administrative réduit souvent le PIIS à une formalité, l’équilibre glisse vers le contrôle, et un quart des CPAS wallons et bruxellois disent durcir leurs contrôles, notamment sur le statut de cohabitant <span class="citation" data-cites="slp2025">(<a href="#ref-slp2025" role="doc-biblioref">Service de lutte contre la pauvreté, la précarité et l’exclusion sociale, 2025</a>)</span>. En Flandre, un travailleur social de CPAS sur quatre se dit sous très forte pression, un sur cinq en stress ou en épuisement <span class="citation" data-cites="slp2025">(<a href="#ref-slp2025" role="doc-biblioref">Service de lutte contre la pauvreté, la précarité et l’exclusion sociale, 2025, p. 36</a>)</span>. En 2012 déjà, des assistants sociaux de CPAS bruxellois répétaient : « Je ne fais plus le même métier qu’avant » <span class="citation" data-cites="maes2013">(<a href="#ref-maes2013" role="doc-biblioref">Maes, 2013, p. 73</a>)</span>.</p>
+<p>Face aux outils de gestion, les professionnels ne réagissent pas tous de la même façon. Jean-Sébastien Alix, qui a enquêté sur l’accueil de la rationalité gestionnaire par les travailleurs sociaux, distingue des résistants, des adhérents et, pour la moitié environ, des « non-dupes » <span class="citation" data-cites="alix2023">(<a href="#ref-alix2023" role="doc-biblioref">Alix, 2023</a>)</span>. Ces derniers ne croient pas à la légitimité des nouveaux outils, mais s’y conforment pour garder leur poste, tout en grappillant des marges pour faire du vrai travail relationnel. Ce n’est ni de la résistance héroïque ni de l’adhésion convaincue. C’est un inconfort permanent, et il a un coût psychique réel. Abraham Franssen a décrit d’autres manières de tenir, du repli sur une « île préservée » ou dans une « forteresse assiégée » à la recherche d’issues offensives, par l’innovation ou l’action collective <span class="citation" data-cites="franssen2005">(<a href="#ref-franssen2005" role="doc-biblioref">Franssen, 2005</a>)</span>.</p>
+<p>Le second facteur est le numérique. La dématérialisation des services publics était censée simplifier l’accès aux droits. Elle a créé de nouvelles exclusions. En 2023, 40 % des Belges de 16 à 74 ans étaient en situation de vulnérabilité numérique, 45 % en Wallonie, et 28 % des usagers d’internet avaient eu besoin d’un tiers pour une démarche administrative en ligne. À Schaerbeek, plus de huit travailleurs sociaux sur dix jugent les services publics numérisés difficilement accessibles pour leurs publics <span class="citation" data-cites="brotcorne2024">(<a href="#ref-brotcorne2024" role="doc-biblioref">Brotcorne &amp; Ponnet, 2024</a>)</span>. La dématérialisation reporte sur les usagers la gestion de leurs dossiers, et sur leurs aidants une partie du travail administratif <span class="citation" data-cites="okbani2022 defenseurdesdroits2022">(<a href="#ref-defenseurdesdroits2022" role="doc-biblioref">Défenseur des droits, 2022</a>; <a href="#ref-okbani2022" role="doc-biblioref">Okbani, 2022</a>)</span>. Résultat : une partie de votre travail consiste désormais à faire à la place des gens des démarches que l’administration a déclarées « accessibles à tous ».</p>
+<p>Reste la question des machines. En Belgique, ce qui est documenté, ce sont surtout les flux automatiques de données entre administrations. Ils font gagner du temps, mais bloquent parfois des droits sur la base de données erronées, et certains intervenants y voient d’abord un outil de contrôle <span class="citation" data-cites="noel2017">(<a href="#ref-noel2017" role="doc-biblioref">Noël, 2017</a>)</span>. En France, la CAF attribue chaque mois à chaque allocataire un score de risque qui déclenche la plupart des contrôles <span class="citation" data-cites="dubois2021 laquadrature2023">(<a href="#ref-dubois2021" role="doc-biblioref">Dubois, 2021</a>; <a href="#ref-laquadrature2023" role="doc-biblioref">La Quadrature du Net, 2023</a>)</span> ; aux États-Unis, Virginia Eubanks a décrit un « hospice numérique » <span class="citation" data-cites="eubanks2018">(<a href="#ref-eubanks2018" role="doc-biblioref">Eubanks, 2018</a>)</span>. Le secret professionnel a déjà été mis à l’épreuve. En 2017, le législateur belge a voulu obliger les travailleurs des institutions de sécurité sociale, CPAS compris, à signaler d’initiative des indices d’infraction terroriste ; la Cour constitutionnelle a annulé cette obligation en 2019 <span class="citation" data-cites="delhaise2019">(<a href="#ref-delhaise2019" role="doc-biblioref">Delhaise, 2019</a>)</span>. Que devient ce secret quand les notes d’accompagnement circulent entre bases de données, et qui répond d’une décision sociale prise pour partie par une machine ? La déontologie n’a pas encore tranché.</p>
+<p>Je n’ai pas de réponse propre à vous donner sur ces points, et je me méfie de ceux qui en ont. Ce que je peux dire, c’est que la lucidité sur ces mécanismes est une protection. Nommer ce qui use est déjà une manière de moins se laisser abîmer.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>La détresse morale des travailleurs sociaux des services publics a été mesurée en Finlande <span class="citation" data-cites="manttarivanderkuip2016">(<a href="#ref-manttarivanderkuip2016" role="doc-biblioref">Mänttäri-van der Kuip, 2016</a>)</span>. Pour une lecture clinique du sale boulot, voir <span class="citation" data-cites="lhuilier2005">Lhuilier (<a href="#ref-lhuilier2005" role="doc-biblioref">2005</a>)</span>, et pour le questionnaire de Maslach, son manuel <span class="citation" data-cites="maslach1986">(<a href="#ref-maslach1986" role="doc-biblioref">Maslach &amp; Jackson, 1986</a>)</span>. Sur le non-recours aux droits, <span class="citation" data-cites="warin2016">Warin (<a href="#ref-warin2016" role="doc-biblioref">2016</a>)</span> ; sur l’accès au RSA dans les campagnes françaises après la fermeture des guichets, <span class="citation" data-cites="deville2023">Deville (<a href="#ref-deville2023" role="doc-biblioref">2023</a>)</span>. Roland Janvier revient sur les contradictions du métier dans une conférence récente <span class="citation" data-cites="janvier2025">(<a href="#ref-janvier2025" role="doc-biblioref">Janvier, 2025</a>)</span>, et le Haut conseil du travail social esquisse une prospective à l’horizon 2050 <span class="citation" data-cites="hcts2025">(<a href="#ref-hcts2025" role="doc-biblioref">Haut conseil du travail social, 2025</a>)</span>.</p>
+</div>
 </section>
 <section id="une-frontière-qui-bouge-le-travail-social-vert" class="level2">
 <h2 class="anchored" data-anchor-id="une-frontière-qui-bouge-le-travail-social-vert">Une frontière qui bouge : le travail social vert</h2>
-<p>Une dernière ouverture, parce que le périmètre du métier se déplace sous nos yeux. Lena Dominelli a théorisé en 2012 le travail social vert. Son point de départ est un constat d’injustice supplémentaire : les dégâts environnementaux frappent d’abord ceux qui sont déjà en bas. Une canicule tue surtout des personnes âgées isolées dans des logements mal isolés. Une inondation ruine surtout ceux qui n’ont pas les moyens d’habiter ailleurs que dans la zone inondable. La crise climatique n’épargne personne, mais elle ne frappe pas tout le monde pareil, et c’est précisément ce qui en fait un objet de travail social.</p>
-<p>L’écoféminisme, dont Françoise d’Eaubonne a forgé le terme en 1974, ajoute un fil : la même logique qui dévalorise le travail de soin des femmes traite la nature comme une ressource gratuite et inépuisable. Les deux exploitations se tiennent. On verra à la séance 6 que cette intuition n’est pas qu’une métaphore.</p>
+<p>Une dernière ouverture, parce que le périmètre du métier se déplace sous nos yeux. Lena Dominelli a théorisé en 2012 le travail social vert <span class="citation" data-cites="dominelli2012">(<a href="#ref-dominelli2012" role="doc-biblioref">Dominelli, 2012</a>)</span>. Son point de départ est un constat d’injustice supplémentaire : les dégâts environnementaux frappent d’abord ceux qui sont déjà en bas, ce qui fait de la crise écologique une crise de justice sociale. Le travail social écologique existait avant elle, notamment en Finlande et en Flandre <span class="citation" data-cites="narhi2018 peeters2012">(<a href="#ref-narhi2018" role="doc-biblioref">Närhi &amp; Matthies, 2018</a>; <a href="#ref-peeters2012" role="doc-biblioref">Peeters, 2012</a>)</span> ; Dominelli s’en distingue en y intégrant les systèmes sociopolitiques <span class="citation" data-cites="portillo2019">(<a href="#ref-portillo2019" role="doc-biblioref">Portillo, 2019</a>)</span>.</p>
+<p>Une canicule tue surtout des personnes âgées isolées. Lors de celle de Chicago, en juillet 1995, Eric Klinenberg a montré que l’isolement social, l’abandon de certains quartiers et le retrait des services publics pesaient autant que la chaleur <span class="citation" data-cites="klinenberg2002">(<a href="#ref-klinenberg2002" role="doc-biblioref">Klinenberg, 2002</a>)</span>. Une inondation ruine surtout ceux qui ont le moins de moyens de s’en relever. Dans la province de Liège, l’exposition au risque ne suit pourtant pas simplement le revenu. Les ménages modestes sont plus exposés que les aisés, mais les plus précaires le sont moins que les classes intermédiaires <span class="citation" data-cites="poussard2021">(<a href="#ref-poussard2021" role="doc-biblioref">Poussard et al., 2021</a>)</span>. En juillet 2021, certains CPAS ont eux-mêmes été détruits par les eaux ; les sinistrés hébergés chez des proches ont conservé leur statut antérieur au regard du revenu d’intégration <span class="citation" data-cites="rombeaux2021">(<a href="#ref-rombeaux2021" role="doc-biblioref">Rombeaux, 2021</a>)</span>. La crise climatique n’épargne personne, mais elle ne frappe pas tout le monde pareil, et c’est précisément ce qui en fait un objet de travail social.</p>
+<p>L’écoféminisme ajoute un fil. Françoise d’Eaubonne a forgé le terme en 1974, en liant la domination masculine à l’appropriation de l’agriculture et de la fécondité <span class="citation" data-cites="deaubonne1974">(<a href="#ref-deaubonne1974" role="doc-biblioref"><span class="nocase">d’Eaubonne</span>, 1974</a>)</span>. Une partie de l’écoféminisme ultérieur, d’inspiration matérialiste, a soutenu que la même logique qui dévalorise le travail de soin des femmes traite la nature comme une ressource gratuite et inépuisable. Les deux exploitations se tiennent. Catherine Larrère présente ces variétés d’écoféminisme et la discussion sur l’essentialisme qu’elles suscitent <span class="citation" data-cites="larrere2015">(<a href="#ref-larrere2015" role="doc-biblioref">Larrère, 2015</a>)</span>.</p>
+<div class="plus-loin">
+<p><strong>Pour aller plus loin</strong></p>
+<p>Pour une présentation en français du travail social vert, voir <span class="citation" data-cites="portillo2019">Portillo (<a href="#ref-portillo2019" role="doc-biblioref">2019</a>)</span> ; l’ouvrage collectif de référence sur le travail social environnemental est <span class="citation" data-cites="gray2013">Gray et al. (<a href="#ref-gray2013" role="doc-biblioref">2013</a>)</span>.</p>
+</div>
 </section>
 <section id="où-nous-allons" class="level2">
 <h2 class="anchored" data-anchor-id="où-nous-allons">Où nous allons</h2>
@@ -611,48 +685,466 @@ Note
 <div class="question-examen">
 <p><strong>Question 1.A</strong></p>
 <p>Expliquez le paradoxe constitutif du travail social. Pourquoi ne peut-on pas le « résoudre » ? Appuyez-vous sur un exemple belge précis.</p>
-<p><em>Références à mobiliser :</em> IFSW (2014) ; Castel (1995) ; Le Bossé (2012).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="ifsw2014">International Federation of Social Workers &amp; International Association of Schools of Social Work (<a href="#ref-ifsw2014" role="doc-biblioref">2014</a>)</span> ; <span class="citation" data-cites="autes2013">Autès (<a href="#ref-autes2013" role="doc-biblioref">1999/2013</a>)</span> ; <span class="citation" data-cites="keller2005">Keller (<a href="#ref-keller2005" role="doc-biblioref">2005</a>)</span> ; <span class="citation" data-cites="castel1995">Castel (<a href="#ref-castel1995" role="doc-biblioref">1995</a>)</span> ; <span class="citation" data-cites="lebosse2012">Le Bossé (<a href="#ref-lebosse2012" role="doc-biblioref">2012</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 1.B</strong></p>
 <p>Le travail social est-il une profession ? Présentez les réponses contrastées de Parsons, Hughes, Abbott et Dubar. Quel cadre vous paraît le plus convaincant pour le cas belge ?</p>
-<p><em>Références à mobiliser :</em> Parsons (1951) ; Hughes (1958) ; Abbott (1988) ; Dubar &amp; Tripier (1998).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="parsons1951">Parsons (<a href="#ref-parsons1951" role="doc-biblioref">1951</a>)</span> ; <span class="citation" data-cites="hughes1958">Hughes (<a href="#ref-hughes1958" role="doc-biblioref">1958</a>)</span> ; <span class="citation" data-cites="abbott1988">Abbott (<a href="#ref-abbott1988" role="doc-biblioref">1988</a>)</span> ; <span class="citation" data-cites="dubar1991">Dubar (<a href="#ref-dubar1991" role="doc-biblioref">1991</a>)</span> ; <span class="citation" data-cites="dubar1998">Dubar &amp; Tripier (<a href="#ref-dubar1998" role="doc-biblioref">1998</a>)</span> ; <span class="citation" data-cites="vrancken2012">Vrancken (<a href="#ref-vrancken2012" role="doc-biblioref">2012</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 1.C</strong></p>
 <p>Distinguez les quatre approches théoriques vues en cours. Montrez quelle place chacune donne au paradoxe aide/contrôle, et illustrez deux d’entre elles par un cas concret.</p>
-<p><em>Références à mobiliser :</em> Bronfenbrenner (1979) ; Le Bossé (2012) ; Crenshaw (1991) ; Tronto (1993).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="amiguet1996">Amiguet &amp; Julier (<a href="#ref-amiguet1996" role="doc-biblioref">1996</a>)</span> ; <span class="citation" data-cites="bronfenbrenner1979">Bronfenbrenner (<a href="#ref-bronfenbrenner1979" role="doc-biblioref">1979</a>)</span> ; <span class="citation" data-cites="moreau1987">Moreau (<a href="#ref-moreau1987" role="doc-biblioref">1987</a>)</span> ; <span class="citation" data-cites="lebosse2012">Le Bossé (<a href="#ref-lebosse2012" role="doc-biblioref">2012</a>)</span> ; <span class="citation" data-cites="crenshaw1991">Crenshaw (<a href="#ref-crenshaw1991" role="doc-biblioref">1991</a>)</span> ; <span class="citation" data-cites="tronto1993">Tronto (<a href="#ref-tronto1993" role="doc-biblioref">1993</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 1.D</strong></p>
 <p>Analysez la réforme du statut de cohabitant (RIS, 1er mars 2026) à partir de deux approches théoriques opposées. Que révèle ce désaccord sur la nature du travail social ?</p>
-<p><em>Références à mobiliser :</em> Castel (1995) ; Vrancken (2010) ; Le Bossé (2012).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="castel1995">Castel (<a href="#ref-castel1995" role="doc-biblioref">1995</a>)</span> ; <span class="citation" data-cites="vrancken2010">Vrancken (<a href="#ref-vrancken2010" role="doc-biblioref">2010</a>)</span> ; <span class="citation" data-cites="lebosse2012">Le Bossé (<a href="#ref-lebosse2012" role="doc-biblioref">2012</a>)</span> ; <span class="citation" data-cites="franssen2008">Franssen (<a href="#ref-franssen2008" role="doc-biblioref">2008</a>)</span> ; <span class="citation" data-cites="conseildetat2025">Conseil d’État, section de législation (<a href="#ref-conseildetat2025" role="doc-biblioref">2025</a>)</span>.</p>
 </div>
 <div class="question-examen">
 <p><strong>Question 1.E</strong></p>
 <p>Qu’est-ce que le « dirty work » (Hughes) et le travail émotionnel (Hochschild) ? Comment s’appliquent-ils au travail social ? Quels en sont les coûts pour les professionnels ?</p>
-<p><em>Références à mobiliser :</em> Hughes (1958) ; Hochschild (1983) ; Maslach &amp; Jackson (1986).</p>
+<p><em>Références à mobiliser :</em> <span class="citation" data-cites="hughes1958">Hughes (<a href="#ref-hughes1958" role="doc-biblioref">1958</a>)</span> ; <span class="citation" data-cites="hochschild1983">Hochschild (<a href="#ref-hochschild1983" role="doc-biblioref">1983</a>)</span> ; <span class="citation" data-cites="maslach1981">Maslach &amp; Jackson (<a href="#ref-maslach1981" role="doc-biblioref">1981</a>)</span> ; <span class="citation" data-cites="ravon2009">Ravon (<a href="#ref-ravon2009" role="doc-biblioref">2009</a>)</span> ; <span class="citation" data-cites="maes2013">Maes (<a href="#ref-maes2013" role="doc-biblioref">2013</a>)</span>.</p>
 </div>
 <hr>
 </section>
 <section id="références" class="level2">
 <h2 class="anchored" data-anchor-id="références">Références</h2>
-<ul>
-<li>Amiguet, O. &amp; Julier, C. (2004). <em>L’intervention systémique dans le travail social</em>. Genève : IES.</li>
-<li>Bronfenbrenner, U. (1979). <em>The Ecology of Human Development</em>. Cambridge (MA) : Harvard University Press.</li>
-<li>Castel, R. (1995). <em>Les Métamorphoses de la question sociale</em>. Paris : Fayard.</li>
-<li>D’Eaubonne, F. (1974). <em>Le Féminisme ou la Mort</em>. Paris : Pierre Horay.</li>
-<li>Dominelli, L. (2012). <em>Green Social Work</em>. Cambridge : Polity Press.</li>
-<li>IFSW (2014, réaff. 2024). <em>Définition globale du travail social</em>. <a href="https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/">ifsw.org</a></li>
-<li>Le Bossé, Y. (2012). Soutenir sans prescrire. <em>Développement humain, handicap et changement social</em>, 20(1), 119–131.</li>
-<li>Tronto, J. (1993). <em>Moral Boundaries</em>. New York : Routledge.</li>
-</ul>
-<p><strong>Sources des données belges</strong></p>
-<ul>
-<li>SPP Intégration sociale, statistiques du revenu d’intégration. <a href="https://stat.mi-is.be/fr/dashboard/ris_cities">stat.mi-is.be</a></li>
-<li>Fédération des CPAS (UVCW), <em>Radioscopie 2024 des politiques d’insertion menées dans les CPAS wallons</em>.</li>
-<li>Réforme du calcul du RIS au 1er mars 2026 (statut de cohabitant) : CPAS de Liège, <a href="https://www.cpasdeliege.be/actualites-cpas/changement-dans-le-calcul-du-revenu-d2019integration-a-partir-du-1er-mars-2026">note d’actualité</a>.</li>
-</ul>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-abbott1988" class="csl-entry" role="listitem">
+Abbott, A. (1988). <em>The System of Professions: An Essay on the Division of Expert Labor</em>. University of Chicago Press. <a href="https://doi.org/10.7208/chicago/9780226189666.001.0001">https://doi.org/10.7208/chicago/9780226189666.001.0001</a>
+</div>
+<div id="ref-abbott1995" class="csl-entry" role="listitem">
+Abbott, A. (1995). Boundaries of Social Work or Social Work of Boundaries? The <span>Social Service Review</span> Lecture. <em>Social Service Review</em>, <em>69</em>(4), 545‑562. <a href="https://doi.org/10.1086/604148">https://doi.org/10.1086/604148</a>
+</div>
+<div id="ref-abbott2003" class="csl-entry" role="listitem">
+Abbott, A. (2003). Écologies liées : à propos du système des professions. In P.-M. Menger (Éd.), <em>Les professions et leurs sociologies</em>. Éditions de la Maison des sciences de l’homme. <a href="https://doi.org/10.4000/books.editionsmsh.5721">https://doi.org/10.4000/books.editionsmsh.5721</a>
+</div>
+<div id="ref-absil2012" class="csl-entry" role="listitem">
+Absil, G., Vandoorne, C., &amp; Demarteau, M. (2012). <em>Bronfenbrenner, écologie du développement humain. Réflexion et action pour la promotion de la santé</em> [Working paper]. APES-ULg, Université de Liège. <a href="https://hdl.handle.net/2268/114839">https://hdl.handle.net/2268/114839</a>
+</div>
+<div id="ref-alix2023" class="csl-entry" role="listitem">
+Alix, J.-S. (2023). <em>Les travailleurs sociaux face au néo-libéralisme : entre assentiment et résistance</em>. L’Harmattan. <a href="https://www.editions-harmattan.fr/catalogue/livre/les-travailleurs-sociaux-face-au-neo-liberalisme/6250">https://www.editions-harmattan.fr/catalogue/livre/les-travailleurs-sociaux-face-au-neo-liberalisme/6250</a>
+</div>
+<div id="ref-amiguet2010" class="csl-entry" role="listitem">
+Amiguet, O. (2010). Systémique et travail social : quels défis pour demain ? <em>Thérapie familiale</em>, <em>31</em>(1), 39‑48. <a href="https://doi.org/10.3917/tf.101.0039">https://doi.org/10.3917/tf.101.0039</a>
+</div>
+<div id="ref-amiguet1996" class="csl-entry" role="listitem">
+Amiguet, O., &amp; Julier, C. R. (1996). <em>L’intervention systémique dans le travail social : repères épistémologiques, éthiques et méthodologiques</em>. Éditions IES; Éditions EESP.
+</div>
+<div id="ref-amiguet2004" class="csl-entry" role="listitem">
+Amiguet, O., &amp; Julier, C. R. (Éds.). (2004). <em>Les enjeux contradictoires dans le travail social : perspectives systémiques</em>. Érès. <a href="https://doi.org/10.3917/eres.amigu.2004.01">https://doi.org/10.3917/eres.amigu.2004.01</a>
+</div>
+<div id="ref-ashforth1999" class="csl-entry" role="listitem">
+Ashforth, B. E., &amp; Kreiner, G. E. (1999). <span>«&nbsp;How Can You Do It?&nbsp;»</span>: Dirty Work and the Challenge of Constructing a Positive Identity. <em>Academy of Management Review</em>, <em>24</em>(3), 413‑434. <a href="https://doi.org/10.5465/amr.1999.2202129">https://doi.org/10.5465/amr.1999.2202129</a>
+</div>
+<div id="ref-ausloos1994" class="csl-entry" role="listitem">
+Ausloos, G. (1994). La compétence des familles, l’art du thérapeute. <em>Service social</em>, <em>43</em>(3), 7‑22. <a href="https://doi.org/10.7202/706665ar">https://doi.org/10.7202/706665ar</a>
+</div>
+<div id="ref-ausloos1995" class="csl-entry" role="listitem">
+Ausloos, G. (1995). <em>La compétence des familles : temps, chaos, processus</em>. Érès.
+</div>
+<div id="ref-autes1996" class="csl-entry" role="listitem">
+Autès, M. (1996). Le travail social indéfini. <em>Recherches et Prévisions</em>, <em>44</em>, 1‑10. <a href="https://doi.org/10.3406/caf.1996.1733">https://doi.org/10.3406/caf.1996.1733</a>
+</div>
+<div id="ref-autes2013" class="csl-entry" role="listitem">
+Autès, M. (2013). <em>Les paradoxes du travail social</em>. Dunod. <a href="https://doi.org/10.3917/dunod.autes.2013.01">https://doi.org/10.3917/dunod.autes.2013.01</a> (Édition originale 1999)
+</div>
+<div id="ref-bacque2013" class="csl-entry" role="listitem">
+Bacqué, M.-H., &amp; Biewener, C. (2013). <em>L’empowerment, une pratique émancipatrice</em>. La Découverte.
+</div>
+<div id="ref-bailey1975" class="csl-entry" role="listitem">
+Bailey, R., &amp; Brake, M. (Éds.). (1975). <em>Radical Social Work</em>. Edward Arnold.
+</div>
+<div id="ref-barudy1997" class="csl-entry" role="listitem">
+Barudy, J. (1997). <em>La douleur invisible de l’enfance : l’approche éco-systémique de la maltraitance</em>. Érès.
+</div>
+<div id="ref-belgique2002" class="csl-entry" role="listitem">
+Belgique. (2002). <em>Loi du 26 mai 2002 concernant le droit à l’intégration sociale</em>. <a href="https://www.ejustice.just.fgov.be/eli/loi/2002/05/26/2002022559/justel">https://www.ejustice.just.fgov.be/eli/loi/2002/05/26/2002022559/justel</a>
+</div>
+<div id="ref-belgique2025b" class="csl-entry" role="listitem">
+Belgique. (2025a). <em>Loi du 19 décembre 2025 exécutant une politique renforcée de retour au travail en cas d’incapacité de travail</em>. <a href="https://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&amp;sum_date=2025-12-30&amp;lg_txt=f&amp;numac_search=2025009870">https://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&amp;sum_date=2025-12-30&amp;lg_txt=f&amp;numac_search=2025009870</a>
+</div>
+<div id="ref-belgique2025a" class="csl-entry" role="listitem">
+Belgique. (2025b). <em>Loi-programme du 18 juillet 2025</em>. <a href="https://www.ejustice.just.fgov.be/cgi/summary.pl?language=fr&amp;sum_date=2025-07-29&amp;s_editie=1">https://www.ejustice.just.fgov.be/cgi/summary.pl?language=fr&amp;sum_date=2025-07-29&amp;s_editie=1</a>
+</div>
+<div id="ref-belgique2026" class="csl-entry" role="listitem">
+Belgique. (2026). <em>Arrêté royal du 7 janvier 2026 modifiant l’article 34, §§ 1 et 2, de l’arrêté royal du 11 juillet 2002 portant règlement général en matière de droit à l’intégration sociale</em>. <a href="https://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&amp;sum_date=2026-01-16&amp;lg_txt=f&amp;numac_search=2026000305">https://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&amp;sum_date=2026-01-16&amp;lg_txt=f&amp;numac_search=2026000305</a>
+</div>
+<div id="ref-bilge2009" class="csl-entry" role="listitem">
+Bilge, S. (2009). Théorisations féministes de l’intersectionnalité. <em>Diogène</em>, (225), 70‑88. <a href="https://doi.org/10.3917/dio.225.0070">https://doi.org/10.3917/dio.225.0070</a>
+</div>
+<div id="ref-bronfenbrenner1979" class="csl-entry" role="listitem">
+Bronfenbrenner, U. (1979). <em>The Ecology of Human Development: Experiments by Nature and Design</em>. Harvard University Press. <a href="https://doi.org/10.4159/9780674028845">https://doi.org/10.4159/9780674028845</a>
+</div>
+<div id="ref-brotcorne2024" class="csl-entry" role="listitem">
+Brotcorne, P., &amp; Ponnet, K. (2024). <em>Baromètre de l’inclusion numérique 2024</em>. Fondation Roi Baudouin. <a href="https://kbs-frb.be/fr/barometre-inclusion-numerique-2024">https://kbs-frb.be/fr/barometre-inclusion-numerique-2024</a>
+</div>
+<div id="ref-bfp2025" class="csl-entry" role="listitem">
+Bureau fédéral du Plan. (2025). <em>Personnes bénéficiant d’un revenu d’intégration sociale (i05)</em>. indicators.be – Indicateurs de développement durable. <a href="https://indicators.be/fr/i/G01_GMI/Personnes_b%C3%A9n%C3%A9ficiant_d'un_revenu_d'int%C3%A9gration_sociale_(i05)">https://indicators.be/fr/i/G01_GMI/Personnes_b%C3%A9n%C3%A9ficiant_d'un_revenu_d'int%C3%A9gration_sociale_(i05)</a>
+</div>
+<div id="ref-glatigny2026" class="csl-entry" role="listitem">
+Cabinet de la ministre de l’Éducation de la Fédération Wallonie-Bruxelles. (2026, juillet 6). <em>Décrochage scolaire et exclusions : le Gouvernement renforce l’accompagnement des élèves et soutient les équipes éducatives</em>. <a href="https://glatigny.cfwb.be/home/communiques-de-presse/presses/decrochage-scolaire-et-exclusions-le-gouvernement-renforce-l-accompagnement-des-eleves-et-soutient-les-equipes-educatives.html">https://glatigny.cfwb.be/home/communiques-de-presse/presses/decrochage-scolaire-et-exclusions-le-gouvernement-renforce-l-accompagnement-des-eleves-et-soutient-les-equipes-educatives.html</a>
+</div>
+<div id="ref-calves2009" class="csl-entry" role="listitem">
+Calvès, A.-E. (2009). « Empowerment » : généalogie d’un concept clé du discours contemporain sur le développement. <em>Revue Tiers Monde</em>, (200), 735‑749. <a href="https://doi.org/10.3917/rtm.200.0735">https://doi.org/10.3917/rtm.200.0735</a>
+</div>
+<div id="ref-carey2011" class="csl-entry" role="listitem">
+Carey, M., &amp; Foster, V. (2011). Introducing <span>«&nbsp;Deviant&nbsp;»</span> Social Work: Contextualising the Limits of Radical Social Work whilst Understanding (Fragmented) Resistance within the Social Work Labour Process. <em>British Journal of Social Work</em>, <em>41</em>(3), 576‑593. <a href="https://doi.org/10.1093/bjsw/bcq148">https://doi.org/10.1093/bjsw/bcq148</a>
+</div>
+<div id="ref-castaigne2025a" class="csl-entry" role="listitem">
+Castaigne, M. (2025a). <em>Radioscopie 2024 des politiques d’insertion menées dans les CPAS wallons</em>. Union des Villes et Communes de Wallonie – Fédération des CPAS. <a href="https://www.uvcw.be/no_index/files/14178-radioscopie-2024-federation-cpas-uvcw.pdf">https://www.uvcw.be/no_index/files/14178-radioscopie-2024-federation-cpas-uvcw.pdf</a>
+</div>
+<div id="ref-castaigne2025b" class="csl-entry" role="listitem">
+Castaigne, M. (2025b, novembre 17). <em>Réforme du chômage : le point sur les compensations octroyées aux CPAS</em>. Union des Villes et Communes de Wallonie – Fédération des CPAS. <a href="https://www.uvcw.be/insertion/actus/art-9826">https://www.uvcw.be/insertion/actus/art-9826</a>
+</div>
+<div id="ref-castel1995" class="csl-entry" role="listitem">
+Castel, R. (1995). <em>Les métamorphoses de la question sociale : une chronique du salariat</em>. Fayard.
+</div>
+<div id="ref-chopart2000" class="csl-entry" role="listitem">
+Chopart, J.-N. (Éd.). (2000). <em>Les mutations du travail social : dynamiques d’un champ professionnel</em>. Dunod.
+</div>
+<div id="ref-cohen1975" class="csl-entry" role="listitem">
+Cohen, S. (1975). It’s All Right for You to Talk: Political and Sociological Manifestos for Social Work Action. In R. Bailey &amp; M. Brake (Éds.), <em>Radical Social Work</em> (p. 76‑95). Edward Arnold.
+</div>
+<div id="ref-collignon2026" class="csl-entry" role="listitem">
+Collignon, N. (2026). <em>Repolitiser l’accompagnement des femmes victimes de violences conjugales</em>. Collectif contre les violences familiales et l’exclusion (CVFE). <a href="https://www.cvfe.be/publications/analyses/585-repolitiser-laccompagnement-des-femmes-victimes-de-violences">https://www.cvfe.be/publications/analyses/585-repolitiser-laccompagnement-des-femmes-victimes-de-violences</a>
+</div>
+<div id="ref-collins2020" class="csl-entry" role="listitem">
+Collins, P. H., &amp; Bilge, S. (2020). <em>Intersectionality</em> (2ᵉ éd.). Polity. (Édition originale 2016)
+</div>
+<div id="ref-cfwb2013" class="csl-entry" role="listitem">
+Communauté française de Belgique. (2013). <em>Décret du 21 novembre 2013 organisant des politiques conjointes de l’enseignement obligatoire et de l’Aide à la jeunesse en faveur du bien-être des jeunes à l’école, de l’accrochage scolaire, de la prévention de la violence et de l’accompagnement des démarches d’orientation</em>. Moniteur belge, 3 avril 2014 ; version consolidée au 14 août 2025, Gallilex, document 39910. <a href="https://gallilex.cfwb.be/sites/default/files/textes-normatifs/2025-08/39910_0009.pdf">https://gallilex.cfwb.be/sites/default/files/textes-normatifs/2025-08/39910_0009.pdf</a>
+</div>
+<div id="ref-cfwb2024" class="csl-entry" role="listitem">
+Communauté française de Belgique. (2024). <em>Décret du 16 mai 2024 relatif à la réduction du décrochage scolaire et à la lutte contre l’absentéisme des élèves</em>. Moniteur belge, 24 septembre 2024 (numac 2024007197) ; Gallilex, document 52700. <a href="https://gallilex.cfwb.be/textes-normatifs/52700">https://gallilex.cfwb.be/textes-normatifs/52700</a>
+</div>
+<div id="ref-conseildetat2025" class="csl-entry" role="listitem">
+Conseil d’État, section de législation. (2025). <em>Avis 78.041/1/V du 8 août 2025 sur un projet d’arrêté royal « modifiant l’article 34, §§ 1 et 2, de l’arrêté royal du 11 juillet 2002 portant règlement général en matière de droit à l’intégration sociale »</em>. Conseil d’État. <a href="https://www.raadvst-consetat.be/dbx/avis/78041.pdf">https://www.raadvst-consetat.be/dbx/avis/78041.pdf</a>
+</div>
+<div id="ref-courconstitutionnelle2026" class="csl-entry" role="listitem">
+Cour constitutionnelle. (2026). <em>Arrêt n° 96/2026 du 10 septembre 2026</em>. <a href="https://fr.const-court.be/public/f/2026/2026-096f.pdf">https://fr.const-court.be/public/f/2026/2026-096f.pdf</a>
+</div>
+<div id="ref-crenshaw1989" class="csl-entry" role="listitem">
+Crenshaw, K. W. (1989). Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics. <em>University of Chicago Legal Forum</em>, <em>1989</em>(1), 139‑167. <a href="https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8">https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8</a>
+</div>
+<div id="ref-crenshaw1991" class="csl-entry" role="listitem">
+Crenshaw, K. W. (1991). Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color. <em>Stanford Law Review</em>, <em>43</em>(6), 1241‑1299. <a href="https://doi.org/10.2307/1229039">https://doi.org/10.2307/1229039</a>
+</div>
+<div id="ref-crenshaw2005" class="csl-entry" role="listitem">
+Crenshaw, K. W. (2005). Cartographies des marges : intersectionnalité, politique de l’identité et violences contre les femmes de couleur (O. Bonis, Trad.). <em>Cahiers du Genre</em>, (39), 51‑82. <a href="https://doi.org/10.3917/cdge.039.0051">https://doi.org/10.3917/cdge.039.0051</a>
+</div>
+<div id="ref-deaubonne1974" class="csl-entry" role="listitem">
+<span class="nocase">d’Eaubonne, F.</span> (1974). <em>Le Féminisme ou la Mort</em>. Pierre Horay.
+</div>
+<div id="ref-dekeukeleire2018" class="csl-entry" role="listitem">
+De Keukeleire, M. (2018, mars 21). <em>Implanter le DPA-PC au cœur des pratiques d’accompagnement des travailleurs sociaux. Une initiative du Centre de formation des CPAS wallons</em>. Le Grain asbl. <a href="https://www.legrainasbl.org/analyse/implanter-le-dpa-pc-au-coeur-des-pratiques-d-accompagnement-des-travailleurs-sociaux-une-initiative-du-centre-de-formation-des-cpas-wallons/">https://www.legrainasbl.org/analyse/implanter-le-dpa-pc-au-coeur-des-pratiques-d-accompagnement-des-travailleurs-sociaux-une-initiative-du-centre-de-formation-des-cpas-wallons/</a>
+</div>
+<div id="ref-dewilde2019" class="csl-entry" role="listitem">
+De Wilde, M., &amp; Marchal, S. (2019). <span>Weighing</span> up <span>Work</span> <span>Willingness</span> in <span>Social</span> <span>Assistance</span>: <span>A</span> <span>Balancing</span> <span>Act</span> on <span>Multiple</span> <span>Levels</span>. <em>European Sociological Review</em>, <em>35</em>(5), 718‑737. <a href="https://doi.org/10.1093/esr/jcz028">https://doi.org/10.1093/esr/jcz028</a>
+</div>
+<div id="ref-defenseurdesdroits2022" class="csl-entry" role="listitem">
+Défenseur des droits. (2022). <em>Dématérialisation des services publics : trois ans après, où en est-on ?</em> Défenseur des droits. <a href="https://www.defenseurdesdroits.fr/rapport-dematerialisation-des-services-publics-trois-ans-apres-ou-en-est-265">https://www.defenseurdesdroits.fr/rapport-dematerialisation-des-services-publics-trois-ans-apres-ou-en-est-265</a>
+</div>
+<div id="ref-delhaise2019" class="csl-entry" role="listitem">
+Delhaise, É. (2019, août 1). <em>La dénonciation en matière de terrorisme : coup d’arrêt de la Cour constitutionnelle</em>. Justice-en-ligne. <a href="https://www.justice-en-ligne.be/La-denonciation-en-matiere-de">https://www.justice-en-ligne.be/La-denonciation-en-matiere-de</a>
+</div>
+<div id="ref-deville2023" class="csl-entry" role="listitem">
+Deville, C. (2023). <em>L’État social à distance. Dématérialisation et accès aux droits des classes populaires rurales</em>. Éditions du Croquant.
+</div>
+<div id="ref-dominelli2002" class="csl-entry" role="listitem">
+Dominelli, L. (2002). <em>Feminist Social Work Theory and Practice</em>. Palgrave. <a href="https://doi.org/10.1007/978-0-230-62820-5">https://doi.org/10.1007/978-0-230-62820-5</a>
+</div>
+<div id="ref-dominelli2012" class="csl-entry" role="listitem">
+Dominelli, L. (2012). <em>Green Social Work: From Environmental Crises to Environmental Justice</em>. Polity Press.
+</div>
+<div id="ref-dubar1991" class="csl-entry" role="listitem">
+Dubar, C. (1991). <em>La socialisation : construction des identités sociales et professionnelles</em>. Armand Colin.
+</div>
+<div id="ref-dubar1998" class="csl-entry" role="listitem">
+Dubar, C., &amp; Tripier, P. (1998). <em>Sociologie des professions</em>. Armand Colin.
+</div>
+<div id="ref-dubois2021" class="csl-entry" role="listitem">
+Dubois, V. (2021). <em>Contrôler les assistés. Genèses et usages d’un mot d’ordre</em>. Raisons d’agir.
+</div>
+<div id="ref-eubanks2018" class="csl-entry" role="listitem">
+Eubanks, V. (2018). <em><span>Automating Inequality</span>: <span>How</span> <span>High-Tech</span> <span>Tools</span> <span>Profile</span>, <span>Police</span>, and <span>Punish</span> the <span>Poor</span></em>. St. Martin’s Press.
+</div>
+<div id="ref-ferguson2008" class="csl-entry" role="listitem">
+Ferguson, I. (2008). <em>Reclaiming Social Work: Challenging Neo-Liberalism and Promoting Social Justice</em>. Sage. <a href="https://doi.org/10.4135/9781446212110">https://doi.org/10.4135/9781446212110</a>
+</div>
+<div id="ref-ferguson2009" class="csl-entry" role="listitem">
+Ferguson, I., &amp; Woodward, R. (2009). <em>Radical Social Work in Practice: Making a Difference</em>. Policy Press. <a href="https://doi.org/10.2307/j.ctt1t890qk">https://doi.org/10.2307/j.ctt1t890qk</a>
+</div>
+<div id="ref-flexner2001" class="csl-entry" role="listitem">
+Flexner, A. (2001). Is Social Work a Profession? <em>Research on Social Work Practice</em>, <em>11</em>(2), 152‑165. <a href="https://doi.org/10.1177/104973150101100202">https://doi.org/10.1177/104973150101100202</a> (Édition originale 1915)
+</div>
+<div id="ref-fook2002" class="csl-entry" role="listitem">
+Fook, J. (2002). <em>Social Work: Critical Theory and Practice</em>. Sage.
+</div>
+<div id="ref-franssen2005" class="csl-entry" role="listitem">
+Franssen, A. (2005). État social actif et métamorphoses des identités professionnelles : essai de typologie des logiques de reconstruction identitaire des travailleurs sociaux. <em>Pensée plurielle</em>, <em>10</em>(2), 137‑147. <a href="https://doi.org/10.3917/pp.010.0137">https://doi.org/10.3917/pp.010.0137</a>
+</div>
+<div id="ref-franssen2008" class="csl-entry" role="listitem">
+Franssen, A. (2008). État social actif : une nouvelle grammaire des risques sociaux. In Y. Cartuyvels (Éd.), <em>Les ambivalences du risque. Regards croisés en sciences sociales</em> (p. 113‑148). Presses universitaires Saint-Louis Bruxelles. <a href="https://doi.org/10.4000/books.pusl.3495">https://doi.org/10.4000/books.pusl.3495</a>
+</div>
+<div id="ref-franssen2015" class="csl-entry" role="listitem">
+Franssen, A., Méhauden, L., Driessens, K., &amp; Depauw, J. (2015). <em>Le projet individualisé d’intégration sociale. Recherche évaluative et prospective au sein des CPAS belges</em>. Université Saint-Louis – Bruxelles et Karel de Grote Hogeschool, à la demande du SPP Intégration sociale. <a href="https://hdl.handle.net/2078.5/186148">https://hdl.handle.net/2078.5/186148</a>
+</div>
+<div id="ref-freire1974" class="csl-entry" role="listitem">
+Freire, P. (1974). <em>Pédagogie des opprimés, suivi de Conscientisation et révolution</em>. François Maspero. (Édition originale 1970)
+</div>
+<div id="ref-garrett2010" class="csl-entry" role="listitem">
+Garrett, P. M. (2010). Recognizing the Limitations of the Political Theory of Recognition: Axel <span>Honneth</span>, Nancy <span>Fraser</span> and Social Work. <em>British Journal of Social Work</em>, <em>40</em>(5), 1517‑1533. <a href="https://doi.org/10.1093/bjsw/bcp044">https://doi.org/10.1093/bjsw/bcp044</a>
+</div>
+<div id="ref-germain1980" class="csl-entry" role="listitem">
+Germain, C. B., &amp; Gitterman, A. (1980). <em>The Life Model of Social Work Practice</em>. Columbia University Press.
+</div>
+<div id="ref-gilligan1982" class="csl-entry" role="listitem">
+Gilligan, C. (1982). <em>In a Different Voice: Psychological Theory and Women’s Development</em>. Harvard University Press.
+</div>
+<div id="ref-gimenezbertomeu2024" class="csl-entry" role="listitem">
+Giménez-Bertomeu, V. M., Caravaca-Sánchez, F., Alfonseti-Hartmann, N. de, &amp; Ricoy-Cano, A. J. (2024). Burnout Among Social Workers in Social Services: A Systematic Review and Meta-Analysis of Prevalence. <em>Journal of Social Service Research</em>, <em>50</em>(4), 664‑683. <a href="https://doi.org/10.1080/01488376.2024.2371847">https://doi.org/10.1080/01488376.2024.2371847</a>
+</div>
+<div id="ref-gray2013" class="csl-entry" role="listitem">
+Gray, M., Coates, J., &amp; Hetherington, T. (Éds.). (2013). <em>Environmental Social Work</em>. Routledge. <a href="https://doi.org/10.4324/9780203095300">https://doi.org/10.4324/9780203095300</a>
+</div>
+<div id="ref-grootegoed2018" class="csl-entry" role="listitem">
+Grootegoed, E., &amp; Smith, M. (2018). The Emotional Labour of Austerity: How Social Workers Reflect and Work on Their Feelings towards Reducing Support to Needy Children and Families. <em>The British Journal of Social Work</em>, <em>48</em>(7), 1929‑1947. <a href="https://doi.org/10.1093/bjsw/bcx151">https://doi.org/10.1093/bjsw/bcx151</a>
+</div>
+<div id="ref-hamzaoui2017" class="csl-entry" role="listitem">
+Hamzaoui, M. (2017). Contractualisation de l’aide et de l’action sociale. <em>Les Politiques sociales</em>, (1-2), 40‑48. <a href="https://doi.org/10.3917/lps.171.0040">https://doi.org/10.3917/lps.171.0040</a>
+</div>
+<div id="ref-hardy2012" class="csl-entry" role="listitem">
+Hardy, G. (2012). <em>S’il te plaît, ne m’aide pas ! L’aide sous injonction administrative ou judiciaire</em>. Érès. <a href="https://doi.org/10.3917/eres.hardy.2012.01">https://doi.org/10.3917/eres.hardy.2012.01</a> (Édition originale 2001)
+</div>
+<div id="ref-hcts2025" class="csl-entry" role="listitem">
+Haut conseil du travail social. (2025). <em>Le travail social à horizon 2050 : rapport du groupe de travail sur la prospective</em>. Haut conseil du travail social. <a href="https://solidarites.gouv.fr/sites/solidarite/files/2026-01/Prospective-HCTS-2025.pdf">https://solidarites.gouv.fr/sites/solidarite/files/2026-01/Prospective-HCTS-2025.pdf</a>
+</div>
+<div id="ref-healy2000" class="csl-entry" role="listitem">
+Healy, K. (2000). <em>Social Work Practices: Contemporary Perspectives on Change</em>. Sage.
+</div>
+<div id="ref-healy2001" class="csl-entry" role="listitem">
+Healy, K. (2001). Reinventing Critical Social Work: Challenges from Practice, Context and Postmodernism. <em>Critical Social Work</em>, <em>2</em>(1). <a href="https://ojs.uwindsor.ca/index.php/csw/article/view/5618">https://ojs.uwindsor.ca/index.php/csw/article/view/5618</a>
+</div>
+<div id="ref-herman2016" class="csl-entry" role="listitem">
+Herman, E. (2016). <em>Lutter contre les violences conjugales. Féminisme, travail social, politique publique</em>. Presses universitaires de Rennes. <a href="https://doi.org/10.4000/books.pur.70067">https://doi.org/10.4000/books.pur.70067</a>
+</div>
+<div id="ref-hochschild1983" class="csl-entry" role="listitem">
+Hochschild, A. R. (1983). <em>The Managed Heart: Commercialization of Human Feeling</em>. University of California Press.
+</div>
+<div id="ref-hochschild2017" class="csl-entry" role="listitem">
+Hochschild, A. R. (2017). <em>Le prix des sentiments : au cœur du travail émotionnel</em> (S. Fournet-Fayas &amp; C. Thomé, Trad.). La Découverte. (Édition originale 1983)
+</div>
+<div id="ref-honneth2004" class="csl-entry" role="listitem">
+Honneth, A. (2004). La théorie de la reconnaissance : une esquisse. <em>Revue du MAUSS</em>, (23), 133‑136. <a href="https://doi.org/10.3917/rdm.023.0133">https://doi.org/10.3917/rdm.023.0133</a>
+</div>
+<div id="ref-houston2016" class="csl-entry" role="listitem">
+Houston, S. (2016). Empowering the <span>«&nbsp;Shamed&nbsp;»</span> Self: Recognition and Critical Social Work. <em>Journal of Social Work</em>, <em>16</em>(1), 3‑21. <a href="https://doi.org/10.1177/1468017314566789">https://doi.org/10.1177/1468017314566789</a>
+</div>
+<div id="ref-hughes1958" class="csl-entry" role="listitem">
+Hughes, E. C. (1958). <em>Men and Their Work</em>. Free Press.
+</div>
+<div id="ref-hughes2010" class="csl-entry" role="listitem">
+Hughes, E. C. (2010). Les honnêtes gens et le sale boulot (V. Aucouturier, Trad.). <em>Travailler</em>, (24), 21‑34. <a href="https://doi.org/10.3917/trav.024.0021">https://doi.org/10.3917/trav.024.0021</a> (Édition originale 1962)
+</div>
+<div id="ref-iefh2025" class="csl-entry" role="listitem">
+Institut pour l’égalité des femmes et des hommes, &amp; SPF Emploi, Travail et Concertation sociale. (2025). <em>L’écart salarial entre les femmes et les hommes en Belgique. Rapport 2025</em>. Institut pour l’égalité des femmes et des hommes. <a href="https://igvm-iefh.belgium.be/fr/documentation/lecart-salarial-entre-les-femmes-et-les-hommes-en-belgique-rapport-2025">https://igvm-iefh.belgium.be/fr/documentation/lecart-salarial-entre-les-femmes-et-les-hommes-en-belgique-rapport-2025</a>
+</div>
+<div id="ref-ifsw2014" class="csl-entry" role="listitem">
+International Federation of Social Workers, &amp; International Association of Schools of Social Work. (2014). <em>Global Definition of Social Work</em>. <a href="https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/">https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/</a>
+</div>
+<div id="ref-ion1985" class="csl-entry" role="listitem">
+Ion, J., &amp; Tricart, J.-P. (1985). Une entité professionnelle problématique : les travailleurs sociaux. <em>Sociologie du travail</em>, <em>27</em>(2), 137‑153. <a href="https://doi.org/10.3406/sotra.1985.2004">https://doi.org/10.3406/sotra.1985.2004</a>
+</div>
+<div id="ref-janvier2025" class="csl-entry" role="listitem">
+Janvier, R. (2025). <em>Revenir au cœur du travail social pour favoriser l’engagement : théories et modèles d’intervention</em>. <a href="https://www.rolandjanvier.org/articles/droit-usagers/2583-integras-colloque-de-morat-suisse-14-novembre-2025-14-11-2025/">https://www.rolandjanvier.org/articles/droit-usagers/2583-integras-colloque-de-morat-suisse-14-novembre-2025-14-11-2025/</a>
+</div>
+<div id="ref-jouffray2024" class="csl-entry" role="listitem">
+Jouffray, C. (Éd.). (2024). <em>Développement du pouvoir d’agir des personnes et des collectifs. Un renouvellement du rapport à l’autre</em> (3ᵉ éd.). Presses de l’EHESP. (Édition originale 2014)
+</div>
+<div id="ref-keller2005" class="csl-entry" role="listitem">
+Keller, V. (2005). <em>Aider et contrôler : les controverses du travail social</em>. Éditions EESP. <a href="https://www.hetsl.ch/fileadmin/user_upload/publications/media_41-aider_et_controler.pdf">https://www.hetsl.ch/fileadmin/user_upload/publications/media_41-aider_et_controler.pdf</a>
+</div>
+<div id="ref-keller2016" class="csl-entry" role="listitem">
+Keller, V. (2016). <em>Manuel critique de travail social</em>. Éditions ies. <a href="https://doi.org/10.4000/books.ies.1360">https://doi.org/10.4000/books.ies.1360</a>
+</div>
+<div id="ref-klinenberg2002" class="csl-entry" role="listitem">
+Klinenberg, E. (2002). <em>Heat Wave: A Social Autopsy of Disaster in Chicago</em>. University of Chicago Press.
+</div>
+<div id="ref-laquadrature2023" class="csl-entry" role="listitem">
+La Quadrature du Net. (2023, novembre 27). <em>Notation des allocataires : l’indécence des pratiques de la CAF désormais indéniable</em>. <a href="https://www.laquadrature.net/2023/11/27/notation-des-allocataires-lindecence-des-pratiques-de-la-caf-desormais-indeniable/">https://www.laquadrature.net/2023/11/27/notation-des-allocataires-lindecence-des-pratiques-de-la-caf-desormais-indeniable/</a>
+</div>
+<div id="ref-larrere2015" class="csl-entry" role="listitem">
+Larrère, C. (2015). La nature a-t-elle un genre ? Variétés d’écoféminisme. <em>Cahiers du Genre</em>, (59), 103‑125. <a href="https://doi.org/10.3917/cdge.059.0103">https://doi.org/10.3917/cdge.059.0103</a>
+</div>
+<div id="ref-lebosse2003" class="csl-entry" role="listitem">
+Le Bossé, Y. (2003). De l’« habilitation » au « pouvoir d’agir » : vers une appréhension plus circonscrite de la notion d’empowerment. <em>Nouvelles pratiques sociales</em>, <em>16</em>(2), 30‑51. <a href="https://doi.org/10.7202/009841ar">https://doi.org/10.7202/009841ar</a>
+</div>
+<div id="ref-lebosse2012" class="csl-entry" role="listitem">
+Le Bossé, Y. (2012). <em>Sortir de l’impuissance : invitation à soutenir le développement du pouvoir d’agir des personnes et des collectivités. Tome 1 : Fondements et cadres conceptuels</em>. Ardis.
+</div>
+<div id="ref-lebosse2016" class="csl-entry" role="listitem">
+Le Bossé, Y. (2016). <em>Soutenir sans prescrire. Aperçu synoptique de l’approche centrée sur le développement du pouvoir d’agir des personnes et des collectivités (DPA-PC)</em>. Ardis.
+</div>
+<div id="ref-lebbeberrier1988" class="csl-entry" role="listitem">
+Lebbe-Berrier, P. (1988). <em>Pouvoir et créativité du travailleur social : une méthodologie systémique</em>. ESF.
+</div>
+<div id="ref-lhuilier2005" class="csl-entry" role="listitem">
+Lhuilier, D. (2005). Le « sale boulot ». <em>Travailler</em>, (14), 73‑98. <a href="https://doi.org/10.3917/trav.014.0073">https://doi.org/10.3917/trav.014.0073</a>
+</div>
+<div id="ref-liguedh2026" class="csl-entry" role="listitem">
+Ligue des droits humains. (2026, mars 24). <em>L’associatif attaque l’Arizona en justice contre le durcissement du « statut cohabitant »</em>. <a href="https://www.liguedh.be/droits-sociaux/lassociatif-attaque-larizona-en-justice-contre-le-durcissement-du-statut-cohabitant/">https://www.liguedh.be/droits-sociaux/lassociatif-attaque-larizona-en-justice-contre-le-durcissement-du-statut-cohabitant/</a>
+</div>
+<div id="ref-lima2010" class="csl-entry" role="listitem">
+Lima, L. (2010). Le travail social critique en Grande-Bretagne. <em>Revue française des affaires sociales</em>, (4), 75‑84. <a href="https://doi.org/10.3917/rfas.104.0075">https://doi.org/10.3917/rfas.104.0075</a>
+</div>
+<div id="ref-maes2013" class="csl-entry" role="listitem">
+Maes, R. (2013). Du mal-être des travailleurs sociaux à l’État social actif : quelles grilles d’analyse ? <em>Pensée plurielle</em>, <em>32</em>(1), 73‑81. <a href="https://doi.org/10.3917/pp.032.0073">https://doi.org/10.3917/pp.032.0073</a>
+</div>
+<div id="ref-maes2019" class="csl-entry" role="listitem">
+Maes, R., &amp; Sylin, M. (2019). Le travail social, de la traduction à la déviance. <em>La Revue nouvelle</em>, (1), 56‑66. <a href="https://doi.org/10.3917/rn.191.0056">https://doi.org/10.3917/rn.191.0056</a>
+</div>
+<div id="ref-manttarivanderkuip2016" class="csl-entry" role="listitem">
+Mänttäri-van der Kuip, M. (2016). Moral Distress among Social Workers: The Role of Insufficient Resources. <em>International Journal of Social Welfare</em>, <em>25</em>(1), 86‑97. <a href="https://doi.org/10.1111/ijsw.12163">https://doi.org/10.1111/ijsw.12163</a>
+</div>
+<div id="ref-maslach1981" class="csl-entry" role="listitem">
+Maslach, C., &amp; Jackson, S. E. (1981). The Measurement of Experienced Burnout. <em>Journal of Occupational Behaviour</em>, <em>2</em>(2), 99‑113. <a href="https://doi.org/10.1002/job.4030020205">https://doi.org/10.1002/job.4030020205</a>
+</div>
+<div id="ref-maslach1986" class="csl-entry" role="listitem">
+Maslach, C., &amp; Jackson, S. E. (1986). <em>Maslach Burnout Inventory: Manual</em> (2ᵉ éd.). Consulting Psychologists Press.
+</div>
+<div id="ref-molinier2013" class="csl-entry" role="listitem">
+Molinier, P. (2013). <em>Le travail du care</em>. La Dispute.
+</div>
+<div id="ref-moreau1987" class="csl-entry" role="listitem">
+Moreau, M. (1987). L’approche structurelle en travail social : implications pratiques d’une approche intégrée conflictuelle. <em>Service social</em>, <em>36</em>(2-3), 227‑247. <a href="https://doi.org/10.7202/706361ar">https://doi.org/10.7202/706361ar</a>
+</div>
+<div id="ref-morriss2016" class="csl-entry" role="listitem">
+Morriss, L. (2016). <span>AMHP</span> Work: Dirty or Prestigious? Dirty Work Designations and the Approved Mental Health Professional. <em>The British Journal of Social Work</em>, <em>46</em>(3), 703‑718. <a href="https://doi.org/10.1093/bjsw/bcv009">https://doi.org/10.1093/bjsw/bcv009</a>
+</div>
+<div id="ref-motoi2016" class="csl-entry" role="listitem">
+Motoi, I. (2016). La pensée critique du point de vue du travail social. <em>Sciences &amp; Actions Sociales</em>, (5), 5‑32. <a href="https://doi.org/10.3917/sas.005.0005">https://doi.org/10.3917/sas.005.0005</a>
+</div>
+<div id="ref-mullaly2007" class="csl-entry" role="listitem">
+Mullaly, B. (2007). <em>The New Structural Social Work</em> (3ᵉ éd.). Oxford University Press. (Édition originale 1993)
+</div>
+<div id="ref-narhi2018" class="csl-entry" role="listitem">
+Närhi, K., &amp; Matthies, A.-L. (2018). The Ecosocial Approach in Social Work as a Framework for Structural Social Work. <em>International Social Work</em>, <em>61</em>(4), 490‑502. <a href="https://doi.org/10.1177/0020872816644663">https://doi.org/10.1177/0020872816644663</a>
+</div>
+<div id="ref-neuburger1984" class="csl-entry" role="listitem">
+Neuburger, R. (1984). <em>L’autre demande : psychanalyse et thérapie familiale systémique</em>. ESF.
+</div>
+<div id="ref-ninacs2008" class="csl-entry" role="listitem">
+Ninacs, W. A. (2008). <em>Empowerment et intervention : développement de la capacité d’agir et de la solidarité</em>. Presses de l’Université Laval.
+</div>
+<div id="ref-noel2017" class="csl-entry" role="listitem">
+Noël, L. (2017). <em>Aperçus du non-recours aux droits sociaux et de la sous-protection sociale en Région bruxelloise. Cahier thématique du Rapport bruxellois sur l’état de la pauvreté 2016</em>. Observatoire de la santé et du social de Bruxelles-Capitale, Commission communautaire commune. <a href="https://www.ccc-ggc.brussels/sites/default/files/documents/graphics/rapport-pauvrete/rapport_thema_fr_2016.pdf">https://www.ccc-ggc.brussels/sites/default/files/documents/graphics/rapport-pauvrete/rapport_thema_fr_2016.pdf</a>
+</div>
+<div id="ref-nussbaum2012" class="csl-entry" role="listitem">
+Nussbaum, M. C. (2012). <em>Capabilités. Comment créer les conditions d’un monde plus juste ?</em> (S. Chavel, Trad.). Flammarion. (Édition originale 2011)
+</div>
+<div id="ref-okbani2022" class="csl-entry" role="listitem">
+Okbani, N. (2022). Réception de l’e-administration par les professionnels et mutation du travail social. <em>Informations sociales</em>, (205), 38‑46. <a href="https://doi.org/10.3917/inso.205.038">https://doi.org/10.3917/inso.205.038</a>
+</div>
+<div id="ref-ornellas2018" class="csl-entry" role="listitem">
+Ornellas, A., Spolander, G., &amp; Engelbrecht, L. K. (2018). The Global Social Work Definition: Ontology, Implications and Challenges. <em>Journal of Social Work</em>, <em>18</em>(2), 222‑240. <a href="https://doi.org/10.1177/1468017316654606">https://doi.org/10.1177/1468017316654606</a>
+</div>
+<div id="ref-paperman2005" class="csl-entry" role="listitem">
+Paperman, P., &amp; Laugier, S. (Éds.). (2005). <em>Le souci des autres. Éthique et politique du care</em>. Éditions de l’École des hautes études en sciences sociales.
+</div>
+<div id="ref-parsons1951" class="csl-entry" role="listitem">
+Parsons, T. (1951). <em>The Social System</em>. Free Press.
+</div>
+<div id="ref-peeters2012" class="csl-entry" role="listitem">
+Peeters, J. (2012). The Place of Social Work in Sustainable Development: Towards Ecosocial Practice. <em>International Journal of Social Welfare</em>, <em>21</em>(3), 287‑298. <a href="https://doi.org/10.1111/j.1468-2397.2011.00856.x">https://doi.org/10.1111/j.1468-2397.2011.00856.x</a>
+</div>
+<div id="ref-portillo2019" class="csl-entry" role="listitem">
+Portillo, M. (2019). Qu’est-ce que le travail social vert et en quoi est-il pertinent aujourd’hui ? <em>Forum</em>, (157), 46‑54. <a href="https://doi.org/10.3917/forum.157.0046">https://doi.org/10.3917/forum.157.0046</a>
+</div>
+<div id="ref-poussard2021" class="csl-entry" role="listitem">
+Poussard, C., Dewals, B., Archambeau, P., &amp; Teller, J. (2021). Environmental Inequalities in Flood Exposure: A Matter of Scale. <em>Frontiers in Water</em>, <em>3</em>, 633046. <a href="https://doi.org/10.3389/frwa.2021.633046">https://doi.org/10.3389/frwa.2021.633046</a>
+</div>
+<div id="ref-ravon2009" class="csl-entry" role="listitem">
+Ravon, B. (2009). Repenser l’usure professionnelle des travailleurs sociaux. <em>Informations sociales</em>, (152), 60‑68. <a href="https://doi.org/10.3917/inso.152.0060">https://doi.org/10.3917/inso.152.0060</a>
+</div>
+<div id="ref-ravon2012" class="csl-entry" role="listitem">
+Ravon, B., &amp; Ion, J. (2012). <em>Les travailleurs sociaux</em> (8ᵉ éd.). La Découverte. <a href="https://doi.org/10.3917/dec.ravon.2012.01">https://doi.org/10.3917/dec.ravon.2012.01</a>
+</div>
+<div id="ref-rombeaux2021" class="csl-entry" role="listitem">
+Rombeaux, J.-M. (2021). <em>Inondations – La Fédération des CPAS relaie des attentes des CPAS dans un échange constructif avec le Fédéral. Le SPP IS a rédigé des FAQ répondant à de nombreuses questions relayées par les CPAS</em>. Union des Villes et Communes de Wallonie – Fédération des CPAS. <a href="https://www.uvcw.be/aide-sociale/actus/art-6619">https://www.uvcw.be/aide-sociale/actus/art-6619</a>
+</div>
+<div id="ref-rtbf2026a" class="csl-entry" role="listitem">
+RTBF. (2026a, janvier 21). <em>Le durcissement du statut de cohabitant entrera en vigueur le 1er mars</em>. RTBF Actus. <a href="https://www.rtbf.be/article/le-durcissement-du-statut-de-cohabitant-entrera-en-vigueur-le-1er-mars-11665646">https://www.rtbf.be/article/le-durcissement-du-statut-de-cohabitant-entrera-en-vigueur-le-1er-mars-11665646</a>
+</div>
+<div id="ref-rtbf2026b" class="csl-entry" role="listitem">
+RTBF. (2026b, septembre 25). <em>Réforme du chômage : près d’un Bruxellois exclu du chômage sur deux s’est tourné vers un CPAS au premier trimestre</em>. RTBF Actus. <a href="https://www.rtbf.be/article/reforme-du-chomage-pres-d-un-bruxellois-exclu-du-chomage-sur-deux-s-est-tourne-vers-un-cpas-au-1er-trimestre-11790374">https://www.rtbf.be/article/reforme-du-chomage-pres-d-un-bruxellois-exclu-du-chomage-sur-deux-s-est-tourne-vers-un-cpas-au-1er-trimestre-11790374</a>
+</div>
+<div id="ref-sen2000" class="csl-entry" role="listitem">
+Sen, A. (2000). <em>Un nouveau modèle économique. Développement, justice, liberté</em> (M. Bessières, Trad.). Odile Jacob. (Édition originale 1999)
+</div>
+<div id="ref-serre2010" class="csl-entry" role="listitem">
+Serre, D. (2010). Les assistantes sociales face à leur mandat de surveillance des familles. <em>Déviance et Société</em>, <em>34</em>(2), 149‑162. <a href="https://doi.org/10.3917/ds.342.0149">https://doi.org/10.3917/ds.342.0149</a>
+</div>
+<div id="ref-serre2012" class="csl-entry" role="listitem">
+Serre, D. (2012). Travail social et rapport aux familles : les effets combinés et non convergents du genre et de la classe. <em>Nouvelles Questions Féministes</em>, <em>31</em>(2), 49‑64. <a href="https://doi.org/10.3917/nqf.312.0049">https://doi.org/10.3917/nqf.312.0049</a>
+</div>
+<div id="ref-slp2018" class="csl-entry" role="listitem">
+Service de lutte contre la pauvreté, la précarité et l’exclusion sociale. (2018). <em>Au-delà du statut cohabitant. Compte rendu de la matinée de réflexion, 19 avril 2018, Sénat</em>. Service de lutte contre la pauvreté, la précarité et l’exclusion sociale. <a href="https://luttepauvrete.be/colloquecohabit_2018/compterendu_senat_20180419.pdf">https://luttepauvrete.be/colloquecohabit_2018/compterendu_senat_20180419.pdf</a>
+</div>
+<div id="ref-slp2025" class="csl-entry" role="listitem">
+Service de lutte contre la pauvreté, la précarité et l’exclusion sociale. (2025). <em>L’humain comme boussole dans les services publics. Contribution au débat et à l’action politiques. Rapport bisannuel 2024-2025</em>. Service de lutte contre la pauvreté, la précarité et l’exclusion sociale. <a href="https://luttepauvrete.be/wp-content/uploads/sites/2/2026/01/260121-Rapport-bisannuel-2024-2025-FR.pdf">https://luttepauvrete.be/wp-content/uploads/sites/2/2026/01/260121-Rapport-bisannuel-2024-2025-FR.pdf</a>
+</div>
+<div id="ref-siporin1980" class="csl-entry" role="listitem">
+Siporin, M. (1980). Ecological Systems Theory in Social Work. <em>The Journal of Sociology &amp; Social Welfare</em>, <em>7</em>(4). <a href="https://doi.org/10.15453/0191-5096.1428">https://doi.org/10.15453/0191-5096.1428</a>
+</div>
+<div id="ref-soulet2016" class="csl-entry" role="listitem">
+Soulet, M.-H. (2016). Le travail social, une activité d’auto-conception professionnelle en situation d’incertitude. <em>SociologieS</em>. <a href="https://doi.org/10.4000/sociologies.5553">https://doi.org/10.4000/sociologies.5553</a>
+</div>
+<div id="ref-sppis2026a" class="csl-entry" role="listitem">
+SPP Intégration sociale. (2026a). <em>FAQ. Article 34 AR 11 juillet 2002 modifié par l’AR du 7/01/2026</em>. Service public fédéral de programmation Intégration sociale. <a href="https://www.mi-is.be/sites/default/files/documents/FAQ%20art.%2034%2018%20februari_0.pdf">https://www.mi-is.be/sites/default/files/documents/FAQ%20art.%2034%2018%20februari_0.pdf</a>
+</div>
+<div id="ref-sppis2026b" class="csl-entry" role="listitem">
+SPP Intégration sociale. (2026b). <em>Montants RIS</em>. Primabook, espace documentaire du SPP Intégration sociale. <a href="https://primabook.mi-is.be/fr/droit-lintegration-sociale/montants-ris">https://primabook.mi-is.be/fr/droit-lintegration-sociale/montants-ris</a>
+</div>
+<div id="ref-staubbernasconi2016" class="csl-entry" role="listitem">
+Staub-Bernasconi, S. (2016). Social Work and Human Rights—Linking Two Traditions of Human Rights in Social Work. <em>Journal of Human Rights and Social Work</em>, <em>1</em>(1), 40‑49. <a href="https://doi.org/10.1007/s41134-016-0005-0">https://doi.org/10.1007/s41134-016-0005-0</a>
+</div>
+<div id="ref-staubbernasconi2017" class="csl-entry" role="listitem">
+Staub-Bernasconi, S. (2017). The Problem with <span>«&nbsp;Social Problems&nbsp;»</span> as Domain of Social Work: A Critical Approach to the Melbourne <span>«&nbsp;Global Definition of Social Work&nbsp;»</span> of 2014 and Constructivist Theories of Social Problems. <em>European Journal of Social Work</em>, <em>20</em>(6), 958‑971. <a href="https://doi.org/10.1080/13691457.2016.1278522">https://doi.org/10.1080/13691457.2016.1278522</a>
+</div>
+<div id="ref-tcholakova2014" class="csl-entry" role="listitem">
+Tcholakova, A. (2014). La relation de service comme rapport de reconnaissance : l’exemple de l’accompagnement des réfugiés vers le travail. <em>Travailler</em>, (32), 99‑129. <a href="https://doi.org/10.3917/trav.032.0099">https://doi.org/10.3917/trav.032.0099</a>
+</div>
+<div id="ref-tronto1993" class="csl-entry" role="listitem">
+Tronto, J. C. (1993). <em>Moral Boundaries: A Political Argument for an Ethic of Care</em>. Routledge.
+</div>
+<div id="ref-vandenbroucke1999" class="csl-entry" role="listitem">
+Vandenbroucke, F. (1999). <em>De actieve welvaartsstaat. Een Europees perspectief</em>. <a href="https://www.frankvandenbroucke.be/de-actieve-welvaartsstaat-een-europees-perspectief-den-uyl-lezing/">https://www.frankvandenbroucke.be/de-actieve-welvaartsstaat-een-europees-perspectief-den-uyl-lezing/</a>
+</div>
+<div id="ref-vielle2005" class="csl-entry" role="listitem">
+Vielle, P., Pochet, P., &amp; Cassiers, I. (Éds.). (2005). <em>L’État social actif : vers un changement de paradigme ?</em> P.I.E.-Peter Lang.
+</div>
+<div id="ref-vrancken2010" class="csl-entry" role="listitem">
+Vrancken, D. (2010). <em>Le Nouvel Ordre protectionnel. De la protection sociale à la sollicitude publique</em>. Parangon/Vs.
+</div>
+<div id="ref-vrancken2012" class="csl-entry" role="listitem">
+Vrancken, D. (2012). Le travail social serait-il devenu une profession ? Quand la « prudence » s’invite au cœur d’un vieux débat. <em>Pensée plurielle</em>, <em>30-31</em>(2), 27‑36. <a href="https://doi.org/10.3917/pp.030.0025">https://doi.org/10.3917/pp.030.0025</a>
+</div>
+<div id="ref-wakefield1996" class="csl-entry" role="listitem">
+Wakefield, J. C. (1996). Does Social Work Need the Eco-Systems Perspective? <span>Part</span> 1. Is the Perspective Clinically Useful? <em>Social Service Review</em>, <em>70</em>(1), 1‑32. <a href="https://doi.org/10.1086/604163">https://doi.org/10.1086/604163</a>
+</div>
+<div id="ref-warin2016" class="csl-entry" role="listitem">
+Warin, P. (2016). <em>Le non-recours aux politiques sociales</em>. Presses universitaires de Grenoble.
+</div>
+<div id="ref-watzlawick1975" class="csl-entry" role="listitem">
+Watzlawick, P., Weakland, J. H., &amp; Fisch, R. (1975). <em>Changements : paradoxes et psychothérapie</em> (P. Furlan, Trad.). Éditions du Seuil. (Édition originale 1974)
+</div>
+<div id="ref-wilquin2026" class="csl-entry" role="listitem">
+Wilquin, M. (2026, janvier 29). <em>Réforme du chômage : les CPAS évoquent une affluence plus importante que prévu</em>. RTBF Actus. <a href="https://www.rtbf.be/article/reforme-du-chomage-les-cpas-evoquent-une-affluence-plus-importante-que-prevu-11670063">https://www.rtbf.be/article/reforme-du-chomage-les-cpas-evoquent-une-affluence-plus-importante-que-prevu-11670063</a>
+</div>
+</div>
 
 
 </section>
